@@ -1,0 +1,27 @@
+# Description: awesome window manager
+# URL: http://awesome.naquadah.org/
+# Maintainer:  Cory Burgett, cmburget at gmail dot com
+# Depends on: lua51, git, pango, imagemagick, imlib2, xmlto, cmake, asciidoc, cairo, libev, xorg-xcb-util-keysyms, xorg-xcb-util-wm, xorg-xcb-util-cursor, dbus, xmessage, startup-notification, docbook-xsl, docbook-xml, doxygen, libxdg-basedir, lua-lgi
+
+name=awesome
+version=3.5.6
+release=1
+source=(http://awesome.naquadah.org/download/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+
+	sed 's/^lua /lua5.1 /' -i build-utils/lgi-check.sh
+	sed 's@^\s*COMMAND ${XMLTO_EXECUTABLE} man ${xmlfile}@COMMAND ${XMLTO_EXECUTABLE} --searchpath "/usr/share/xml/docbook/xsl-stylesheets/manpages:/usr/share/xml/docbook/xml-dtd-4.5" man ${xmlfile}@' -i CMakeLists.txt
+
+	cmake ../$name-$version \
+		-DCMAKE_BUILD_TYPE=RELEASE \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DSYSCONFDIR=/etc \
+		-DLUA_LIBRARY=/usr/lib/liblua5.1.so
+
+	make
+	make DESTDIR=$PKG install
+
+	rm -rf $PKG/usr/share/doc
+}

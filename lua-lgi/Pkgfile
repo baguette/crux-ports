@@ -1,0 +1,16 @@
+# Description: Lua GObject Introspection
+# URL: https://github.com/pavouk/lgi/
+# Maintainer:  Cory Burgett, cmburget at gmail dot com
+# Depends on: gobject-introspection
+
+name=lua-lgi
+version=0.9.0
+release=1
+source=(https://github.com/pavouk/lgi/archive/$version.tar.gz)
+
+build() {
+	cd lgi-$version
+
+	make LUA_CFLAGS=-I/usr/include/lua5.1
+	make PREFIX=/usr DESTDIR=$PKG install
+}

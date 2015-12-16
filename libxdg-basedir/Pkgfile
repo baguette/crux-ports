@@ -1,0 +1,27 @@
+# Description: An implementation of the XDG Base Directory specifications
+# URL: https://github.com/devnev/libxdg-basedir
+# Maintainer:  Cory Burgett, cmburget at gmail dot com
+# Depends on: autoconf, automake, libtool
+
+name=libxdg-basedir
+version=1.2.0
+release=1
+source=(https://github.com/devnev/libxdg-basedir/archive/$name-$version.tar.gz)
+
+build() {
+	cd $name-$name-$version
+
+	./autogen.sh
+	
+	./configure --prefix=/usr \
+              --mandir=/usr/share/man \
+              --libexecdir=/usr/lib/libxdg-basedir \
+	      --disable-doxygen-doc \
+	      --disable-doxygen-dot \
+	      --disable-doxygen-html
+
+	make
+	make DESTDIR=$PKG install
+
+	rm -rf $PKG/usr/share/doc
+}
