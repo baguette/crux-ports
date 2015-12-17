@@ -14,6 +14,7 @@ d:xfce4-settings
 d:thunar-volman
 d:xfconf
 d:thunar
+d:polyml
 d:lua-lgi
 d:garcon
 d:xfce4-appfinder
@@ -67,6 +68,9 @@ f:8e8b8147e0c5940fb126dc0cf27fe401:xfconf/Pkgfile
 f:57edb8cd2d2222f35759fa629f7e87cb:thunar/.footprint
 f:186e7b2264de4be75e5b3f9f04820969:thunar/.md5sum
 f:f40e09f8760338efd283bbc23bd8154a:thunar/Pkgfile
+f:2100fdd2e93b1eac4c3a8f9429dcd86c:polyml/.footprint
+f:00ab1b9838002a3d9a9f50c4ac52c929:polyml/.md5sum
+f:d1634add4afbc1182258b9b15a9cb0ad:polyml/Pkgfile
 f:ab2e337d21980dfac24a5afbf3891b7b:lua-lgi/.footprint
 f:e250427bef739e956d093dd061624f4a:lua-lgi/.md5sum
 f:0845b5095b4f2b8383c63769af80b721:lua-lgi/Pkgfile

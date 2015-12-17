@@ -1,0 +1,17 @@
+# Description: The Poly/ML compiler for Standard ML
+# URL: http://polyml.org/
+# Maintainer:  Cory Burgett, cmburget at gmail dot com
+# Depends on:
+
+name=polyml
+version=5.5.2
+release=1
+source=(http://downloads.sourceforge.net/project/$name/$name/$version/$name.$version.tar.gz)
+
+build() {
+	cd $name.$version
+
+	./configure --prefix=/usr --libexecdir=/usr/lib/$name --sysconfdir=/etc
+	make
+	make DESTDIR=$PKG install
+}
