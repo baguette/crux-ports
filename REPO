@@ -5,6 +5,7 @@ d:tumbler
 d:xfce4-power-manager
 d:awesome
 d:libxdg-basedir
+d:rust-bin
 d:gtk-xfce-engine
 d:exo
 d:xfce4-session
@@ -41,6 +42,9 @@ f:f23de9b3d4ddb8a8a703f3a1a2aef522:awesome/Pkgfile
 f:2e74b7a5e14fd2111c681f9df9bc9a07:libxdg-basedir/.footprint
 f:56b0b38248c1460420ec432f5d325fb2:libxdg-basedir/.md5sum
 f:58ec4a1b5250c371431f83dc2e010ab2:libxdg-basedir/Pkgfile
+f:53e49e2d7163c03f6ef51009426d9e06:rust-bin/.footprint
+f:905b2bc916d655801c0adb977a70ae9f:rust-bin/.md5sum
+f:49f84960dde0b18d05fdaa8926bd3d8d:rust-bin/Pkgfile
 f:6e609fa044e466820840cabda784d8bb:baguette.httpup
 f:38c30313283e39d1cd37e28c34612510:gtk-xfce-engine/.footprint
 f:8d94cc1cfd5781f471991935a551098f:gtk-xfce-engine/.md5sum

@@ -1,0 +1,16 @@
+# Description: The Rust programming language from Mozilla
+# URL: http://rust-lang.org/
+# Maintainer:  Cory Burgett, cmburget at gmail dot com
+# Depends on:
+
+name=rust-bin
+version=1.5.0
+release=1
+source=(https://static.rust-lang.org/dist/rust-$version-x86_64-unknown-linux-gnu.tar.gz)
+
+build() {
+	cd rust-$version-x86_64-unknown-linux-gnu
+
+	./install.sh --prefix=/usr --destdir=$PKG
+	rm -rf $PKG/usr/share/doc
+}
