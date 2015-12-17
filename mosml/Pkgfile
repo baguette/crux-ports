@@ -1,0 +1,19 @@
+# Description: The Moscow ML system for Standard ML
+# URL: http://mosml.org/
+# Maintainer:  Cory Burgett, cmburget at gmail dot com
+# Depends on:
+
+name=mosml
+version=2.10.1
+release=1
+source=(https://github.com/kfl/$name/tarball/ver-$version)
+
+build() {
+	tar xf ver-$version
+	cd kfl-$name-*/src
+
+	sed 's@^PREFIX=/usr/local@PREFIX=/usr@' -i Makefile.inc
+
+	make world
+	make DESTDIR=$PKG install
+}

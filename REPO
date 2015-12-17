@@ -12,6 +12,7 @@ d:libxfce4ui
 d:xfdesktop
 d:libxfce4util
 d:xfce4-settings
+d:mosml
 d:thunar-volman
 d:xfconf
 d:thunar
@@ -63,6 +64,10 @@ f:e70cd594ad8d6039bd42bcbf217a3e5e:libxfce4util/Pkgfile
 f:0953feab52b3175fe1e3cac091544adc:xfce4-settings/.footprint
 f:20a5d68afac3fd3308203fd08ab12eb3:xfce4-settings/.md5sum
 f:e34ecba14728758972b764eee5484a78:xfce4-settings/Pkgfile
+f:5f966b1fba60a443b8fd11ab28c18cb9:mosml/.footprint
+f:802e30394f4c5769139f4c949d7db02a:mosml/.md5sum
+f:649b20025bf2125b2e48fba61a973848:mosml/ver-2.10.1
+f:4589ee76dc91e135ebce59b7ce8562c5:mosml/Pkgfile
 f:2438968e64168a11b9f32faa4f321ae4:thunar-volman/.footprint
 f:5c761a27d9819f1d77e07c60a09b4ae7:thunar-volman/.md5sum
 f:01a9a5acb0f355281c1510bc1e42bc7c:thunar-volman/Pkgfile
