@@ -1,0 +1,14 @@
+# Description: A whole-program optimizing compiler for Standard ML
+# URL: http://mlton.org/
+# Maintainer:  Cory Burgett, cmburget at gmail dot com
+# Depends on:
+
+name=mlton-bin
+version=20130715
+release=1
+source=(http://downloads.sourceforge.net/project/mlton/mlton/$version/mlton-$version-$release.amd64-linux.tgz)
+
+build() {
+	mv usr $PKG/usr
+	rm -rf $PKG/usr/share/doc
+}

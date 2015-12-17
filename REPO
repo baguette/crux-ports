@@ -1,5 +1,6 @@
 d:xfce4-panel
 d:xfwm4
+d:mlton-bin
 d:tumbler
 d:xfce4-power-manager
 d:awesome
@@ -24,6 +25,9 @@ f:b4ec9478b0813f39490a8382c692950d:xfce4-panel/Pkgfile
 f:f78251eb3da055318cb62514386fb20f:xfwm4/.footprint
 f:4f044fd0c3824cd107b49c3c5f058c6b:xfwm4/.md5sum
 f:30a05f22200c559cf8e6afef0a38771a:xfwm4/Pkgfile
+f:c727d02d2df031a8897566b59ad098e0:mlton-bin/.footprint
+f:585ca2f631cffe950b387d57ab71bc7d:mlton-bin/.md5sum
+f:9f1952826313ab5d96934f7fdc79a159:mlton-bin/Pkgfile
 f:0f53ab5479def8ce0110e149e0c0bdc0:tumbler/.footprint
 f:c6e327fd76bd7b2ae9fe22916e85e6a5:tumbler/.md5sum
 f:da601ccf5087012ccf239e9306ff5f1d:tumbler/Pkgfile
