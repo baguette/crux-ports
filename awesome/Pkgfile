@@ -1,7 +1,7 @@
 # Description: awesome window manager
 # URL: http://awesome.naquadah.org/
 # Maintainer:  Cory Burgett, cmburget at gmail dot com
-# Depends on: lua51, git, pango, imagemagick, imlib2, xmlto, cmake, asciidoc, cairo, libev, xorg-xcb-util-keysyms, xorg-xcb-util-wm, xorg-xcb-util-cursor, dbus, xmessage, startup-notification, docbook-xsl, docbook-xml, doxygen, libxdg-basedir, lua-lgi
+# Depends on: lua51, git, pango, imagemagick, imlib2, xmlto, cmake, asciidoc, cairo, libev, xorg-xcb-util-keysyms, xorg-xcb-util-wm, xorg-xcb-util-cursor, dbus, xmessage, startup-notification, docbook-xsl, docbook-xml, libxdg-basedir, lua-lgi
 
 name=awesome
 version=3.5.6
