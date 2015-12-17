@@ -1,0 +1,7 @@
+#
+# /etc/ports/baguette.httpup: Cory Burgett's port collection
+#
+
+ROOT_DIR=/usr/ports/baguette
+URL=https://raw.githubusercontent.com/baguette/crux-ports/master/
+

@@ -1,0 +1,13 @@
+\.svn$
+\.git$
+^\.git
+\.tar\.gz$
+\.tgz$
+\.partial$
+\.tar\.bz2$
+\.tbz$
+\.zip$
+\.tar\.xz$
+\.txz$
+.*~$
+.*.swp$

@@ -1,0 +1,12 @@
+d:awesome
+d:libxdg-basedir
+d:lua-lgi
+f:b06e38c8c3e61c3c10a678c761cdd51b:awesome/.footprint
+f:b2902142a9e20b81cd8fd962349aadbd:awesome/.md5sum
+f:198aed254aa32cc48ed3c3bb55da9f4f:awesome/Pkgfile
+f:2e74b7a5e14fd2111c681f9df9bc9a07:libxdg-basedir/.footprint
+f:56b0b38248c1460420ec432f5d325fb2:libxdg-basedir/.md5sum
+f:58ec4a1b5250c371431f83dc2e010ab2:libxdg-basedir/Pkgfile
+f:ab2e337d21980dfac24a5afbf3891b7b:lua-lgi/.footprint
+f:e250427bef739e956d093dd061624f4a:lua-lgi/.md5sum
+f:0845b5095b4f2b8383c63769af80b721:lua-lgi/Pkgfile
