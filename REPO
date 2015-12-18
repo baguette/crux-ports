@@ -8,6 +8,7 @@ d:libxdg-basedir
 d:rust-bin
 d:gtk-xfce-engine
 d:exo
+d:liberation-fonts
 d:xfce4-session
 d:libxfce4ui
 d:xfdesktop
@@ -52,6 +53,9 @@ f:683e81c191af0df534fb1046e42ea26e:gtk-xfce-engine/Pkgfile
 f:8d8f7b1e7771ed314686bf17ab235eee:exo/.footprint
 f:6c89ae224ed773903cc5d224b10228e5:exo/.md5sum
 f:5aab9b0fe69ff38d270f16868cc0d70f:exo/Pkgfile
+f:b295b072c00865e536479b401c34140b:liberation-fonts/.footprint
+f:a05165995e6b76ab09324c158c43105b:liberation-fonts/.md5sum
+f:85d6e8a4bc93c02d0cb49d096e14cbcc:liberation-fonts/Pkgfile
 f:7257e2254d32afd24843eeb1f5c7f949:README.md
 f:95b819972e7ed76012a20a97969dee71:xfce4-session/.footprint
 f:c79fb09637b3d023892b051394209021:xfce4-session/.md5sum

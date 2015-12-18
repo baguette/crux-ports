@@ -1,0 +1,15 @@
+# Description: Open source fonts with metric compatibility with Microsoft fonts
+# URL: https://fedorahosted.org/liberation-fonts/
+# Maintainer:  Cory Burgett, cmburget at gmail dot com
+# Depends on:
+
+name=liberation-fonts
+version=2.00.1
+release=1
+source=(https://fedorahosted.org/releases/l/i/$name/$name-ttf-$version.tar.gz)
+
+build() {
+	cd $name-ttf-$version
+	mkdir -p $PKG/usr/share/fonts/X11/TTF
+	cp *.ttf $PKG/usr/share/fonts/X11/TTF/
+}
