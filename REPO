@@ -17,6 +17,7 @@ d:xfce4-settings
 d:mosml
 d:thunar-volman
 d:xfconf
+d:xfce4-icon-theme
 d:thunar
 d:polyml
 d:lua-lgi
@@ -65,7 +66,7 @@ f:83ba7eec9b0566288fe3b6d9805efbcf:libxfce4ui/.md5sum
 f:0613e320b790a40610e9e1a7cee26034:libxfce4ui/Pkgfile
 f:6187286953a32751c23e44b76442671b:xfdesktop/.footprint
 f:55f3ad274b3ff19c80e3a22ad837c933:xfdesktop/.md5sum
-f:df8062b51ffb6020be1c3344717f1018:xfdesktop/Pkgfile
+f:f1a539427a4201228606989196634ee4:xfdesktop/Pkgfile
 f:ea4449de4742d738fdb0f84f957fbe14:libxfce4util/.footprint
 f:6340b6ec22000dda9655ae0f0a647f04:libxfce4util/.md5sum
 f:e70cd594ad8d6039bd42bcbf217a3e5e:libxfce4util/Pkgfile
@@ -82,6 +83,9 @@ f:01a9a5acb0f355281c1510bc1e42bc7c:thunar-volman/Pkgfile
 f:b825c4d53e1425298753347f6bc42009:xfconf/.footprint
 f:e9d529818ad7b11810bdeee86dc63a8e:xfconf/.md5sum
 f:8e8b8147e0c5940fb126dc0cf27fe401:xfconf/Pkgfile
+f:95eebe582780671c1b8f7c795a0ff518:xfce4-icon-theme/.footprint
+f:6b4fa723560613ef3cc79a6e41c1a474:xfce4-icon-theme/.md5sum
+f:314ee5699d6ac73bc8e876cabbdecff7:xfce4-icon-theme/Pkgfile
 f:57edb8cd2d2222f35759fa629f7e87cb:thunar/.footprint
 f:186e7b2264de4be75e5b3f9f04820969:thunar/.md5sum
 f:f40e09f8760338efd283bbc23bd8154a:thunar/Pkgfile

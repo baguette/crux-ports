@@ -1,0 +1,1635 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/pkgconfig/
+-rw-r--r--	root/root	usr/lib/pkgconfig/xfce4-icon-theme-1.0.pc
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/icons/
+drwxr-xr-x	root/root	usr/share/icons/Rodent/
+drwxr-xr-x	root/root	usr/share/icons/Rodent/48x48/
+drwxr-xr-x	root/root	usr/share/icons/Rodent/48x48/apps/
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/applets-screenshooter.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/bluefish-icon.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/digikam.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/digikamcameraclient.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/evolution.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/file-manager.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/file-roller.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/gftp.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/gimp.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/gnome-applications.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/gnome-audio.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/gnome-calculator.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/gnome-cdplayer-icon.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/gnome-desktop-config.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/gnome-devel.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/gnome-globe.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/gnome-graphics.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/gnome-help.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/gnome-info.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/gnome-joystick.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/gnome-library.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/gnome-lockscreen.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/gnome-logout.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/gnome-media-player-icon.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/gnome-multimedia.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/gnome-other.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/gnome-package.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/gnome-pdf.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/gnome-searchtool.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/gnome-settings.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/gnome-shutdown.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/gnome-starthere.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/gnome-system.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/gnome-terminal.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/gnome-util.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/gqview.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/im-aim.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/keyboard.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/ooo_calc.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/ooo_chart.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/ooo_draw.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/ooo_impress.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/ooo_math.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/ooo_setup.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/ooo_writer.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/palm-pilot.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/settings.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/web-browser.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/xcdroast.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/xfce-edit.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/xfce-filemanager.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/xfce-games.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/xfce-gnome-mailcheck.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/xfce-graphics.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/xfce-gtk-paste.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/xfce-internet.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/xfce-mail.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/xfce-man.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/xfce-multimedia.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/xfce-newmail.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/xfce-nomail.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/xfce-oldmail.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/xfce-printer.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/xfce-schedule.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/xfce-sound.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/xfce-system-exit.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/xfce-system-info.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/xfce-system-lock.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/xfce-system-settings.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/xfce-terminal.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/xfce-trash_empty.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/xfce-trash_full.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/xfce-unknown.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/xfce-utils.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/xfce4-mixer.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/xfce4-panel.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/xfce4-splash.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/apps/xsane.png
+drwxr-xr-x	root/root	usr/share/icons/Rodent/48x48/devices/
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/devices/gnome-dev-cdrom-audio.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/devices/gnome-dev-cdrom.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/devices/gnome-dev-dvd.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/devices/gnome-dev-floppy.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/devices/gnome-dev-harddisk.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/devices/gnome-dev-jazdisk.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/devices/gnome-dev-keyboard.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/devices/gnome-dev-mouse-ball.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/devices/gnome-dev-mouse-optical.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/devices/gnome-dev-network.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/devices/gnome-dev-printer.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/devices/gnome-dev-removable.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/devices/gnome-dev-scanner.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/devices/gnome-dev-symlink.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/devices/gnome-dev-zipdisk.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/devices/network_fs.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/devices/printer-class.png
+drwxr-xr-x	root/root	usr/share/icons/Rodent/48x48/emblems/
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/emblems/emblem-camera.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/emblems/emblem-cool.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/emblems/emblem-danger.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/emblems/emblem-desktop.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/emblems/emblem-distinguished.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/emblems/emblem-documents.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/emblems/emblem-fun.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/emblems/emblem-generic.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/emblems/emblem-important.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/emblems/emblem-multimedia.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/emblems/emblem-noread.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/emblems/emblem-nowrite.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/emblems/emblem-ohno.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/emblems/emblem-package.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/emblems/emblem-pictures.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/emblems/emblem-relax.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/emblems/emblem-sound.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/emblems/emblem-symbolic-link.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/emblems/emblem-urgent.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/emblems/emblem-web.png
+drwxr-xr-x	root/root	usr/share/icons/Rodent/48x48/filesystems/
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/filesystems/blockdevice.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/filesystems/chardevice.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/filesystems/core.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/filesystems/directory.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/filesystems/gnome-fs-blockdev.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/filesystems/gnome-fs-client.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/filesystems/gnome-fs-desktop.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/filesystems/gnome-fs-directory-accept.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/filesystems/gnome-fs-directory-visiting.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/filesystems/gnome-fs-directory.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/filesystems/gnome-fs-executable.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/filesystems/gnome-fs-file-broken.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/filesystems/gnome-fs-ftp.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/filesystems/gnome-fs-home.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/filesystems/gnome-fs-network.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/filesystems/gnome-fs-nfs.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/filesystems/gnome-fs-regular.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/filesystems/gnome-fs-share.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/filesystems/gnome-fs-smb.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/filesystems/gnome-fs-ssh.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/filesystems/gnome-fs-trash-empty.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/filesystems/gnome-fs-trash-full.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/filesystems/mime-inode:blockdevice.png -> blockdevice.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/filesystems/mime-inode:chardevice.png -> chardevice.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/filesystems/mime-inode:core.png -> core.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/filesystems/mime-inode:directory.png -> directory.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/filesystems/mime-inode:mount-point.png -> mount-point.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/filesystems/mount-point.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/filesystems/network_fs.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/filesystems/open_folder.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/filesystems/user-home.png -> gnome-fs-home.png
+drwxr-xr-x	root/root	usr/share/icons/Rodent/48x48/mimetypes/
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application-msword.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application-octet-stream.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application-ogg.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application-pdf.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application-pgp-encrypted.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application-pgp-keys.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application-pgp.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application-postscript.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application-qif.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application-rhythmbox-effect.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application-rhythmbox-playlist.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application-rtf.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application-smil.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application-vnd.ms-excel.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application-vnd.ms-powerpoint.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application-vnd.ms-word.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application-vnd.rn-realmedia.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application-vnd.stardivision.calc.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application-vnd.stardivision.chart.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application-vnd.stardivision.impress.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application-vnd.stardivision.writer.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application-vnd.sun.xml.calc.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application-vnd.sun.xml.chart.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application-vnd.sun.xml.draw.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application-vnd.sun.xml.impress.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application-vnd.sun.xml.writer.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application-x-abiword.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application-x-archive.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application-x-arj.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application-x-blender.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application-x-bzip-compressed-tar.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application-x-bzip.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application-x-cd-image.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application-x-compress.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application-x-compressed-tar.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application-x-cpio-compressed.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application-x-cpio.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application-x-deb.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application-x-desktop.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application-x-dia-diagram.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application-x-dvi.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application-x-executable.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application-x-font-asm.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application-x-font-bdf.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application-x-font-linux-psf.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application-x-font-pcf.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application-x-font-ttf.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application-x-gettext-translation.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application-x-glade.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application-x-gnucash.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application-x-gnumeric.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application-x-gtktalog.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application-x-gzip.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application-x-kde-app-info.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application-x-killustrator.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application-x-kpresenter.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application-x-kspread.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application-x-kword.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application-x-lha.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application-x-object.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application-x-perl.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application-x-php.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application-x-python-bytecode.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application-x-python.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application-x-qw.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application-x-rar.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application-x-reject.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application-x-rpm.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application-x-share-library-la.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application-x-sharedlib.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application-x-shellscript.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application-x-shockwave-flash.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application-x-smil.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application-x-tar.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application-x-tex.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application-x-trash.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application-zip.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/application.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/audio-ac3.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/audio-basic.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/audio-midi.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/audio-x-aiff.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/audio-x-it.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/audio-x-midi.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/audio-x-mod.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/audio-x-mp3.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/audio-x-mpegurl.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/audio-x-pn-realaudio.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/audio-x-s3m.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/audio-x-stm.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/audio-x-ulaw.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/audio-x-voc.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/audio-x-wav.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/audio-x-xi.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/audio-x-xm.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/audio.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application-msword.png -> application-msword.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application-octet-stream.png -> application-octet-stream.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application-ogg.png -> application-ogg.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application-pdf.png -> application-pdf.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application-pgp-encrypted.png -> application-pgp-encrypted.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application-pgp-keys.png -> application-pgp-keys.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application-pgp.png -> application-pgp.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application-postscript.png -> application-postscript.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application-qif.png -> application-qif.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application-rhythmbox-effect.png -> application-rhythmbox-effect.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application-rhythmbox-playlist.png -> application-rhythmbox-playlist.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application-rtf.png -> application-rtf.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application-smil.png -> application-smil.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application-vnd.ms-excel.png -> application-vnd.ms-excel.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application-vnd.ms-powerpoint.png -> application-vnd.ms-powerpoint.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application-vnd.ms-word.png -> application-vnd.ms-word.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application-vnd.rn-realmedia.png -> application-vnd.rn-realmedia.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application-vnd.stardivision.calc.png -> application-vnd.stardivision.calc.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application-vnd.stardivision.chart.png -> application-vnd.stardivision.chart.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application-vnd.stardivision.impress.png -> application-vnd.stardivision.impress.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application-vnd.stardivision.writer.png -> application-vnd.stardivision.writer.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application-vnd.sun.xml.calc.png -> application-vnd.sun.xml.calc.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application-vnd.sun.xml.chart.png -> application-vnd.sun.xml.chart.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application-vnd.sun.xml.draw.png -> application-vnd.sun.xml.draw.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application-vnd.sun.xml.impress.png -> application-vnd.sun.xml.impress.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application-vnd.sun.xml.writer.png -> application-vnd.sun.xml.writer.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application-x-abiword.png -> application-x-abiword.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application-x-archive.png -> application-x-archive.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application-x-arj.png -> application-x-arj.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application-x-blender.png -> application-x-blender.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application-x-bzip-compressed-tar.png -> application-x-bzip-compressed-tar.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application-x-bzip.png -> application-x-bzip.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application-x-cd-image.png -> application-x-cd-image.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application-x-compress.png -> application-x-compress.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application-x-compressed-tar.png -> application-x-compressed-tar.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application-x-cpio-compressed.png -> application-x-cpio-compressed.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application-x-cpio.png -> application-x-cpio.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application-x-deb.png -> application-x-deb.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application-x-desktop.png -> application-x-desktop.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application-x-dia-diagram.png -> application-x-dia-diagram.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application-x-dvi.png -> application-x-dvi.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application-x-executable.png -> application-x-executable.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application-x-font-asm.png -> application-x-font-asm.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application-x-font-bdf.png -> application-x-font-bdf.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application-x-font-linux-psf.png -> application-x-font-linux-psf.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application-x-font-pcf.png -> application-x-font-pcf.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application-x-font-ttf.png -> application-x-font-ttf.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application-x-gettext-translation.png -> application-x-gettext-translation.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application-x-glade.png -> application-x-glade.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application-x-gnucash.png -> application-x-gnucash.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application-x-gnumeric.png -> application-x-gnumeric.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application-x-gtktalog.png -> application-x-gtktalog.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application-x-gzip.png -> application-x-gzip.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application-x-kde-app-info.png -> application-x-kde-app-info.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application-x-killustrator.png -> application-x-killustrator.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application-x-kpresenter.png -> application-x-kpresenter.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application-x-kspread.png -> application-x-kspread.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application-x-kword.png -> application-x-kword.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application-x-lha.png -> application-x-lha.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application-x-object.png -> application-x-object.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application-x-perl.png -> application-x-perl.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application-x-php.png -> application-x-php.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application-x-python-bytecode.png -> application-x-python-bytecode.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application-x-python.png -> application-x-python.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application-x-qw.png -> application-x-qw.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application-x-rar.png -> application-x-rar.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application-x-reject.png -> application-x-reject.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application-x-rpm.png -> application-x-rpm.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application-x-share-library-la.png -> application-x-share-library-la.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application-x-sharedlib.png -> application-x-sharedlib.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application-x-shellscript.png -> application-x-shellscript.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application-x-shockwave-flash.png -> application-x-shockwave-flash.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application-x-smil.png -> application-x-smil.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application-x-tar.png -> application-x-tar.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application-x-tex.png -> application-x-tex.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application-x-trash.png -> application-x-trash.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application-zip.png -> application-zip.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-application.png -> application.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-audio-ac3.png -> audio-ac3.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-audio-basic.png -> audio-basic.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-audio-midi.png -> audio-midi.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-audio-x-aiff.png -> audio-x-aiff.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-audio-x-it.png -> audio-x-it.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-audio-x-midi.png -> audio-x-midi.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-audio-x-mod.png -> audio-x-mod.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-audio-x-mp3.png -> audio-x-mp3.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-audio-x-mpegurl.png -> audio-x-mpegurl.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-audio-x-pn-realaudio.png -> audio-x-pn-realaudio.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-audio-x-s3m.png -> audio-x-s3m.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-audio-x-stm.png -> audio-x-stm.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-audio-x-ulaw.png -> audio-x-ulaw.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-audio-x-voc.png -> audio-x-voc.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-audio-x-wav.png -> audio-x-wav.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-audio-x-xi.png -> audio-x-xi.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-audio-x-xm.png -> audio-x-xm.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-audio.png -> audio.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-image-bmp.png -> image-bmp.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-image-gif.png -> image-gif.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-image-ief.png -> image-ief.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-image-jpeg.png -> image-jpeg.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-image-png.png -> image-png.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-image-svg+xml.png -> image-svg+xml.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-image-svg.png -> image-svg.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-image-tiff.png -> image-tiff.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-image-x-3ds.png -> image-x-3ds.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-image-x-applix-graphic.png -> image-x-applix-graphic.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-image-x-cmu-raster.png -> image-x-cmu-raster.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-image-x-portable-anymap.png -> image-x-portable-anymap.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-image-x-portable-bitmap.png -> image-x-portable-bitmap.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-image-x-portable-greymap.png -> image-x-portable-greymap.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-image-x-portable-pixmap.png -> image-x-portable-pixmap.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-image-x-psd.png -> image-x-psd.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-image-x-rgb.png -> image-x-rgb.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-image-x-tga.png -> image-x-tga.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-image-x-xbitmap.png -> image-x-xbitmap.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-image-x-xcf.png -> image-x-xcf.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-image-x-xfig.png -> image-x-xfig.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-image-x-xpixmap.png -> image-x-xpixmap.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-image-x-xwindowdum.png -> image-x-xwindowdum.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-image.png -> image.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-text-css.png -> text-css.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-text-html.png -> text-html.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-text-sgml.png -> text-sgml.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-text-x-authors.png -> text-x-authors.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-text-x-c++.png -> text-x-c++.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-text-x-c++src.png -> text-x-c++src.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-text-x-c-header.png -> text-x-c-header.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-text-x-c.png -> text-x-c.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-text-x-chdr.png -> text-x-chdr.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-text-x-copying.png -> text-x-copying.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-text-x-credits.png -> text-x-credits.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-text-x-csh.png -> text-x-csh.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-text-x-csharp.png -> text-x-csharp.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-text-x-csrc.png -> text-x-csrc.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-text-x-gettext-translation.png -> text-x-gettext-translation.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-text-x-haskell.png -> text-x-haskell.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-text-x-install.png -> text-x-install.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-text-x-java.png -> text-x-java.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-text-x-literate-haskell.png -> text-x-literate-haskell.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-text-x-log.png -> text-x-log.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-text-x-lyx.png -> text-x-lyx.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-text-x-makefile.png -> text-x-makefile.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-text-x-patch.png -> text-x-patch.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-text-x-readme.png -> text-x-readme.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-text-x-scheme.png -> text-x-scheme.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-text-x-sh.png -> text-x-sh.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-text-x-tex.png -> text-x-tex.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-text-x-troff-man.png -> text-x-troff-man.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-text-x-vcalendar.png -> text-x-vcalendar.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-text-x-vcard.png -> text-x-vcard.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-text-x-xslt.png -> text-x-xslt.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-text-x-zsh.png -> text-x-zsh.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-text-xml.png -> text-xml.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-text.png -> text.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-video-mpeg.png -> video-mpeg.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-video-quicktime.png -> video-quicktime.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-video-x-ms-asf.png -> video-x-ms-asf.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-video-x-ms-wmv.png -> video-x-ms-wmv.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-video-x-msvideo.png -> video-x-msvideo.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-video.png -> video.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-x-directory-nfs-server.png -> x-directory-nfs-server.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-x-directory-smb-server.png -> x-directory-smb-server.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-x-directory-smb-share.png -> x-directory-smb-share.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-x-directory-smb-workgroup.png -> x-directory-smb-workgroup.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-x-font-afm.png -> x-font-afm.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/gnome-mime-x-gdesklets-display.png -> x-gdesklets-display.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/image-bmp.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/image-gif.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/image-ief.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/image-jpeg.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/image-png.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/image-svg+xml.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/image-svg.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/image-tiff.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/image-x-3ds.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/image-x-applix-graphic.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/image-x-cmu-raster.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/image-x-portable-anymap.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/image-x-portable-bitmap.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/image-x-portable-greymap.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/image-x-portable-pixmap.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/image-x-psd.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/image-x-rgb.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/image-x-tga.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/image-x-xbitmap.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/image-x-xcf.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/image-x-xfig.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/image-x-xpixmap.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/image-x-xwindowdum.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/image.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application.png -> application.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application:msword.png -> application-msword.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application:octet-stream.png -> application-octet-stream.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application:ogg.png -> application-ogg.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application:pdf.png -> application-pdf.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application:pgp-encrypted.png -> application-pgp-encrypted.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application:pgp-keys.png -> application-pgp-keys.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application:pgp.png -> application-pgp.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application:postscript.png -> application-postscript.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application:qif.png -> application-qif.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application:rhythmbox-effect.png -> application-rhythmbox-effect.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application:rhythmbox-playlist.png -> application-rhythmbox-playlist.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application:rtf.png -> application-rtf.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application:smil.png -> application-smil.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application:vnd.ms-excel.png -> application-vnd.ms-excel.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application:vnd.ms-powerpoint.png -> application-vnd.ms-powerpoint.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application:vnd.ms-word.png -> application-vnd.ms-word.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application:vnd.rn-realmedia.png -> application-vnd.rn-realmedia.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application:vnd.stardivision.calc.png -> application-vnd.stardivision.calc.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application:vnd.stardivision.chart.png -> application-vnd.stardivision.chart.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application:vnd.stardivision.impress.png -> application-vnd.stardivision.impress.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application:vnd.stardivision.writer.png -> application-vnd.stardivision.writer.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application:vnd.sun.xml.calc.png -> application-vnd.sun.xml.calc.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application:vnd.sun.xml.chart.png -> application-vnd.sun.xml.chart.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application:vnd.sun.xml.draw.png -> application-vnd.sun.xml.draw.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application:vnd.sun.xml.impress.png -> application-vnd.sun.xml.impress.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application:vnd.sun.xml.writer.png -> application-vnd.sun.xml.writer.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application:x-abiword.png -> application-x-abiword.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application:x-archive.png -> application-x-archive.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application:x-arj.png -> application-x-arj.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application:x-blender.png -> application-x-blender.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application:x-bzip-compressed-tar.png -> application-x-bzip-compressed-tar.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application:x-bzip.png -> application-x-bzip.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application:x-cd-image.png -> application-x-cd-image.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application:x-compress.png -> application-x-compress.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application:x-compressed-tar.png -> application-x-compressed-tar.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application:x-cpio-compressed.png -> application-x-cpio-compressed.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application:x-cpio.png -> application-x-cpio.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application:x-deb.png -> application-x-deb.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application:x-desktop.png -> application-x-desktop.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application:x-dia-diagram.png -> application-x-dia-diagram.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application:x-dvi.png -> application-x-dvi.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application:x-executable.png -> application-x-executable.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application:x-font-asm.png -> application-x-font-asm.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application:x-font-bdf.png -> application-x-font-bdf.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application:x-font-linux-psf.png -> application-x-font-linux-psf.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application:x-font-pcf.png -> application-x-font-pcf.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application:x-font-ttf.png -> application-x-font-ttf.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application:x-gettext-translation.png -> application-x-gettext-translation.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application:x-glade.png -> application-x-glade.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application:x-gnucash.png -> application-x-gnucash.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application:x-gnumeric.png -> application-x-gnumeric.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application:x-gtktalog.png -> application-x-gtktalog.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application:x-gzip.png -> application-x-gzip.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application:x-kde-app-info.png -> application-x-kde-app-info.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application:x-killustrator.png -> application-x-killustrator.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application:x-kpresenter.png -> application-x-kpresenter.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application:x-kspread.png -> application-x-kspread.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application:x-kword.png -> application-x-kword.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application:x-lha.png -> application-x-lha.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application:x-object.png -> application-x-object.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application:x-perl.png -> application-x-perl.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application:x-php.png -> application-x-php.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application:x-python-bytecode.png -> application-x-python-bytecode.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application:x-python.png -> application-x-python.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application:x-qw.png -> application-x-qw.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application:x-rar.png -> application-x-rar.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application:x-reject.png -> application-x-reject.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application:x-rpm.png -> application-x-rpm.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application:x-share-library-la.png -> application-x-share-library-la.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application:x-sharedlib.png -> application-x-sharedlib.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application:x-shellscript.png -> application-x-shellscript.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application:x-shockwave-flash.png -> application-x-shockwave-flash.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application:x-smil.png -> application-x-smil.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application:x-tar.png -> application-x-tar.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application:x-tex.png -> application-x-tex.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application:x-trash.png -> application-x-trash.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-application:zip.png -> application-zip.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-audio.png -> audio.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-audio:ac3.png -> audio-ac3.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-audio:basic.png -> audio-basic.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-audio:midi.png -> audio-midi.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-audio:x-aiff.png -> audio-x-aiff.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-audio:x-it.png -> audio-x-it.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-audio:x-midi.png -> audio-x-midi.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-audio:x-mod.png -> audio-x-mod.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-audio:x-mp3.png -> audio-x-mp3.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-audio:x-mpegurl.png -> audio-x-mpegurl.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-audio:x-pn-realaudio.png -> audio-x-pn-realaudio.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-audio:x-s3m.png -> audio-x-s3m.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-audio:x-stm.png -> audio-x-stm.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-audio:x-ulaw.png -> audio-x-ulaw.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-audio:x-voc.png -> audio-x-voc.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-audio:x-wav.png -> audio-x-wav.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-audio:x-xi.png -> audio-x-xi.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-audio:x-xm.png -> audio-x-xm.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-image.png -> image.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-image:bmp.png -> image-bmp.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-image:gif.png -> image-gif.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-image:ief.png -> image-ief.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-image:jpeg.png -> image-jpeg.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-image:png.png -> image-png.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-image:svg+xml.png -> image-svg+xml.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-image:svg.png -> image-svg.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-image:tiff.png -> image-tiff.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-image:x-3ds.png -> image-x-3ds.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-image:x-applix-graphic.png -> image-x-applix-graphic.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-image:x-cmu-raster.png -> image-x-cmu-raster.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-image:x-portable-anymap.png -> image-x-portable-anymap.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-image:x-portable-bitmap.png -> image-x-portable-bitmap.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-image:x-portable-greymap.png -> image-x-portable-greymap.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-image:x-portable-pixmap.png -> image-x-portable-pixmap.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-image:x-psd.png -> image-x-psd.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-image:x-rgb.png -> image-x-rgb.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-image:x-tga.png -> image-x-tga.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-image:x-xbitmap.png -> image-x-xbitmap.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-image:x-xcf.png -> image-x-xcf.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-image:x-xfig.png -> image-x-xfig.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-image:x-xpixmap.png -> image-x-xpixmap.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-image:x-xwindowdum.png -> image-x-xwindowdum.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-text.png -> text.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-text:css.png -> text-css.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-text:html.png -> text-html.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-text:sgml.png -> text-sgml.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-text:x-authors.png -> text-x-authors.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-text:x-c++.png -> text-x-c++.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-text:x-c++src.png -> text-x-c++src.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-text:x-c-header.png -> text-x-c-header.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-text:x-c.png -> text-x-c.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-text:x-chdr.png -> text-x-chdr.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-text:x-copying.png -> text-x-copying.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-text:x-credits.png -> text-x-credits.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-text:x-csh.png -> text-x-csh.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-text:x-csharp.png -> text-x-csharp.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-text:x-csrc.png -> text-x-csrc.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-text:x-gettext-translation.png -> text-x-gettext-translation.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-text:x-haskell.png -> text-x-haskell.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-text:x-install.png -> text-x-install.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-text:x-java.png -> text-x-java.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-text:x-literate-haskell.png -> text-x-literate-haskell.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-text:x-log.png -> text-x-log.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-text:x-lyx.png -> text-x-lyx.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-text:x-makefile.png -> text-x-makefile.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-text:x-patch.png -> text-x-patch.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-text:x-readme.png -> text-x-readme.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-text:x-scheme.png -> text-x-scheme.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-text:x-sh.png -> text-x-sh.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-text:x-tex.png -> text-x-tex.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-text:x-troff-man.png -> text-x-troff-man.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-text:x-vcalendar.png -> text-x-vcalendar.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-text:x-vcard.png -> text-x-vcard.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-text:x-xslt.png -> text-x-xslt.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-text:x-zsh.png -> text-x-zsh.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-text:xml.png -> text-xml.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-video.png -> video.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-video:mpeg.png -> video-mpeg.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-video:quicktime.png -> video-quicktime.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-video:x-ms-asf.png -> video-x-ms-asf.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-video:x-ms-wmv.png -> video-x-ms-wmv.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-video:x-msvideo.png -> video-x-msvideo.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-x:directory-nfs-server.png -> x-directory-nfs-server.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-x:directory-smb-server.png -> x-directory-smb-server.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-x:directory-smb-share.png -> x-directory-smb-share.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-x:directory-smb-workgroup.png -> x-directory-smb-workgroup.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-x:font-afm.png -> x-font-afm.png
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/48x48/mimetypes/mime-x:gdesklets-display.png -> x-gdesklets-display.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/text-css.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/text-html.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/text-sgml.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/text-x-authors.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/text-x-c++.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/text-x-c++src.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/text-x-c-header.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/text-x-c.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/text-x-chdr.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/text-x-copying.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/text-x-credits.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/text-x-csh.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/text-x-csharp.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/text-x-csrc.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/text-x-gettext-translation.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/text-x-haskell.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/text-x-install.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/text-x-java.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/text-x-literate-haskell.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/text-x-log.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/text-x-lyx.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/text-x-makefile.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/text-x-patch.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/text-x-readme.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/text-x-scheme.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/text-x-sh.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/text-x-tex.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/text-x-troff-man.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/text-x-vcalendar.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/text-x-vcard.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/text-x-xslt.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/text-x-zsh.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/text-xml.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/text.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/video-mpeg.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/video-quicktime.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/video-x-ms-asf.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/video-x-ms-wmv.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/video-x-msvideo.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/video.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/x-directory-nfs-server.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/x-directory-smb-server.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/x-directory-smb-share.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/x-directory-smb-workgroup.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/x-font-afm.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/mimetypes/x-gdesklets-display.png
+drwxr-xr-x	root/root	usr/share/icons/Rodent/48x48/misc/
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/misc/arrow.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/misc/calc.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/misc/debian.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/misc/f-memory.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/misc/firewall.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/misc/fs-win.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/misc/icon_view.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/misc/menueditor.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/misc/money.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/misc/news.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/misc/notes.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/misc/root_terminal.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/misc/run.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/misc/settings.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/misc/sm.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/misc/sound.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/misc/tabwin.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/misc/taskbar.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/misc/taskmanager.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/misc/ui.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/misc/usb_key.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/misc/webcam.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/misc/wksp.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/misc/wm.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/misc/xfce4-appfinder.png
+drwxr-xr-x	root/root	usr/share/icons/Rodent/48x48/stock/
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/media-backward.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/media-eject.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/media-forward.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/media-next.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/media-pause.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/media-play.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/media-prev.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/media-record.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/media-shuffle.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/media-stop.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/rox-select.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/rox-show-details.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/rox-show-hidden.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_about.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_accessories.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_add.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_amusements.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_apply.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_attach.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_balance.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_bold.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_book-open.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_book.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_cancel.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_cdrom.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_clear.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_close.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_color_picker.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_connect.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_convert.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_copy.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_cut.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_delete.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_dialog_authentication.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_dialog_error.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_dialog_info.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_dialog_question.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_dialog_warning.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_disconnect.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_dnd-multiple.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_dnd.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_download.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_edit.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_epiphany-bookmark-page.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_execute.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_export.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_file-properties.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_find-and-replace.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_find.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_floppy.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_folder-copy.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_folder-move.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_folder-properties.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_folder.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_fullscreen.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_go-back.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_go-down.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_go-forward.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_go-up.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_goto-bottom.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_goto-first.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_goto-last.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_goto-top.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_harddisk.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_help.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_history.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_home.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_import.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_indent.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_index.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_insert-image.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_insert-object.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_insert-table.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_internet.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_italic.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_jump-to.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_justify-center.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_justify-fill.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_justify-left.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_justify-right.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_line-in.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_logout.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_mailto.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_mic.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_missing-image.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_multimedia.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_network.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_new-dir.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_new-tab.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_new.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_no.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_ok.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_open.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_paste.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_pastelink.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_preferences.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_print-preview.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_print.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_properties.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_quit.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_redo.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_refresh.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_remove.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_repeat.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_reset.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_revert-to-saved.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_run.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_save-as.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_save.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_screenshot.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_search.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_select-color.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_select-font.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_sort-ascending.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_sort-descending.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_spell-check.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_stop.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_strikethrough.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_undelete.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_underline.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_undo.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_unindent.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_unknown.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_volume.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_yes.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_zoom-100.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_zoom-fit.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_zoom-in.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/stock_zoom-out.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/volume-max.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/volume-medium.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/volume-min.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/volume-mute.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/48x48/stock/volume-zero.png
+-rw-r--r--	root/root	usr/share/icons/Rodent/iconrc
+-rw-r--r--	root/root	usr/share/icons/Rodent/iconrc-png
+-rw-r--r--	root/root	usr/share/icons/Rodent/index.theme
+drwxr-xr-x	root/root	usr/share/icons/Rodent/scalable/
+drwxr-xr-x	root/root	usr/share/icons/Rodent/scalable/apps/
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/applets-screenshooter.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/bluefish-icon.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/digikam.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/digikamcameraclient.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/evolution.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/file-manager.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/file-roller.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/gftp.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/gimp.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/gnome-applications.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/gnome-audio.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/gnome-calculator.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/gnome-cdplayer-icon.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/gnome-desktop-config.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/gnome-devel.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/gnome-globe.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/gnome-graphics.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/gnome-help.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/gnome-info.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/gnome-joystick.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/gnome-library.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/gnome-lockscreen.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/gnome-logout.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/gnome-media-player-icon.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/gnome-multimedia.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/gnome-other.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/gnome-package.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/gnome-pdf.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/gnome-searchtool.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/gnome-settings.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/gnome-shutdown.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/gnome-starthere.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/gnome-system.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/gnome-terminal.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/gnome-util.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/gqview.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/im-aim.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/keyboard.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/ooo_calc.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/ooo_chart.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/ooo_draw.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/ooo_impress.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/ooo_math.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/ooo_setup.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/ooo_writer.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/palm-pilot.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/settings.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/web-browser.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/xcdroast.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/xfce-edit.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/xfce-filemanager.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/xfce-games.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/xfce-gnome-mailcheck.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/xfce-graphics.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/xfce-gtk-paste.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/xfce-internet.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/xfce-mail.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/xfce-man.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/xfce-multimedia.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/xfce-newmail.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/xfce-nomail.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/xfce-oldmail.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/xfce-printer.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/xfce-schedule.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/xfce-sound.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/xfce-system-exit.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/xfce-system-info.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/xfce-system-lock.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/xfce-system-settings.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/xfce-terminal.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/xfce-trash_empty.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/xfce-trash_full.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/xfce-unknown.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/xfce-utils.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/xfce4-mixer.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/xfce4-panel.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/xfce4-splash.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/apps/xsane.svg
+drwxr-xr-x	root/root	usr/share/icons/Rodent/scalable/devices/
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/devices/gnome-dev-cdrom-audio.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/devices/gnome-dev-cdrom.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/devices/gnome-dev-dvd.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/devices/gnome-dev-floppy.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/devices/gnome-dev-harddisk.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/devices/gnome-dev-jazdisk.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/devices/gnome-dev-keyboard.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/devices/gnome-dev-mouse-ball.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/devices/gnome-dev-mouse-optical.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/devices/gnome-dev-network.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/devices/gnome-dev-printer.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/devices/gnome-dev-removable.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/devices/gnome-dev-scanner.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/devices/gnome-dev-symlink.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/devices/gnome-dev-zipdisk.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/devices/network_fs.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/devices/printer-class.svg
+drwxr-xr-x	root/root	usr/share/icons/Rodent/scalable/emblems/
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/emblems/emblem-camera.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/emblems/emblem-cool.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/emblems/emblem-danger.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/emblems/emblem-desktop.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/emblems/emblem-distinguished.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/emblems/emblem-documents.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/emblems/emblem-fun.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/emblems/emblem-generic.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/emblems/emblem-important.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/emblems/emblem-multimedia.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/emblems/emblem-noread.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/emblems/emblem-nowrite.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/emblems/emblem-ohno.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/emblems/emblem-package.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/emblems/emblem-pictures.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/emblems/emblem-relax.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/emblems/emblem-sound.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/emblems/emblem-symbolic-link.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/emblems/emblem-urgent.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/emblems/emblem-web.svg
+drwxr-xr-x	root/root	usr/share/icons/Rodent/scalable/filesystems/
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/filesystems/blockdevice.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/filesystems/chardevice.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/filesystems/core.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/filesystems/directory.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/filesystems/gnome-fs-blockdev.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/filesystems/gnome-fs-client.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/filesystems/gnome-fs-desktop.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/filesystems/gnome-fs-directory-accept.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/filesystems/gnome-fs-directory-visiting.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/filesystems/gnome-fs-directory.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/filesystems/gnome-fs-executable.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/filesystems/gnome-fs-file-broken.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/filesystems/gnome-fs-ftp.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/filesystems/gnome-fs-home.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/filesystems/gnome-fs-network.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/filesystems/gnome-fs-nfs.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/filesystems/gnome-fs-regular.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/filesystems/gnome-fs-share.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/filesystems/gnome-fs-smb.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/filesystems/gnome-fs-ssh.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/filesystems/gnome-fs-trash-empty.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/filesystems/gnome-fs-trash-full.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/filesystems/mime-inode:blockdevice.svg -> blockdevice.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/filesystems/mime-inode:chardevice.svg -> chardevice.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/filesystems/mime-inode:core.svg -> core.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/filesystems/mime-inode:directory.svg -> directory.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/filesystems/mime-inode:mount-point.svg -> mount-point.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/filesystems/mount-point.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/filesystems/network_fs.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/filesystems/open_folder.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/filesystems/user-home.svg -> gnome-fs-home.svg
+drwxr-xr-x	root/root	usr/share/icons/Rodent/scalable/mimetypes/
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application-msword.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application-octet-stream.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application-ogg.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application-pdf.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application-pgp-encrypted.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application-pgp-keys.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application-pgp.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application-postscript.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application-qif.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application-rhythmbox-effect.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application-rhythmbox-playlist.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application-rtf.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application-smil.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application-vnd.ms-excel.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application-vnd.ms-powerpoint.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application-vnd.ms-word.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application-vnd.rn-realmedia.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application-vnd.stardivision.calc.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application-vnd.stardivision.chart.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application-vnd.stardivision.impress.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application-vnd.stardivision.writer.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application-vnd.sun.xml.calc.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application-vnd.sun.xml.chart.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application-vnd.sun.xml.draw.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application-vnd.sun.xml.impress.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application-vnd.sun.xml.writer.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application-x-abiword.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application-x-archive.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application-x-arj.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application-x-blender.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application-x-bzip-compressed-tar.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application-x-bzip.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application-x-cd-image.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application-x-compress.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application-x-compressed-tar.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application-x-cpio-compressed.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application-x-cpio.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application-x-deb.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application-x-desktop.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application-x-dia-diagram.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application-x-dvi.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application-x-executable.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application-x-font-asm.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application-x-font-bdf.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application-x-font-linux-psf.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application-x-font-pcf.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application-x-font-ttf.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application-x-gettext-translation.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application-x-glade.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application-x-gnucash.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application-x-gnumeric.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application-x-gtktalog.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application-x-gzip.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application-x-kde-app-info.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application-x-killustrator.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application-x-kpresenter.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application-x-kspread.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application-x-kword.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application-x-lha.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application-x-object.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application-x-perl.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application-x-php.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application-x-python-bytecode.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application-x-python.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application-x-qw.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application-x-rar.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application-x-reject.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application-x-rpm.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application-x-share-library-la.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application-x-sharedlib.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application-x-shellscript.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application-x-shockwave-flash.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application-x-smil.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application-x-tar.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application-x-tex.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application-x-trash.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application-zip.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/application.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/audio-ac3.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/audio-basic.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/audio-midi.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/audio-x-aiff.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/audio-x-it.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/audio-x-midi.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/audio-x-mod.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/audio-x-mp3.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/audio-x-mpegurl.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/audio-x-pn-realaudio.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/audio-x-s3m.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/audio-x-stm.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/audio-x-ulaw.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/audio-x-voc.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/audio-x-wav.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/audio-x-xi.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/audio-x-xm.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/audio.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application-msword.svg -> application-msword.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application-octet-stream.svg -> application-octet-stream.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application-ogg.svg -> application-ogg.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application-pdf.svg -> application-pdf.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application-pgp-encrypted.svg -> application-pgp-encrypted.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application-pgp-keys.svg -> application-pgp-keys.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application-pgp.svg -> application-pgp.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application-postscript.svg -> application-postscript.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application-qif.svg -> application-qif.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application-rhythmbox-effect.svg -> application-rhythmbox-effect.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application-rhythmbox-playlist.svg -> application-rhythmbox-playlist.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application-rtf.svg -> application-rtf.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application-smil.svg -> application-smil.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application-vnd.ms-excel.svg -> application-vnd.ms-excel.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application-vnd.ms-powerpoint.svg -> application-vnd.ms-powerpoint.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application-vnd.ms-word.svg -> application-vnd.ms-word.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application-vnd.rn-realmedia.svg -> application-vnd.rn-realmedia.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application-vnd.stardivision.calc.svg -> application-vnd.stardivision.calc.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application-vnd.stardivision.chart.svg -> application-vnd.stardivision.chart.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application-vnd.stardivision.impress.svg -> application-vnd.stardivision.impress.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application-vnd.stardivision.writer.svg -> application-vnd.stardivision.writer.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application-vnd.sun.xml.calc.svg -> application-vnd.sun.xml.calc.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application-vnd.sun.xml.chart.svg -> application-vnd.sun.xml.chart.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application-vnd.sun.xml.draw.svg -> application-vnd.sun.xml.draw.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application-vnd.sun.xml.impress.svg -> application-vnd.sun.xml.impress.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application-vnd.sun.xml.writer.svg -> application-vnd.sun.xml.writer.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application-x-abiword.svg -> application-x-abiword.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application-x-archive.svg -> application-x-archive.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application-x-arj.svg -> application-x-arj.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application-x-blender.svg -> application-x-blender.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application-x-bzip-compressed-tar.svg -> application-x-bzip-compressed-tar.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application-x-bzip.svg -> application-x-bzip.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application-x-cd-image.svg -> application-x-cd-image.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application-x-compress.svg -> application-x-compress.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application-x-compressed-tar.svg -> application-x-compressed-tar.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application-x-cpio-compressed.svg -> application-x-cpio-compressed.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application-x-cpio.svg -> application-x-cpio.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application-x-deb.svg -> application-x-deb.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application-x-desktop.svg -> application-x-desktop.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application-x-dia-diagram.svg -> application-x-dia-diagram.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application-x-dvi.svg -> application-x-dvi.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application-x-executable.svg -> application-x-executable.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application-x-font-asm.svg -> application-x-font-asm.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application-x-font-bdf.svg -> application-x-font-bdf.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application-x-font-linux-psf.svg -> application-x-font-linux-psf.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application-x-font-pcf.svg -> application-x-font-pcf.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application-x-font-ttf.svg -> application-x-font-ttf.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application-x-gettext-translation.svg -> application-x-gettext-translation.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application-x-glade.svg -> application-x-glade.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application-x-gnucash.svg -> application-x-gnucash.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application-x-gnumeric.svg -> application-x-gnumeric.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application-x-gtktalog.svg -> application-x-gtktalog.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application-x-gzip.svg -> application-x-gzip.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application-x-kde-app-info.svg -> application-x-kde-app-info.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application-x-killustrator.svg -> application-x-killustrator.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application-x-kpresenter.svg -> application-x-kpresenter.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application-x-kspread.svg -> application-x-kspread.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application-x-kword.svg -> application-x-kword.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application-x-lha.svg -> application-x-lha.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application-x-object.svg -> application-x-object.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application-x-perl.svg -> application-x-perl.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application-x-php.svg -> application-x-php.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application-x-python-bytecode.svg -> application-x-python-bytecode.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application-x-python.svg -> application-x-python.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application-x-qw.svg -> application-x-qw.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application-x-rar.svg -> application-x-rar.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application-x-reject.svg -> application-x-reject.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application-x-rpm.svg -> application-x-rpm.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application-x-share-library-la.svg -> application-x-share-library-la.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application-x-sharedlib.svg -> application-x-sharedlib.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application-x-shellscript.svg -> application-x-shellscript.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application-x-shockwave-flash.svg -> application-x-shockwave-flash.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application-x-smil.svg -> application-x-smil.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application-x-tar.svg -> application-x-tar.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application-x-tex.svg -> application-x-tex.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application-x-trash.svg -> application-x-trash.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application-zip.svg -> application-zip.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-application.svg -> application.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-audio-ac3.svg -> audio-ac3.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-audio-basic.svg -> audio-basic.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-audio-midi.svg -> audio-midi.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-audio-x-aiff.svg -> audio-x-aiff.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-audio-x-it.svg -> audio-x-it.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-audio-x-midi.svg -> audio-x-midi.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-audio-x-mod.svg -> audio-x-mod.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-audio-x-mp3.svg -> audio-x-mp3.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-audio-x-mpegurl.svg -> audio-x-mpegurl.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-audio-x-pn-realaudio.svg -> audio-x-pn-realaudio.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-audio-x-s3m.svg -> audio-x-s3m.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-audio-x-stm.svg -> audio-x-stm.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-audio-x-ulaw.svg -> audio-x-ulaw.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-audio-x-voc.svg -> audio-x-voc.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-audio-x-wav.svg -> audio-x-wav.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-audio-x-xi.svg -> audio-x-xi.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-audio-x-xm.svg -> audio-x-xm.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-audio.svg -> audio.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-image-bmp.svg -> image-bmp.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-image-gif.svg -> image-gif.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-image-ief.svg -> image-ief.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-image-jpeg.svg -> image-jpeg.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-image-png.svg -> image-png.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-image-svg+xml.svg -> image-svg+xml.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-image-svg.svg -> image-svg.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-image-tiff.svg -> image-tiff.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-image-x-3ds.svg -> image-x-3ds.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-image-x-applix-graphic.svg -> image-x-applix-graphic.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-image-x-cmu-raster.svg -> image-x-cmu-raster.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-image-x-portable-anymap.svg -> image-x-portable-anymap.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-image-x-portable-bitmap.svg -> image-x-portable-bitmap.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-image-x-portable-greymap.svg -> image-x-portable-greymap.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-image-x-portable-pixmap.svg -> image-x-portable-pixmap.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-image-x-psd.svg -> image-x-psd.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-image-x-rgb.svg -> image-x-rgb.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-image-x-tga.svg -> image-x-tga.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-image-x-xbitmap.svg -> image-x-xbitmap.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-image-x-xcf.svg -> image-x-xcf.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-image-x-xfig.svg -> image-x-xfig.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-image-x-xpixmap.svg -> image-x-xpixmap.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-image-x-xwindowdum.svg -> image-x-xwindowdum.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-image.svg -> image.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-text-css.svg -> text-css.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-text-html.svg -> text-html.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-text-sgml.svg -> text-sgml.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-text-x-authors.svg -> text-x-authors.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-text-x-c++.svg -> text-x-c++.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-text-x-c++src.svg -> text-x-c++src.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-text-x-c-header.svg -> text-x-c-header.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-text-x-c.svg -> text-x-c.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-text-x-chdr.svg -> text-x-chdr.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-text-x-copying.svg -> text-x-copying.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-text-x-credits.svg -> text-x-credits.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-text-x-csh.svg -> text-x-csh.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-text-x-csharp.svg -> text-x-csharp.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-text-x-csrc.svg -> text-x-csrc.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-text-x-gettext-translation.svg -> text-x-gettext-translation.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-text-x-haskell.svg -> text-x-haskell.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-text-x-install.svg -> text-x-install.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-text-x-java.svg -> text-x-java.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-text-x-literate-haskell.svg -> text-x-literate-haskell.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-text-x-log.svg -> text-x-log.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-text-x-lyx.svg -> text-x-lyx.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-text-x-makefile.svg -> text-x-makefile.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-text-x-patch.svg -> text-x-patch.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-text-x-readme.svg -> text-x-readme.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-text-x-scheme.svg -> text-x-scheme.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-text-x-sh.svg -> text-x-sh.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-text-x-tex.svg -> text-x-tex.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-text-x-troff-man.svg -> text-x-troff-man.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-text-x-vcalendar.svg -> text-x-vcalendar.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-text-x-vcard.svg -> text-x-vcard.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-text-x-xslt.svg -> text-x-xslt.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-text-x-zsh.svg -> text-x-zsh.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-text-xml.svg -> text-xml.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-text.svg -> text.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-video-mpeg.svg -> video-mpeg.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-video-quicktime.svg -> video-quicktime.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-video-x-ms-asf.svg -> video-x-ms-asf.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-video-x-ms-wmv.svg -> video-x-ms-wmv.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-video-x-msvideo.svg -> video-x-msvideo.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-video.svg -> video.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-x-directory-nfs-server.svg -> x-directory-nfs-server.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-x-directory-smb-server.svg -> x-directory-smb-server.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-x-directory-smb-share.svg -> x-directory-smb-share.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-x-directory-smb-workgroup.svg -> x-directory-smb-workgroup.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-x-font-afm.svg -> x-font-afm.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/gnome-mime-x-gdesklets-display.svg -> x-gdesklets-display.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/image-bmp.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/image-gif.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/image-ief.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/image-jpeg.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/image-png.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/image-svg+xml.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/image-svg.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/image-tiff.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/image-x-3ds.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/image-x-applix-graphic.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/image-x-cmu-raster.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/image-x-portable-anymap.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/image-x-portable-bitmap.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/image-x-portable-greymap.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/image-x-portable-pixmap.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/image-x-psd.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/image-x-rgb.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/image-x-tga.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/image-x-xbitmap.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/image-x-xcf.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/image-x-xfig.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/image-x-xpixmap.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/image-x-xwindowdum.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/image.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application.svg -> application.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application:msword.svg -> application-msword.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application:octet-stream.svg -> application-octet-stream.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application:ogg.svg -> application-ogg.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application:pdf.svg -> application-pdf.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application:pgp-encrypted.svg -> application-pgp-encrypted.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application:pgp-keys.svg -> application-pgp-keys.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application:pgp.svg -> application-pgp.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application:postscript.svg -> application-postscript.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application:qif.svg -> application-qif.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application:rhythmbox-effect.svg -> application-rhythmbox-effect.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application:rhythmbox-playlist.svg -> application-rhythmbox-playlist.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application:rtf.svg -> application-rtf.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application:smil.svg -> application-smil.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application:vnd.ms-excel.svg -> application-vnd.ms-excel.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application:vnd.ms-powerpoint.svg -> application-vnd.ms-powerpoint.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application:vnd.ms-word.svg -> application-vnd.ms-word.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application:vnd.rn-realmedia.svg -> application-vnd.rn-realmedia.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application:vnd.stardivision.calc.svg -> application-vnd.stardivision.calc.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application:vnd.stardivision.chart.svg -> application-vnd.stardivision.chart.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application:vnd.stardivision.impress.svg -> application-vnd.stardivision.impress.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application:vnd.stardivision.writer.svg -> application-vnd.stardivision.writer.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application:vnd.sun.xml.calc.svg -> application-vnd.sun.xml.calc.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application:vnd.sun.xml.chart.svg -> application-vnd.sun.xml.chart.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application:vnd.sun.xml.draw.svg -> application-vnd.sun.xml.draw.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application:vnd.sun.xml.impress.svg -> application-vnd.sun.xml.impress.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application:vnd.sun.xml.writer.svg -> application-vnd.sun.xml.writer.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application:x-abiword.svg -> application-x-abiword.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application:x-archive.svg -> application-x-archive.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application:x-arj.svg -> application-x-arj.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application:x-blender.svg -> application-x-blender.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application:x-bzip-compressed-tar.svg -> application-x-bzip-compressed-tar.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application:x-bzip.svg -> application-x-bzip.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application:x-cd-image.svg -> application-x-cd-image.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application:x-compress.svg -> application-x-compress.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application:x-compressed-tar.svg -> application-x-compressed-tar.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application:x-cpio-compressed.svg -> application-x-cpio-compressed.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application:x-cpio.svg -> application-x-cpio.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application:x-deb.svg -> application-x-deb.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application:x-desktop.svg -> application-x-desktop.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application:x-dia-diagram.svg -> application-x-dia-diagram.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application:x-dvi.svg -> application-x-dvi.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application:x-executable.svg -> application-x-executable.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application:x-font-asm.svg -> application-x-font-asm.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application:x-font-bdf.svg -> application-x-font-bdf.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application:x-font-linux-psf.svg -> application-x-font-linux-psf.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application:x-font-pcf.svg -> application-x-font-pcf.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application:x-font-ttf.svg -> application-x-font-ttf.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application:x-gettext-translation.svg -> application-x-gettext-translation.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application:x-glade.svg -> application-x-glade.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application:x-gnucash.svg -> application-x-gnucash.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application:x-gnumeric.svg -> application-x-gnumeric.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application:x-gtktalog.svg -> application-x-gtktalog.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application:x-gzip.svg -> application-x-gzip.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application:x-kde-app-info.svg -> application-x-kde-app-info.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application:x-killustrator.svg -> application-x-killustrator.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application:x-kpresenter.svg -> application-x-kpresenter.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application:x-kspread.svg -> application-x-kspread.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application:x-kword.svg -> application-x-kword.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application:x-lha.svg -> application-x-lha.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application:x-object.svg -> application-x-object.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application:x-perl.svg -> application-x-perl.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application:x-php.svg -> application-x-php.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application:x-python-bytecode.svg -> application-x-python-bytecode.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application:x-python.svg -> application-x-python.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application:x-qw.svg -> application-x-qw.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application:x-rar.svg -> application-x-rar.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application:x-reject.svg -> application-x-reject.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application:x-rpm.svg -> application-x-rpm.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application:x-share-library-la.svg -> application-x-share-library-la.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application:x-sharedlib.svg -> application-x-sharedlib.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application:x-shellscript.svg -> application-x-shellscript.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application:x-shockwave-flash.svg -> application-x-shockwave-flash.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application:x-smil.svg -> application-x-smil.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application:x-tar.svg -> application-x-tar.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application:x-tex.svg -> application-x-tex.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application:x-trash.svg -> application-x-trash.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-application:zip.svg -> application-zip.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-audio.svg -> audio.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-audio:ac3.svg -> audio-ac3.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-audio:basic.svg -> audio-basic.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-audio:midi.svg -> audio-midi.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-audio:x-aiff.svg -> audio-x-aiff.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-audio:x-it.svg -> audio-x-it.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-audio:x-midi.svg -> audio-x-midi.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-audio:x-mod.svg -> audio-x-mod.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-audio:x-mp3.svg -> audio-x-mp3.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-audio:x-mpegurl.svg -> audio-x-mpegurl.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-audio:x-pn-realaudio.svg -> audio-x-pn-realaudio.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-audio:x-s3m.svg -> audio-x-s3m.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-audio:x-stm.svg -> audio-x-stm.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-audio:x-ulaw.svg -> audio-x-ulaw.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-audio:x-voc.svg -> audio-x-voc.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-audio:x-wav.svg -> audio-x-wav.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-audio:x-xi.svg -> audio-x-xi.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-audio:x-xm.svg -> audio-x-xm.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-image.svg -> image.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-image:bmp.svg -> image-bmp.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-image:gif.svg -> image-gif.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-image:ief.svg -> image-ief.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-image:jpeg.svg -> image-jpeg.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-image:png.svg -> image-png.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-image:svg+xml.svg -> image-svg+xml.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-image:svg.svg -> image-svg.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-image:tiff.svg -> image-tiff.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-image:x-3ds.svg -> image-x-3ds.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-image:x-applix-graphic.svg -> image-x-applix-graphic.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-image:x-cmu-raster.svg -> image-x-cmu-raster.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-image:x-portable-anymap.svg -> image-x-portable-anymap.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-image:x-portable-bitmap.svg -> image-x-portable-bitmap.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-image:x-portable-greymap.svg -> image-x-portable-greymap.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-image:x-portable-pixmap.svg -> image-x-portable-pixmap.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-image:x-psd.svg -> image-x-psd.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-image:x-rgb.svg -> image-x-rgb.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-image:x-tga.svg -> image-x-tga.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-image:x-xbitmap.svg -> image-x-xbitmap.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-image:x-xcf.svg -> image-x-xcf.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-image:x-xfig.svg -> image-x-xfig.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-image:x-xpixmap.svg -> image-x-xpixmap.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-image:x-xwindowdum.svg -> image-x-xwindowdum.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-text.svg -> text.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-text:css.svg -> text-css.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-text:html.svg -> text-html.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-text:sgml.svg -> text-sgml.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-text:x-authors.svg -> text-x-authors.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-text:x-c++.svg -> text-x-c++.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-text:x-c++src.svg -> text-x-c++src.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-text:x-c-header.svg -> text-x-c-header.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-text:x-c.svg -> text-x-c.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-text:x-chdr.svg -> text-x-chdr.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-text:x-copying.svg -> text-x-copying.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-text:x-credits.svg -> text-x-credits.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-text:x-csh.svg -> text-x-csh.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-text:x-csharp.svg -> text-x-csharp.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-text:x-csrc.svg -> text-x-csrc.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-text:x-gettext-translation.svg -> text-x-gettext-translation.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-text:x-haskell.svg -> text-x-haskell.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-text:x-install.svg -> text-x-install.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-text:x-java.svg -> text-x-java.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-text:x-literate-haskell.svg -> text-x-literate-haskell.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-text:x-log.svg -> text-x-log.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-text:x-lyx.svg -> text-x-lyx.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-text:x-makefile.svg -> text-x-makefile.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-text:x-patch.svg -> text-x-patch.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-text:x-readme.svg -> text-x-readme.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-text:x-scheme.svg -> text-x-scheme.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-text:x-sh.svg -> text-x-sh.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-text:x-tex.svg -> text-x-tex.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-text:x-troff-man.svg -> text-x-troff-man.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-text:x-vcalendar.svg -> text-x-vcalendar.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-text:x-vcard.svg -> text-x-vcard.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-text:x-xslt.svg -> text-x-xslt.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-text:x-zsh.svg -> text-x-zsh.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-text:xml.svg -> text-xml.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-video.svg -> video.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-video:mpeg.svg -> video-mpeg.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-video:quicktime.svg -> video-quicktime.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-video:x-ms-asf.svg -> video-x-ms-asf.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-video:x-ms-wmv.svg -> video-x-ms-wmv.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-video:x-msvideo.svg -> video-x-msvideo.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-x:directory-nfs-server.svg -> x-directory-nfs-server.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-x:directory-smb-server.svg -> x-directory-smb-server.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-x:directory-smb-share.svg -> x-directory-smb-share.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-x:directory-smb-workgroup.svg -> x-directory-smb-workgroup.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-x:font-afm.svg -> x-font-afm.svg
+lrwxrwxrwx	root/root	usr/share/icons/Rodent/scalable/mimetypes/mime-x:gdesklets-display.svg -> x-gdesklets-display.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/text-css.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/text-html.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/text-sgml.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/text-x-authors.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/text-x-c++.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/text-x-c++src.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/text-x-c-header.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/text-x-c.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/text-x-chdr.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/text-x-copying.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/text-x-credits.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/text-x-csh.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/text-x-csharp.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/text-x-csrc.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/text-x-gettext-translation.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/text-x-haskell.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/text-x-install.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/text-x-java.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/text-x-literate-haskell.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/text-x-log.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/text-x-lyx.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/text-x-makefile.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/text-x-patch.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/text-x-readme.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/text-x-scheme.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/text-x-sh.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/text-x-tex.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/text-x-troff-man.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/text-x-vcalendar.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/text-x-vcard.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/text-x-xslt.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/text-x-zsh.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/text-xml.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/text.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/video-mpeg.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/video-quicktime.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/video-x-ms-asf.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/video-x-ms-wmv.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/video-x-msvideo.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/video.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/x-directory-nfs-server.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/x-directory-smb-server.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/x-directory-smb-share.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/x-directory-smb-workgroup.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/x-font-afm.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/mimetypes/x-gdesklets-display.svg
+drwxr-xr-x	root/root	usr/share/icons/Rodent/scalable/misc/
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/misc/calc.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/misc/debian.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/misc/f-memory.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/misc/firewall.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/misc/fs-win.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/misc/icon_view.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/misc/money.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/misc/news.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/misc/notes.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/misc/root_terminal.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/misc/run.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/misc/settings.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/misc/sm.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/misc/sound.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/misc/tabwin.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/misc/taskbar.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/misc/taskmanager.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/misc/ui.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/misc/usb_key.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/misc/webcam.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/misc/wksp.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/misc/wm.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/misc/xfce4-appfinder.svg
+drwxr-xr-x	root/root	usr/share/icons/Rodent/scalable/stock/
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/m-font.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/m-lock.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/m-spreadsheet.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/media-backward.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/media-eject.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/media-forward.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/media-next.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/media-pause.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/media-play.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/media-prev.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/media-record.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/media-shuffle.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/media-stop.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/rox-select.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/rox-show-details.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/rox-show-hidden.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_about.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_accessories.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_add.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_amusements.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_apply.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_attach.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_balance.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_bold.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_book-open.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_book.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_cancel.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_cdrom.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_clear.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_close.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_color_picker.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_connect.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_convert.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_copy.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_cut.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_delete.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_dialog_authentication.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_dialog_error.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_dialog_info.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_dialog_question.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_dialog_warning.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_disconnect.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_dnd.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_dnd_multiple.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_download.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_edit.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_epiphany-bookmark-page.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_execute.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_export.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_file-properties.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_find-and-replace.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_find.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_floppy.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_folder-copy.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_folder-move.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_folder-properties.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_folder.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_fullscreen.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_go-back.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_go-down.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_go-forward.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_go-up.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_goto-bottom.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_goto-first.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_goto-last.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_goto-top.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_harddisk.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_help.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_history.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_home.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_import.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_indent.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_index.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_insert-image.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_insert-object.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_insert-table.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_internet.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_italic.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_jump-to.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_justify-center.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_justify-fill.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_justify-left.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_justify-right.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_line-in.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_logout.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_mailto.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_mic.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_missing-image.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_multimedia.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_network.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_new-tab.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_new.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_no.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_ok.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_open.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_paste.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_preferences.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_print-preview.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_print.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_properties.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_quit.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_redo.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_refresh.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_remove.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_repeat.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_reset.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_revert-to-saved.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_run.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_save-as.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_save.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_screenshot.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_search.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_select-color.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_select-font.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_sort-ascending.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_sort-descending.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_spell-check.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_stop.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_strikethrough.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_undelete.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_underline.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_undo.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_unindent.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_unknown.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_volume.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_yes.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_zoom-100.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_zoom-fit.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_zoom-in.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/stock_zoom-out.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/volume-max.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/volume-medium.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/volume-min.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/volume-mute.svg
+-rw-r--r--	root/root	usr/share/icons/Rodent/scalable/stock/volume-zero.svg
+drwxr-xr-x	root/root	usr/share/xfce4/
+drwxr-xr-x	root/root	usr/share/xfce4/mime/
+-rw-r--r--	root/root	usr/share/xfce4/mime/Rodent.mime.xml
