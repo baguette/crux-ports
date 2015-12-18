@@ -1,0 +1,17 @@
+# Description: A system tray applet for NetworkManager
+# URL: https://wiki.gnome.org/Projects/NetworkManager/
+# Maintainer:  Cory Burgett, cmburget at gmail dot com
+# Depends on: networkmanager, iso-codes, gconf, libsecret, consolekit, polkit
+
+name=network-manager-applet
+version=1.0.8
+release=1
+source=(https://download.gnome.org/sources/$name/${version::3}/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+
+	./configure --prefix=/usr --sysconfdir=/etc --libexecdir=/usr/lib/$name --disable-nls --disable-migration
+	make
+	make DESTDIR=$PKG install
+}

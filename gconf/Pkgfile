@@ -1,0 +1,17 @@
+# Description: GConf configuration system
+# URL: https://projects.gnome.org/gconf/
+# Maintainer:  Cory Burgett, cmburget at gmail dot com
+# Depends on: glib, dbus-glib, libxml2, gobject-introspection, gtk3, polkit, orbit
+
+name=gconf
+version=3.2.6
+release=1
+source=(ftp://ftp.gnome.org/pub/GNOME/sources/GConf/${version::3}/GConf-$version.tar.xz)
+
+build() {
+	cd GConf-$version
+
+	./configure --prefix=/usr --sysconfdir=/etc --libexecdir=/usr/lib/$name --disable-nls
+	make
+	make DESTDIR=$PKG install
+}

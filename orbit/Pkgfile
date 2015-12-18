@@ -1,0 +1,18 @@
+# Description: A CORBA 2.4-compliant Object Request Broker
+# URL: http://orbit-resource.sourceforge.net/
+# Maintainer:  Cory Burgett, cmburget at gmail dot com
+# Depends on: glib
+
+name=orbit
+version=2.14.19
+release=1
+source=(ftp://ftp.gnome.org/pub/gnome/sources/ORBit2/${version::4}/ORBit2-$version.tar.bz2)
+
+build() {
+	cd ORBit2-$version
+
+	CFLAGS=-UG_DISABLE_DEPRECATED ./configure --prefix=/usr --sysconfdir=/etc --libexecdir=/usr/lib/$name --disable-nls
+
+	make
+	make DESTDIR=$PKG install
+}
