@@ -1,0 +1,18 @@
+# Description: CUPS drivers for Samsung Printer Language printers
+# URL: http://splix.ap2c.org/
+# Maintainer:  Cory Burgett, cmburget at gmail dot com
+# Depends on: cups, jbigkit
+
+name=splix
+version=2.0.0
+release=1
+source=(http://downloads.sourceforge.net/project/$name/$name/$version/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+
+	sed 's#const PPDFile::Value::Value #const PPDFile::Value #' -i src/ppdfile.cpp
+
+	make
+	make DESTDIR=$PKG install
+}

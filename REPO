@@ -8,6 +8,7 @@ d:libxdg-basedir
 d:rust-bin
 d:gtk-xfce-engine
 d:exo
+d:jbigkit
 d:liberation-fonts
 d:xfce4-session
 d:libxfce4ui
@@ -16,6 +17,7 @@ d:libxfce4util
 d:xfce4-settings
 d:mosml
 d:thunar-volman
+d:splix
 d:xfconf
 d:xfce4-icon-theme
 d:thunar
@@ -54,6 +56,9 @@ f:683e81c191af0df534fb1046e42ea26e:gtk-xfce-engine/Pkgfile
 f:8d8f7b1e7771ed314686bf17ab235eee:exo/.footprint
 f:6c89ae224ed773903cc5d224b10228e5:exo/.md5sum
 f:5aab9b0fe69ff38d270f16868cc0d70f:exo/Pkgfile
+f:be460b36a3449a6a05cf5b021f93af5a:jbigkit/.footprint
+f:434dabf1be1a71c9c4992f6951f74e33:jbigkit/.md5sum
+f:3db45da37a2bd8441fd4da747b6781a7:jbigkit/Pkgfile
 f:b295b072c00865e536479b401c34140b:liberation-fonts/.footprint
 f:a05165995e6b76ab09324c158c43105b:liberation-fonts/.md5sum
 f:85d6e8a4bc93c02d0cb49d096e14cbcc:liberation-fonts/Pkgfile
@@ -75,11 +80,13 @@ f:20a5d68afac3fd3308203fd08ab12eb3:xfce4-settings/.md5sum
 f:e34ecba14728758972b764eee5484a78:xfce4-settings/Pkgfile
 f:5f966b1fba60a443b8fd11ab28c18cb9:mosml/.footprint
 f:802e30394f4c5769139f4c949d7db02a:mosml/.md5sum
-f:649b20025bf2125b2e48fba61a973848:mosml/ver-2.10.1
 f:4589ee76dc91e135ebce59b7ce8562c5:mosml/Pkgfile
 f:2438968e64168a11b9f32faa4f321ae4:thunar-volman/.footprint
 f:5c761a27d9819f1d77e07c60a09b4ae7:thunar-volman/.md5sum
 f:01a9a5acb0f355281c1510bc1e42bc7c:thunar-volman/Pkgfile
+f:be1dc962eb76a5ad6e08f73414a7a26d:splix/.footprint
+f:b9588300b74281a6a163cf32a894e3ca:splix/.md5sum
+f:1c5ca6b00c9e87dd7ae32ce66f728dac:splix/Pkgfile
 f:b825c4d53e1425298753347f6bc42009:xfconf/.footprint
 f:e9d529818ad7b11810bdeee86dc63a8e:xfconf/.md5sum
 f:8e8b8147e0c5940fb126dc0cf27fe401:xfconf/Pkgfile

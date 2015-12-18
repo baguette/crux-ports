@@ -1,0 +1,33 @@
+# Description: An implementation of the JBIG1 compression standard
+# URL: http://www.cl.cam.ac.uk/~mgk25/jbigkit/
+# Maintainer:  Cory Burgett, cmburget at gmail dot com
+# Depends on:
+
+name=jbigkit
+version=2.1
+release=1
+source=(http://www.cl.cam.ac.uk/~mgk25/$name/download/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+
+	make
+
+	mkdir -p $PKG/usr/lib
+	mkdir -p $PKG/usr/include
+	mkdir -p $PKG/usr/bin
+	mkdir -p $PKG/usr/share/man
+
+	cp libjbig/*.a $PKG/usr/lib
+	cp libjbig/*.h $PKG/usr/include
+
+	cp pbmtools/jbgtopbm $PKG/usr/bin
+	cp pbmtools/jbgtopbm85 $PKG/usr/bin
+	cp pbmtools/pbmtojbg $PKG/usr/bin
+	cp pbmtools/pbmtojbg85 $PKG/usr/bin
+
+	cp pbmtools/jbgtopbm.1 $PKG/usr/share/man
+	cp pbmtools/pbmtojbg.1 $PKG/usr/share/man
+	cp pbmtools/pgm.5 $PKG/usr/share/man
+	cp pbmtools/pbm.5 $PKG/usr/share/man
+}
