@@ -54,4 +54,12 @@ exec awesome
 
 Then issue '**startx**' at the command line. Assuming kernel compile options are correct you should find yourself with a working awesome desktop (basic).
 
-If it doesn't work like this. Please [report your issues](https://github.com/baguette/crux-ports/issues).
+## Haskell Platform
+
+The haskell-platform-bin port provides the Haskell Platform. It installs into the non-standard location /usr/local/haskell. This is normally a big no-no for CRUX, but I could not figure out how to get it to install in any other location and still work properly.
+
+Once the package is installed, you need to add /usr/local/haskell/ghc-7.10.3-x86\_64/bin to your PATH to use it.
+
+## Issues
+
+If anything doesn't work as described in this README, please [report your issues](https://github.com/baguette/crux-ports/issues).
