@@ -3,6 +3,7 @@ d:xfwm4
 d:mlton-bin
 d:gconf
 d:tumbler
+d:libtinfo-compat
 d:xfce4-power-manager
 d:network-manager-applet
 d:orbit
@@ -16,6 +17,7 @@ d:liberation-fonts
 d:xfce4-session
 d:libxfce4ui
 d:xfdesktop
+d:haskell-platform-bin
 d:libxfce4util
 d:xfce4-settings
 d:mosml
@@ -43,6 +45,9 @@ f:6fdce58a6b6ed27e24fad40490f1b9e9:gconf/Pkgfile
 f:0f53ab5479def8ce0110e149e0c0bdc0:tumbler/.footprint
 f:c6e327fd76bd7b2ae9fe22916e85e6a5:tumbler/.md5sum
 f:da601ccf5087012ccf239e9306ff5f1d:tumbler/Pkgfile
+f:d0ddbd383c2aa8322477565996628e5b:libtinfo-compat/.footprint
+f:d41d8cd98f00b204e9800998ecf8427e:libtinfo-compat/.md5sum
+f:fa723af11d853be4372e205223b086e3:libtinfo-compat/Pkgfile
 f:d5227814dc1e7bbe8dbe6a8cf20c08e8:xfce4-power-manager/.footprint
 f:98bc27d5b3692c8a32bffc96e9c50223:xfce4-power-manager/.md5sum
 f:d92117a635bdad531e3a94a2f3f572c3:xfce4-power-manager/Pkgfile
@@ -84,6 +89,9 @@ f:0613e320b790a40610e9e1a7cee26034:libxfce4ui/Pkgfile
 f:6187286953a32751c23e44b76442671b:xfdesktop/.footprint
 f:55f3ad274b3ff19c80e3a22ad837c933:xfdesktop/.md5sum
 f:f1a539427a4201228606989196634ee4:xfdesktop/Pkgfile
+f:31432cc8ca6c009b1d436d25e7cbbe0e:haskell-platform-bin/.footprint
+f:563a0f0d1af560338ef5a0644c7105a5:haskell-platform-bin/.md5sum
+f:58fd30fffa3fe2fbc28f2cb14c1dd82f:haskell-platform-bin/Pkgfile
 f:ea4449de4742d738fdb0f84f957fbe14:libxfce4util/.footprint
 f:6340b6ec22000dda9655ae0f0a647f04:libxfce4util/.md5sum
 f:e70cd594ad8d6039bd42bcbf217a3e5e:libxfce4util/Pkgfile

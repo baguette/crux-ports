@@ -1,0 +1,16 @@
+# Description: symlinks for ncurses compatibility with libtinfo
+# URL: http://github.com/baguette/crux-ports
+# Maintainer:  Cory Burgett, cmburget at gmail dot com
+# Depends on: ncurses
+
+name=libtinfo-compat
+version=6.0
+release=1
+source=()
+
+build() {
+	mkdir -p $PKG/usr/lib
+	
+	ln -s /usr/lib/libncurses.so $PKG/usr/lib/libtinfo.so
+	ln -s /usr/lib/libncurses.so.5 $PKG/usr/lib/libtinfo.so.5
+}

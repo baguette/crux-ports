@@ -1,0 +1,20 @@
+# Description: The Haskell Platform
+# URL: https://www.haskell.org/platform/
+# Maintainer:  Cory Burgett, cmburget at gmail dot com
+# Depends on: zlib, libgmp, libtinfo-compat
+
+name=haskell-platform-bin
+version=7.10.3
+release=1
+source=(https://haskell.org/platform/download/$version/haskell-platform-$version-unknown-posix-x86_64.tar.gz)
+
+build() {
+	mkdir $PKG/usr
+
+	mkdir tmp
+	tar -C $PKG -xzf hp-usr-local.tar.gz
+
+	rm -rf $PKG/usr/local/haskell/ghc-$version-x86_64/share/doc
+
+	chown -R root:root $PKG/*
+}
