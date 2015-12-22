@@ -54,6 +54,15 @@ exec awesome
 
 Then issue '**startx**' at the command line. Assuming kernel compile options are correct you should find yourself with a working awesome desktop (basic).
 
+## Adwaita
+
+The Adwaita GTK+ theme is included in the gnome-themes-standard package.  The Adwaita icon theme is included in the adwaita-icon-theme package. To use them with GTK+2, add the following lines to /usr/etc/gtk-2.0/gtkrc
+
+```
+gtk-icon-theme-name = "Adwaita"
+gtk-theme-name = "Adwaita"
+```
+
 ## Haskell Platform
 
 The haskell-platform-bin port provides the Haskell Platform. It installs into the non-standard location /usr/local/haskell. This is normally a big no-no for CRUX, but I could not figure out how to get it to install in any other location and still work properly.

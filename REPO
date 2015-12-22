@@ -10,10 +10,12 @@ d:orbit
 d:awesome
 d:libxdg-basedir
 d:rust-bin
+d:gnome-themes-standard
 d:gtk-xfce-engine
 d:exo
 d:jbigkit
 d:liberation-fonts
+d:adwaita-icon-theme
 d:xfce4-session
 d:libxfce4ui
 d:xfdesktop
@@ -67,6 +69,9 @@ f:53e49e2d7163c03f6ef51009426d9e06:rust-bin/.footprint
 f:905b2bc916d655801c0adb977a70ae9f:rust-bin/.md5sum
 f:49f84960dde0b18d05fdaa8926bd3d8d:rust-bin/Pkgfile
 f:6e609fa044e466820840cabda784d8bb:baguette.httpup
+f:60c43cc89a07eccf078218ab11b13446:gnome-themes-standard/.footprint
+f:5e7c96fe2e31ff1f798d03b7da33f5ca:gnome-themes-standard/.md5sum
+f:4ac6cab65c02d45ebf6a9969867c857b:gnome-themes-standard/Pkgfile
 f:38c30313283e39d1cd37e28c34612510:gtk-xfce-engine/.footprint
 f:8d94cc1cfd5781f471991935a551098f:gtk-xfce-engine/.md5sum
 f:683e81c191af0df534fb1046e42ea26e:gtk-xfce-engine/Pkgfile
@@ -79,7 +84,10 @@ f:3db45da37a2bd8441fd4da747b6781a7:jbigkit/Pkgfile
 f:b295b072c00865e536479b401c34140b:liberation-fonts/.footprint
 f:a05165995e6b76ab09324c158c43105b:liberation-fonts/.md5sum
 f:85d6e8a4bc93c02d0cb49d096e14cbcc:liberation-fonts/Pkgfile
-f:7257e2254d32afd24843eeb1f5c7f949:README.md
+f:be7aacadf3fb98be36213076013106dc:adwaita-icon-theme/.footprint
+f:e943679052fd0cf218cde3db5907c821:adwaita-icon-theme/.md5sum
+f:5b03436e72ecae5d85540141cd73788a:adwaita-icon-theme/Pkgfile
+f:bbfb0d4eaea9c1f2463c81a4d6def3e2:README.md
 f:95b819972e7ed76012a20a97969dee71:xfce4-session/.footprint
 f:c79fb09637b3d023892b051394209021:xfce4-session/.md5sum
 f:79d180c591fb460971b58da26a88b02a:xfce4-session/Pkgfile

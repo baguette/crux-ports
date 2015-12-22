@@ -1,0 +1,18 @@
+# Description: Standard GTK themes for Gnome 3
+# URL: http://gnome.org/
+# Maintainer:  Cory Burgett, cmburget at gmail dot com
+# Depends on:
+
+name=adwaita-icon-theme
+version=3.18.0
+release=1
+source=(https://download.gnome.org/sources/$name/${version::4}/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+
+	./configure --prefix=/usr --libexecdir=/usr/lib/$name --sysconfdir=/etc \
+	            --disable-nls --disable-gtk-doc-html
+	make
+	make DESTDIR=$PKG install
+}
