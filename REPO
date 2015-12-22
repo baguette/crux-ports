@@ -91,6 +91,7 @@ f:9f5dd449fb4f9b3df839a18b600224ca:jbigkit/.footprint
 f:434dabf1be1a71c9c4992f6951f74e33:jbigkit/.md5sum
 f:932854121e717d75bfc74d37668ad819:jbigkit/Pkgfile
 f:b295b072c00865e536479b401c34140b:liberation-fonts/.footprint
+f:c65d7f0aab5cc6e5a7747d112dd41063:liberation-fonts/post-install
 f:a05165995e6b76ab09324c158c43105b:liberation-fonts/.md5sum
 f:85d6e8a4bc93c02d0cb49d096e14cbcc:liberation-fonts/Pkgfile
 f:be7aacadf3fb98be36213076013106dc:adwaita-icon-theme/.footprint
