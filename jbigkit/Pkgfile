@@ -16,7 +16,8 @@ build() {
 	mkdir -p $PKG/usr/lib
 	mkdir -p $PKG/usr/include
 	mkdir -p $PKG/usr/bin
-	mkdir -p $PKG/usr/share/man
+	mkdir -p $PKG/usr/share/man/man1
+	mkdir -p $PKG/usr/share/man/man5
 
 	cp libjbig/*.a $PKG/usr/lib
 	cp libjbig/*.h $PKG/usr/include
