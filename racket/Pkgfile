@@ -1,0 +1,19 @@
+# Description: The Racket Programming Language
+# URL: http://racket-lang.org/
+# Maintainer:  Cory Burgett, cmburget at gmail dot com
+# Depends on: gtk
+
+name=racket
+version=6.3
+release=1
+source=(http://mirror.racket-lang.org/installers/$version/$name-$version-src-builtpkgs.tgz)
+
+build() {
+	cd $name-$version/src
+
+	mkdir build
+	cd build
+	../configure --prefix=/usr --libexecdir=/usr/lib/$name --disable-nls --enable-shared
+	make
+	make DESTDIR=$PKG install
+}
