@@ -1,11 +1,13 @@
 d:xfce4-panel
 d:xfwm4
+d:racket
 d:mlton-bin
 d:gconf
 d:tumbler
 d:libtinfo-compat
 d:xfce4-power-manager
 d:network-manager-applet
+d:rpm2pkg
 d:orbit
 d:awesome
 d:libxdg-basedir
@@ -38,6 +40,9 @@ f:b4ec9478b0813f39490a8382c692950d:xfce4-panel/Pkgfile
 f:f78251eb3da055318cb62514386fb20f:xfwm4/.footprint
 f:4f044fd0c3824cd107b49c3c5f058c6b:xfwm4/.md5sum
 f:30a05f22200c559cf8e6afef0a38771a:xfwm4/Pkgfile
+f:67c2961b80581eac99c335af3acd5e82:racket/.footprint
+f:6b5d41705d64ef3d3ef0dcaf3c5cb976:racket/.md5sum
+f:cd052a32cf9db615e5f267f473f5823e:racket/Pkgfile
 f:c727d02d2df031a8897566b59ad098e0:mlton-bin/.footprint
 f:585ca2f631cffe950b387d57ab71bc7d:mlton-bin/.md5sum
 f:9f1952826313ab5d96934f7fdc79a159:mlton-bin/Pkgfile
@@ -56,6 +61,10 @@ f:d92117a635bdad531e3a94a2f3f572c3:xfce4-power-manager/Pkgfile
 f:2cf7facadb557accc57a2468c299917c:network-manager-applet/.footprint
 f:522f2e43effe72fc4f1a8477f30622e4:network-manager-applet/.md5sum
 f:f01267ad8bbdf376a15eb86758973d59:network-manager-applet/Pkgfile
+f:933c102a9bf8b307ecc6d3b9ab9b2aa9:rpm2pkg/.footprint
+f:7e67598c07a1a66466256eca32e0f703:rpm2pkg/rpm2pkg
+f:93a19bf49e281735a7370805c97429fe:rpm2pkg/.md5sum
+f:28563f94dadf20210dbc1519ecf5d3bc:rpm2pkg/Pkgfile
 f:70f615ff6e9c3dc275c0b20ff2d8cce9:orbit/.footprint
 f:a107a4ec8547da63aa642f3e00c8c4b7:orbit/.md5sum
 f:ddc0223a9304e94327e6688af35cd8d6:orbit/Pkgfile
@@ -78,9 +87,9 @@ f:683e81c191af0df534fb1046e42ea26e:gtk-xfce-engine/Pkgfile
 f:8d8f7b1e7771ed314686bf17ab235eee:exo/.footprint
 f:6c89ae224ed773903cc5d224b10228e5:exo/.md5sum
 f:5aab9b0fe69ff38d270f16868cc0d70f:exo/Pkgfile
-f:be460b36a3449a6a05cf5b021f93af5a:jbigkit/.footprint
+f:9f5dd449fb4f9b3df839a18b600224ca:jbigkit/.footprint
 f:434dabf1be1a71c9c4992f6951f74e33:jbigkit/.md5sum
-f:3db45da37a2bd8441fd4da747b6781a7:jbigkit/Pkgfile
+f:932854121e717d75bfc74d37668ad819:jbigkit/Pkgfile
 f:b295b072c00865e536479b401c34140b:liberation-fonts/.footprint
 f:a05165995e6b76ab09324c158c43105b:liberation-fonts/.md5sum
 f:85d6e8a4bc93c02d0cb49d096e14cbcc:liberation-fonts/Pkgfile

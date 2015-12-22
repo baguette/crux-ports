@@ -1,0 +1,70 @@
+#!/bin/sh
+#
+# Modified by Cory Burgett <cmburget@gmail.com>, 2015
+#
+# Modified by Per Liden <per@fukt.bth.se>, 2000, 2004.
+#             Han Boetes <han@mijncomputer.nl>, 2004.
+#
+# Copyright 1997, 1998 Patrick Volkerding, Moorhead, Minnesota USA
+# All rights reserved.
+#
+# Redistribution and use of this script, with or without modification, is
+# permitted provided that the following conditions are met:
+#
+# 1. Redistributions of this script must retain the above copyright
+#    notice, this list of conditions and the following disclaimer.
+#
+#  THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR IMPLIED
+#  WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+#  MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO
+#  EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+#  SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+#  PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
+#  OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+#  WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+#  OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+#  ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+#
+
+if [ "$#" = "0" ]; then
+	echo "usage: ${0##*/} <file.rpm> ..."
+	exit 1
+fi
+
+if [ "$(whoami)" != "root" ]; then
+	echo "${0##*/} should be run with fakeroot"
+	exit 1
+fi
+
+# If $TMPDIR is not set, then use $TMP.
+# If $TMP is not set either, then mktemp(1) will use /tmp.
+${TMPDIR:=$TMP}
+
+for file_rpm in $*; do
+	if [ ! -f $file_rpm ]; then
+		echo "$file_rpm: file not found"
+		continue
+	fi
+
+	# figure out where our working directory/file are
+	dir_tar_gz=`mktemp -d` || exit 1
+	file_tar_gz=${file_rpm%.rpm}.pkg.tar.gz
+
+	echo "$file_rpm => $file_tar_gz"
+
+	# extract the rpm
+	bsdtar -C $dir_tar_gz -pxf $file_rpm 
+
+	# create the tarball
+	cwd=$(pwd)
+	touch $file_tar_gz
+	real_file_tar_gz=$(realpath $file_tar_gz)
+	cd $dir_tar_gz
+	bsdtar -czf $real_file_tar_gz *
+	cd $cwd
+
+	# clean up after ourselves
+	rm -rf $dir_tar_gz
+done
+
+# End of file.
