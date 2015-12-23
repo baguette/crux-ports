@@ -7,7 +7,7 @@
 
 name=mtpaint
 version=3.40
-release=2
+release=3
 source=(http://downloads.sourceforge.net/project/$name/$name/$version/$name-$version.tar.bz2)
 
 build() {
@@ -16,10 +16,10 @@ build() {
     # From the Arch Linux PKGBUILD (maintained by Alexander Rodseth)
     patch -p0 -i $PKGMK_SOURCE_DIR/giflib.patch
     sed -i 's:$LIBS $LDFLAGS:$LDFLAGS $LIBS:' configure
-    sed -i 's:EGifOpenFileName(file_name, FALSE):EGifOpenFileName(file_name, FALSE, NULL):' src/png.c
-    sed -i 's:DGifOpenFileName(file_name):DGifOpenFileName(file_name, NULL):g' src/png.c
-    sed -i 's:MakeMapObject(:GifMakeMapObject(:g' src/png.c
-    sed -i 's:FreeMapObject(:GifFreeMapObject(:g' src/png.c
+    sed -i -e 's:EGifOpenFileName(file_name, FALSE):EGifOpenFileName(file_name, FALSE, NULL):' \
+           -e 's:DGifOpenFileName(file_name):DGifOpenFileName(file_name, NULL):g' \
+           -e 's:MakeMapObject(:GifMakeMapObject(:g' \
+           -e's:FreeMapObject(:GifFreeMapObject(:g' src/png.c
 
     ./configure --prefix=/usr gtk2 GIF jpeg tiff lcms2 cflags man nojp2 release
 
