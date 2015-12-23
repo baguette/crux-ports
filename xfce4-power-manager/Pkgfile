@@ -1,18 +1,19 @@
 # Description: Part of the Xfce4 desktop environment
 # URL: http://xfce.org/
 # Maintainer:  Cory Burgett, cmburget at gmail dot com
-# Depends on: glib, libxfce4util, xfconf, libxfce4ui
+# Depends on: glib, libxfce4util, xfconf, libxfce4ui, libnotify, dbus, dbus-glib, gtk, upower, polkit, consolekit, pm-utils, xfce4-panel
 
 name=xfce4-power-manager
 version=1.4.3
-release=1
+release=2
 source=(http://archive.xfce.org/xfce/4.12/src/$name-$version.tar.bz2)
 
 build() {
 	cd $name-$version
 
 	./configure --prefix=/usr --libexecdir=/usr/lib/$name --sysconfdir=/etc \
-	            --disable-nls --disable-gtk-doc-html
+	            --disable-nls --disable-gtk-doc-html --enable-xfce4panel \
+	            --with-backend=linux
 	make
 	make DESTDIR=$PKG install
 }
