@@ -24,6 +24,7 @@ d:libxfce4ui
 d:xfdesktop
 d:haskell-platform-bin
 d:libxfce4util
+d:rlwrap
 d:xfce4-settings
 d:mosml
 d:thunar-volman
@@ -118,6 +119,9 @@ f:58fd30fffa3fe2fbc28f2cb14c1dd82f:haskell-platform-bin/Pkgfile
 f:ea4449de4742d738fdb0f84f957fbe14:libxfce4util/.footprint
 f:6340b6ec22000dda9655ae0f0a647f04:libxfce4util/.md5sum
 f:e70cd594ad8d6039bd42bcbf217a3e5e:libxfce4util/Pkgfile
+f:156e0ae048715d9442f94fddbe93944c:rlwrap/.footprint
+f:6f99679b9f751d84ea513f01598fbb12:rlwrap/.md5sum
+f:9a84dc2e03345c5e639a83c988cc95bd:rlwrap/Pkgfile
 f:0953feab52b3175fe1e3cac091544adc:xfce4-settings/.footprint
 f:20a5d68afac3fd3308203fd08ab12eb3:xfce4-settings/.md5sum
 f:e34ecba14728758972b764eee5484a78:xfce4-settings/Pkgfile
