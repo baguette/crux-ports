@@ -1,0 +1,28 @@
+# Description: simple GTK+1/2 painting program
+# URL: http://mtpaint.sourceforge.net/
+# Maintainer: Cory Burgett, cmburget at gmail dot com
+# Packager: Ricardo Oliveira, crux at roliveira dot eu
+# Depends on: gtk desktop-file-utils freetype giflib lcms2 libjpeg-turbo libpng libtiff
+# Nice to have: libungif
+
+name=mtpaint
+version=3.40
+release=2
+source=(http://downloads.sourceforge.net/project/$name/$name/$version/$name-$version.tar.bz2)
+
+build() {
+    cd $name-$version
+
+    # From the Arch Linux PKGBUILD (maintained by Alexander Rodseth)
+    patch -p0 -i $PKGMK_SOURCE_DIR/giflib.patch
+    sed -i 's:$LIBS $LDFLAGS:$LDFLAGS $LIBS:' configure
+    sed -i 's:EGifOpenFileName(file_name, FALSE):EGifOpenFileName(file_name, FALSE, NULL):' src/png.c
+    sed -i 's:DGifOpenFileName(file_name):DGifOpenFileName(file_name, NULL):g' src/png.c
+    sed -i 's:MakeMapObject(:GifMakeMapObject(:g' src/png.c
+    sed -i 's:FreeMapObject(:GifFreeMapObject(:g' src/png.c
+
+    ./configure --prefix=/usr gtk2 GIF jpeg tiff lcms2 cflags man nojp2 release
+
+    make
+    make DESTDIR=$PKG install
+}
