@@ -1,0 +1,26 @@
+# Description: Graphical tools for configuring ALSA
+# URL: http://xwmw.org/qastools/
+# Maintainer:  Cory Burgett, cmburget at gmail dot com
+# Depends on: alsa-lib, qt4, cmake
+
+name=qastools
+version=0.18.1
+release=1
+source=(http://downloads.sourceforge.net/project/$name/$version/${name}_$version.tar.xz)
+
+build() {
+	cd ${name}_$version
+
+	mkdir build
+	cd build
+
+	cmake .. \
+		-DCMAKE_BUILD_TYPE=RELEASE \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DSYSCONFDIR=/etc
+
+	make
+	make DESTDIR=$PKG install
+
+	rm -rf $PKG/usr/share/doc
+}

@@ -18,6 +18,7 @@ d:exo
 d:jbigkit
 d:liberation-fonts
 d:adwaita-icon-theme
+d:qastools
 d:xfce4-session
 d:libxfce4ui
 d:xfdesktop
@@ -98,6 +99,9 @@ f:85d6e8a4bc93c02d0cb49d096e14cbcc:liberation-fonts/Pkgfile
 f:be7aacadf3fb98be36213076013106dc:adwaita-icon-theme/.footprint
 f:e943679052fd0cf218cde3db5907c821:adwaita-icon-theme/.md5sum
 f:5b03436e72ecae5d85540141cd73788a:adwaita-icon-theme/Pkgfile
+f:107807c6c0c87bf62457ba945fec07cc:qastools/.footprint
+f:d2c405d1cb965e5873ae5e55dc18f1fe:qastools/.md5sum
+f:2694d7dc59bca4e3560d6845108108e9:qastools/Pkgfile
 f:bbfb0d4eaea9c1f2463c81a4d6def3e2:README.md
 f:95b819972e7ed76012a20a97969dee71:xfce4-session/.footprint
 f:c79fb09637b3d023892b051394209021:xfce4-session/.md5sum
