@@ -8,13 +8,14 @@
 name=mtpaint
 version=3.40
 release=3
-source=(http://downloads.sourceforge.net/project/$name/$name/$version/$name-$version.tar.bz2)
+source=(http://downloads.sourceforge.net/project/$name/$name/$version/$name-$version.tar.bz2
+        giflib.patch)
 
 build() {
     cd $name-$version
 
     # From the Arch Linux PKGBUILD (maintained by Alexander Rodseth)
-    patch -p0 -i $PKGMK_SOURCE_DIR/giflib.patch
+    patch -p0 -i $SRC/giflib.patch
     sed -i 's:$LIBS $LDFLAGS:$LDFLAGS $LIBS:' configure
     sed -i -e 's:EGifOpenFileName(file_name, FALSE):EGifOpenFileName(file_name, FALSE, NULL):' \
            -e 's:DGifOpenFileName(file_name):DGifOpenFileName(file_name, NULL):g' \
