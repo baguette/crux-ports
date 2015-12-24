@@ -5,7 +5,7 @@
 
 name=network-manager-applet
 version=1.0.8
-release=1
+release=2
 source=(https://download.gnome.org/sources/$name/${version::3}/$name-$version.tar.xz)
 
 build() {
@@ -14,4 +14,6 @@ build() {
 	./configure --prefix=/usr --sysconfdir=/etc --libexecdir=/usr/lib/$name --disable-nls --disable-migration
 	make
 	make DESTDIR=$PKG install
+
+	rm -rf $PKG/usr/share/locale
 }

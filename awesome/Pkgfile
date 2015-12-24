@@ -5,10 +5,12 @@
 
 name=awesome
 version=3.5.6
-release=1
+release=2
 source=(http://awesome.naquadah.org/download/$name-$version.tar.xz)
 
 build() {
+	local i
+
 	cd $name-$version
 
 	sed 's/^lua /lua5.1 /' -i build-utils/lgi-check.sh
@@ -24,4 +26,16 @@ build() {
 	make DESTDIR=$PKG install
 
 	rm -rf $PKG/usr/share/doc
+	rm $PKG/usr/share/awesome/themes/default/README
+
+	# get rid of non-English manpages
+	for i in $PKG/usr/share/man/*; do
+		local j=${i##*/}
+		if [ ${#j} -lt 3 ]; then
+			rm -rf $i
+		fi
+		if [ $(expr index $j "_") -gt 0 ]; then
+			rm -rf $i
+		fi
+	done
 }

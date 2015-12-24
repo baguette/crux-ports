@@ -12,7 +12,6 @@ drwxr-xr-x	root/root	usr/share/rlwrap/completions/
 -rw-r--r--	root/root	usr/share/rlwrap/completions/coqtop
 -rw-r--r--	root/root	usr/share/rlwrap/completions/testclient
 drwxr-xr-x	root/root	usr/share/rlwrap/filters/
--rwxr-xr-x	root/root	usr/share/rlwrap/filters/README
 -rwxr-xr-x	root/root	usr/share/rlwrap/filters/RlwrapFilter.3pm
 -rwxr-xr-x	root/root	usr/share/rlwrap/filters/RlwrapFilter.pm
 -rwxr-xr-x	root/root	usr/share/rlwrap/filters/censor_passwords

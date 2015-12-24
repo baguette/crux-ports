@@ -3914,9 +3914,6 @@ drwxr-xr-x	root/root	usr/share/man/man1/
 -rw-r--r--	root/root	usr/share/man/man1/raco.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/setup-plt.1.gz
 drwxr-xr-x	root/root	usr/share/racket/
--rw-r--r--	root/root	usr/share/racket/COPYING-libscheme.txt
--rw-r--r--	root/root	usr/share/racket/COPYING.txt
--rw-r--r--	root/root	usr/share/racket/COPYING_LESSER.txt
 drwxr-xr-x	root/root	usr/share/racket/collects/
 drwxr-xr-x	root/root	usr/share/racket/collects/acks/
 -rw-r--r--	root/root	usr/share/racket/collects/acks/acks.rkt
@@ -5257,7 +5254,6 @@ drwxr-xr-x	root/root	usr/share/racket/collects/reader/lang/compiled/
 -rw-r--r--	root/root	usr/share/racket/collects/reader/lang/compiled/reader_rkt.zo
 -rw-r--r--	root/root	usr/share/racket/collects/reader/lang/reader.rkt
 drwxr-xr-x	root/root	usr/share/racket/collects/realm/
--rw-r--r--	root/root	usr/share/racket/collects/realm/README.txt
 drwxr-xr-x	root/root	usr/share/racket/collects/s-exp/
 drwxr-xr-x	root/root	usr/share/racket/collects/s-exp/lang/
 drwxr-xr-x	root/root	usr/share/racket/collects/s-exp/lang/compiled/
@@ -6871,7 +6867,6 @@ drwxr-xr-x	root/root	usr/share/racket/pkgs/db-doc/db/scribblings/compiled/
 drwxr-xr-x	root/root	usr/share/racket/pkgs/db-lib/
 -rw-r--r--	root/root	usr/share/racket/pkgs/db-lib/LICENSE.txt
 drwxr-xr-x	root/root	usr/share/racket/pkgs/db-lib/db/
--rw-r--r--	root/root	usr/share/racket/pkgs/db-lib/db/TODO
 -rw-r--r--	root/root	usr/share/racket/pkgs/db-lib/db/base.rkt
 drwxr-xr-x	root/root	usr/share/racket/pkgs/db-lib/db/compiled/
 -rw-r--r--	root/root	usr/share/racket/pkgs/db-lib/db/compiled/base_rkt.dep
@@ -8028,7 +8023,6 @@ drwxr-xr-x	root/root	usr/share/racket/pkgs/drracket/drscheme/private/compiled/
 -rw-r--r--	root/root	usr/share/racket/pkgs/drracket/drscheme/tool-lib.rkt
 drwxr-xr-x	root/root	usr/share/racket/pkgs/drracket/gui-debugger/
 -rw-r--r--	root/root	usr/share/racket/pkgs/drracket/gui-debugger/LICENSE.txt
--rw-r--r--	root/root	usr/share/racket/pkgs/drracket/gui-debugger/TODO.txt
 -rw-r--r--	root/root	usr/share/racket/pkgs/drracket/gui-debugger/annotator.rkt
 drwxr-xr-x	root/root	usr/share/racket/pkgs/drracket/gui-debugger/compiled/
 -rw-r--r--	root/root	usr/share/racket/pkgs/drracket/gui-debugger/compiled/annotator_rkt.dep
@@ -9101,7 +9095,6 @@ drwxr-xr-x	root/root	usr/share/racket/pkgs/frtime/core/compiled/
 -rw-r--r--	root/root	usr/share/racket/pkgs/frtime/core/match.rkt
 -rw-r--r--	root/root	usr/share/racket/pkgs/frtime/core/sema-mailbox.rkt
 drwxr-xr-x	root/root	usr/share/racket/pkgs/frtime/demos/
--rw-r--r--	root/root	usr/share/racket/pkgs/frtime/demos/README
 -rw-r--r--	root/root	usr/share/racket/pkgs/frtime/demos/analog-clock.rkt
 -rw-r--r--	root/root	usr/share/racket/pkgs/frtime/demos/ball-on-string.rkt
 -rw-r--r--	root/root	usr/share/racket/pkgs/frtime/demos/delay-mouse.rkt
@@ -11367,7 +11360,6 @@ drwxr-xr-x	root/root	usr/share/racket/pkgs/gui-lib/mred/private/compiled/
 -rw-r--r--	root/root	usr/share/racket/pkgs/gui-lib/mred/private/wx.rkt
 drwxr-xr-x	root/root	usr/share/racket/pkgs/gui-lib/mred/private/wx/
 drwxr-xr-x	root/root	usr/share/racket/pkgs/gui-lib/mred/private/wx/cocoa/
--rw-r--r--	root/root	usr/share/racket/pkgs/gui-lib/mred/private/wx/cocoa/README.txt
 -rw-r--r--	root/root	usr/share/racket/pkgs/gui-lib/mred/private/wx/cocoa/button.rkt
 -rw-r--r--	root/root	usr/share/racket/pkgs/gui-lib/mred/private/wx/cocoa/canvas.rkt
 -rw-r--r--	root/root	usr/share/racket/pkgs/gui-lib/mred/private/wx/cocoa/cg.rkt
@@ -11560,7 +11552,6 @@ drwxr-xr-x	root/root	usr/share/racket/pkgs/gui-lib/mred/private/wx/compiled/
 -rw-r--r--	root/root	usr/share/racket/pkgs/gui-lib/mred/private/wx/compiled/platform_rkt.dep
 -rw-r--r--	root/root	usr/share/racket/pkgs/gui-lib/mred/private/wx/compiled/platform_rkt.zo
 drwxr-xr-x	root/root	usr/share/racket/pkgs/gui-lib/mred/private/wx/gtk/
--rw-r--r--	root/root	usr/share/racket/pkgs/gui-lib/mred/private/wx/gtk/README.txt
 -rw-r--r--	root/root	usr/share/racket/pkgs/gui-lib/mred/private/wx/gtk/button.rkt
 -rw-r--r--	root/root	usr/share/racket/pkgs/gui-lib/mred/private/wx/gtk/canvas.rkt
 -rw-r--r--	root/root	usr/share/racket/pkgs/gui-lib/mred/private/wx/gtk/check-box.rkt
@@ -14771,7 +14762,6 @@ drwxr-xr-x	root/root	usr/share/racket/pkgs/mzcom/doc/
 -rw-r--r--	root/root	usr/share/racket/pkgs/mzcom/installer.rkt
 -rw-r--r--	root/root	usr/share/racket/pkgs/mzcom/mzcom.scrbl
 drwxr-xr-x	root/root	usr/share/racket/pkgs/mzcom/tests/
--rw-r--r--	root/root	usr/share/racket/pkgs/mzcom/tests/README
 -rw-r--r--	root/root	usr/share/racket/pkgs/mzcom/tests/test.rktl
 drwxr-xr-x	root/root	usr/share/racket/pkgs/mzscheme-doc/
 -rw-r--r--	root/root	usr/share/racket/pkgs/mzscheme-doc/LICENSE.txt
@@ -14804,7 +14794,6 @@ drwxr-xr-x	root/root	usr/share/racket/pkgs/mzscheme-lib/mzscheme/compiled/
 -rw-r--r--	root/root	usr/share/racket/pkgs/mzscheme-lib/mzscheme/compiled/installer_rkt.dep
 -rw-r--r--	root/root	usr/share/racket/pkgs/mzscheme-lib/mzscheme/compiled/installer_rkt.zo
 drwxr-xr-x	root/root	usr/share/racket/pkgs/mzscheme-lib/mzscheme/examples/
--rw-r--r--	root/root	usr/share/racket/pkgs/mzscheme-lib/mzscheme/examples/README
 -rw-r--r--	root/root	usr/share/racket/pkgs/mzscheme-lib/mzscheme/examples/bitmatrix.c
 -rw-r--r--	root/root	usr/share/racket/pkgs/mzscheme-lib/mzscheme/examples/catch.c
 -rw-r--r--	root/root	usr/share/racket/pkgs/mzscheme-lib/mzscheme/examples/cfile.rkt
@@ -14990,7 +14979,6 @@ drwxr-xr-x	root/root	usr/share/racket/pkgs/net/
 -rw-r--r--	root/root	usr/share/racket/pkgs/net/info.rkt
 drwxr-xr-x	root/root	usr/share/racket/pkgs/optimization-coach/
 -rw-r--r--	root/root	usr/share/racket/pkgs/optimization-coach/LICENSE.txt
--rw-r--r--	root/root	usr/share/racket/pkgs/optimization-coach/README.md
 -rw-r--r--	root/root	usr/share/racket/pkgs/optimization-coach/info.rkt
 drwxr-xr-x	root/root	usr/share/racket/pkgs/optimization-coach/optimization-coach/
 -rw-r--r--	root/root	usr/share/racket/pkgs/optimization-coach/optimization-coach/causality-merging.rkt
@@ -18526,7 +18514,6 @@ drwxr-xr-x	root/root	usr/share/racket/pkgs/racket-lib/
 -rw-r--r--	root/root	usr/share/racket/pkgs/racket-lib/LICENSE.txt
 -rw-r--r--	root/root	usr/share/racket/pkgs/racket-lib/info.rkt
 drwxr-xr-x	root/root	usr/share/racket/pkgs/racklog/
--rw-r--r--	root/root	usr/share/racket/pkgs/racklog/COPYING
 -rw-r--r--	root/root	usr/share/racket/pkgs/racklog/LICENSE.txt
 drwxr-xr-x	root/root	usr/share/racket/pkgs/racklog/compiled/
 -rw-r--r--	root/root	usr/share/racket/pkgs/racklog/compiled/info_rkt.dep
@@ -19526,7 +19513,6 @@ drwxr-xr-x	root/root	usr/share/racket/pkgs/redex-examples/
 -rw-r--r--	root/root	usr/share/racket/pkgs/redex-examples/info.rkt
 drwxr-xr-x	root/root	usr/share/racket/pkgs/redex-examples/redex/
 drwxr-xr-x	root/root	usr/share/racket/pkgs/redex-examples/redex/examples/
--rw-r--r--	root/root	usr/share/racket/pkgs/redex-examples/redex/examples/README
 -rw-r--r--	root/root	usr/share/racket/pkgs/redex-examples/redex/examples/arithmetic.rkt
 -rw-r--r--	root/root	usr/share/racket/pkgs/redex-examples/redex/examples/beginner.rkt
 -rw-r--r--	root/root	usr/share/racket/pkgs/redex-examples/redex/examples/cbn-letrec.rkt
@@ -19636,7 +19622,6 @@ drwxr-xr-x	root/root	usr/share/racket/pkgs/redex-examples/redex/examples/define-
 -rw-r--r--	root/root	usr/share/racket/pkgs/redex-examples/redex/examples/define-judgment-form/typing-rules-no-ellipses.rkt
 -rw-r--r--	root/root	usr/share/racket/pkgs/redex-examples/redex/examples/define-judgment-form/typing-rules.rkt
 drwxr-xr-x	root/root	usr/share/racket/pkgs/redex-examples/redex/examples/delim-cont/
--rw-r--r--	root/root	usr/share/racket/pkgs/redex-examples/redex/examples/delim-cont/README.txt
 drwxr-xr-x	root/root	usr/share/racket/pkgs/redex-examples/redex/examples/delim-cont/compiled/
 -rw-r--r--	root/root	usr/share/racket/pkgs/redex-examples/redex/examples/delim-cont/compiled/grammar_rkt.dep
 -rw-r--r--	root/root	usr/share/racket/pkgs/redex-examples/redex/examples/delim-cont/compiled/grammar_rkt.zo
@@ -19664,7 +19649,6 @@ drwxr-xr-x	root/root	usr/share/racket/pkgs/redex-examples/redex/examples/delim-c
 -rw-r--r--	root/root	usr/share/racket/pkgs/redex-examples/redex/examples/let-poly.rkt
 -rw-r--r--	root/root	usr/share/racket/pkgs/redex-examples/redex/examples/letrec.rkt
 drwxr-xr-x	root/root	usr/share/racket/pkgs/redex-examples/redex/examples/list-machine/
--rw-r--r--	root/root	usr/share/racket/pkgs/redex-examples/redex/examples/list-machine/README.txt
 drwxr-xr-x	root/root	usr/share/racket/pkgs/redex-examples/redex/examples/list-machine/compiled/
 -rw-r--r--	root/root	usr/share/racket/pkgs/redex-examples/redex/examples/list-machine/compiled/list-machine-typing_rkt.dep
 -rw-r--r--	root/root	usr/share/racket/pkgs/redex-examples/redex/examples/list-machine/compiled/list-machine-typing_rkt.zo
@@ -19685,7 +19669,6 @@ drwxr-xr-x	root/root	usr/share/racket/pkgs/redex-examples/redex/examples/list-ma
 -rw-r--r--	root/root	usr/share/racket/pkgs/redex-examples/redex/examples/pi-calculus.rkt
 -rw-r--r--	root/root	usr/share/racket/pkgs/redex-examples/redex/examples/poly-stlc.rkt
 drwxr-xr-x	root/root	usr/share/racket/pkgs/redex-examples/redex/examples/r6rs/
--rw-r--r--	root/root	usr/share/racket/pkgs/redex-examples/redex/examples/r6rs/README
 drwxr-xr-x	root/root	usr/share/racket/pkgs/redex-examples/redex/examples/r6rs/compiled/
 -rw-r--r--	root/root	usr/share/racket/pkgs/redex-examples/redex/examples/r6rs/compiled/r6rs-tests_rkt.dep
 -rw-r--r--	root/root	usr/share/racket/pkgs/redex-examples/redex/examples/r6rs/compiled/r6rs-tests_rkt.zo
@@ -20964,7 +20947,6 @@ drwxr-xr-x	root/root	usr/share/racket/pkgs/shell-completion/compiled/
 -rw-r--r--	root/root	usr/share/racket/pkgs/shell-completion/racket-completion.zsh
 drwxr-xr-x	root/root	usr/share/racket/pkgs/slatex/
 -rw-r--r--	root/root	usr/share/racket/pkgs/slatex/LICENSE.txt
--rw-r--r--	root/root	usr/share/racket/pkgs/slatex/README
 drwxr-xr-x	root/root	usr/share/racket/pkgs/slatex/compiled/
 -rw-r--r--	root/root	usr/share/racket/pkgs/slatex/compiled/info_rkt.dep
 -rw-r--r--	root/root	usr/share/racket/pkgs/slatex/compiled/info_rkt.zo
@@ -21016,7 +20998,6 @@ drwxr-xr-x	root/root	usr/share/racket/pkgs/slideshow-doc/scribblings/quick/compi
 -rw-r--r--	root/root	usr/share/racket/pkgs/slideshow-doc/scribblings/quick/compiled/quick_scrbl.zo
 drwxr-xr-x	root/root	usr/share/racket/pkgs/slideshow-doc/scribblings/quick/doc/
 drwxr-xr-x	root/root	usr/share/racket/pkgs/slideshow-doc/scribblings/quick/images/
--rw-r--r--	root/root	usr/share/racket/pkgs/slideshow-doc/scribblings/quick/images/README.txt
 -rw-r--r--	root/root	usr/share/racket/pkgs/slideshow-doc/scribblings/quick/images/exprs.dat
 -rw-r--r--	root/root	usr/share/racket/pkgs/slideshow-doc/scribblings/quick/images/img0.pdf
 -rw-r--r--	root/root	usr/share/racket/pkgs/slideshow-doc/scribblings/quick/images/img0.png
@@ -22859,7 +22840,6 @@ drwxr-xr-x	root/root	usr/share/racket/pkgs/typed-racket-lib/typed-racket/rep/com
 -rw-r--r--	root/root	usr/share/racket/pkgs/typed-racket-lib/typed-racket/rep/type-rep.rkt
 -rw-r--r--	root/root	usr/share/racket/pkgs/typed-racket-lib/typed-racket/standard-inits.rkt
 drwxr-xr-x	root/root	usr/share/racket/pkgs/typed-racket-lib/typed-racket/static-contracts/
--rw-r--r--	root/root	usr/share/racket/pkgs/typed-racket-lib/typed-racket/static-contracts/README
 -rw-r--r--	root/root	usr/share/racket/pkgs/typed-racket-lib/typed-racket/static-contracts/combinators.rkt
 drwxr-xr-x	root/root	usr/share/racket/pkgs/typed-racket-lib/typed-racket/static-contracts/combinators/
 -rw-r--r--	root/root	usr/share/racket/pkgs/typed-racket-lib/typed-racket/static-contracts/combinators/any.rkt
@@ -23736,7 +23716,6 @@ drwxr-xr-x	root/root	usr/share/racket/pkgs/web-server-lib/web-server/base/lang/c
 -rw-r--r--	root/root	usr/share/racket/pkgs/web-server-lib/web-server/base/lang/reader.rkt
 drwxr-xr-x	root/root	usr/share/racket/pkgs/web-server-lib/web-server/compat/
 drwxr-xr-x	root/root	usr/share/racket/pkgs/web-server-lib/web-server/compat/0/
--rw-r--r--	root/root	usr/share/racket/pkgs/web-server-lib/web-server/compat/0/README
 -rw-r--r--	root/root	usr/share/racket/pkgs/web-server-lib/web-server/compat/0/coerce.rkt
 drwxr-xr-x	root/root	usr/share/racket/pkgs/web-server-lib/web-server/compat/0/compiled/
 -rw-r--r--	root/root	usr/share/racket/pkgs/web-server-lib/web-server/compat/0/compiled/coerce_rkt.dep
@@ -23754,7 +23733,6 @@ drwxr-xr-x	root/root	usr/share/racket/pkgs/web-server-lib/web-server/compat/0/se
 -rw-r--r--	root/root	usr/share/racket/pkgs/web-server-lib/web-server/compat/0/servlet/compiled/servlet-structs_rkt.dep
 -rw-r--r--	root/root	usr/share/racket/pkgs/web-server-lib/web-server/compat/0/servlet/compiled/servlet-structs_rkt.zo
 -rw-r--r--	root/root	usr/share/racket/pkgs/web-server-lib/web-server/compat/0/servlet/servlet-structs.rkt
--rw-r--r--	root/root	usr/share/racket/pkgs/web-server-lib/web-server/compat/README
 drwxr-xr-x	root/root	usr/share/racket/pkgs/web-server-lib/web-server/compiled/
 -rw-r--r--	root/root	usr/share/racket/pkgs/web-server-lib/web-server/compiled/dispatch_rkt.dep
 -rw-r--r--	root/root	usr/share/racket/pkgs/web-server-lib/web-server/compiled/dispatch_rkt.zo

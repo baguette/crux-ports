@@ -1,11 +1,11 @@
 # Description: The Xfce4 Lightweight Desktop Environment
 # URL: http://xfce.org/
 # Maintainer:  Cory Burgett, cmburget at gmail dot com
-# Depends on: libxfce4ui, xfconf, libwnck, exo, garcon, libnotify, libxfce4util, xfce4-panel, thunar, thunar-volman, xfce4-settings, xfce4-session, xfwm4, xfce4-appfinder, xfce4-power-manager, gtk-xfce-engine, tumbler, xfce4-icon-theme
+# Depends on: libxfce4ui, xfconf, libwnck, exo, garcon, libnotify, libxfce4util, xfce4-panel, thunar, thunar-volman, xfce4-settings, xfce4-session, xfwm4, xfce4-appfinder, xfce4-power-manager, gtk-xfce-engine, tumbler, xfce4-icon-theme, xfce4-terminal, xfce4-volumed, xfce4-notifyd, orage, mousepad, xfce4-taskmanager, xfce4-whiskermenu-plugin
 
 name=xfdesktop
 version=4.12.0
-release=1
+release=2
 source=(http://archive.xfce.org/xfce/4.12/src/$name-$version.tar.bz2)
 
 build() {
@@ -15,4 +15,6 @@ build() {
 	            --disable-nls --disable-gtk-doc-html
 	make
 	make DESTDIR=$PKG install
+
+	rm -rf $PKG/usr/share/locale
 }

@@ -5,7 +5,7 @@
 
 name=exo
 version=0.10.3
-release=1
+release=2
 source=(http://archive.xfce.org/xfce/4.12/src/$name-$version.tar.bz2)
 
 build() {
@@ -15,4 +15,6 @@ build() {
 	            --disable-nls --disable-gtk-doc-html
 	make
 	make DESTDIR=$PKG install
+
+	rm -rf $PKG/usr/share/locale
 }

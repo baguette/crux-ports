@@ -1,11 +1,11 @@
-drwxrwxr-x	root/root	usr/
-drwxrwxr-x	root/root	usr/bin/
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
 -rwxrwxr-x	root/root	usr/bin/mllex
 -rwxrwxr-x	root/root	usr/bin/mlnlffigen
 -rwxrwxr-x	root/root	usr/bin/mlprof
 -rwxrwxr-x	root/root	usr/bin/mlton
 -rwxrwxr-x	root/root	usr/bin/mlyacc
-drwxrwxr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/
 drwxrwxr-x	root/root	usr/lib/mlton/
 drwxrwxr-x	root/root	usr/lib/mlton/include/
 -rw-rw-r--	root/root	usr/lib/mlton/include/amd64-main.h
@@ -579,11 +579,9 @@ drwxrwxr-x	root/root	usr/lib/mlton/sml/basis/util/
 -rw-rw-r--	root/root	usr/lib/mlton/sml/basis/util/unique-id.fun
 -rw-rw-r--	root/root	usr/lib/mlton/sml/basis/util/unique-id.sig
 drwxr-xr-x	root/root	usr/lib/mlton/sml/ckit-lib/
--rw-r--r--	root/root	usr/lib/mlton/sml/ckit-lib/BUGS
 -rw-r--r--	root/root	usr/lib/mlton/sml/ckit-lib/HISTORY
 -rw-rw-r--	root/root	usr/lib/mlton/sml/ckit-lib/ckit-lib.mlb
 drwxr-xr-x	root/root	usr/lib/mlton/sml/ckit-lib/regression/
--rw-r--r--	root/root	usr/lib/mlton/sml/ckit-lib/regression/README
 drwxr-xr-x	root/root	usr/lib/mlton/sml/ckit-lib/regression/invalid-programs/
 -rw-r--r--	root/root	usr/lib/mlton/sml/ckit-lib/regression/invalid-programs/a208.c
 -rw-r--r--	root/root	usr/lib/mlton/sml/ckit-lib/regression/invalid-programs/a37.c
@@ -991,7 +989,6 @@ drwxr-xr-x	root/root	usr/lib/mlton/sml/ckit-lib/src/parser/extensions/c/
 -rw-r--r--	root/root	usr/lib/mlton/sml/ckit-lib/src/parser/extensions/c/parse-tree-ext.sml
 drwxr-xr-x	root/root	usr/lib/mlton/sml/ckit-lib/src/parser/grammar/
 -rw-r--r--	root/root	usr/lib/mlton/sml/ckit-lib/src/parser/grammar/Makefile
--rw-r--r--	root/root	usr/lib/mlton/sml/ckit-lib/src/parser/grammar/README
 -rw-r--r--	root/root	usr/lib/mlton/sml/ckit-lib/src/parser/grammar/c.grm
 -rw-rw-r--	root/root	usr/lib/mlton/sml/ckit-lib/src/parser/grammar/c.grm.desc
 -rw-r--r--	root/root	usr/lib/mlton/sml/ckit-lib/src/parser/grammar/c.grm.sig
@@ -1024,7 +1021,6 @@ drwxr-xr-x	root/root	usr/lib/mlton/sml/ckit-lib/src/variants/ansic/
 -rw-r--r--	root/root	usr/lib/mlton/sml/ckit-lib/src/variants/sources.cm
 -rw-r--r--	root/root	usr/lib/mlton/sml/ckit-lib/src/variants/type-check-control-sig.sml
 drwxrwxr-x	root/root	usr/lib/mlton/sml/cml/
--rw-rw-r--	root/root	usr/lib/mlton/sml/cml/TODO
 drwxrwxr-x	root/root	usr/lib/mlton/sml/cml/cml-lib/
 -rw-rw-r--	root/root	usr/lib/mlton/sml/cml/cml-lib/cml-lib.mlb
 -rw-rw-r--	root/root	usr/lib/mlton/sml/cml/cml-lib/multicast.sig
@@ -1169,7 +1165,6 @@ drwxr-xr-x	root/root	usr/lib/mlton/sml/mlrisc-lib/Glue/
 -rw-r--r--	root/root	usr/lib/mlton/sml/mlrisc-lib/Glue/mlrisc-ssa-optimizer.sig
 -rw-r--r--	root/root	usr/lib/mlton/sml/mlrisc-lib/Glue/mlrisc-ssa-optimizer.sml
 drwxr-xr-x	root/root	usr/lib/mlton/sml/mlrisc-lib/IR/
--rw-r--r--	root/root	usr/lib/mlton/sml/mlrisc-lib/IR/README
 -rw-r--r--	root/root	usr/lib/mlton/sml/mlrisc-lib/IR/dataflow.sig
 -rw-r--r--	root/root	usr/lib/mlton/sml/mlrisc-lib/IR/dataflow.sml
 -rw-r--r--	root/root	usr/lib/mlton/sml/mlrisc-lib/IR/mlrisc-branch-chaining.sml
@@ -1291,7 +1286,6 @@ drwxr-xr-x	root/root	usr/lib/mlton/sml/mlrisc-lib/Tools/MatchCompiler/
 -rw-r--r--	root/root	usr/lib/mlton/sml/mlrisc-lib/Tools/MatchCompiler/sources.cm
 -rw-r--r--	root/root	usr/lib/mlton/sml/mlrisc-lib/Tools/MatchCompiler/test-match-gen.sml
 drwxr-xr-x	root/root	usr/lib/mlton/sml/mlrisc-lib/Tools/PP/
--rw-r--r--	root/root	usr/lib/mlton/sml/mlrisc-lib/Tools/PP/README
 -rw-r--r--	root/root	usr/lib/mlton/sml/mlrisc-lib/Tools/PP/pp.sig
 -rw-r--r--	root/root	usr/lib/mlton/sml/mlrisc-lib/Tools/PP/pp.sml
 -rw-r--r--	root/root	usr/lib/mlton/sml/mlrisc-lib/Tools/PP/sources.cm
@@ -1306,9 +1300,7 @@ drwxr-xr-x	root/root	usr/lib/mlton/sml/mlrisc-lib/Tools/Parser/
 drwxr-xr-x	root/root	usr/lib/mlton/sml/mlrisc-lib/Tools/PrecParser/
 -rw-r--r--	root/root	usr/lib/mlton/sml/mlrisc-lib/Tools/PrecParser/prec-parse.sml
 -rw-r--r--	root/root	usr/lib/mlton/sml/mlrisc-lib/Tools/PrecParser/sources.cm
--rw-r--r--	root/root	usr/lib/mlton/sml/mlrisc-lib/Tools/README
 drwxr-xr-x	root/root	usr/lib/mlton/sml/mlrisc-lib/Tools/RewriteGen/
--rw-r--r--	root/root	usr/lib/mlton/sml/mlrisc-lib/Tools/RewriteGen/README
 -rw-r--r--	root/root	usr/lib/mlton/sml/mlrisc-lib/Tools/RewriteGen/build.sml
 -rw-r--r--	root/root	usr/lib/mlton/sml/mlrisc-lib/Tools/RewriteGen/glue.sml
 -rw-r--r--	root/root	usr/lib/mlton/sml/mlrisc-lib/Tools/RewriteGen/make.sml
@@ -1335,7 +1327,6 @@ drwxr-xr-x	root/root	usr/lib/mlton/sml/mlrisc-lib/Tools/SourceMap/
 -rw-r--r--	root/root	usr/lib/mlton/sml/mlrisc-lib/Tools/match-compiler.cm
 -rw-r--r--	root/root	usr/lib/mlton/sml/mlrisc-lib/Tools/mdl.vim
 drwxr-xr-x	root/root	usr/lib/mlton/sml/mlrisc-lib/Tools/nowhere/
--rw-r--r--	root/root	usr/lib/mlton/sml/mlrisc-lib/Tools/nowhere/README
 -rwxr-xr-x	root/root	usr/lib/mlton/sml/mlrisc-lib/Tools/nowhere/build
 -rw-r--r--	root/root	usr/lib/mlton/sml/mlrisc-lib/Tools/nowhere/build.bat
 -rw-r--r--	root/root	usr/lib/mlton/sml/mlrisc-lib/Tools/nowhere/nowhere.cm
@@ -1346,13 +1337,11 @@ drwxr-xr-x	root/root	usr/lib/mlton/sml/mlrisc-lib/Tools/nowhere/
 -rw-r--r--	root/root	usr/lib/mlton/sml/mlrisc-lib/Tools/sml-ast.cm
 -rw-r--r--	root/root	usr/lib/mlton/sml/mlrisc-lib/Tools/source-map.cm
 drwxr-xr-x	root/root	usr/lib/mlton/sml/mlrisc-lib/aliasing/
--rw-r--r--	root/root	usr/lib/mlton/sml/mlrisc-lib/aliasing/README
 -rw-r--r--	root/root	usr/lib/mlton/sml/mlrisc-lib/aliasing/mlriscRegion.sig
 -rw-r--r--	root/root	usr/lib/mlton/sml/mlrisc-lib/aliasing/mlriscRegion.sml
 -rw-r--r--	root/root	usr/lib/mlton/sml/mlrisc-lib/aliasing/pointsTo.sig
 -rw-r--r--	root/root	usr/lib/mlton/sml/mlrisc-lib/aliasing/pointsTo.sml
 drwxr-xr-x	root/root	usr/lib/mlton/sml/mlrisc-lib/alpha/
--rw-r--r--	root/root	usr/lib/mlton/sml/mlrisc-lib/alpha/README.alpha
 -rw-r--r--	root/root	usr/lib/mlton/sml/mlrisc-lib/alpha/alpha.mdl
 drwxr-xr-x	root/root	usr/lib/mlton/sml/mlrisc-lib/alpha/backpatch/
 -rw-r--r--	root/root	usr/lib/mlton/sml/mlrisc-lib/alpha/backpatch/alphaJumps.sml
@@ -1432,7 +1421,6 @@ drwxr-xr-x	root/root	usr/lib/mlton/sml/mlrisc-lib/block-placement/
 -rw-r--r--	root/root	usr/lib/mlton/sml/mlrisc-lib/block-placement/jump-chain-elim-fn.sml
 -rw-r--r--	root/root	usr/lib/mlton/sml/mlrisc-lib/block-placement/weighted-block-placement-fn.sml
 drwxr-xr-x	root/root	usr/lib/mlton/sml/mlrisc-lib/c-call/
--rw-r--r--	root/root	usr/lib/mlton/sml/mlrisc-lib/c-call/README
 drwxr-xr-x	root/root	usr/lib/mlton/sml/mlrisc-lib/c-call/archs/
 -rw-r--r--	root/root	usr/lib/mlton/sml/mlrisc-lib/c-call/archs/sources.cm
 -rw-r--r--	root/root	usr/lib/mlton/sml/mlrisc-lib/c-call/archs/sparc-c-call-fn.sml
@@ -1559,7 +1547,6 @@ drwxr-xr-x	root/root	usr/lib/mlton/sml/mlrisc-lib/control/
 -rw-r--r--	root/root	usr/lib/mlton/sml/mlrisc-lib/control/mlrisc-timing.sml
 -rw-r--r--	root/root	usr/lib/mlton/sml/mlrisc-lib/control/mlriscErrormsg.sml
 drwxr-xr-x	root/root	usr/lib/mlton/sml/mlrisc-lib/demo/
--rw-r--r--	root/root	usr/lib/mlton/sml/mlrisc-lib/demo/README
 -rw-r--r--	root/root	usr/lib/mlton/sml/mlrisc-lib/demo/build-110.0.6.sml
 -rw-r--r--	root/root	usr/lib/mlton/sml/mlrisc-lib/demo/build-110.25.sml
 -rw-r--r--	root/root	usr/lib/mlton/sml/mlrisc-lib/demo/build-110.29.sml
@@ -1615,7 +1602,6 @@ drwxr-xr-x	root/root	usr/lib/mlton/sml/mlrisc-lib/frequencies/
 -rw-r--r--	root/root	usr/lib/mlton/sml/mlrisc-lib/frequencies/compute-freqs-fn.sml
 -rw-r--r--	root/root	usr/lib/mlton/sml/mlrisc-lib/frequencies/estimate-loop-probs-fn.sml
 drwxr-xr-x	root/root	usr/lib/mlton/sml/mlrisc-lib/gc-safety/
--rw-r--r--	root/root	usr/lib/mlton/sml/mlrisc-lib/gc-safety/README
 -rw-r--r--	root/root	usr/lib/mlton/sml/mlrisc-lib/gc-safety/gc-cells.sig
 -rw-r--r--	root/root	usr/lib/mlton/sml/mlrisc-lib/gc-safety/gc-cells.sml
 -rw-r--r--	root/root	usr/lib/mlton/sml/mlrisc-lib/gc-safety/gc-code-motion.sig
@@ -1713,7 +1699,6 @@ drwxr-xr-x	root/root	usr/lib/mlton/sml/mlrisc-lib/graphs/
 -rw-r--r--	root/root	usr/lib/mlton/sml/mlrisc-lib/graphs/update-graph-info.sml
 -rw-r--r--	root/root	usr/lib/mlton/sml/mlrisc-lib/graphs/wrappers.sml
 drwxr-xr-x	root/root	usr/lib/mlton/sml/mlrisc-lib/hppa/
--rw-r--r--	root/root	usr/lib/mlton/sml/mlrisc-lib/hppa/README.hppa
 drwxr-xr-x	root/root	usr/lib/mlton/sml/mlrisc-lib/hppa/backpatch/
 -rw-r--r--	root/root	usr/lib/mlton/sml/mlrisc-lib/hppa/backpatch/hppaDelaySlotProps.sml
 -rw-r--r--	root/root	usr/lib/mlton/sml/mlrisc-lib/hppa/backpatch/hppaDelaySlots.sml
@@ -1957,7 +1942,6 @@ drwxr-xr-x	root/root	usr/lib/mlton/sml/mlrisc-lib/mltree/
 drwxr-xr-x	root/root	usr/lib/mlton/sml/mlrisc-lib/omit-frameptr/
 -rw-r--r--	root/root	usr/lib/mlton/sml/mlrisc-lib/omit-frameptr/omit-frame-pointer.sig
 drwxr-xr-x	root/root	usr/lib/mlton/sml/mlrisc-lib/ppc/
--rw-r--r--	root/root	usr/lib/mlton/sml/mlrisc-lib/ppc/README.ppc
 drwxr-xr-x	root/root	usr/lib/mlton/sml/mlrisc-lib/ppc/backpatch/
 -rw-r--r--	root/root	usr/lib/mlton/sml/mlrisc-lib/ppc/backpatch/ppcDelaySlots.sml
 -rw-r--r--	root/root	usr/lib/mlton/sml/mlrisc-lib/ppc/backpatch/ppcJumps.sml
@@ -2062,7 +2046,6 @@ drwxr-xr-x	root/root	usr/lib/mlton/sml/mlrisc-lib/scheduling/
 -rw-r--r--	root/root	usr/lib/mlton/sml/mlrisc-lib/scheduling/test2.sml
 -rw-r--r--	root/root	usr/lib/mlton/sml/mlrisc-lib/scheduling/wuhui.sml
 drwxr-xr-x	root/root	usr/lib/mlton/sml/mlrisc-lib/sparc/
--rw-r--r--	root/root	usr/lib/mlton/sml/mlrisc-lib/sparc/README.sparc
 drwxr-xr-x	root/root	usr/lib/mlton/sml/mlrisc-lib/sparc/backpatch/
 -rw-r--r--	root/root	usr/lib/mlton/sml/mlrisc-lib/sparc/backpatch/sparcDelaySlotProps.sml
 -rw-r--r--	root/root	usr/lib/mlton/sml/mlrisc-lib/sparc/backpatch/sparcDelaySlots.sml
@@ -2094,7 +2077,6 @@ drwxr-xr-x	root/root	usr/lib/mlton/sml/mlrisc-lib/sparc/ra/
 -rw-r--r--	root/root	usr/lib/mlton/sml/mlrisc-lib/sparc/ra/sparcSpillInstr.sml
 -rw-r--r--	root/root	usr/lib/mlton/sml/mlrisc-lib/sparc/sparc.mdl
 drwxr-xr-x	root/root	usr/lib/mlton/sml/mlrisc-lib/staged-alloc/
--rw-r--r--	root/root	usr/lib/mlton/sml/mlrisc-lib/staged-alloc/README
 drwxr-xr-x	root/root	usr/lib/mlton/sml/mlrisc-lib/staged-alloc/allocator/
 -rw-r--r--	root/root	usr/lib/mlton/sml/mlrisc-lib/staged-alloc/allocator/staged-allocation-fn.sml
 -rw-r--r--	root/root	usr/lib/mlton/sml/mlrisc-lib/staged-alloc/allocator/staged-allocation-sig.sml
@@ -2118,7 +2100,6 @@ drwxr-xr-x	root/root	usr/lib/mlton/sml/mlrisc-lib/visualization/
 -rw-r--r--	root/root	usr/lib/mlton/sml/mlrisc-lib/visualization/sources.cm
 -rw-r--r--	root/root	usr/lib/mlton/sml/mlrisc-lib/visualization/vcg.sml
 drwxr-xr-x	root/root	usr/lib/mlton/sml/mlrisc-lib/x86/
--rw-r--r--	root/root	usr/lib/mlton/sml/mlrisc-lib/x86/README.x86
 drwxr-xr-x	root/root	usr/lib/mlton/sml/mlrisc-lib/x86/backpatch/
 -rw-r--r--	root/root	usr/lib/mlton/sml/mlrisc-lib/x86/backpatch/x86Jumps.sml
 drwxr-xr-x	root/root	usr/lib/mlton/sml/mlrisc-lib/x86/c-calls/
@@ -2170,7 +2151,6 @@ drwxrwxr-x	root/root	usr/lib/mlton/sml/mlyacc-lib/
 drwxr-xr-x	root/root	usr/lib/mlton/sml/smlnj-lib/
 -rw-r--r--	root/root	usr/lib/mlton/sml/smlnj-lib/CHANGES
 drwxr-xr-x	root/root	usr/lib/mlton/sml/smlnj-lib/Controls/
--rw-r--r--	root/root	usr/lib/mlton/sml/smlnj-lib/Controls/README
 -rw-r--r--	root/root	usr/lib/mlton/sml/smlnj-lib/Controls/control-reps.sml
 -rw-r--r--	root/root	usr/lib/mlton/sml/smlnj-lib/Controls/control-set-sig.sml
 -rw-r--r--	root/root	usr/lib/mlton/sml/smlnj-lib/Controls/control-set.sml
@@ -2184,7 +2164,6 @@ drwxr-xr-x	root/root	usr/lib/mlton/sml/smlnj-lib/Controls/
 -rw-r--r--	root/root	usr/lib/mlton/sml/smlnj-lib/Controls/registry.sml
 drwxr-xr-x	root/root	usr/lib/mlton/sml/smlnj-lib/HTML/
 -rw-r--r--	root/root	usr/lib/mlton/sml/smlnj-lib/HTML/HTML32.dtd
--rw-r--r--	root/root	usr/lib/mlton/sml/smlnj-lib/HTML/README
 -rw-r--r--	root/root	usr/lib/mlton/sml/smlnj-lib/HTML/check-html-fn.sml
 -rw-r--r--	root/root	usr/lib/mlton/sml/smlnj-lib/HTML/html-attr-vals.sml
 -rw-r--r--	root/root	usr/lib/mlton/sml/smlnj-lib/HTML/html-attrs-fn.sml
@@ -2207,7 +2186,6 @@ drwxr-xr-x	root/root	usr/lib/mlton/sml/smlnj-lib/HTML/
 -rw-r--r--	root/root	usr/lib/mlton/sml/smlnj-lib/HTML/pr-html.sml
 -rw-r--r--	root/root	usr/lib/mlton/sml/smlnj-lib/HTML/test-parser.sml
 drwxr-xr-x	root/root	usr/lib/mlton/sml/smlnj-lib/HTML4/
--rw-r--r--	root/root	usr/lib/mlton/sml/smlnj-lib/HTML4/README
 -rwxr-xr-x	root/root	usr/lib/mlton/sml/smlnj-lib/HTML4/helper.py
 -rw-r--r--	root/root	usr/lib/mlton/sml/smlnj-lib/HTML4/html4-attr.g
 -rw-r--r--	root/root	usr/lib/mlton/sml/smlnj-lib/HTML4/html4-attr.g.sml
@@ -2232,7 +2210,6 @@ drwxr-xr-x	root/root	usr/lib/mlton/sml/smlnj-lib/HTML4/
 -rw-r--r--	root/root	usr/lib/mlton/sml/smlnj-lib/HTML4/html4.sml
 -rw-rw-r--	root/root	usr/lib/mlton/sml/smlnj-lib/HTML4/pp-init.sml
 drwxr-xr-x	root/root	usr/lib/mlton/sml/smlnj-lib/HTML4/tests/
--rw-r--r--	root/root	usr/lib/mlton/sml/smlnj-lib/HTML4/tests/README
 -rw-r--r--	root/root	usr/lib/mlton/sml/smlnj-lib/HTML4/tests/abbr.html
 -rw-r--r--	root/root	usr/lib/mlton/sml/smlnj-lib/HTML4/tests/dir.html
 -rw-r--r--	root/root	usr/lib/mlton/sml/smlnj-lib/HTML4/tests/edit.html
@@ -2255,7 +2232,6 @@ drwxr-xr-x	root/root	usr/lib/mlton/sml/smlnj-lib/HTML4/tests/
 -rw-r--r--	root/root	usr/lib/mlton/sml/smlnj-lib/HTML4/tests/test001.html
 -rw-r--r--	root/root	usr/lib/mlton/sml/smlnj-lib/HTML4/tests/test002.html
 drwxr-xr-x	root/root	usr/lib/mlton/sml/smlnj-lib/HashCons/
--rw-r--r--	root/root	usr/lib/mlton/sml/smlnj-lib/HashCons/README
 -rw-r--r--	root/root	usr/lib/mlton/sml/smlnj-lib/HashCons/hash-cons-atom.sml
 -rw-r--r--	root/root	usr/lib/mlton/sml/smlnj-lib/HashCons/hash-cons-ground-fn.sml
 -rw-r--r--	root/root	usr/lib/mlton/sml/smlnj-lib/HashCons/hash-cons-lib.cm
@@ -2274,7 +2250,6 @@ drwxr-xr-x	root/root	usr/lib/mlton/sml/smlnj-lib/INet/
 -rw-r--r--	root/root	usr/lib/mlton/sml/smlnj-lib/INet/sock-util.sml
 -rw-r--r--	root/root	usr/lib/mlton/sml/smlnj-lib/INet/unix-sock-util.sml
 drwxr-xr-x	root/root	usr/lib/mlton/sml/smlnj-lib/JSON/
--rw-r--r--	root/root	usr/lib/mlton/sml/smlnj-lib/JSON/README
 -rw-r--r--	root/root	usr/lib/mlton/sml/smlnj-lib/JSON/json-lib.cm
 -rw-r--r--	root/root	usr/lib/mlton/sml/smlnj-lib/JSON/json-lib.mlb
 -rw-r--r--	root/root	usr/lib/mlton/sml/smlnj-lib/JSON/json-parser.sml
@@ -2287,7 +2262,6 @@ drwxr-xr-x	root/root	usr/lib/mlton/sml/smlnj-lib/JSON/
 -rw-r--r--	root/root	usr/lib/mlton/sml/smlnj-lib/JSON/json.sml
 -rw-r--r--	root/root	usr/lib/mlton/sml/smlnj-lib/PORTING
 drwxr-xr-x	root/root	usr/lib/mlton/sml/smlnj-lib/PP/
--rw-r--r--	root/root	usr/lib/mlton/sml/smlnj-lib/PP/README
 drwxr-xr-x	root/root	usr/lib/mlton/sml/smlnj-lib/PP/devices/
 -rw-r--r--	root/root	usr/lib/mlton/sml/smlnj-lib/PP/devices/ansi-term-dev.sml
 -rw-r--r--	root/root	usr/lib/mlton/sml/smlnj-lib/PP/devices/ansi-term-pp.sml
@@ -2318,7 +2292,6 @@ drwxr-xr-x	root/root	usr/lib/mlton/sml/smlnj-lib/PP/tests/
 -rw-r--r--	root/root	usr/lib/mlton/sml/smlnj-lib/PP/tests/test.sml
 -rw-r--r--	root/root	usr/lib/mlton/sml/smlnj-lib/PP/tests/typp.sml
 drwxr-xr-x	root/root	usr/lib/mlton/sml/smlnj-lib/Reactive/
--rw-r--r--	root/root	usr/lib/mlton/sml/smlnj-lib/Reactive/README
 -rw-r--r--	root/root	usr/lib/mlton/sml/smlnj-lib/Reactive/instruction.sml
 -rw-r--r--	root/root	usr/lib/mlton/sml/smlnj-lib/Reactive/machine.sml
 -rw-r--r--	root/root	usr/lib/mlton/sml/smlnj-lib/Reactive/reactive-lib.cm
@@ -2341,7 +2314,6 @@ drwxr-xr-x	root/root	usr/lib/mlton/sml/smlnj-lib/RegExp/Glue/
 -rw-r--r--	root/root	usr/lib/mlton/sml/smlnj-lib/RegExp/Glue/match-tree.sml
 -rw-r--r--	root/root	usr/lib/mlton/sml/smlnj-lib/RegExp/Glue/regexp-fn.sml
 -rw-r--r--	root/root	usr/lib/mlton/sml/smlnj-lib/RegExp/Glue/regexp-sig.sml
--rw-r--r--	root/root	usr/lib/mlton/sml/smlnj-lib/RegExp/README
 drwxr-xr-x	root/root	usr/lib/mlton/sml/smlnj-lib/RegExp/Tests/
 -rw-r--r--	root/root	usr/lib/mlton/sml/smlnj-lib/RegExp/Tests/engines.sml
 -rwxr-xr-x	root/root	usr/lib/mlton/sml/smlnj-lib/RegExp/Tests/run.sh
@@ -2350,7 +2322,6 @@ drwxr-xr-x	root/root	usr/lib/mlton/sml/smlnj-lib/RegExp/Tests/
 -rw-r--r--	root/root	usr/lib/mlton/sml/smlnj-lib/RegExp/regexp-lib.cm
 -rw-rw-r--	root/root	usr/lib/mlton/sml/smlnj-lib/RegExp/regexp-lib.mlb
 drwxr-xr-x	root/root	usr/lib/mlton/sml/smlnj-lib/SExp/
--rw-r--r--	root/root	usr/lib/mlton/sml/smlnj-lib/SExp/README
 -rw-r--r--	root/root	usr/lib/mlton/sml/smlnj-lib/SExp/sexp-lib.cm
 -rw-r--r--	root/root	usr/lib/mlton/sml/smlnj-lib/SExp/sexp-lib.mlb
 -rw-r--r--	root/root	usr/lib/mlton/sml/smlnj-lib/SExp/sexp-parser.sml
@@ -2361,7 +2332,6 @@ drwxr-xr-x	root/root	usr/lib/mlton/sml/smlnj-lib/SExp/
 -rw-r--r--	root/root	usr/lib/mlton/sml/smlnj-lib/SExp/sexp.lex
 -rw-r--r--	root/root	usr/lib/mlton/sml/smlnj-lib/SExp/sexp.lex.sml
 -rw-r--r--	root/root	usr/lib/mlton/sml/smlnj-lib/SExp/sexp.sml
--rw-r--r--	root/root	usr/lib/mlton/sml/smlnj-lib/TODO
 drwxr-xr-x	root/root	usr/lib/mlton/sml/smlnj-lib/Unix/
 -rw-r--r--	root/root	usr/lib/mlton/sml/smlnj-lib/Unix/unix-env-sig.sml
 -rw-r--r--	root/root	usr/lib/mlton/sml/smlnj-lib/Unix/unix-env.sml
@@ -2370,8 +2340,6 @@ drwxr-xr-x	root/root	usr/lib/mlton/sml/smlnj-lib/Unix/
 -rw-r--r--	root/root	usr/lib/mlton/sml/smlnj-lib/Unix/unix-path-sig.sml
 -rw-r--r--	root/root	usr/lib/mlton/sml/smlnj-lib/Unix/unix-path.sml
 drwxr-xr-x	root/root	usr/lib/mlton/sml/smlnj-lib/Util/
--rw-r--r--	root/root	usr/lib/mlton/sml/smlnj-lib/Util/README
--rw-r--r--	root/root	usr/lib/mlton/sml/smlnj-lib/Util/TODO
 -rw-r--r--	root/root	usr/lib/mlton/sml/smlnj-lib/Util/ansi-term.sml
 -rw-r--r--	root/root	usr/lib/mlton/sml/smlnj-lib/Util/array-qsort-fn.sml
 -rw-r--r--	root/root	usr/lib/mlton/sml/smlnj-lib/Util/array-qsort.sml
@@ -2520,4 +2488,4 @@ drwxrwxr-x	root/root	usr/man/man1/
 -rw-rw-r--	root/root	usr/man/man1/mlprof.1.gz
 -rw-rw-r--	root/root	usr/man/man1/mlton.1.gz
 -rw-rw-r--	root/root	usr/man/man1/mlyacc.1.gz
-drwxrwxr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/

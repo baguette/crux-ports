@@ -41,7 +41,6 @@ drwxr-xr-x	root/root	usr/share/man/man1/
 -rw-r--r--	root/root	usr/share/man/man1/qashctl.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/qasmixer.1.gz
 drwxr-xr-x	root/root	usr/share/qastools/
--rw-r--r--	root/root	usr/share/qastools/COPYING
 drwxr-xr-x	root/root	usr/share/qastools/icons/
 -rw-r--r--	root/root	usr/share/qastools/icons/show-capture.svg
 -rw-r--r--	root/root	usr/share/qastools/icons/show-playback.svg

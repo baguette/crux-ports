@@ -5,10 +5,19 @@
 
 name=mlton-bin
 version=20130715
-release=1
-source=(http://downloads.sourceforge.net/project/mlton/mlton/$version/mlton-$version-$release.amd64-linux.tgz)
+release=2
+source=(http://downloads.sourceforge.net/project/mlton/mlton/$version/mlton-$version-1.amd64-linux.tgz)
 
 build() {
 	mv usr $PKG/usr
 	rm -rf $PKG/usr/share/doc
+
+	chmod 755 $PKG/usr
+	chmod 755 $PKG/usr/bin
+	chmod 755 $PKG/usr/lib
+	chmod 755 $PKG/usr/share
+
+	find $PKG -name BUGS |xargs rm
+	find $PKG -name TODO |xargs rm
+	find $PKG -name README* |xargs rm
 }

@@ -10790,7 +10790,6 @@ drwxr-xr-x	root/root	usr/local/haskell/ghc-7.10.3-x86_64/lib/zlib-0.5.4.2/doc/ht
 -rw-r--r--	root/root	usr/local/haskell/ghc-7.10.3-x86_64/lib/zlib-0.5.4.2/libHSzlib-0.5.4.2-KhrLrSZSsjD5l0kgY5QHUE_p.a
 drwxr-xr-x	root/root	usr/local/haskell/ghc-7.10.3-x86_64/share/
 drwxr-xr-x	root/root	usr/local/haskell/ghc-7.10.3-x86_64/share/HUnit-1.3.0.0/
--rw-r--r--	root/root	usr/local/haskell/ghc-7.10.3-x86_64/share/HUnit-1.3.0.0/README.md
 drwxr-xr-x	root/root	usr/local/haskell/ghc-7.10.3-x86_64/share/HUnit-1.3.0.0/doc/
 -rw-r--r--	root/root	usr/local/haskell/ghc-7.10.3-x86_64/share/HUnit-1.3.0.0/doc/Guide.html
 drwxr-xr-x	root/root	usr/local/haskell/ghc-7.10.3-x86_64/share/HUnit-1.3.0.0/examples/

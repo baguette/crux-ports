@@ -5,7 +5,7 @@
 
 name=mosml
 version=2.10.1
-release=1
+release=2
 source=(https://github.com/kfl/$name/tarball/ver-$version)
 
 build() {
@@ -16,4 +16,6 @@ build() {
 
 	make world
 	make DESTDIR=$PKG install
+
+	rm $PKG/usr/lib/mosml/README
 }

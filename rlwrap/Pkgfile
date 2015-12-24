@@ -5,7 +5,7 @@
 
 name=rlwrap
 version=0.42
-release=1
+release=2
 source=(http://utopia.knoware.nl/~hlub/$name/$name-$version.tar.gz)
 
 build() {
@@ -15,4 +15,6 @@ build() {
 	            --disable-nls
 	make
 	make DESTDIR=$PKG install
+
+	rm $PKG/usr/share/rlwrap/filters/README
 }
