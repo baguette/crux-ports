@@ -48,20 +48,24 @@ for file_rpm in $*; do
 
 	# figure out where our working directory/file are
 	dir_tar_gz=`mktemp -d` || exit 1
-	file_tar_gz=${file_rpm%.rpm}.pkg.tar.gz
+
+	# Get the `name` field from the rpm file and convert it to
+	# a pkg name.
+	rpm_name=$(dd ibs=1 skip=10 count=66 if=$file_rpm 2>/dev/null)
+	pkg_name=$(echo $rpm_name |sed 's/-\([0-9]\)/\#\1/')
+	file_tar_gz=${pkg_name}.pkg.tar.gz
 
 	echo "$file_rpm => $file_tar_gz"
 
 	# extract the rpm
-	bsdtar -C $dir_tar_gz -pxf $file_rpm 
+	bsdtar -p -C $dir_tar_gz -xf $file_rpm 
 
 	# create the tarball
-	cwd=$(pwd)
-	touch $file_tar_gz
-	real_file_tar_gz=$(realpath $file_tar_gz)
-	cd $dir_tar_gz
-	bsdtar -czf $real_file_tar_gz *
-	cd $cwd
+	( cd $dir_tar_gz
+	  find . -type d -perm 700 -exec chmod 755 {} \;
+	  bsdtar -cf - $real_file_tar_gz *
+	) | gzip > $file_tar_gz
+
 
 	# clean up after ourselves
 	rm -rf $dir_tar_gz
