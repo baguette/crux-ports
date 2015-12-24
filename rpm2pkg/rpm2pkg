@@ -63,7 +63,7 @@ for file_rpm in $*; do
 	# create the tarball
 	( cd $dir_tar_gz
 	  find . -type d -perm 700 -exec chmod 755 {} \;
-	  bsdtar -cf - $real_file_tar_gz *
+	  bsdtar -cf - *
 	) | gzip > $file_tar_gz
 
 

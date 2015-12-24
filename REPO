@@ -73,9 +73,9 @@ f:f666396dff59537528c2735b70a43e4c:network-manager-applet/.footprint
 f:522f2e43effe72fc4f1a8477f30622e4:network-manager-applet/.md5sum
 f:249c6568807376c70ae18cb7879a39d5:network-manager-applet/Pkgfile
 f:933c102a9bf8b307ecc6d3b9ab9b2aa9:rpm2pkg/.footprint
-f:a4ed9e52ee62e6b21c6bfa0d991fdee9:rpm2pkg/rpm2pkg
-f:97162dc637713d417aa20639b87237f2:rpm2pkg/.md5sum
-f:3be97198550fac97131c8f0e156afba4:rpm2pkg/Pkgfile
+f:a2993825d2c013547dcd994427d00cb7:rpm2pkg/rpm2pkg
+f:82bec05a71b98bc6b2fde455dd00b619:rpm2pkg/.md5sum
+f:765712bde44eb2af93c7dfe6106828f3:rpm2pkg/Pkgfile
 f:70f615ff6e9c3dc275c0b20ff2d8cce9:orbit/.footprint
 f:a107a4ec8547da63aa642f3e00c8c4b7:orbit/.md5sum
 f:ddc0223a9304e94327e6688af35cd8d6:orbit/Pkgfile
