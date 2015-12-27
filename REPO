@@ -1,3 +1,4 @@
+d:i3
 d:xfce4-panel
 d:xfwm4
 d:racket
@@ -13,8 +14,10 @@ d:mousepad
 d:awesome
 d:libxdg-basedir
 d:rust-bin
+d:yajl
 d:orage
 d:gnome-themes-standard
+d:xkbcommon
 d:gtk-xfce-engine
 d:exo
 d:xfce4-whiskermenu-plugin
@@ -45,6 +48,9 @@ d:lua-lgi
 d:garcon
 d:mtpaint
 d:xfce4-appfinder
+f:9371001c062cd02c5cabc6ca321c1cb0:i3/.footprint
+f:d7de553b7692c941473f5242f8f66266:i3/.md5sum
+f:930d396f878ea50ddc4001d9279526b8:i3/Pkgfile
 f:85e6dce768afa1f57b43c03bbe684f79:xfce4-panel/.footprint
 f:16da1d7ddc9bae7d79525577aaa6a1d5:xfce4-panel/.md5sum
 f:2f507313b1ccc6e5e2e18c90a3d26d86:xfce4-panel/Pkgfile
@@ -92,12 +98,18 @@ f:53e49e2d7163c03f6ef51009426d9e06:rust-bin/.footprint
 f:905b2bc916d655801c0adb977a70ae9f:rust-bin/.md5sum
 f:49f84960dde0b18d05fdaa8926bd3d8d:rust-bin/Pkgfile
 f:6e609fa044e466820840cabda784d8bb:baguette.httpup
+f:21b1f88711249f7d9acd0266b109b1ed:yajl/.footprint
+f:04d12b34fc57fc2146cd8418948073e3:yajl/.md5sum
+f:fb75b8c37306933ee66906a0f2373e13:yajl/Pkgfile
 f:5ec1b92f7f81c954cffe5ec604ee515d:orage/.footprint
 f:25fc1f33025fff6bb3d6962f22903cad:orage/.md5sum
 f:4b12addb61b5cd5340b0fb4cf5b7d429:orage/Pkgfile
 f:60c43cc89a07eccf078218ab11b13446:gnome-themes-standard/.footprint
 f:5e7c96fe2e31ff1f798d03b7da33f5ca:gnome-themes-standard/.md5sum
 f:4ac6cab65c02d45ebf6a9969867c857b:gnome-themes-standard/Pkgfile
+f:ec896d9e49662bbbf7ff4cfb5b9a9d41:xkbcommon/.footprint
+f:7b9e043e66edf3604ab7644118b16035:xkbcommon/.md5sum
+f:6211632ef3d2c0f9bfdd276b390e4c6d:xkbcommon/Pkgfile
 f:38c30313283e39d1cd37e28c34612510:gtk-xfce-engine/.footprint
 f:8d94cc1cfd5781f471991935a551098f:gtk-xfce-engine/.md5sum
 f:683e81c191af0df534fb1046e42ea26e:gtk-xfce-engine/Pkgfile

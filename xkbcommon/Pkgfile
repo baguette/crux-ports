@@ -1,0 +1,19 @@
+# Description: A library to handle keyboard descriptions
+# URL: http://xkbcommon.org/
+# Maintainer:  Cory Burgett, cmburget at gmail dot com
+# Depends on: pkg-config, xorg-util-macros, bison, xkeyboard-config, gperf, xorg-libxcb
+
+name=xkbcommon
+version=0.5.0
+release=1
+source=(http://xkbcommon.org/download/lib$name-$version.tar.xz)
+
+build() {
+	cd lib$name-$version
+
+	./configure --prefix=/usr --libexecdir=/usr/lib/$name --sysconfdir=/etc
+	make
+	make DESTDIR=$PKG install
+
+	rm -rf $PKG/usr/share/doc
+}
