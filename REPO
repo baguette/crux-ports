@@ -46,11 +46,12 @@ d:thunar
 d:polyml
 d:lua-lgi
 d:garcon
+d:dmenu
 d:mtpaint
 d:xfce4-appfinder
 f:9371001c062cd02c5cabc6ca321c1cb0:i3/.footprint
 f:d7de553b7692c941473f5242f8f66266:i3/.md5sum
-f:930d396f878ea50ddc4001d9279526b8:i3/Pkgfile
+f:fc697816bfd5f6044046fd9c6d831ef0:i3/Pkgfile
 f:85e6dce768afa1f57b43c03bbe684f79:xfce4-panel/.footprint
 f:16da1d7ddc9bae7d79525577aaa6a1d5:xfce4-panel/.md5sum
 f:2f507313b1ccc6e5e2e18c90a3d26d86:xfce4-panel/Pkgfile
@@ -196,6 +197,9 @@ f:0845b5095b4f2b8383c63769af80b721:lua-lgi/Pkgfile
 f:0ce42fd6560626a725a75d16b7ca23a5:garcon/.footprint
 f:6e2e8c47fbc10f6efa6b77b075977f14:garcon/.md5sum
 f:9677fac7df6948aa96d8e9ab0118ce23:garcon/Pkgfile
+f:55edb911ea31802e6d281a5f68c6a41e:dmenu/.footprint
+f:9d6588838b6228b83131e14f08dae4bb:dmenu/.md5sum
+f:a5940215e4179947f04096e78815f066:dmenu/Pkgfile
 f:f3bc71cd175f17d32ee4b3811c5cd0a7:mtpaint/.footprint
 f:fe37d7afd2b3e00874754efaa062d16d:mtpaint/.md5sum
 f:185f271564e211fab338aca20be71d88:mtpaint/giflib.patch
