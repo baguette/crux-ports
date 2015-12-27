@@ -46,6 +46,7 @@ d:thunar
 d:polyml
 d:lua-lgi
 d:garcon
+d:dwm
 d:dmenu
 d:mtpaint
 d:xfce4-appfinder
@@ -197,6 +198,9 @@ f:0845b5095b4f2b8383c63769af80b721:lua-lgi/Pkgfile
 f:0ce42fd6560626a725a75d16b7ca23a5:garcon/.footprint
 f:6e2e8c47fbc10f6efa6b77b075977f14:garcon/.md5sum
 f:9677fac7df6948aa96d8e9ab0118ce23:garcon/Pkgfile
+f:70cfb1cfeeb1272d447941ede372e1c9:dwm/.footprint
+f:ac8ae9f472756b8f923e70427367314e:dwm/.md5sum
+f:f632cf87cda4653d38711d539c6209a2:dwm/Pkgfile
 f:55edb911ea31802e6d281a5f68c6a41e:dmenu/.footprint
 f:9d6588838b6228b83131e14f08dae4bb:dmenu/.md5sum
 f:a5940215e4179947f04096e78815f066:dmenu/Pkgfile
