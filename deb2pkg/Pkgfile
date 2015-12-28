@@ -1,0 +1,12 @@
+# Description: A tool to convert DEB files to TAR.GZ.PKG files
+# URL:         https://github.com/baguette/crux-ports/
+# Maintainer:  Cory Burgett, cmburget at gmail dot com
+
+name=deb2pkg
+version=1.0.0
+release=1
+source=(deb2pkg)
+
+build() {
+    install -D -m 0755 deb2pkg $PKG/usr/bin/deb2pkg
+}

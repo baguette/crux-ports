@@ -1,0 +1,65 @@
+#!/bin/sh
+#
+# Copyright (c) 2015 Cory Burgett, cmburget at gmail dot com
+#
+# Based on rpm2targz Copyright (c) 1997, 1998 Patrick Volkerding
+#
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to deal
+# in the Software without restriction, including without limitation the rights
+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+# copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+#
+# The above copyright notice and this permission notice shall be included in
+# all copies or substantial portions of the Software.
+#
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+# SOFTWARE.
+#
+
+if [ "$#" = "0" ]; then
+	echo "usage: ${0##*/} <file.deb> ..."
+	exit 1
+fi
+
+if [ "$(whoami)" != "root" ]; then
+	echo "${0##*/} should be run with fakeroot"
+	exit 1
+fi
+
+${TMPDIR:=$TMP}
+
+for file_deb in $*; do
+	if [ ! -f $file_deb ]; then
+		echo "$file_deb: file not found"
+		continue
+	fi
+
+	dir_deb=$(mktemp -d) || exit 1
+
+	bsdtar -p -C $dir_deb -xf $file_deb
+	mkdir $dir_deb/control
+	mkdir $dir_deb/pkg
+	bsdtar -p -C $dir_deb/control -xf $dir_deb/control.tar.gz
+	bsdtar -p -C $dir_deb/pkg -xf $dir_deb/data.tar.*
+
+	pkgname=$(sed 's/Package: \(.*\)/\1/p;d' $dir_deb/control/control)
+	pkgver=$(sed 's/Version: \(.*\)/\1/p;d' $dir_deb/control/control)
+	file_pkg=$pkgname#$pkgver.pkg.tar.gz
+
+	echo "$file_deb => $file_pkg"
+
+	(cd $dir_deb/pkg
+	 find . -type d -perm 700 -exec chmod 755 {} \;
+	 bsdtar -cf - *
+	) | gzip > $file_pkg
+
+	rm -rf $dir_deb
+done
+
