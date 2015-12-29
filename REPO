@@ -89,6 +89,7 @@ f:70f615ff6e9c3dc275c0b20ff2d8cce9:orbit/.footprint
 f:a107a4ec8547da63aa642f3e00c8c4b7:orbit/.md5sum
 f:ddc0223a9304e94327e6688af35cd8d6:orbit/Pkgfile
 f:352edf2554e6b64ac61ed314f69491f6:mousepad/.footprint
+f:e6bb4849f0ae98969c28f591003c7c1f:mousepad/post-install
 f:4a3f51b9eefbfb7ece87c759a609f2fc:mousepad/.md5sum
 f:2fd9b426ed4a163801fe2ea2ca20d423:mousepad/Pkgfile
 f:32825b10b09ebbc8af5f9fb49fa85450:awesome/.footprint
