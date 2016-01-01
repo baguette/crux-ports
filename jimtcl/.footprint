@@ -1,0 +1,15 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/build-jim-ext
+-rwxr-xr-x	root/root	usr/bin/jimsh
+drwxr-xr-x	root/root	usr/include/
+-rw-r--r--	root/root	usr/include/jim-config.h
+-rw-r--r--	root/root	usr/include/jim-eventloop.h
+-rw-r--r--	root/root	usr/include/jim-signal.h
+-rw-r--r--	root/root	usr/include/jim-subcmd.h
+-rw-r--r--	root/root	usr/include/jim-win32compat.h
+-rw-r--r--	root/root	usr/include/jim.h
+drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/jim/
+-rw-r--r--	root/root	usr/lib/jim/tcltest.tcl
+-rwxr-xr-x	root/root	usr/lib/libjim.so.0.76

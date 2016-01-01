@@ -42,6 +42,7 @@ d:xfce4-volumed
 d:xfce4-notifyd
 d:splix
 d:xfconf
+d:jimtcl
 d:xfce4-icon-theme
 d:thunar
 d:polyml
@@ -189,6 +190,9 @@ f:1c5ca6b00c9e87dd7ae32ce66f728dac:splix/Pkgfile
 f:ca38d6ebcac6132f801e6a04e2eac6ea:xfconf/.footprint
 f:e9d529818ad7b11810bdeee86dc63a8e:xfconf/.md5sum
 f:312364e04ac30f02acc77b6a9ab98caa:xfconf/Pkgfile
+f:7c1db5dfea18d30eb7010d1d4096cb2f:jimtcl/.footprint
+f:ca5a63eb12cc6dea1b1ffd18a519c65d:jimtcl/.md5sum
+f:6a3e6028c2567b57e50c49c7da52bde1:jimtcl/Pkgfile
 f:95eebe582780671c1b8f7c795a0ff518:xfce4-icon-theme/.footprint
 f:6b4fa723560613ef3cc79a6e41c1a474:xfce4-icon-theme/.md5sum
 f:314ee5699d6ac73bc8e876cabbdecff7:xfce4-icon-theme/Pkgfile

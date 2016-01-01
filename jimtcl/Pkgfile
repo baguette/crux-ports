@@ -1,0 +1,19 @@
+# Description: A small-footprint implementation of Tcl
+# URL: http://jim.tcl.tk/
+# Maintainer:  Cory Burgett, cmburget at gmail dot com
+# Depends on:
+
+name=jimtcl
+version=0.76
+release=1
+source=(http://repo.or.cz/jimtcl.git/snapshot/51f65c6d38fbf86e1f0b036ad336761fd2ab7fa0.tar.gz)
+
+build() {
+	cd $name-51f65c6
+
+	./configure --prefix=/usr --full --shared --disable-docs --with-ext="sqlite3 readline"
+	make
+	make DESTDIR=$PKG install
+
+	find $PKG -name 'README*' |xargs rm
+}
