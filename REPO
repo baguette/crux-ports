@@ -10,6 +10,7 @@ d:xfce4-power-manager
 d:network-manager-applet
 d:rpm2pkg
 d:orbit
+d:mg
 d:mousepad
 d:awesome
 d:libxdg-basedir
@@ -23,6 +24,7 @@ d:gtk-xfce-engine
 d:exo
 d:xfce4-whiskermenu-plugin
 d:jbigkit
+d:emacs
 d:keybinder
 d:liberation-fonts
 d:adwaita-icon-theme
@@ -45,6 +47,7 @@ d:xfconf
 d:jimtcl
 d:xfce4-icon-theme
 d:thunar
+d:libbsd
 d:polyml
 d:lua-lgi
 d:garcon
@@ -89,6 +92,9 @@ f:765712bde44eb2af93c7dfe6106828f3:rpm2pkg/Pkgfile
 f:70f615ff6e9c3dc275c0b20ff2d8cce9:orbit/.footprint
 f:a107a4ec8547da63aa642f3e00c8c4b7:orbit/.md5sum
 f:ddc0223a9304e94327e6688af35cd8d6:orbit/Pkgfile
+f:a9c03cd4972c576071848cd91acf6fd3:mg/.footprint
+f:784f633ad52fa41b3ae58aefe5cea750:mg/.md5sum
+f:2ffebf644f7eb0367f6d87c8ad294eec:mg/Pkgfile
 f:352edf2554e6b64ac61ed314f69491f6:mousepad/.footprint
 f:e6bb4849f0ae98969c28f591003c7c1f:mousepad/post-install
 f:4a3f51b9eefbfb7ece87c759a609f2fc:mousepad/.md5sum
@@ -131,6 +137,7 @@ f:06882fe6da1066a04361fae204692449:xfce4-whiskermenu-plugin/Pkgfile
 f:9f5dd449fb4f9b3df839a18b600224ca:jbigkit/.footprint
 f:434dabf1be1a71c9c4992f6951f74e33:jbigkit/.md5sum
 f:932854121e717d75bfc74d37668ad819:jbigkit/Pkgfile
+f:fc697816bfd5f6044046fd9c6d831ef0:emacs/Pkgfile
 f:e7292e0c92bd16939349fe28d00f5e8e:keybinder/.footprint
 f:cf0711f7779d38df123a9420158c2c5b:keybinder/.md5sum
 f:d3c373297ef3c1d6fb23e961909252cb:keybinder/Pkgfile
@@ -199,6 +206,9 @@ f:314ee5699d6ac73bc8e876cabbdecff7:xfce4-icon-theme/Pkgfile
 f:60089a6f8fee5047bdf70dd38c5aa01e:thunar/.footprint
 f:186e7b2264de4be75e5b3f9f04820969:thunar/.md5sum
 f:58677327d01bc159c77491d9d66e899b:thunar/Pkgfile
+f:92c65d2a2fc38a898576e314a292ea65:libbsd/.footprint
+f:c6fc41ddf99f9992bec13b8ed6acedc5:libbsd/.md5sum
+f:39cff9d5bd50639c23397fe3fe5ce8fa:libbsd/Pkgfile
 f:2100fdd2e93b1eac4c3a8f9429dcd86c:polyml/.footprint
 f:00ab1b9838002a3d9a9f50c4ac52c929:polyml/.md5sum
 f:d1634add4afbc1182258b9b15a9cb0ad:polyml/Pkgfile
