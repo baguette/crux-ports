@@ -4,8 +4,8 @@
 # Depends on: lua51, git, pango, imagemagick, imlib2, xmlto, cmake, asciidoc, cairo, libev, xorg-xcb-util-keysyms, xorg-xcb-util-wm, xorg-xcb-util-cursor, dbus, xmessage, startup-notification, docbook-xsl, docbook-xml, libxdg-basedir, lua-lgi
 
 name=awesome
-version=3.5.6
-release=2
+version=3.5.7
+release=1
 source=(http://awesome.naquadah.org/download/$name-$version.tar.xz)
 
 build() {
