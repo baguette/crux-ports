@@ -1,0 +1,32 @@
+# Description: GNU emacs - an extensible text editor
+# URL: http://gnu.org/software/emacs/
+# Maintainer:  Cory Burgett, cmburget at gmail dot com
+# Depends on: gtk3 xorg-libxpm libpng zlib libjpeg-turbo libtiff giflib dbus gnutls libxml2 harfbuzz freetype glib librsvg pango cairo atk alsa-lib
+
+name=emacs-gtk3
+version=24.5
+release=1
+source=(http://ftpmirror.gnu.org/emacs/emacs-$version.tar.xz)
+
+build() {
+	cd emacs-$version
+
+	./configure --prefix=/usr \
+	            --libexecdir=/usr/lib/emacs \
+	            --without-gconf \
+	            --without-selinux \
+	            --without-gsettings \
+	            --without-imagemagick
+	make
+	make DESTDIR=$PKG install
+
+	find $PKG -exec chown root:root \{} \;
+	find $PKG -name '*README*' -exec rm \{} \;
+	find $PKG -name AUTHORS -exec rm \{} \;
+	find $PKG -name COPYING -exec rm \{} \;
+	find $PKG -name '*NEWS*' -exec rm \{} \;
+	find $PKG -name '*TODO*' -exec rm \{} \;
+
+	rm -rf $PKG/usr/share/doc
+	rm -rf $PKG/usr/share/info
+}

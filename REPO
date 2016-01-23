@@ -22,9 +22,9 @@ d:gnome-themes-standard
 d:xkbcommon
 d:gtk-xfce-engine
 d:exo
+d:emacs-gtk3
 d:xfce4-whiskermenu-plugin
 d:jbigkit
-d:emacs
 d:keybinder
 d:liberation-fonts
 d:adwaita-icon-theme
@@ -131,13 +131,15 @@ f:683e81c191af0df534fb1046e42ea26e:gtk-xfce-engine/Pkgfile
 f:4a7c22540a1f398e018591d6ae2fd284:exo/.footprint
 f:6c89ae224ed773903cc5d224b10228e5:exo/.md5sum
 f:04e22641ad31c8a2aebfd34fb07ab257:exo/Pkgfile
+f:f974fd9e3e683b4258454f3895c55378:emacs-gtk3/.footprint
+f:25353b3804b93789566398b646577be9:emacs-gtk3/.md5sum
+f:730c011739ad9559274b37010ec74948:emacs-gtk3/Pkgfile
 f:abdeba839c9695f6ebeb561926b2d292:xfce4-whiskermenu-plugin/.footprint
 f:3629b609cb46d3f8b26e0e91556d1bb0:xfce4-whiskermenu-plugin/.md5sum
 f:06882fe6da1066a04361fae204692449:xfce4-whiskermenu-plugin/Pkgfile
 f:9f5dd449fb4f9b3df839a18b600224ca:jbigkit/.footprint
 f:434dabf1be1a71c9c4992f6951f74e33:jbigkit/.md5sum
 f:932854121e717d75bfc74d37668ad819:jbigkit/Pkgfile
-f:fc697816bfd5f6044046fd9c6d831ef0:emacs/Pkgfile
 f:e7292e0c92bd16939349fe28d00f5e8e:keybinder/.footprint
 f:cf0711f7779d38df123a9420158c2c5b:keybinder/.md5sum
 f:d3c373297ef3c1d6fb23e961909252cb:keybinder/Pkgfile
