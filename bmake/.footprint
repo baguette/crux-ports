@@ -1,0 +1,80 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-r-xr-xr-x	root/root	usr/bin/bmake
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/man/
+drwxr-xr-x	root/root	usr/share/man/cat1/
+-r--r--r--	root/root	usr/share/man/cat1/bmake.1
+drwxr-xr-x	root/root	usr/share/mk/
+-rw-r--r--	root/root	usr/share/mk/auto.dep.mk
+-rw-r--r--	root/root	usr/share/mk/auto.obj.mk
+-rw-r--r--	root/root	usr/share/mk/autoconf.mk
+-rw-r--r--	root/root	usr/share/mk/autodep.mk
+lrwxrwxrwx	root/root	usr/share/mk/bsd.dep.mk -> dep.mk
+lrwxrwxrwx	root/root	usr/share/mk/bsd.doc.mk -> doc.mk
+lrwxrwxrwx	root/root	usr/share/mk/bsd.init.mk -> init.mk
+lrwxrwxrwx	root/root	usr/share/mk/bsd.lib.mk -> lib.mk
+lrwxrwxrwx	root/root	usr/share/mk/bsd.links.mk -> links.mk
+lrwxrwxrwx	root/root	usr/share/mk/bsd.man.mk -> man.mk
+lrwxrwxrwx	root/root	usr/share/mk/bsd.nls.mk -> nls.mk
+lrwxrwxrwx	root/root	usr/share/mk/bsd.obj.mk -> obj.mk
+lrwxrwxrwx	root/root	usr/share/mk/bsd.own.mk -> own.mk
+lrwxrwxrwx	root/root	usr/share/mk/bsd.prog.mk -> prog.mk
+lrwxrwxrwx	root/root	usr/share/mk/bsd.subdir.mk -> subdir.mk
+-rw-r--r--	root/root	usr/share/mk/cython.mk
+-rw-r--r--	root/root	usr/share/mk/dep.mk
+-rw-r--r--	root/root	usr/share/mk/dirdeps.mk
+-rw-r--r--	root/root	usr/share/mk/doc.mk
+-rw-r--r--	root/root	usr/share/mk/dpadd.mk
+-rw-r--r--	root/root	usr/share/mk/final.mk
+-rw-r--r--	root/root	usr/share/mk/gendirdeps.mk
+-rw-r--r--	root/root	usr/share/mk/host-target.mk
+-rw-r--r--	root/root	usr/share/mk/host.libnames.mk
+-rw-r--r--	root/root	usr/share/mk/inc.mk
+-rw-r--r--	root/root	usr/share/mk/init.mk
+-rw-r--r--	root/root	usr/share/mk/install-new.mk
+-rw-r--r--	root/root	usr/share/mk/java.mk
+-rw-r--r--	root/root	usr/share/mk/lib.mk
+-rw-r--r--	root/root	usr/share/mk/libnames.mk
+-rw-r--r--	root/root	usr/share/mk/libs.mk
+-rw-r--r--	root/root	usr/share/mk/links.mk
+-rw-r--r--	root/root	usr/share/mk/man.mk
+-rw-r--r--	root/root	usr/share/mk/manifest.mk
+-rw-r--r--	root/root	usr/share/mk/meta.autodep.mk
+-rw-r--r--	root/root	usr/share/mk/meta.stage.mk
+-rw-r--r--	root/root	usr/share/mk/meta.subdir.mk
+-rw-r--r--	root/root	usr/share/mk/meta.sys.mk
+-r-xr-xr-x	root/root	usr/share/mk/meta2deps.py
+-r-xr-xr-x	root/root	usr/share/mk/meta2deps.sh
+-r-xr-xr-x	root/root	usr/share/mk/mkopt.sh
+-rw-r--r--	root/root	usr/share/mk/nls.mk
+-rw-r--r--	root/root	usr/share/mk/obj.mk
+-rw-r--r--	root/root	usr/share/mk/options.mk
+-rw-r--r--	root/root	usr/share/mk/own.mk
+-rw-r--r--	root/root	usr/share/mk/prlist.mk
+-rw-r--r--	root/root	usr/share/mk/prog.mk
+-rw-r--r--	root/root	usr/share/mk/progs.mk
+-rw-r--r--	root/root	usr/share/mk/rst2htm.mk
+-rw-r--r--	root/root	usr/share/mk/scripts.mk
+-rw-r--r--	root/root	usr/share/mk/srctop.mk
+-r-xr-xr-x	root/root	usr/share/mk/stage-install.sh
+-rw-r--r--	root/root	usr/share/mk/subdir.mk
+-rw-r--r--	root/root	usr/share/mk/sys.clean-env.mk
+-rw-r--r--	root/root	usr/share/mk/sys.dependfile.mk
+-rw-r--r--	root/root	usr/share/mk/sys.mk
+drwxr-xr-x	root/root	usr/share/mk/sys/
+-rw-r--r--	root/root	usr/share/mk/sys/AIX.mk
+-rw-r--r--	root/root	usr/share/mk/sys/Darwin.mk
+-rw-r--r--	root/root	usr/share/mk/sys/Generic.mk
+-rw-r--r--	root/root	usr/share/mk/sys/HP-UX.mk
+-rw-r--r--	root/root	usr/share/mk/sys/IRIX.mk
+-rw-r--r--	root/root	usr/share/mk/sys/Linux.mk
+-rw-r--r--	root/root	usr/share/mk/sys/NetBSD.mk
+-rw-r--r--	root/root	usr/share/mk/sys/OSF1.mk
+-rw-r--r--	root/root	usr/share/mk/sys/OpenBSD.mk
+-rw-r--r--	root/root	usr/share/mk/sys/SunOS.mk
+-rw-r--r--	root/root	usr/share/mk/sys/UnixWare.mk
+-rw-r--r--	root/root	usr/share/mk/target-flags.mk
+-rw-r--r--	root/root	usr/share/mk/warnings.mk
+-rw-r--r--	root/root	usr/share/mk/whats.mk
+-rw-r--r--	root/root	usr/share/mk/yacc.mk

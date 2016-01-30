@@ -1,3 +1,4 @@
+d:bmake
 d:i3
 d:xfce4-panel
 d:xfwm4
@@ -56,6 +57,9 @@ d:dwm
 d:dmenu
 d:mtpaint
 d:xfce4-appfinder
+f:75f4d674335c1c7729318b7755400619:bmake/.footprint
+f:7ac07fbb2ab4ada884e5299b3bf5e8f2:bmake/.md5sum
+f:00df05963b44e8c15ff9c83296d0a249:bmake/Pkgfile
 f:9371001c062cd02c5cabc6ca321c1cb0:i3/.footprint
 f:d7de553b7692c941473f5242f8f66266:i3/.md5sum
 f:fc697816bfd5f6044046fd9c6d831ef0:i3/Pkgfile
