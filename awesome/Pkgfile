@@ -6,7 +6,7 @@
 name=awesome
 version=3.5.8
 release=1
-source=(http://awesome.naquadah.org/download/$name-$version.tar.xz awesome-3.5.7-input-fix.patch)
+source=(http://awesome.naquadah.org/download/$name-$version.tar.xz)
 
 build() {
 	local i
