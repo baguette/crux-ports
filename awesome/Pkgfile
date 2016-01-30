@@ -4,8 +4,8 @@
 # Depends on: lua51, git, pango, imagemagick, imlib2, xmlto, cmake, asciidoc, cairo, libev, xorg-xcb-util-keysyms, xorg-xcb-util-wm, xorg-xcb-util-cursor, dbus, xmessage, startup-notification, docbook-xsl, docbook-xml, libxdg-basedir, lua-lgi
 
 name=awesome
-version=3.5.7
-release=2
+version=3.5.8
+release=1
 source=(http://awesome.naquadah.org/download/$name-$version.tar.xz awesome-3.5.7-input-fix.patch)
 
 build() {
@@ -15,10 +15,6 @@ build() {
 
 	sed 's/^lua /lua5.1 /' -i build-utils/lgi-check.sh
 	sed 's@^\s*COMMAND ${XMLTO_EXECUTABLE} man ${xmlfile}@COMMAND ${XMLTO_EXECUTABLE} --searchpath "/usr/share/xml/docbook/xsl-stylesheets/manpages:/usr/share/xml/docbook/xml-dtd-4.5" man ${xmlfile}@' -i CMakeLists.txt
-
-	# Fix for client keys not working after keymap changes
-	# See https://github.com/awesomeWM/awesome/issues/639
-	patch -p1 -i $SRC/awesome-3.5.7-input-fix.patch
 
 	cmake ../$name-$version \
 		-DCMAKE_BUILD_TYPE=RELEASE \

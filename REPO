@@ -101,9 +101,9 @@ f:e6bb4849f0ae98969c28f591003c7c1f:mousepad/post-install
 f:4a3f51b9eefbfb7ece87c759a609f2fc:mousepad/.md5sum
 f:2fd9b426ed4a163801fe2ea2ca20d423:mousepad/Pkgfile
 f:32825b10b09ebbc8af5f9fb49fa85450:awesome/.footprint
-f:de9375e65c4d02ec7fb9ffbbf4ecc0ab:awesome/.md5sum
+f:209aa2171409c937429c5e8e0981e99f:awesome/.md5sum
 f:60fb7d808e1d184483ca3e3db7e54727:awesome/awesome-3.5.7-input-fix.patch
-f:deb10ef2e8619fe372d262155e1c6cf2:awesome/Pkgfile
+f:b7000f9bb58cda6c06bf3ab563c83bcc:awesome/Pkgfile
 f:2e74b7a5e14fd2111c681f9df9bc9a07:libxdg-basedir/.footprint
 f:56b0b38248c1460420ec432f5d325fb2:libxdg-basedir/.md5sum
 f:58ec4a1b5250c371431f83dc2e010ab2:libxdg-basedir/Pkgfile
