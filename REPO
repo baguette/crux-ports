@@ -6,6 +6,7 @@ d:racket
 d:mlton-bin
 d:gconf
 d:tumbler
+d:xarchiver
 d:libtinfo-compat
 d:xfce4-power-manager
 d:network-manager-applet
@@ -81,6 +82,9 @@ f:a68b1c7433734d6dc9dad88b4cc0f124:gconf/Pkgfile
 f:b7830f289b727dd9a09bbaac2cae7f0d:tumbler/.footprint
 f:c6e327fd76bd7b2ae9fe22916e85e6a5:tumbler/.md5sum
 f:5a16f62bcd0b9421ef8ac9407e080435:tumbler/Pkgfile
+f:048387d62b80e648499ed5cf426cc7f4:xarchiver/.footprint
+f:ea4dc0667f595bf3661164facc15a131:xarchiver/.md5sum
+f:31d9b828408a6c9202457241a56c502b:xarchiver/Pkgfile
 f:d0ddbd383c2aa8322477565996628e5b:libtinfo-compat/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:libtinfo-compat/.md5sum
 f:fa723af11d853be4372e205223b086e3:libtinfo-compat/Pkgfile

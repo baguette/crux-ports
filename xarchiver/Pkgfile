@@ -1,0 +1,24 @@
+# Description: A lightweight graphical archive manager
+# URL: http://xarchiver.sourceforge.net/
+# Maintainer:  Cory Burgett, cmburget at gmail dot com
+# Depends on: gtk xdg-utils p7zip unrar cpio lzo zip unzip intltool desktop-file-utils
+
+name=xarchiver
+version=0.5.4
+release=1
+source=(http://downloads.sourceforge.net/project/xarchiver/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+
+	./configure --prefix=/usr \
+	            --libexecdir=/usr/lib/$name \
+	            --mandir=/usr/share/man \
+	            --docdir=/usr/share/doc \
+	            --sysconfdir=/etc
+	make
+	make DESTDIR=$PKG install
+
+	rm -rf $PKG/usr/share/doc
+	rm -rf $PKG/usr/share/locale
+}
