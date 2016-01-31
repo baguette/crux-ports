@@ -5,30 +5,32 @@
 
 name=jbigkit
 version=2.1
-release=2
+release=3
 source=(http://www.cl.cam.ac.uk/~mgk25/$name/download/$name-$version.tar.gz)
 
 build() {
 	cd $name-$version
 
-	make
+	export CFLAGS="$CFLAGS -fPIC"
 
-	mkdir -p $PKG/usr/lib
-	mkdir -p $PKG/usr/include
-	mkdir -p $PKG/usr/bin
-	mkdir -p $PKG/usr/share/man/man1
-	mkdir -p $PKG/usr/share/man/man5
+	make -e
 
-	cp libjbig/*.a $PKG/usr/lib
-	cp libjbig/*.h $PKG/usr/include
+	install -m 755 -d $PKG/usr/lib
+	install -m 755 -d $PKG/usr/include
+	install -m 755 -d $PKG/usr/bin
+	install -m 755 -d $PKG/usr/share/man/man1
+	install -m 755 -d $PKG/usr/share/man/man5
 
-	cp pbmtools/jbgtopbm $PKG/usr/bin
-	cp pbmtools/jbgtopbm85 $PKG/usr/bin
-	cp pbmtools/pbmtojbg $PKG/usr/bin
-	cp pbmtools/pbmtojbg85 $PKG/usr/bin
+	install -m 644 libjbig/*.a $PKG/usr/lib
+	install -m 644 libjbig/*.h $PKG/usr/include
 
-	cp pbmtools/jbgtopbm.1 $PKG/usr/share/man/man1
-	cp pbmtools/pbmtojbg.1 $PKG/usr/share/man/man1
-	cp pbmtools/pgm.5 $PKG/usr/share/man/man5
-	cp pbmtools/pbm.5 $PKG/usr/share/man/man5
+	install -m 755 pbmtools/jbgtopbm $PKG/usr/bin
+	install -m 755 pbmtools/jbgtopbm85 $PKG/usr/bin
+	install -m 755 pbmtools/pbmtojbg $PKG/usr/bin
+	install -m 755 pbmtools/pbmtojbg85 $PKG/usr/bin
+
+	install -m 644 pbmtools/jbgtopbm.1 $PKG/usr/share/man/man1
+	install -m 644 pbmtools/pbmtojbg.1 $PKG/usr/share/man/man1
+	install -m 644 pbmtools/pgm.5 $PKG/usr/share/man/man5
+	install -m 644 pbmtools/pbm.5 $PKG/usr/share/man/man5
 }
