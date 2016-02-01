@@ -1,0 +1,18 @@
+# Description: A small library providing R7RS Scheme
+# URL: http://synthcode.com/wiki/chibi-scheme
+# Maintainer:  Cory Burgett, cmburget at gmail dot com
+# Depends on: 
+
+name=chibi-scheme
+version=0.7.3
+release=1
+source=(http://synthcode.com/scheme/chibi/$name-$version.tgz)
+
+build() {
+	cd $name-$version
+
+	make PREFIX=/usr
+	make PREFIX=/usr DESTDIR=$PKG install
+
+	rm -rf $PKG/usr/share/doc
+}

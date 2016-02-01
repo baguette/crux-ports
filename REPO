@@ -10,6 +10,7 @@ d:joe
 d:xarchiver
 d:libtinfo-compat
 d:xfce4-power-manager
+d:chibi-scheme
 d:network-manager-applet
 d:rpm2pkg
 d:orbit
@@ -95,6 +96,9 @@ f:fa723af11d853be4372e205223b086e3:libtinfo-compat/Pkgfile
 f:627838c74736440f02d5d5121cdda900:xfce4-power-manager/.footprint
 f:98bc27d5b3692c8a32bffc96e9c50223:xfce4-power-manager/.md5sum
 f:22da7c9b6d90ef866f467ed1a6f8d61c:xfce4-power-manager/Pkgfile
+f:24e7dbedede674f2c717eee2f6cbd717:chibi-scheme/.footprint
+f:ed3f174cedf30353505b8aca33acdcd4:chibi-scheme/.md5sum
+f:47167de9112328654c47c264d6d1f975:chibi-scheme/Pkgfile
 f:f666396dff59537528c2735b70a43e4c:network-manager-applet/.footprint
 f:522f2e43effe72fc4f1a8477f30622e4:network-manager-applet/.md5sum
 f:249c6568807376c70ae18cb7879a39d5:network-manager-applet/Pkgfile
