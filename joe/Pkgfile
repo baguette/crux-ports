@@ -1,0 +1,26 @@
+# Description: Joe's Own Editor
+# URL: http://joe-editor.sourceforge.net/
+# Maintainer:  Cory Burgett, cmburget at gmail dot com
+# Depends on: ncurses
+
+name=joe
+version=4.1
+release=1
+source=(http://downloads.sourceforge.net/project/joe-editor/JOE%20sources/$name-$version/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+
+	./configure --prefix=/usr \
+	            --libexecdir=/usr/lib/$name \
+	            --sysconfdir=/etc \
+	            --mandir=/usr/share/man \
+	            --enable-256-color \
+	            --enable-paste64 \
+	            --docdir=/usr/share/doc/$name
+	make
+	make DESTDIR=$PKG install
+
+	rm -rf $PKG/usr/share/doc
+	rm -rf $PKG/usr/share/man/ru
+}
