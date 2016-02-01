@@ -1,0 +1,24 @@
+# Description: A small library providing a subset of R5RS Scheme
+# URL: http://tinyscheme.sourceforge.net/
+# Maintainer:  Cory Burgett, cmburget at gmail dot com
+# Depends on: 
+
+name=tinyscheme
+version=1.41
+release=1
+source=(http://downloads.sourceforge.net/project/$name/$name/$name-$version/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+
+	make PLATFORM_FEATURES=" -DSUN_DL=1 -DInitFile=\\\"/usr/lib/$name/init.scm\\\""
+
+	install -m 755 -d $PKG/usr/bin
+	install -m 755 -d $PKG/usr/lib/$name
+	install -m 755 -d $PKG/usr/include/$name
+
+	install -m 755 scheme $PKG/usr/bin/tinyscheme
+	install -m 644 libtinyscheme.* $PKG/usr/lib
+	install -m 644 init.scm $PKG/usr/lib/$name
+	install -m 644 *.h $PKG/usr/include/$name
+}

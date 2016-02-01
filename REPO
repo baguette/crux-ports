@@ -1,5 +1,6 @@
 d:bmake
 d:i3
+d:tinyscheme
 d:xfce4-panel
 d:xfwm4
 d:racket
@@ -67,6 +68,9 @@ f:00df05963b44e8c15ff9c83296d0a249:bmake/Pkgfile
 f:9371001c062cd02c5cabc6ca321c1cb0:i3/.footprint
 f:d7de553b7692c941473f5242f8f66266:i3/.md5sum
 f:fc697816bfd5f6044046fd9c6d831ef0:i3/Pkgfile
+f:77685ee867bea2c4827613044f1b6e76:tinyscheme/.footprint
+f:00b09202f12dc5cf63483051233507e2:tinyscheme/.md5sum
+f:d68c6b16ca0ecf4c1bbb5d25d97584fc:tinyscheme/Pkgfile
 f:85e6dce768afa1f57b43c03bbe684f79:xfce4-panel/.footprint
 f:16da1d7ddc9bae7d79525577aaa6a1d5:xfce4-panel/.md5sum
 f:2f507313b1ccc6e5e2e18c90a3d26d86:xfce4-panel/Pkgfile

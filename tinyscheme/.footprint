@@ -1,0 +1,14 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/tinyscheme
+drwxr-xr-x	root/root	usr/include/
+drwxr-xr-x	root/root	usr/include/tinyscheme/
+-rw-r--r--	root/root	usr/include/tinyscheme/dynload.h
+-rw-r--r--	root/root	usr/include/tinyscheme/opdefines.h
+-rw-r--r--	root/root	usr/include/tinyscheme/scheme-private.h
+-rw-r--r--	root/root	usr/include/tinyscheme/scheme.h
+drwxr-xr-x	root/root	usr/lib/
+-rw-r--r--	root/root	usr/lib/libtinyscheme.a
+-rw-r--r--	root/root	usr/lib/libtinyscheme.so
+drwxr-xr-x	root/root	usr/lib/tinyscheme/
+-rw-r--r--	root/root	usr/lib/tinyscheme/init.scm
