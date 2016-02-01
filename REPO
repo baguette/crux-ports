@@ -44,6 +44,7 @@ d:rlwrap
 d:xfce4-terminal
 d:xfce4-settings
 d:mosml
+d:scheme48
 d:thunar-volman
 d:xfce4-volumed
 d:xfce4-notifyd
@@ -204,6 +205,9 @@ f:c88391ccace83f24ebbdc08e9b4386b1:xfce4-settings/Pkgfile
 f:d509cedae03708782d315ab4532c78e5:mosml/.footprint
 f:802e30394f4c5769139f4c949d7db02a:mosml/.md5sum
 f:65ea802b3fc8192606cf684cf98c3710:mosml/Pkgfile
+f:b4ee63321158af81714ff54832ce5b41:scheme48/.footprint
+f:f820e75bf435bf63c9c5ea94a8de21ac:scheme48/.md5sum
+f:f7dafd24b14155b88a33a0a70ad25beb:scheme48/Pkgfile
 f:3468b363f79e542f880ff63b1ce0ae53:thunar-volman/.footprint
 f:5c761a27d9819f1d77e07c60a09b4ae7:thunar-volman/.md5sum
 f:0812a1936a7642737d7cdc1e21ce8bc3:thunar-volman/Pkgfile

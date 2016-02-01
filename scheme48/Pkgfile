@@ -1,0 +1,23 @@
+# Description: An implementation of Scheme
+# URL: http://s48.org/
+# Maintainer:  Cory Burgett, cmburget at gmail dot com
+# Depends on: 
+
+name=scheme48
+version=1.9.2
+release=1
+source=(http://s48.org/$version/$name-$version.tgz)
+
+build() {
+	cd $name-$version
+
+	./configure --prefix=/usr \
+	            --sysconfdir=/etc \
+	            --mandir=/usr/share/man \
+	            --docdir=/usr/share/doc
+
+	make
+	make DESTDIR=$PKG install
+
+	rm -rf $PKG/usr/share/doc
+}
