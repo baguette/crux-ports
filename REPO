@@ -43,6 +43,7 @@ d:xfce4-taskmanager
 d:libxfce4util
 d:rlwrap
 d:xfce4-terminal
+d:xorg-libxpm-32
 d:xfce4-settings
 d:mosml
 d:scheme48
@@ -62,6 +63,7 @@ d:dwm
 d:dmenu
 d:mtpaint
 d:xfce4-appfinder
+d:xorg-libxaw-32
 f:75f4d674335c1c7729318b7755400619:bmake/.footprint
 f:7ac07fbb2ab4ada884e5299b3bf5e8f2:bmake/.md5sum
 f:00df05963b44e8c15ff9c83296d0a249:bmake/Pkgfile
@@ -203,6 +205,10 @@ f:195bac2b6f4661630238a2b533b16176:rlwrap/Pkgfile
 f:859770f682f57302bbd92410f1eeafa1:xfce4-terminal/.footprint
 f:21f0e437b0b38ac9fe56fafb439aa821:xfce4-terminal/.md5sum
 f:8e524fa7fa421bff52e482802ff85086:xfce4-terminal/Pkgfile
+f:a84d1ea3db2c25a3a0f046e095404efb:xorg-libxpm-32/.footprint
+f:cbd6ab293fd96f504815849fa6e0b11d:xorg-libxpm-32/.md5sum
+f:d41d8cd98f00b204e9800998ecf8427e:xorg-libxpm-32/.32bit
+f:05959ff5f1c2a744dd955eeb39715760:xorg-libxpm-32/Pkgfile
 f:e8ffd3ad8de53215a3f381b1db602d9f:xfce4-settings/.footprint
 f:20a5d68afac3fd3308203fd08ab12eb3:xfce4-settings/.md5sum
 f:c88391ccace83f24ebbdc08e9b4386b1:xfce4-settings/Pkgfile
@@ -261,3 +267,7 @@ f:4d41144035f2bb2f878d804810e70ed7:mtpaint/Pkgfile
 f:d3caa267ed6b851110641d05d7c328df:xfce4-appfinder/.footprint
 f:c55a29d2de4ff76672d343c05e346e53:xfce4-appfinder/.md5sum
 f:840d4378cc51a769ad25c69c6d4fd6f0:xfce4-appfinder/Pkgfile
+f:86d2c9d629c1627501fb65d4eff7de9d:xorg-libxaw-32/.footprint
+f:a1e14ec7345890b0600d04a4f702ef00:xorg-libxaw-32/.md5sum
+f:d41d8cd98f00b204e9800998ecf8427e:xorg-libxaw-32/.32bit
+f:6a48d38a31fb3964040ca59d97d5681d:xorg-libxaw-32/Pkgfile

@@ -1,0 +1,19 @@
+# Description: xorg lib libXpm
+# URL: http://xorg.freedesktop.org
+# Maintainer: Cory Burgett, cmburget at gmail dot com
+# Depends on: xorg-libxext-32 xorg-libxt-32 xorg-libxpm
+
+name=xorg-libxpm-32
+version=3.5.11
+release=1
+source=(http://xorg.freedesktop.org/releases/individual/lib/libXpm-$version.tar.bz2)
+
+build() {
+	cd libXpm-$version
+
+	./configure --prefix=/usr --mandir=/usr/man --libdir=/usr/lib32
+
+	make
+	make DESTDIR=$PKG install
+	rm -rf $PKG/usr/{bin,share,include,man}
+}
