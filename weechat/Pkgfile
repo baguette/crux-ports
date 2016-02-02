@@ -1,0 +1,42 @@
+# Description: A fast, light, and extensible chat client
+# URL: http://weechat.org/
+# Maintainer:  Cory Burgett, cmburget at gmail dot com
+# Depends on: cmake ncurses curl zlib libgcrypt gnutls ca-certificates libxslt docbook-xml docbook-xsl asciidoc
+# Nice to have: aspell python perl ruby lua52 tcl
+
+name=weechat
+version=1.4
+release=1
+source=(http://weechat.org/files/src/$name-$version.tar.bz2)
+
+build () {
+	cd $name-$version
+
+	mkdir build
+	cd build
+	cmake .. -DCMAKE_INSTALL_PREFIX=/usr \
+	         -DSYSCONFDIR=/etc \
+	         -DMANDIR=/usr/share/man \
+	         -DCMAKE_BUILD_TYPE=Release \
+	         -DENABLE_MAN=ON \
+	         -DENABLE_GNUTLS=ON \
+	         -DENABLE_JAVASCRIPT=OFF \
+	         -DENABLE_GUILE=OFF \
+	         -DENABLE_DOC=OFF \
+	         -DENABLE_NLS=OFF
+	make
+	make DESTDIR=$PKG install
+
+	rm -rf $PKG/usr/share/locale
+
+	# get rid of non-English manpages
+	for i in $PKG/usr/share/man/*; do
+		local j=${i##*/}
+		if [ ${#j} -lt 3 ]; then
+			rm -rf $i
+		fi
+		if [ $(expr index $j "_") -gt 0 ]; then
+			rm -rf $i
+		fi
+	done
+}

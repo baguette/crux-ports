@@ -28,6 +28,7 @@ d:xkbcommon
 d:gtk-xfce-engine
 d:exo
 d:emacs-gtk3
+d:weechat
 d:xfce4-whiskermenu-plugin
 d:jbigkit
 d:keybinder
@@ -158,6 +159,9 @@ f:04e22641ad31c8a2aebfd34fb07ab257:exo/Pkgfile
 f:f974fd9e3e683b4258454f3895c55378:emacs-gtk3/.footprint
 f:25353b3804b93789566398b646577be9:emacs-gtk3/.md5sum
 f:730c011739ad9559274b37010ec74948:emacs-gtk3/Pkgfile
+f:398ac70de61d5cdd422030fdbd0a70a5:weechat/.footprint
+f:2311218632ba8ef9a9a9953b1c84cf68:weechat/.md5sum
+f:f306095d94c33affb6c37709f83b7251:weechat/Pkgfile
 f:abdeba839c9695f6ebeb561926b2d292:xfce4-whiskermenu-plugin/.footprint
 f:3629b609cb46d3f8b26e0e91556d1bb0:xfce4-whiskermenu-plugin/.md5sum
 f:06882fe6da1066a04361fae204692449:xfce4-whiskermenu-plugin/Pkgfile
