@@ -4,7 +4,7 @@
 # Depends on: gtk3 xorg-libxpm libpng zlib libjpeg-turbo libtiff giflib dbus gnutls libxml2 harfbuzz freetype glib librsvg pango cairo atk alsa-lib
 
 name=emacs-gtk3
-version=24.5
+version=25.3
 release=1
 source=(http://ftpmirror.gnu.org/emacs/emacs-$version.tar.xz)
 
@@ -28,5 +28,7 @@ build() {
 	find $PKG -name '*TODO*' -exec rm \{} \;
 
 	rm -rf $PKG/usr/share/doc
-	rm -rf $PKG/usr/share/info
+
+	## all of emacs's online help is kept as info files
+	#rm -rf $PKG/usr/share/info
 }
