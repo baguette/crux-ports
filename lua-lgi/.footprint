@@ -22,6 +22,7 @@ drwxr-xr-x	root/root	usr/share/lua/5.1/lgi/override/
 -rw-r--r--	root/root	usr/share/lua/5.1/lgi/override/GLib-Bytes.lua
 -rw-r--r--	root/root	usr/share/lua/5.1/lgi/override/GLib-Error.lua
 -rw-r--r--	root/root	usr/share/lua/5.1/lgi/override/GLib-Markup.lua
+-rw-r--r--	root/root	usr/share/lua/5.1/lgi/override/GLib-Source.lua
 -rw-r--r--	root/root	usr/share/lua/5.1/lgi/override/GLib-Timer.lua
 -rw-r--r--	root/root	usr/share/lua/5.1/lgi/override/GLib-Variant.lua
 -rw-r--r--	root/root	usr/share/lua/5.1/lgi/override/GLib.lua
@@ -32,6 +33,7 @@ drwxr-xr-x	root/root	usr/share/lua/5.1/lgi/override/
 -rw-r--r--	root/root	usr/share/lua/5.1/lgi/override/Gdk.lua
 -rw-r--r--	root/root	usr/share/lua/5.1/lgi/override/Gio-DBus.lua
 -rw-r--r--	root/root	usr/share/lua/5.1/lgi/override/Gio.lua
+-rw-r--r--	root/root	usr/share/lua/5.1/lgi/override/GooCanvas.lua
 -rw-r--r--	root/root	usr/share/lua/5.1/lgi/override/Gst.lua
 -rw-r--r--	root/root	usr/share/lua/5.1/lgi/override/Gtk.lua
 -rw-r--r--	root/root	usr/share/lua/5.1/lgi/override/Pango.lua

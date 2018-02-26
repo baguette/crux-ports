@@ -1,12 +1,12 @@
 # Description: awesome window manager
 # URL: http://awesome.naquadah.org/
 # Maintainer:  Cory Burgett, cmburget at gmail dot com
-# Depends on: lua51, git, pango, imagemagick, imlib2, xmlto, cmake, asciidoc, cairo, libev, xorg-xcb-util-keysyms, xorg-xcb-util-wm, xorg-xcb-util-cursor, dbus, xmessage, startup-notification, docbook-xsl, docbook-xml, libxdg-basedir, lua-lgi
+# Depends on: lua51, git, pango, imagemagick, imlib2, xmlto, cmake, asciidoc, cairo, libev, xorg-xcb-util, xorg-xcb-util-keysyms, xorg-xcb-util-wm, xorg-xcb-util-cursor, xorg-xcb-util-renderutil, xorg-xcb-util-image, xorg-xcb-proto, xorg-libxcb, dbus, xmessage, startup-notification, docbook-xsl, docbook-xml, libxdg-basedir, lua-lgi
 
 name=awesome
-version=3.5.8
+version=4.2
 release=1
-source=(http://awesome.naquadah.org/download/$name-$version.tar.xz)
+source=(https://github.com/awesomeWM/awesome/releases/download/v$version/$name-$version.tar.xz)
 
 build() {
 	local i
@@ -15,8 +15,13 @@ build() {
 
 	sed 's/^lua /lua5.1 /' -i build-utils/lgi-check.sh
 	sed 's@^\s*COMMAND ${XMLTO_EXECUTABLE} man ${xmlfile}@COMMAND ${XMLTO_EXECUTABLE} --searchpath "/usr/share/xml/docbook/xsl-stylesheets/manpages:/usr/share/xml/docbook/xml-dtd-4.5" man ${xmlfile}@' -i CMakeLists.txt
+	for i in CMakeLists.txt *.cmake; do
+		sed 's@^\(\s*COMMAND\s*\) lua @\1 lua5.1 @' -i $i
+	done
 
-	cmake ../$name-$version \
+	mkdir build && cd build
+
+	cmake .. \
 		-DCMAKE_BUILD_TYPE=RELEASE \
 		-DCMAKE_INSTALL_PREFIX=/usr \
 		-DSYSCONFDIR=/etc \

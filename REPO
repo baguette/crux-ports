@@ -9,6 +9,7 @@ d:orbit
 d:chibi-scheme
 d:jbigkit
 d:xkbcommon
+d:xorg-xcb-util-xrm
 d:scheme48
 d:gconf
 d:mtpaint
@@ -74,6 +75,9 @@ f:434dabf1be1a71c9c4992f6951f74e33:jbigkit/.md5sum
 f:6211632ef3d2c0f9bfdd276b390e4c6d:xkbcommon/Pkgfile
 f:ec896d9e49662bbbf7ff4cfb5b9a9d41:xkbcommon/.footprint
 f:7b9e043e66edf3604ab7644118b16035:xkbcommon/.md5sum
+f:ad109e57390f1371fba57d9aa791710e:xorg-xcb-util-xrm/Pkgfile
+f:80e849824bbe614b2a87b956bf7fa46a:xorg-xcb-util-xrm/.footprint
+f:2b50b0fa7f5f72ecbe2fa08d4b86a8f8:xorg-xcb-util-xrm/.md5sum
 f:f7dafd24b14155b88a33a0a70ad25beb:scheme48/Pkgfile
 f:b4ee63321158af81714ff54832ce5b41:scheme48/.footprint
 f:f820e75bf435bf63c9c5ea94a8de21ac:scheme48/.md5sum
@@ -104,9 +108,9 @@ f:784f633ad52fa41b3ae58aefe5cea750:mg/.md5sum
 f:d68c6b16ca0ecf4c1bbb5d25d97584fc:tinyscheme/Pkgfile
 f:77685ee867bea2c4827613044f1b6e76:tinyscheme/.footprint
 f:00b09202f12dc5cf63483051233507e2:tinyscheme/.md5sum
-f:8f4a6be9589de7912927f88d6a46056b:awesome/Pkgfile
-f:32825b10b09ebbc8af5f9fb49fa85450:awesome/.footprint
-f:f7fdec0acf480f5965195ab0dda59e4e:awesome/.md5sum
+f:6bb8d84f0702460a793a959df1c75da1:awesome/Pkgfile
+f:3c6a7661161f8d5d0aeec665a3c68dc9:awesome/.footprint
+f:f30fa94df0eecb0cc4f87483046f8bef:awesome/.md5sum
 f:f41991b26e9b91c7182202ecc4e0a53b:mandoc/Pkgfile
 f:ab554cd83a2ae4f3030a23b1027cf296:mandoc/.footprint
 f:5e013e7c03f993135962698d1da7d515:mandoc/.md5sum
@@ -116,9 +120,9 @@ f:7ac07fbb2ab4ada884e5299b3bf5e8f2:bmake/.md5sum
 f:072209377361f68a7495ce51d96373e7:qastools/Pkgfile
 f:bd2445030654a8e192421590ea4d8260:qastools/.footprint
 f:d2c405d1cb965e5873ae5e55dc18f1fe:qastools/.md5sum
-f:0845b5095b4f2b8383c63769af80b721:lua-lgi/Pkgfile
-f:ab2e337d21980dfac24a5afbf3891b7b:lua-lgi/.footprint
-f:e250427bef739e956d093dd061624f4a:lua-lgi/.md5sum
+f:0b1b0a745b7489254bf5a322d91ae07c:lua-lgi/Pkgfile
+f:fac1e0cd89e105c61bdee4726b088e7e:lua-lgi/.footprint
+f:8491912017d9b4af5669ea144f6b3051:lua-lgi/.md5sum
 f:e01191e1ccd62dc52a3f464dd3e5a6e3:haskell-platform-bin/Pkgfile
 f:23c6f33cf672a1eaef209baa9593a8f5:haskell-platform-bin/.footprint
 f:563a0f0d1af560338ef5a0644c7105a5:haskell-platform-bin/.md5sum
