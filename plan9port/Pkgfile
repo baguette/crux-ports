@@ -1,0 +1,63 @@
+# Description:  plan9port - plan9 from user space
+# URL:  https://9fans.github.io/plan9port/
+# Maintainer:  Cory Burgett, cmburget at gmail dot com
+# Depends on: bzip2 zlib expat glib libpng fontconfig freetype harfbuzz xorg-libx11 xorg-libxau xorg-libxdmcp xorg-libxcb
+
+name=plan9port
+version=20180205
+release=1
+git_commit=4798a8a5560552480efde5fe8b1f7963a25a96d3
+source=( "https://github.com/9fans/$name/archive/$git_commit.tar.gz" )
+
+garbage=(
+  .gitignore travis.yml CHANGES CONTRIBUTING.md CONTRIBUTORS LICENSE TODO
+  INSTALL Makefile configure install.txt lib/CVS.IEXIST
+  mail/README sky/README README.md dict/README
+)
+dir_garbage=( dist mac unix )
+garbage_everywhere=( 'man/*.html' './*.gitkeep' './*.placeholder' )
+
+build() {
+	### instructions specify building from the source directory
+	### which should, apparently, also be the target directory
+	#
+	mkdir -p "$PKG"/usr/lib
+	mv "$name-$git_commit" "$PKG"/usr/lib/plan9
+	cd "$PKG"/usr/lib/plan9
+
+	### primary build/install step
+	#
+	./INSTALL -r /usr/lib/plan9
+
+	### convenience script for users of `sh`-compatible shells
+	### to set up the environment needed to run programs and
+	### view manpages within the prefix...  users of other
+	### shells will just need to figure it out, or use a better
+	### shell  :þ
+	#
+	mkdir -p "$PKG"/etc/profile.d
+	cat > $PKG/etc/profile.d/plan9port.sh <<-'EOF'
+		#!/bin/sh
+
+		PLAN9='/usr/lib/plan9'
+		export PLAN9
+
+		PATH="${PATH}:${PLAN9}/bin"
+		MANPATH="${MANPATH}:${PLAN9}/man"
+		export PATH MANPATH
+	EOF
+	
+
+	### clean up the gajillion garbage files...
+	for i in "${garbage[@]}"; do
+		rm -f "$i"
+	done
+	for i in "${dir_garbage[@]}"; do
+		rm -rf "$i"
+	done
+	for i in "${garbage_everywhere[@]}"; do
+		dir="${i%/*}"
+		pat="${i##*/}"
+		find "$dir" -name "$pat" -exec rm -f {} \;
+	done
+}

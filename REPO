@@ -32,6 +32,7 @@ d:jimtcl
 d:rust-bin
 d:xarchiver
 d:liberation-fonts
+d:plan9port
 d:dmenu
 d:racket
 d:deb2pkg
@@ -151,6 +152,9 @@ f:c65d7f0aab5cc6e5a7747d112dd41063:liberation-fonts/post-install
 f:85d6e8a4bc93c02d0cb49d096e14cbcc:liberation-fonts/Pkgfile
 f:b295b072c00865e536479b401c34140b:liberation-fonts/.footprint
 f:a05165995e6b76ab09324c158c43105b:liberation-fonts/.md5sum
+f:174c2134afbc2cb389bfa23399939e15:plan9port/Pkgfile
+f:6881b4a7044077feb640316ff40a05b2:plan9port/.footprint
+f:e448cdb19a315b9c05e9cc151fc06908:plan9port/.md5sum
 f:a5940215e4179947f04096e78815f066:dmenu/Pkgfile
 f:55edb911ea31802e6d281a5f68c6a41e:dmenu/.footprint
 f:9d6588838b6228b83131e14f08dae4bb:dmenu/.md5sum
