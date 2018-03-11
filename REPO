@@ -30,6 +30,7 @@ d:rpm2pkg
 d:adwaita-icon-theme
 d:jimtcl
 d:rust-bin
+d:zpaq
 d:xarchiver
 d:liberation-fonts
 d:plan9port
@@ -144,6 +145,9 @@ f:536cba55b59a337b6850ede818fd50fc:Makefile
 f:3f72be877f539452b55c8f34285fc80f:rust-bin/Pkgfile
 f:94b0df37ac5d4fe11e3a67813d0b9fcf:rust-bin/.footprint
 f:f24e1bde9b326583de5e097885fd3066:rust-bin/.md5sum
+f:b237ee53ac25ef98643819a74f570c83:zpaq/Pkgfile
+f:0a6b0c14987442da3505c4d2cd17e738:zpaq/.footprint
+f:3b20fe0c4df86141caef67887b69b755:zpaq/.md5sum
 f:31d9b828408a6c9202457241a56c502b:xarchiver/Pkgfile
 f:048387d62b80e648499ed5cf426cc7f4:xarchiver/.footprint
 f:ea4dc0667f595bf3661164facc15a131:xarchiver/.md5sum

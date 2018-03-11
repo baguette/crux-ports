@@ -1,0 +1,16 @@
+# Description: zpaq - incremental, journaling backup utility & archiver
+# URL: http://mattmahoney.net/dc/zpaq.html
+# Maintainer:  Cory Burgett, cmburget at gmail dot com
+# Depends on: perl
+
+name=zpaq
+version=7.15
+release=1
+source=( https://github.com/$name/$name/archive/${version}.tar.gz )
+
+build() {
+	cd $name-$version
+
+	make PREFIX=/usr
+	make PREFIX=/usr DESTDIR=$PKG install
+}
