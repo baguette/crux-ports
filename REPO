@@ -1,7 +1,6 @@
 d:rlwrap
 d:joe
 d:splix
-d:gnome-themes-standard
 d:yajl
 d:weechat
 d:mosml
@@ -27,7 +26,6 @@ d:lua-lgi
 d:haskell-platform-bin
 d:dwm
 d:rpm2pkg
-d:adwaita-icon-theme
 d:jimtcl
 d:rust-bin
 d:zpaq
@@ -53,9 +51,6 @@ f:984f7c20512f6f1c8abf43937d0c30b6:joe/.md5sum
 f:1c5ca6b00c9e87dd7ae32ce66f728dac:splix/Pkgfile
 f:be1dc962eb76a5ad6e08f73414a7a26d:splix/.footprint
 f:b9588300b74281a6a163cf32a894e3ca:splix/.md5sum
-f:4ac6cab65c02d45ebf6a9969867c857b:gnome-themes-standard/Pkgfile
-f:60c43cc89a07eccf078218ab11b13446:gnome-themes-standard/.footprint
-f:5e7c96fe2e31ff1f798d03b7da33f5ca:gnome-themes-standard/.md5sum
 f:fb75b8c37306933ee66906a0f2373e13:yajl/Pkgfile
 f:21b1f88711249f7d9acd0266b109b1ed:yajl/.footprint
 f:04d12b34fc57fc2146cd8418948073e3:yajl/.md5sum
