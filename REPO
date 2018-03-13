@@ -23,7 +23,6 @@ d:mandoc
 d:bmake
 d:qastools
 d:lua-lgi
-d:haskell-platform-bin
 d:dwm
 d:rpm2pkg
 d:jimtcl
@@ -120,9 +119,6 @@ f:d2c405d1cb965e5873ae5e55dc18f1fe:qastools/.md5sum
 f:0b1b0a745b7489254bf5a322d91ae07c:lua-lgi/Pkgfile
 f:fac1e0cd89e105c61bdee4726b088e7e:lua-lgi/.footprint
 f:8491912017d9b4af5669ea144f6b3051:lua-lgi/.md5sum
-f:e01191e1ccd62dc52a3f464dd3e5a6e3:haskell-platform-bin/Pkgfile
-f:23c6f33cf672a1eaef209baa9593a8f5:haskell-platform-bin/.footprint
-f:563a0f0d1af560338ef5a0644c7105a5:haskell-platform-bin/.md5sum
 f:f632cf87cda4653d38711d539c6209a2:dwm/Pkgfile
 f:70cfb1cfeeb1272d447941ede372e1c9:dwm/.footprint
 f:ac8ae9f472756b8f923e70427367314e:dwm/.md5sum
