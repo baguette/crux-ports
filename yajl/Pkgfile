@@ -1,20 +1,20 @@
 # Description: Yet Another JSON Library
 # URL: http://lloyd.github.io/yajl/
 # Maintainer:  Cory Burgett, cmburget at gmail dot com
-# Depends on: 
+# Depends on: ruby
 
 name=yajl
 version=2.1.0
 release=1
-source=(http://github.com/lloyd/$name/tarball/$version)
+source=(https://github.com/lloyd/yajl/archive/$version.tar.gz)
 
 build() {
-	tar xf $version
-	cd lloyd-$name-66cb08c
+	cd $name-$version
 
 	./configure -p /usr
+	cd build || exit 1
 	make
 	make DESTDIR=$PKG install
 
-	rm -rf $PKG/usr/share/doc
+	#rm -rf $PKG/usr/share/doc
 }
