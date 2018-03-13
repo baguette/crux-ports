@@ -1,5 +1,6 @@
 #!/bin/sh
 
-fc-cache /usr/share/fonts/X11/TTF
 mkfontscale /usr/share/fonts/X11/TTF
 mkfontdir /usr/share/fonts/X11/TTF
+fc-cache /usr/share/fonts/X11/TTF
+[ -z "$DISPLAY" ] || xset fp rehash

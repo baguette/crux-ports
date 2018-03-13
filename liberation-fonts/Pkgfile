@@ -6,7 +6,7 @@
 name=liberation-fonts
 version=2.00.1
 release=1
-source=(https://fedorahosted.org/releases/l/i/$name/$name-ttf-$version.tar.gz)
+source=(https://releases.pagure.org/$name/$name-ttf-$version.tar.gz)
 
 build() {
 	cd $name-ttf-$version
