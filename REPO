@@ -7,7 +7,6 @@ d:mosml
 d:orbit
 d:chibi-scheme
 d:jbigkit
-d:xkbcommon
 d:xorg-xcb-util-xrm
 d:scheme48
 d:gconf
@@ -34,7 +33,6 @@ d:deb2pkg
 d:emacs-gtk3
 d:xorg-libxpm-32
 d:libtinfo-compat
-d:i3
 d:libxdg-basedir
 d:keybinder
 d:mlton-bin
@@ -47,9 +45,9 @@ f:984f7c20512f6f1c8abf43937d0c30b6:joe/.md5sum
 f:1c5ca6b00c9e87dd7ae32ce66f728dac:splix/Pkgfile
 f:be1dc962eb76a5ad6e08f73414a7a26d:splix/.footprint
 f:b9588300b74281a6a163cf32a894e3ca:splix/.md5sum
-f:fb75b8c37306933ee66906a0f2373e13:yajl/Pkgfile
+f:ee2d2bd089a01729f3b297c2b3a2d271:yajl/Pkgfile
 f:21b1f88711249f7d9acd0266b109b1ed:yajl/.footprint
-f:04d12b34fc57fc2146cd8418948073e3:yajl/.md5sum
+f:a24b790cc348dacf9ea21a8c1b57096e:yajl/.md5sum
 f:f306095d94c33affb6c37709f83b7251:weechat/Pkgfile
 f:398ac70de61d5cdd422030fdbd0a70a5:weechat/.footprint
 f:2311218632ba8ef9a9a9953b1c84cf68:weechat/.md5sum
@@ -65,9 +63,6 @@ f:a5f8d37df8cc8affe52fff04a40143ed:chibi-scheme/.md5sum
 f:1cb05cff5adb113607b7cbf66c736727:jbigkit/Pkgfile
 f:9f5dd449fb4f9b3df839a18b600224ca:jbigkit/.footprint
 f:434dabf1be1a71c9c4992f6951f74e33:jbigkit/.md5sum
-f:6211632ef3d2c0f9bfdd276b390e4c6d:xkbcommon/Pkgfile
-f:ec896d9e49662bbbf7ff4cfb5b9a9d41:xkbcommon/.footprint
-f:7b9e043e66edf3604ab7644118b16035:xkbcommon/.md5sum
 f:ad109e57390f1371fba57d9aa791710e:xorg-xcb-util-xrm/Pkgfile
 f:80e849824bbe614b2a87b956bf7fa46a:xorg-xcb-util-xrm/.footprint
 f:2b50b0fa7f5f72ecbe2fa08d4b86a8f8:xorg-xcb-util-xrm/.md5sum
@@ -138,9 +133,9 @@ f:a05165995e6b76ab09324c158c43105b:liberation-fonts/.md5sum
 f:174c2134afbc2cb389bfa23399939e15:plan9port/Pkgfile
 f:6881b4a7044077feb640316ff40a05b2:plan9port/.footprint
 f:e448cdb19a315b9c05e9cc151fc06908:plan9port/.md5sum
-f:8589156bd64ee4bb453c7ff9652812de:racket/Pkgfile
-f:6699822d9299c1a3c9ad2ac07da5aea9:racket/.footprint
-f:6b5d41705d64ef3d3ef0dcaf3c5cb976:racket/.md5sum
+f:4fb7ba2fb63918425165143efb6cff00:racket/Pkgfile
+f:4b605f70b8571dc93b83463e7d798298:racket/.footprint
+f:4339cfa4918a897fbf9c5cd265d13d00:racket/.md5sum
 f:fd31771ef6e5e5247bb002476a19408f:deb2pkg/Pkgfile
 f:a554b7f7482da985b1939d6e4ef570c9:deb2pkg/.footprint
 f:e933066deded9ff451d594efd52d83ef:deb2pkg/deb2pkg
@@ -155,9 +150,6 @@ f:cbd6ab293fd96f504815849fa6e0b11d:xorg-libxpm-32/.md5sum
 f:fa723af11d853be4372e205223b086e3:libtinfo-compat/Pkgfile
 f:d0ddbd383c2aa8322477565996628e5b:libtinfo-compat/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:libtinfo-compat/.md5sum
-f:fc697816bfd5f6044046fd9c6d831ef0:i3/Pkgfile
-f:9371001c062cd02c5cabc6ca321c1cb0:i3/.footprint
-f:d7de553b7692c941473f5242f8f66266:i3/.md5sum
 f:58ec4a1b5250c371431f83dc2e010ab2:libxdg-basedir/Pkgfile
 f:2e74b7a5e14fd2111c681f9df9bc9a07:libxdg-basedir/.footprint
 f:56b0b38248c1460420ec432f5d325fb2:libxdg-basedir/.md5sum
