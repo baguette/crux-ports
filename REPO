@@ -14,7 +14,6 @@ d:gconf
 d:mtpaint
 d:xorg-libxaw-32
 d:polyml
-d:libbsd
 d:network-manager-applet
 d:mg
 d:tinyscheme
@@ -92,9 +91,6 @@ f:a1e14ec7345890b0600d04a4f702ef00:xorg-libxaw-32/.md5sum
 f:d1634add4afbc1182258b9b15a9cb0ad:polyml/Pkgfile
 f:2100fdd2e93b1eac4c3a8f9429dcd86c:polyml/.footprint
 f:00ab1b9838002a3d9a9f50c4ac52c929:polyml/.md5sum
-f:bb2004096c13e9d470aceceee2e60a7a:libbsd/Pkgfile
-f:8df0f9f342b164e15737693b08313aeb:libbsd/.footprint
-f:b5b0396e86d570abc1f6cb170841873e:libbsd/.md5sum
 f:249c6568807376c70ae18cb7879a39d5:network-manager-applet/Pkgfile
 f:f666396dff59537528c2735b70a43e4c:network-manager-applet/.footprint
 f:522f2e43effe72fc4f1a8477f30622e4:network-manager-applet/.md5sum
