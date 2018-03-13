@@ -22,7 +22,6 @@ d:mandoc
 d:bmake
 d:qastools
 d:lua-lgi
-d:dwm
 d:rpm2pkg
 d:jimtcl
 d:rust-bin
@@ -30,7 +29,6 @@ d:zpaq
 d:xarchiver
 d:liberation-fonts
 d:plan9port
-d:dmenu
 d:racket
 d:deb2pkg
 d:emacs-gtk3
@@ -115,9 +113,6 @@ f:d2c405d1cb965e5873ae5e55dc18f1fe:qastools/.md5sum
 f:0b1b0a745b7489254bf5a322d91ae07c:lua-lgi/Pkgfile
 f:fac1e0cd89e105c61bdee4726b088e7e:lua-lgi/.footprint
 f:8491912017d9b4af5669ea144f6b3051:lua-lgi/.md5sum
-f:f632cf87cda4653d38711d539c6209a2:dwm/Pkgfile
-f:70cfb1cfeeb1272d447941ede372e1c9:dwm/.footprint
-f:ac8ae9f472756b8f923e70427367314e:dwm/.md5sum
 f:765712bde44eb2af93c7dfe6106828f3:rpm2pkg/Pkgfile
 f:a2993825d2c013547dcd994427d00cb7:rpm2pkg/rpm2pkg
 f:933c102a9bf8b307ecc6d3b9ab9b2aa9:rpm2pkg/.footprint
@@ -143,9 +138,6 @@ f:a05165995e6b76ab09324c158c43105b:liberation-fonts/.md5sum
 f:174c2134afbc2cb389bfa23399939e15:plan9port/Pkgfile
 f:6881b4a7044077feb640316ff40a05b2:plan9port/.footprint
 f:e448cdb19a315b9c05e9cc151fc06908:plan9port/.md5sum
-f:a5940215e4179947f04096e78815f066:dmenu/Pkgfile
-f:55edb911ea31802e6d281a5f68c6a41e:dmenu/.footprint
-f:9d6588838b6228b83131e14f08dae4bb:dmenu/.md5sum
 f:8589156bd64ee4bb453c7ff9652812de:racket/Pkgfile
 f:6699822d9299c1a3c9ad2ac07da5aea9:racket/.footprint
 f:6b5d41705d64ef3d3ef0dcaf3c5cb976:racket/.md5sum
