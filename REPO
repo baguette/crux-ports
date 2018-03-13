@@ -135,9 +135,6 @@ f:765712bde44eb2af93c7dfe6106828f3:rpm2pkg/Pkgfile
 f:a2993825d2c013547dcd994427d00cb7:rpm2pkg/rpm2pkg
 f:933c102a9bf8b307ecc6d3b9ab9b2aa9:rpm2pkg/.footprint
 f:82bec05a71b98bc6b2fde455dd00b619:rpm2pkg/.md5sum
-f:5b03436e72ecae5d85540141cd73788a:adwaita-icon-theme/Pkgfile
-f:be7aacadf3fb98be36213076013106dc:adwaita-icon-theme/.footprint
-f:e943679052fd0cf218cde3db5907c821:adwaita-icon-theme/.md5sum
 f:6a3e6028c2567b57e50c49c7da52bde1:jimtcl/Pkgfile
 f:7c1db5dfea18d30eb7010d1d4096cb2f:jimtcl/.footprint
 f:ca5a63eb12cc6dea1b1ffd18a519c65d:jimtcl/.md5sum
