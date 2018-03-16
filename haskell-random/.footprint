@@ -1,0 +1,17 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/doc/
+drwxr-xr-x	root/root	usr/doc/haskell-random-1.1/
+-rw-r--r--	root/root	usr/doc/haskell-random-1.1/LICENSE
+drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/ghc-8.2.2/
+drwxr-xr-x	root/root	usr/lib/ghc-8.2.2/package.conf.d/
+-rw-r--r--	root/root	usr/lib/ghc-8.2.2/package.conf.d/random-1.1-LLUGZ7T9DqQ5vN0Jbcd0We.conf
+drwxr-xr-x	root/root	usr/lib/ghc-8.2.2/random-1.1/
+drwxr-xr-x	root/root	usr/lib/ghc-8.2.2/random-1.1/System/
+-rw-r--r--	root/root	usr/lib/ghc-8.2.2/random-1.1/System/Random.dyn_hi
+-rw-r--r--	root/root	usr/lib/ghc-8.2.2/random-1.1/System/Random.hi
+-rw-r--r--	root/root	usr/lib/ghc-8.2.2/random-1.1/System/Random.p_hi
+-rw-r--r--	root/root	usr/lib/ghc-8.2.2/random-1.1/libHSrandom-1.1-LLUGZ7T9DqQ5vN0Jbcd0We.a
+-rw-r--r--	root/root	usr/lib/ghc-8.2.2/random-1.1/libHSrandom-1.1-LLUGZ7T9DqQ5vN0Jbcd0We_p.a
+drwxr-xr-x	root/root	usr/lib/x86_64-linux-ghc-8.2.2/
+-rwxr-xr-x	root/root	usr/lib/x86_64-linux-ghc-8.2.2/libHSrandom-1.1-LLUGZ7T9DqQ5vN0Jbcd0We-ghc8.2.2.so
