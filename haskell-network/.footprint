@@ -1,7 +1,4 @@
 drwxr-xr-x	root/root	usr/
-drwxr-xr-x	root/root	usr/doc/
-drwxr-xr-x	root/root	usr/doc/haskell-network-2.6.3.4/
--rw-r--r--	root/root	usr/doc/haskell-network-2.6.3.4/LICENSE
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/ghc-8.2.2/
 drwxr-xr-x	root/root	usr/lib/ghc-8.2.2/network-2.6.3.4/
