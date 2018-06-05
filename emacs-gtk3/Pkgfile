@@ -1,10 +1,11 @@
 # Description: GNU emacs - an extensible text editor
 # URL: http://gnu.org/software/emacs/
 # Maintainer:  Cory Burgett, cmburget at gmail dot com
-# Depends on: gtk3 xorg-libxpm libpng zlib libjpeg-turbo libtiff giflib dbus gnutls libxml2 harfbuzz freetype glib librsvg pango cairo atk alsa-lib
+# Depends on: alsa-lib atk cairo dbus fontconfig freetype fribidi gdk-pixbuf giflib glib gnutls gtk3 lcms2 libjpeg-turbo libpng librsvg libsoup libtiff libxml2 pango webkitgtk
+# Conflicts with: ctags
 
 name=emacs-gtk3
-version=25.3
+version=26.1
 release=1
 source=(http://ftpmirror.gnu.org/emacs/emacs-$version.tar.xz)
 
@@ -13,10 +14,17 @@ build() {
 
 	./configure --prefix=/usr \
 	            --libexecdir=/usr/lib/emacs \
-	            --without-gconf \
+	            --disable-libsystemd \
 	            --without-selinux \
 	            --without-gsettings \
-	            --without-imagemagick
+	            --without-libotf \
+	            --without-m17n-flt \
+	            --with-x \
+	            --with-x-toolkit=gtk3 \
+	            --with-xwidgets \
+	            --with-sound=alsa \
+	            --with-modules
+
 	make
 	make DESTDIR=$PKG install
 
