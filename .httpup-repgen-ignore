@@ -9,6 +9,8 @@
 \.zip$
 \.tar\.xz$
 \.txz$
-*~$
+.*~$
 .*~$
 .*.swp$
+^bmake
+^finddeps.sh$
