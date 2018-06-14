@@ -1,0 +1,16 @@
+# Description: find duplicate fs blocks and submit them to the kernel for dedup
+# URL: https://github.com/markfasheh/duperemove
+# Maintainer:  Cory Burgett, cmburget at gmail dot com
+# Depends on: glib sqlite3
+
+name=duperemove
+version=0.11
+release=1
+source=(https://github.com/markfasheh/$name/archive/v$version/$name-v$version.tar.gz)
+
+build() {
+	cd $name-$version
+
+	make PREFIX=/usr DESTDIR=$PKG all
+	make PREFIX=/usr DESTDIR=$PKG install
+}

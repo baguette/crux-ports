@@ -3,6 +3,7 @@ d:joe
 d:splix
 d:haskell-hackage-security
 d:yajl
+d:duperemove
 d:weechat
 d:mosml
 d:orbit
@@ -73,6 +74,9 @@ f:2834b0b3339060f78fccb1266f6eb3d7:haskell-hackage-security/.md5sum
 f:ee2d2bd089a01729f3b297c2b3a2d271:yajl/Pkgfile
 f:21b1f88711249f7d9acd0266b109b1ed:yajl/.footprint
 f:a24b790cc348dacf9ea21a8c1b57096e:yajl/.md5sum
+f:3d5f498b56aa98a92bf6e2837ff73dab:duperemove/Pkgfile
+f:fa1788869ebafe37df3768faa7f75dec:duperemove/.footprint
+f:72ceb635f4bb7e3bebdf3b832b17286f:duperemove/.md5sum
 f:f306095d94c33affb6c37709f83b7251:weechat/Pkgfile
 f:398ac70de61d5cdd422030fdbd0a70a5:weechat/.footprint
 f:2311218632ba8ef9a9a9953b1c84cf68:weechat/.md5sum
@@ -238,7 +242,7 @@ f:fd31771ef6e5e5247bb002476a19408f:deb2pkg/Pkgfile
 f:a554b7f7482da985b1939d6e4ef570c9:deb2pkg/.footprint
 f:e933066deded9ff451d594efd52d83ef:deb2pkg/deb2pkg
 f:5d037295dc1bb890ed094644de85b194:deb2pkg/.md5sum
-f:b95371c921987bfb3140d7915f8ea3a9:emacs-gtk3/Pkgfile
+f:ea37c7ad9d5578d3cd3d1b9eed56a0b3:emacs-gtk3/Pkgfile
 f:44da7dfb06ebf6125be2ca647155c272:emacs-gtk3/.footprint
 f:0cc74d45fc985482c628fef7a2173d96:emacs-gtk3/.md5sum
 f:89b9df752592d9600a00ccfa59d64c6a:haskell-async/post-install

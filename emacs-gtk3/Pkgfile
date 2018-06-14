@@ -16,6 +16,7 @@ build() {
 	            --libexecdir=/usr/lib/emacs \
 	            --disable-libsystemd \
 	            --without-selinux \
+	            --without-gconf \
 	            --without-gsettings \
 	            --without-libotf \
 	            --without-m17n-flt \
