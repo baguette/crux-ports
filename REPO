@@ -1,3 +1,4 @@
+d:libunistring
 d:rlwrap
 d:joe
 d:splix
@@ -14,6 +15,7 @@ d:jbigkit
 d:haskell-mtl
 d:xorg-xcb-util-xrm
 d:scheme48
+d:guile
 d:gconf
 d:mtpaint
 d:haskell-base16-bytestring
@@ -58,6 +60,9 @@ d:haskell-cabal-install
 d:libxdg-basedir
 d:keybinder
 d:mlton-bin
+f:b283f7fbc51c45767faefae4819f9f97:libunistring/Pkgfile
+f:f08b3702c4c36133da80a4c1bb02c1f5:libunistring/.footprint
+f:739262a3cecbbcb1b4036865f2cbe89b:libunistring/.md5sum
 f:195bac2b6f4661630238a2b533b16176:rlwrap/Pkgfile
 f:b19b660111304d3d2ea878c11e401c28:rlwrap/.footprint
 f:6f99679b9f751d84ea513f01598fbb12:rlwrap/.md5sum
@@ -110,6 +115,9 @@ f:2b50b0fa7f5f72ecbe2fa08d4b86a8f8:xorg-xcb-util-xrm/.md5sum
 f:f7dafd24b14155b88a33a0a70ad25beb:scheme48/Pkgfile
 f:b4ee63321158af81714ff54832ce5b41:scheme48/.footprint
 f:f820e75bf435bf63c9c5ea94a8de21ac:scheme48/.md5sum
+f:3913f1a935bcd547381787e21f15ad9b:guile/Pkgfile
+f:d9fad0db8d4543c10a28ae682e01c6db:guile/.footprint
+f:f1ab8cc16dcaf5e50a8ff2b5d1cb7382:guile/.md5sum
 f:a68b1c7433734d6dc9dad88b4cc0f124:gconf/Pkgfile
 f:2552c28250eaa5a38d981bdb629c3475:gconf/.footprint
 f:adcc77975210efbf35ad29af82a12bc2:gconf/.md5sum
