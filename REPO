@@ -48,6 +48,7 @@ d:xarchiver
 d:haskell-network-uri
 d:haskell-extensible-exceptions
 d:haskell-HTTP
+d:xorg-font-iosevka
 d:liberation-fonts
 d:plan9port
 d:racket
@@ -236,6 +237,10 @@ f:cafef0d858a3bc00beac0ac8e303fd74:haskell-HTTP/Pkgfile
 f:8459dd7b9f07e1730623594efd417eb2:haskell-HTTP/.footprint
 f:79976ccafc2507f345d542ec5d49f8aa:haskell-HTTP/.md5sum
 f:6e609fa044e466820840cabda784d8bb:baguette.httpup
+f:3418b238cb4b15f12657274790c01a92:xorg-font-iosevka/post-install
+f:33b9219f16d552d71ffb2aca1b661dd8:xorg-font-iosevka/Pkgfile
+f:40a0f8fa8e43c457cc65097b564c3087:xorg-font-iosevka/.footprint
+f:953c56169793920eaf7f896ae473c93c:xorg-font-iosevka/.md5sum
 f:9a26fc8787930e5247a8efec71829e8c:liberation-fonts/post-install
 f:02fc61b18d75deaa6b9ec762ae4bcfc5:liberation-fonts/Pkgfile
 f:b295b072c00865e536479b401c34140b:liberation-fonts/.footprint
