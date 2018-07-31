@@ -3,13 +3,13 @@
 # Maintainer:  Cory Burgett, cmburget at gmail dot com
 # Depends on:
 
-name=liberation-fonts
+name=xorg-font-liberation
 version=2.00.1
 release=1
-source=(https://releases.pagure.org/$name/$name-ttf-$version.tar.gz)
+source=(https://releases.pagure.org/liberation/fonts/liberation-fonts-ttf-$version.tar.gz)
 
 build() {
-	cd $name-ttf-$version
+	cd liberation-fonts-ttf-$version
 	mkdir -p $PKG/usr/share/fonts/X11/TTF
-	cp *.ttf $PKG/usr/share/fonts/X11/TTF/
+	cp -t $PKG/usr/share/fonts/X11/TTF/ *.ttf
 }

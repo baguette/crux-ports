@@ -25,6 +25,7 @@ d:haskell-zlib
 d:xorg-libxaw-32
 d:haskell-parsec
 d:polyml
+d:xorg-font-liberation
 d:haskell-ed25519
 d:haskell-process
 d:network-manager-applet
@@ -49,7 +50,6 @@ d:haskell-network-uri
 d:haskell-extensible-exceptions
 d:haskell-HTTP
 d:xorg-font-iosevka
-d:liberation-fonts
 d:plan9port
 d:racket
 d:deb2pkg
@@ -154,6 +154,10 @@ f:318590cf375804f3d9a47dc06deb177d:haskell-parsec/.md5sum
 f:d1634add4afbc1182258b9b15a9cb0ad:polyml/Pkgfile
 f:2100fdd2e93b1eac4c3a8f9429dcd86c:polyml/.footprint
 f:00ab1b9838002a3d9a9f50c4ac52c929:polyml/.md5sum
+f:3418b238cb4b15f12657274790c01a92:xorg-font-liberation/post-install
+f:e9cb2e87d77144bed5c03cb72d75866a:xorg-font-liberation/Pkgfile
+f:b295b072c00865e536479b401c34140b:xorg-font-liberation/.footprint
+f:a05165995e6b76ab09324c158c43105b:xorg-font-liberation/.md5sum
 f:89b9df752592d9600a00ccfa59d64c6a:haskell-ed25519/post-install
 f:5d25ff61d351a94e61727a0263844755:haskell-ed25519/Pkgfile
 f:d9288ccfe2879d9999f8f1bf89447df6:haskell-ed25519/.footprint
@@ -241,10 +245,6 @@ f:3418b238cb4b15f12657274790c01a92:xorg-font-iosevka/post-install
 f:33b9219f16d552d71ffb2aca1b661dd8:xorg-font-iosevka/Pkgfile
 f:40a0f8fa8e43c457cc65097b564c3087:xorg-font-iosevka/.footprint
 f:953c56169793920eaf7f896ae473c93c:xorg-font-iosevka/.md5sum
-f:9a26fc8787930e5247a8efec71829e8c:liberation-fonts/post-install
-f:02fc61b18d75deaa6b9ec762ae4bcfc5:liberation-fonts/Pkgfile
-f:b295b072c00865e536479b401c34140b:liberation-fonts/.footprint
-f:a05165995e6b76ab09324c158c43105b:liberation-fonts/.md5sum
 f:174c2134afbc2cb389bfa23399939e15:plan9port/Pkgfile
 f:6881b4a7044077feb640316ff40a05b2:plan9port/.footprint
 f:e448cdb19a315b9c05e9cc151fc06908:plan9port/.md5sum
