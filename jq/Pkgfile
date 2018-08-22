@@ -1,0 +1,22 @@
+# Description: jq tool and language for dealing with JSON data
+# URL: https://stedolan.github.io/jq/
+# Maintainer:  Cory Burgett, cmburget at gmail dot com
+# Depends on:
+
+name=jq
+version=1.5
+release=1
+source=(https://github.com/stedolan/$name/releases/download/$name-$version/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+
+	./configure --prefix=/usr \
+	            --libexecdir=/usr/lib/$name \
+	            --mandir=/usr/share/man \
+	            --docdir=/usr/share/doc/$name
+	make
+	make DESTDIR=$PKG install
+
+	rm -rf $PKG/usr/share/doc
+}

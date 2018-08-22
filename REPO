@@ -48,6 +48,7 @@ d:xarchiver
 d:haskell-network-uri
 d:haskell-extensible-exceptions
 d:haskell-HTTP
+d:jq
 d:xorg-font-iosevka
 d:plan9port
 d:racket
@@ -236,6 +237,9 @@ f:89b9df752592d9600a00ccfa59d64c6a:haskell-HTTP/post-install
 f:cafef0d858a3bc00beac0ac8e303fd74:haskell-HTTP/Pkgfile
 f:8459dd7b9f07e1730623594efd417eb2:haskell-HTTP/.footprint
 f:79976ccafc2507f345d542ec5d49f8aa:haskell-HTTP/.md5sum
+f:ec870ba2a46b9ab5ab5cc5b074a51031:jq/Pkgfile
+f:6cedf08cfff140306b7487a578274f6a:jq/.footprint
+f:4215db7fc2b91c150fa63c4d619e572f:jq/.md5sum
 f:6e609fa044e466820840cabda784d8bb:baguette.httpup
 f:3418b238cb4b15f12657274790c01a92:xorg-font-iosevka/post-install
 f:33b9219f16d552d71ffb2aca1b661dd8:xorg-font-iosevka/Pkgfile
