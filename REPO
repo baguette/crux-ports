@@ -43,7 +43,6 @@ d:rpm2pkg
 d:jimtcl
 d:haskell-echo
 d:haskell-base64-bytestring
-d:rust-bin
 d:zpaq
 d:xarchiver
 d:haskell-network-uri
@@ -219,9 +218,6 @@ f:41bce75bd241bf4554817931a2194e42:haskell-base64-bytestring/Pkgfile
 f:366efa1d316b42f6bb2520acfd85b258:haskell-base64-bytestring/.footprint
 f:ab51885ccebf669d67d3c50b085b24a1:haskell-base64-bytestring/.md5sum
 f:536cba55b59a337b6850ede818fd50fc:Makefile
-f:3f72be877f539452b55c8f34285fc80f:rust-bin/Pkgfile
-f:94b0df37ac5d4fe11e3a67813d0b9fcf:rust-bin/.footprint
-f:f24e1bde9b326583de5e097885fd3066:rust-bin/.md5sum
 f:b237ee53ac25ef98643819a74f570c83:zpaq/Pkgfile
 f:0a6b0c14987442da3505c4d2cd17e738:zpaq/.footprint
 f:3b20fe0c4df86141caef67887b69b755:zpaq/.md5sum
