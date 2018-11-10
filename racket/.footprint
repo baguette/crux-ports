@@ -45,10 +45,10 @@ drwxr-xr-x	root/root	usr/include/racket/
 -rw-r--r--	root/root	usr/include/racket/stypes.h
 -rw-r--r--	root/root	usr/include/racket/uconfig.h
 drwxr-xr-x	root/root	usr/lib/
--rwxr-xr-x	root/root	usr/lib/libracket3m-7.0.so
+-rwxr-xr-x	root/root	usr/lib/libracket3m-7.1.so
 -rw-r--r--	root/root	usr/lib/libracket3m.a
 -rwxr-xr-x	root/root	usr/lib/libracket3m.la
-lrwxrwxrwx	root/root	usr/lib/libracket3m.so -> libracket3m-7.0.so
+lrwxrwxrwx	root/root	usr/lib/libracket3m.so -> libracket3m-7.1.so
 drwxr-xr-x	root/root	usr/lib/racket/
 -rw-r--r--	root/root	usr/lib/racket/buildinfo
 -rwxr-xr-x	root/root	usr/lib/racket/gracket
@@ -226,6 +226,7 @@ drwxr-xr-x	root/root	usr/share/doc/racket/deinprogramm/
 -rw-r--r--	root/root	usr/share/doc/racket/deinprogramm/Eigenschaften.html
 -rw-r--r--	root/root	usr/share/doc/racket/deinprogramm/Konstruktionsanleitungen_1_bis_10.html
 -rw-r--r--	root/root	usr/share/doc/racket/deinprogramm/Parametrische_Record-Typ-Definitionen.html
+-rw-r--r--	root/root	usr/share/doc/racket/deinprogramm/Pattern-Matching.html
 -rw-r--r--	root/root	usr/share/doc/racket/deinprogramm/Record-Typ-Definitionen.html
 -rw-r--r--	root/root	usr/share/doc/racket/deinprogramm/Signaturen.html
 -rw-r--r--	root/root	usr/share/doc/racket/deinprogramm/Testf_lle.html
@@ -251,7 +252,7 @@ drwxr-xr-x	root/root	usr/share/doc/racket/deinprogramm/
 -rw-r--r--	root/root	usr/share/doc/racket/deinprogramm/image.html
 -rw-r--r--	root/root	usr/share/doc/racket/deinprogramm/in.sxref
 -rw-r--r--	root/root	usr/share/doc/racket/deinprogramm/index.html
--rw-r--r--	root/root	usr/share/doc/racket/deinprogramm/lambda.html
+-rw-r--r--	root/root	usr/share/doc/racket/deinprogramm/lambda____.html
 -rw-r--r--	root/root	usr/share/doc/racket/deinprogramm/let__letrec_und_let_.html
 -rw-r--r--	root/root	usr/share/doc/racket/deinprogramm/line3d.html
 -rw-r--r--	root/root	usr/share/doc/racket/deinprogramm/or.html
@@ -261,6 +262,8 @@ drwxr-xr-x	root/root	usr/share/doc/racket/deinprogramm/
 -rw-r--r--	root/root	usr/share/doc/racket/deinprogramm/p2.jpg
 -rw-r--r--	root/root	usr/share/doc/racket/deinprogramm/p3.jpg
 -rw-r--r--	root/root	usr/share/doc/racket/deinprogramm/p4.jpg
+-rw-r--r--	root/root	usr/share/doc/racket/deinprogramm/pattern-matching-advanced.html
+-rw-r--r--	root/root	usr/share/doc/racket/deinprogramm/pattern-matching-vanilla.html
 -rw-r--r--	root/root	usr/share/doc/racket/deinprogramm/provides.sxref
 -rw-r--r--	root/root	usr/share/doc/racket/deinprogramm/set_.html
 -rw-r--r--	root/root	usr/share/doc/racket/deinprogramm/signatures-vanilla.html
@@ -620,6 +623,7 @@ drwxr-xr-x	root/root	usr/share/doc/racket/foreign/
 -rw-r--r--	root/root	usr/share/doc/racket/foreign/Defining_Bindings.html
 -rw-r--r--	root/root	usr/share/doc/racket/foreign/Derived_Utilities.html
 -rw-r--r--	root/root	usr/share/doc/racket/foreign/Enumerations_and_Masks.html
+-rw-r--r--	root/root	usr/share/doc/racket/foreign/Garbage_Collection_Callbacks.html
 -rw-r--r--	root/root	usr/share/doc/racket/foreign/Loading_Foreign_Libraries.html
 -rw-r--r--	root/root	usr/share/doc/racket/foreign/Miscellaneous_Support.html
 -rw-r--r--	root/root	usr/share/doc/racket/foreign/Numeric_Types.html
@@ -2016,6 +2020,7 @@ drwxr-xr-x	root/root	usr/share/doc/racket/pict/
 -rw-r--r--	root/root	usr/share/doc/racket/pict/pict_206.png
 -rw-r--r--	root/root	usr/share/doc/racket/pict/pict_207.png
 -rw-r--r--	root/root	usr/share/doc/racket/pict/pict_208.png
+-rw-r--r--	root/root	usr/share/doc/racket/pict/pict_209.png
 -rw-r--r--	root/root	usr/share/doc/racket/pict/pict_21.png
 -rw-r--r--	root/root	usr/share/doc/racket/pict/pict_22.png
 -rw-r--r--	root/root	usr/share/doc/racket/pict/pict_23.png
@@ -2966,6 +2971,7 @@ drwxr-xr-x	root/root	usr/share/doc/racket/reference/
 -rw-r--r--	root/root	usr/share/doc/racket/reference/serialization.html
 -rw-r--r--	root/root	usr/share/doc/racket/reference/set_.html
 -rw-r--r--	root/root	usr/share/doc/racket/reference/sets.html
+-rw-r--r--	root/root	usr/share/doc/racket/reference/sha.html
 -rw-r--r--	root/root	usr/share/doc/racket/reference/shared.html
 -rw-r--r--	root/root	usr/share/doc/racket/reference/single-unit.html
 -rw-r--r--	root/root	usr/share/doc/racket/reference/special-comments.html
@@ -3299,6 +3305,7 @@ drwxr-xr-x	root/root	usr/share/doc/racket/slideshow/
 -rw-r--r--	root/root	usr/share/doc/racket/slideshow/Text_Formatting_Helpers.html
 -rw-r--r--	root/root	usr/share/doc/racket/slideshow/Typesetting_Racket_Code_in_Slideshow.html
 -rw-r--r--	root/root	usr/share/doc/racket/slideshow/Viewer_Control.html
+-rw-r--r--	root/root	usr/share/doc/racket/slideshow/aspect.html
 -rw-r--r--	root/root	usr/share/doc/racket/slideshow/blueboxes.rktd
 -rw-r--r--	root/root	usr/share/doc/racket/slideshow/doc-bibliography.html
 -rw-r--r--	root/root	usr/share/doc/racket/slideshow/doc-index.html
@@ -4287,12 +4294,15 @@ drwxr-xr-x	root/root	usr/share/racket/collects/ffi/compiled/
 drwxr-xr-x	root/root	usr/share/racket/collects/ffi/unsafe/
 -rw-r--r--	root/root	usr/share/racket/collects/ffi/unsafe/alloc.rkt
 -rw-r--r--	root/root	usr/share/racket/collects/ffi/unsafe/atomic.rkt
+-rw-r--r--	root/root	usr/share/racket/collects/ffi/unsafe/collect-callback.rkt
 -rw-r--r--	root/root	usr/share/racket/collects/ffi/unsafe/com.rkt
 drwxr-xr-x	root/root	usr/share/racket/collects/ffi/unsafe/compiled/
 -rw-r--r--	root/root	usr/share/racket/collects/ffi/unsafe/compiled/alloc_rkt.dep
 -rw-r--r--	root/root	usr/share/racket/collects/ffi/unsafe/compiled/alloc_rkt.zo
 -rw-r--r--	root/root	usr/share/racket/collects/ffi/unsafe/compiled/atomic_rkt.dep
 -rw-r--r--	root/root	usr/share/racket/collects/ffi/unsafe/compiled/atomic_rkt.zo
+-rw-r--r--	root/root	usr/share/racket/collects/ffi/unsafe/compiled/collect-callback_rkt.dep
+-rw-r--r--	root/root	usr/share/racket/collects/ffi/unsafe/compiled/collect-callback_rkt.zo
 -rw-r--r--	root/root	usr/share/racket/collects/ffi/unsafe/compiled/com_rkt.dep
 -rw-r--r--	root/root	usr/share/racket/collects/ffi/unsafe/compiled/com_rkt.zo
 -rw-r--r--	root/root	usr/share/racket/collects/ffi/unsafe/compiled/custodian_rkt.dep
@@ -4810,6 +4820,8 @@ drwxr-xr-x	root/root	usr/share/racket/collects/racket/compiled/
 -rw-r--r--	root/root	usr/share/racket/collects/racket/compiled/place_rkt.zo
 -rw-r--r--	root/root	usr/share/racket/collects/racket/compiled/port_rkt.dep
 -rw-r--r--	root/root	usr/share/racket/collects/racket/compiled/port_rkt.zo
+-rw-r--r--	root/root	usr/share/racket/collects/racket/compiled/prefab_rkt.dep
+-rw-r--r--	root/root	usr/share/racket/collects/racket/compiled/prefab_rkt.zo
 -rw-r--r--	root/root	usr/share/racket/collects/racket/compiled/pretty_rkt.dep
 -rw-r--r--	root/root	usr/share/racket/collects/racket/compiled/pretty_rkt.zo
 -rw-r--r--	root/root	usr/share/racket/collects/racket/compiled/promise_rkt.dep
@@ -5154,6 +5166,7 @@ drwxr-xr-x	root/root	usr/share/racket/collects/racket/place/private/compiled/
 -rw-r--r--	root/root	usr/share/racket/collects/racket/place/private/prop.rkt
 -rw-r--r--	root/root	usr/share/racket/collects/racket/place/private/th-place.rkt
 -rw-r--r--	root/root	usr/share/racket/collects/racket/port.rkt
+-rw-r--r--	root/root	usr/share/racket/collects/racket/prefab.rkt
 -rw-r--r--	root/root	usr/share/racket/collects/racket/pretty.rkt
 drwxr-xr-x	root/root	usr/share/racket/collects/racket/private/
 -rw-r--r--	root/root	usr/share/racket/collects/racket/private/arity.rkt
@@ -5235,6 +5248,8 @@ drwxr-xr-x	root/root	usr/share/racket/collects/racket/private/compiled/
 -rw-r--r--	root/root	usr/share/racket/collects/racket/private/compiled/kw-file_rkt.zo
 -rw-r--r--	root/root	usr/share/racket/collects/racket/private/compiled/kw-prop-key_rkt.dep
 -rw-r--r--	root/root	usr/share/racket/collects/racket/private/compiled/kw-prop-key_rkt.zo
+-rw-r--r--	root/root	usr/share/racket/collects/racket/private/compiled/kw-syntax-binding_rkt.dep
+-rw-r--r--	root/root	usr/share/racket/collects/racket/private/compiled/kw-syntax-binding_rkt.zo
 -rw-r--r--	root/root	usr/share/racket/collects/racket/private/compiled/kw_rkt.dep
 -rw-r--r--	root/root	usr/share/racket/collects/racket/private/compiled/kw_rkt.zo
 -rw-r--r--	root/root	usr/share/racket/collects/racket/private/compiled/letstx-scheme_rkt.dep
@@ -5275,6 +5290,8 @@ drwxr-xr-x	root/root	usr/share/racket/collects/racket/private/compiled/
 -rw-r--r--	root/root	usr/share/racket/collects/racket/private/compiled/path_rkt.zo
 -rw-r--r--	root/root	usr/share/racket/collects/racket/private/compiled/performance-hint_rkt.dep
 -rw-r--r--	root/root	usr/share/racket/collects/racket/private/compiled/performance-hint_rkt.zo
+-rw-r--r--	root/root	usr/share/racket/collects/racket/private/compiled/place-local_rkt.dep
+-rw-r--r--	root/root	usr/share/racket/collects/racket/private/compiled/place-local_rkt.zo
 -rw-r--r--	root/root	usr/share/racket/collects/racket/private/compiled/port_rkt.dep
 -rw-r--r--	root/root	usr/share/racket/collects/racket/private/compiled/port_rkt.zo
 -rw-r--r--	root/root	usr/share/racket/collects/racket/private/compiled/portlines_rkt.dep
@@ -5293,6 +5310,8 @@ drwxr-xr-x	root/root	usr/share/racket/collects/racket/private/compiled/
 -rw-r--r--	root/root	usr/share/racket/collects/racket/private/compiled/qqstx_rkt.zo
 -rw-r--r--	root/root	usr/share/racket/collects/racket/private/compiled/reading-param_rkt.dep
 -rw-r--r--	root/root	usr/share/racket/collects/racket/private/compiled/reading-param_rkt.zo
+-rw-r--r--	root/root	usr/share/racket/collects/racket/private/compiled/relative-path_rkt.dep
+-rw-r--r--	root/root	usr/share/racket/collects/racket/private/compiled/relative-path_rkt.zo
 -rw-r--r--	root/root	usr/share/racket/collects/racket/private/compiled/reqprov_rkt.dep
 -rw-r--r--	root/root	usr/share/racket/collects/racket/private/compiled/reqprov_rkt.zo
 -rw-r--r--	root/root	usr/share/racket/collects/racket/private/compiled/reverse_rkt.dep
@@ -5396,6 +5415,7 @@ drwxr-xr-x	root/root	usr/share/racket/collects/racket/private/compiled/
 -rw-r--r--	root/root	usr/share/racket/collects/racket/private/kernstruct.rkt
 -rw-r--r--	root/root	usr/share/racket/collects/racket/private/kw-file.rkt
 -rw-r--r--	root/root	usr/share/racket/collects/racket/private/kw-prop-key.rkt
+-rw-r--r--	root/root	usr/share/racket/collects/racket/private/kw-syntax-binding.rkt
 -rw-r--r--	root/root	usr/share/racket/collects/racket/private/kw.rkt
 -rw-r--r--	root/root	usr/share/racket/collects/racket/private/letstx-scheme.rkt
 -rw-r--r--	root/root	usr/share/racket/collects/racket/private/list-predicates.rkt
@@ -5416,6 +5436,7 @@ drwxr-xr-x	root/root	usr/share/racket/collects/racket/private/compiled/
 -rw-r--r--	root/root	usr/share/racket/collects/racket/private/path-list.rkt
 -rw-r--r--	root/root	usr/share/racket/collects/racket/private/path.rkt
 -rw-r--r--	root/root	usr/share/racket/collects/racket/private/performance-hint.rkt
+-rw-r--r--	root/root	usr/share/racket/collects/racket/private/place-local.rkt
 -rw-r--r--	root/root	usr/share/racket/collects/racket/private/port.rkt
 -rw-r--r--	root/root	usr/share/racket/collects/racket/private/portlines.rkt
 -rw-r--r--	root/root	usr/share/racket/collects/racket/private/pre-base.rkt
@@ -5425,6 +5446,7 @@ drwxr-xr-x	root/root	usr/share/racket/collects/racket/private/compiled/
 -rw-r--r--	root/root	usr/share/racket/collects/racket/private/qq-and-or.rkt
 -rw-r--r--	root/root	usr/share/racket/collects/racket/private/qqstx.rkt
 -rw-r--r--	root/root	usr/share/racket/collects/racket/private/reading-param.rkt
+-rw-r--r--	root/root	usr/share/racket/collects/racket/private/relative-path.rkt
 -rw-r--r--	root/root	usr/share/racket/collects/racket/private/reqprov.rkt
 -rw-r--r--	root/root	usr/share/racket/collects/racket/private/reverse.rkt
 -rw-r--r--	root/root	usr/share/racket/collects/racket/private/runtime-path-table.rkt
@@ -5848,6 +5870,8 @@ drwxr-xr-x	root/root	usr/share/racket/collects/syntax/parse/private/
 drwxr-xr-x	root/root	usr/share/racket/collects/syntax/parse/private/compiled/
 -rw-r--r--	root/root	usr/share/racket/collects/syntax/parse/private/compiled/3d-stx_rkt.dep
 -rw-r--r--	root/root	usr/share/racket/collects/syntax/parse/private/compiled/3d-stx_rkt.zo
+-rw-r--r--	root/root	usr/share/racket/collects/syntax/parse/private/compiled/datum-to-expr_rkt.dep
+-rw-r--r--	root/root	usr/share/racket/collects/syntax/parse/private/compiled/datum-to-expr_rkt.zo
 -rw-r--r--	root/root	usr/share/racket/collects/syntax/parse/private/compiled/keywords_rkt.dep
 -rw-r--r--	root/root	usr/share/racket/collects/syntax/parse/private/compiled/keywords_rkt.zo
 -rw-r--r--	root/root	usr/share/racket/collects/syntax/parse/private/compiled/kws_rkt.dep
@@ -5888,6 +5912,7 @@ drwxr-xr-x	root/root	usr/share/racket/collects/syntax/parse/private/compiled/
 -rw-r--r--	root/root	usr/share/racket/collects/syntax/parse/private/compiled/sc_rkt.zo
 -rw-r--r--	root/root	usr/share/racket/collects/syntax/parse/private/compiled/txlift_rkt.dep
 -rw-r--r--	root/root	usr/share/racket/collects/syntax/parse/private/compiled/txlift_rkt.zo
+-rw-r--r--	root/root	usr/share/racket/collects/syntax/parse/private/datum-to-expr.rkt
 -rw-r--r--	root/root	usr/share/racket/collects/syntax/parse/private/keywords.rkt
 -rw-r--r--	root/root	usr/share/racket/collects/syntax/parse/private/kws.rkt
 -rw-r--r--	root/root	usr/share/racket/collects/syntax/parse/private/lib.rkt
@@ -6791,7 +6816,10 @@ drwxr-xr-x	root/root	usr/share/racket/pkgs/compiler-lib/compiler/private/
 drwxr-xr-x	root/root	usr/share/racket/pkgs/compiler-lib/compiler/private/compiled/
 -rw-r--r--	root/root	usr/share/racket/pkgs/compiler-lib/compiler/private/compiled/deserialize_rkt.dep
 -rw-r--r--	root/root	usr/share/racket/pkgs/compiler-lib/compiler/private/compiled/deserialize_rkt.zo
+-rw-r--r--	root/root	usr/share/racket/pkgs/compiler-lib/compiler/private/compiled/language_rkt.dep
+-rw-r--r--	root/root	usr/share/racket/pkgs/compiler-lib/compiler/private/compiled/language_rkt.zo
 -rw-r--r--	root/root	usr/share/racket/pkgs/compiler-lib/compiler/private/deserialize.rkt
+-rw-r--r--	root/root	usr/share/racket/pkgs/compiler-lib/compiler/private/language.rkt
 -rw-r--r--	root/root	usr/share/racket/pkgs/compiler-lib/compiler/sig.rkt
 -rw-r--r--	root/root	usr/share/racket/pkgs/compiler-lib/info.rkt
 drwxr-xr-x	root/root	usr/share/racket/pkgs/compiler-lib/launcher/
@@ -17604,6 +17632,7 @@ drwxr-xr-x	root/root	usr/share/racket/pkgs/racket-doc/scribblings/foreign/
 -rw-r--r--	root/root	usr/share/racket/pkgs/racket-doc/scribblings/foreign/active-x.scrbl
 -rw-r--r--	root/root	usr/share/racket/pkgs/racket-doc/scribblings/foreign/alloc.scrbl
 -rw-r--r--	root/root	usr/share/racket/pkgs/racket-doc/scribblings/foreign/atomic.scrbl
+-rw-r--r--	root/root	usr/share/racket/pkgs/racket-doc/scribblings/foreign/collect-callback.scrbl
 -rw-r--r--	root/root	usr/share/racket/pkgs/racket-doc/scribblings/foreign/com-auto.scrbl
 -rw-r--r--	root/root	usr/share/racket/pkgs/racket-doc/scribblings/foreign/com-common.rkt
 -rw-r--r--	root/root	usr/share/racket/pkgs/racket-doc/scribblings/foreign/com-intf.scrbl
@@ -17615,6 +17644,8 @@ drwxr-xr-x	root/root	usr/share/racket/pkgs/racket-doc/scribblings/foreign/compil
 -rw-r--r--	root/root	usr/share/racket/pkgs/racket-doc/scribblings/foreign/compiled/alloc_scrbl.zo
 -rw-r--r--	root/root	usr/share/racket/pkgs/racket-doc/scribblings/foreign/compiled/atomic_scrbl.dep
 -rw-r--r--	root/root	usr/share/racket/pkgs/racket-doc/scribblings/foreign/compiled/atomic_scrbl.zo
+-rw-r--r--	root/root	usr/share/racket/pkgs/racket-doc/scribblings/foreign/compiled/collect-callback_scrbl.dep
+-rw-r--r--	root/root	usr/share/racket/pkgs/racket-doc/scribblings/foreign/compiled/collect-callback_scrbl.zo
 -rw-r--r--	root/root	usr/share/racket/pkgs/racket-doc/scribblings/foreign/compiled/com-auto_scrbl.dep
 -rw-r--r--	root/root	usr/share/racket/pkgs/racket-doc/scribblings/foreign/compiled/com-auto_scrbl.zo
 -rw-r--r--	root/root	usr/share/racket/pkgs/racket-doc/scribblings/foreign/compiled/com-common_rkt.dep
@@ -18515,6 +18546,8 @@ drwxr-xr-x	root/root	usr/share/racket/pkgs/racket-doc/scribblings/reference/comp
 -rw-r--r--	root/root	usr/share/racket/pkgs/racket-doc/scribblings/reference/compiled/serialization_scrbl.zo
 -rw-r--r--	root/root	usr/share/racket/pkgs/racket-doc/scribblings/reference/compiled/sets_scrbl.dep
 -rw-r--r--	root/root	usr/share/racket/pkgs/racket-doc/scribblings/reference/compiled/sets_scrbl.zo
+-rw-r--r--	root/root	usr/share/racket/pkgs/racket-doc/scribblings/reference/compiled/sha_scrbl.dep
+-rw-r--r--	root/root	usr/share/racket/pkgs/racket-doc/scribblings/reference/compiled/sha_scrbl.zo
 -rw-r--r--	root/root	usr/share/racket/pkgs/racket-doc/scribblings/reference/compiled/shared_scrbl.dep
 -rw-r--r--	root/root	usr/share/racket/pkgs/racket-doc/scribblings/reference/compiled/shared_scrbl.zo
 -rw-r--r--	root/root	usr/share/racket/pkgs/racket-doc/scribblings/reference/compiled/splicing_scrbl.dep
@@ -18694,6 +18727,7 @@ drwxr-xr-x	root/root	usr/share/racket/pkgs/racket-doc/scribblings/reference/doc/
 -rw-r--r--	root/root	usr/share/racket/pkgs/racket-doc/scribblings/reference/sequences.scrbl
 -rw-r--r--	root/root	usr/share/racket/pkgs/racket-doc/scribblings/reference/serialization.scrbl
 -rw-r--r--	root/root	usr/share/racket/pkgs/racket-doc/scribblings/reference/sets.scrbl
+-rw-r--r--	root/root	usr/share/racket/pkgs/racket-doc/scribblings/reference/sha.scrbl
 -rw-r--r--	root/root	usr/share/racket/pkgs/racket-doc/scribblings/reference/shared.scrbl
 -rw-r--r--	root/root	usr/share/racket/pkgs/racket-doc/scribblings/reference/splicing.scrbl
 -rw-r--r--	root/root	usr/share/racket/pkgs/racket-doc/scribblings/reference/startup.scrbl
@@ -19225,10 +19259,13 @@ drwxr-xr-x	root/root	usr/share/racket/pkgs/racklog/tests/pr/compiled/
 -rw-r--r--	root/root	usr/share/racket/pkgs/racklog/tests/pr/compiled/pr1_rkt.zo
 -rw-r--r--	root/root	usr/share/racket/pkgs/racklog/tests/pr/compiled/pr4_rkt.dep
 -rw-r--r--	root/root	usr/share/racket/pkgs/racklog/tests/pr/compiled/pr4_rkt.zo
+-rw-r--r--	root/root	usr/share/racket/pkgs/racklog/tests/pr/compiled/pr5_rkt.dep
+-rw-r--r--	root/root	usr/share/racket/pkgs/racklog/tests/pr/compiled/pr5_rkt.zo
 -rw-r--r--	root/root	usr/share/racket/pkgs/racklog/tests/pr/pr-ed.rkt
 -rw-r--r--	root/root	usr/share/racket/pkgs/racklog/tests/pr/pr1.rkt
 -rw-r--r--	root/root	usr/share/racket/pkgs/racklog/tests/pr/pr12085.rkt
 -rw-r--r--	root/root	usr/share/racket/pkgs/racklog/tests/pr/pr4.rkt
+-rw-r--r--	root/root	usr/share/racket/pkgs/racklog/tests/pr/pr5.rkt
 -rw-r--r--	root/root	usr/share/racket/pkgs/racklog/tests/puzzle.rkt
 -rw-r--r--	root/root	usr/share/racket/pkgs/racklog/tests/require.rkt
 -rw-r--r--	root/root	usr/share/racket/pkgs/racklog/tests/run-all.rkt
@@ -19366,6 +19403,8 @@ drwxr-xr-x	root/root	usr/share/racket/pkgs/rackunit-lib/rackunit/private/compile
 -rw-r--r--	root/root	usr/share/racket/pkgs/rackunit-lib/rackunit/private/compiled/check-info_rkt.zo
 -rw-r--r--	root/root	usr/share/racket/pkgs/rackunit-lib/rackunit/private/compiled/check_rkt.dep
 -rw-r--r--	root/root	usr/share/racket/pkgs/rackunit-lib/rackunit/private/compiled/check_rkt.zo
+-rw-r--r--	root/root	usr/share/racket/pkgs/rackunit-lib/rackunit/private/compiled/equal-within_rkt.dep
+-rw-r--r--	root/root	usr/share/racket/pkgs/rackunit-lib/rackunit/private/compiled/equal-within_rkt.zo
 -rw-r--r--	root/root	usr/share/racket/pkgs/rackunit-lib/rackunit/private/compiled/format_rkt.dep
 -rw-r--r--	root/root	usr/share/racket/pkgs/rackunit-lib/rackunit/private/compiled/format_rkt.zo
 -rw-r--r--	root/root	usr/share/racket/pkgs/rackunit-lib/rackunit/private/compiled/location_rkt.dep
@@ -19380,6 +19419,7 @@ drwxr-xr-x	root/root	usr/share/racket/pkgs/rackunit-lib/rackunit/private/compile
 -rw-r--r--	root/root	usr/share/racket/pkgs/rackunit-lib/rackunit/private/compiled/test_rkt.zo
 -rw-r--r--	root/root	usr/share/racket/pkgs/rackunit-lib/rackunit/private/compiled/util_rkt.dep
 -rw-r--r--	root/root	usr/share/racket/pkgs/rackunit-lib/rackunit/private/compiled/util_rkt.zo
+-rw-r--r--	root/root	usr/share/racket/pkgs/rackunit-lib/rackunit/private/equal-within.rkt
 -rw-r--r--	root/root	usr/share/racket/pkgs/rackunit-lib/rackunit/private/format.rkt
 -rw-r--r--	root/root	usr/share/racket/pkgs/rackunit-lib/rackunit/private/location.rkt
 -rw-r--r--	root/root	usr/share/racket/pkgs/rackunit-lib/rackunit/private/result.rkt
@@ -20172,6 +20212,8 @@ drwxr-xr-x	root/root	usr/share/racket/pkgs/redex-examples/redex/examples/compile
 -rw-r--r--	root/root	usr/share/racket/pkgs/redex-examples/redex/examples/compiled/lazy_rkt.zo
 -rw-r--r--	root/root	usr/share/racket/pkgs/redex-examples/redex/examples/compiled/let-poly_rkt.dep
 -rw-r--r--	root/root	usr/share/racket/pkgs/redex-examples/redex/examples/compiled/let-poly_rkt.zo
+-rw-r--r--	root/root	usr/share/racket/pkgs/redex-examples/redex/examples/compiled/letrec-vs-racket_rkt.dep
+-rw-r--r--	root/root	usr/share/racket/pkgs/redex-examples/redex/examples/compiled/letrec-vs-racket_rkt.zo
 -rw-r--r--	root/root	usr/share/racket/pkgs/redex-examples/redex/examples/compiled/letrec_rkt.dep
 -rw-r--r--	root/root	usr/share/racket/pkgs/redex-examples/redex/examples/compiled/letrec_rkt.zo
 -rw-r--r--	root/root	usr/share/racket/pkgs/redex-examples/redex/examples/compiled/omega_rkt.dep
@@ -20282,6 +20324,7 @@ drwxr-xr-x	root/root	usr/share/racket/pkgs/redex-examples/redex/examples/delim-c
 -rw-r--r--	root/root	usr/share/racket/pkgs/redex-examples/redex/examples/lazy-with-binding.rkt
 -rw-r--r--	root/root	usr/share/racket/pkgs/redex-examples/redex/examples/lazy.rkt
 -rw-r--r--	root/root	usr/share/racket/pkgs/redex-examples/redex/examples/let-poly.rkt
+-rw-r--r--	root/root	usr/share/racket/pkgs/redex-examples/redex/examples/letrec-vs-racket.rkt
 -rw-r--r--	root/root	usr/share/racket/pkgs/redex-examples/redex/examples/letrec.rkt
 drwxr-xr-x	root/root	usr/share/racket/pkgs/redex-examples/redex/examples/list-machine/
 drwxr-xr-x	root/root	usr/share/racket/pkgs/redex-examples/redex/examples/list-machine/compiled/
@@ -21766,10 +21809,18 @@ drwxr-xr-x	root/root	usr/share/racket/pkgs/slideshow-doc/scribblings/quick/image
 -rw-r--r--	root/root	usr/share/racket/pkgs/slideshow-doc/scribblings/quick/mreval.rkt
 -rw-r--r--	root/root	usr/share/racket/pkgs/slideshow-doc/scribblings/quick/quick.scrbl
 drwxr-xr-x	root/root	usr/share/racket/pkgs/slideshow-doc/scribblings/slideshow/
+-rw-r--r--	root/root	usr/share/racket/pkgs/slideshow-doc/scribblings/slideshow/adjust-aspect.rkt
+-rw-r--r--	root/root	usr/share/racket/pkgs/slideshow-doc/scribblings/slideshow/aspect.scrbl
 -rw-r--r--	root/root	usr/share/racket/pkgs/slideshow-doc/scribblings/slideshow/code.scrbl
 drwxr-xr-x	root/root	usr/share/racket/pkgs/slideshow-doc/scribblings/slideshow/compiled/
+-rw-r--r--	root/root	usr/share/racket/pkgs/slideshow-doc/scribblings/slideshow/compiled/adjust-aspect_rkt.dep
+-rw-r--r--	root/root	usr/share/racket/pkgs/slideshow-doc/scribblings/slideshow/compiled/adjust-aspect_rkt.zo
+-rw-r--r--	root/root	usr/share/racket/pkgs/slideshow-doc/scribblings/slideshow/compiled/aspect_scrbl.dep
+-rw-r--r--	root/root	usr/share/racket/pkgs/slideshow-doc/scribblings/slideshow/compiled/aspect_scrbl.zo
 -rw-r--r--	root/root	usr/share/racket/pkgs/slideshow-doc/scribblings/slideshow/compiled/code_scrbl.dep
 -rw-r--r--	root/root	usr/share/racket/pkgs/slideshow-doc/scribblings/slideshow/compiled/code_scrbl.zo
+-rw-r--r--	root/root	usr/share/racket/pkgs/slideshow-doc/scribblings/slideshow/compiled/fullscreen_scrbl.dep
+-rw-r--r--	root/root	usr/share/racket/pkgs/slideshow-doc/scribblings/slideshow/compiled/fullscreen_scrbl.zo
 -rw-r--r--	root/root	usr/share/racket/pkgs/slideshow-doc/scribblings/slideshow/compiled/guide_scrbl.dep
 -rw-r--r--	root/root	usr/share/racket/pkgs/slideshow-doc/scribblings/slideshow/compiled/guide_scrbl.zo
 -rw-r--r--	root/root	usr/share/racket/pkgs/slideshow-doc/scribblings/slideshow/compiled/info_rkt.dep
@@ -21786,7 +21837,10 @@ drwxr-xr-x	root/root	usr/share/racket/pkgs/slideshow-doc/scribblings/slideshow/c
 -rw-r--r--	root/root	usr/share/racket/pkgs/slideshow-doc/scribblings/slideshow/compiled/ss_rkt.zo
 -rw-r--r--	root/root	usr/share/racket/pkgs/slideshow-doc/scribblings/slideshow/compiled/text_scrbl.dep
 -rw-r--r--	root/root	usr/share/racket/pkgs/slideshow-doc/scribblings/slideshow/compiled/text_scrbl.zo
+-rw-r--r--	root/root	usr/share/racket/pkgs/slideshow-doc/scribblings/slideshow/compiled/widescreen_scrbl.dep
+-rw-r--r--	root/root	usr/share/racket/pkgs/slideshow-doc/scribblings/slideshow/compiled/widescreen_scrbl.zo
 drwxr-xr-x	root/root	usr/share/racket/pkgs/slideshow-doc/scribblings/slideshow/doc/
+-rw-r--r--	root/root	usr/share/racket/pkgs/slideshow-doc/scribblings/slideshow/fullscreen.scrbl
 -rw-r--r--	root/root	usr/share/racket/pkgs/slideshow-doc/scribblings/slideshow/guide.scrbl
 -rw-r--r--	root/root	usr/share/racket/pkgs/slideshow-doc/scribblings/slideshow/info.rkt
 -rw-r--r--	root/root	usr/share/racket/pkgs/slideshow-doc/scribblings/slideshow/legacy.scrbl
@@ -21795,6 +21849,7 @@ drwxr-xr-x	root/root	usr/share/racket/pkgs/slideshow-doc/scribblings/slideshow/d
 -rw-r--r--	root/root	usr/share/racket/pkgs/slideshow-doc/scribblings/slideshow/slideshow.scrbl
 -rw-r--r--	root/root	usr/share/racket/pkgs/slideshow-doc/scribblings/slideshow/ss.rkt
 -rw-r--r--	root/root	usr/share/racket/pkgs/slideshow-doc/scribblings/slideshow/text.scrbl
+-rw-r--r--	root/root	usr/share/racket/pkgs/slideshow-doc/scribblings/slideshow/widescreen.scrbl
 drwxr-xr-x	root/root	usr/share/racket/pkgs/slideshow-exe/
 -rw-r--r--	root/root	usr/share/racket/pkgs/slideshow-exe/LICENSE.txt
 -rw-r--r--	root/root	usr/share/racket/pkgs/slideshow-exe/info.rkt
@@ -21847,6 +21902,8 @@ drwxr-xr-x	root/root	usr/share/racket/pkgs/slideshow-lib/slideshow/compiled/
 -rw-r--r--	root/root	usr/share/racket/pkgs/slideshow-lib/slideshow/compiled/face_rkt.zo
 -rw-r--r--	root/root	usr/share/racket/pkgs/slideshow-lib/slideshow/compiled/flash_rkt.dep
 -rw-r--r--	root/root	usr/share/racket/pkgs/slideshow-lib/slideshow/compiled/flash_rkt.zo
+-rw-r--r--	root/root	usr/share/racket/pkgs/slideshow-lib/slideshow/compiled/fullscreen_rkt.dep
+-rw-r--r--	root/root	usr/share/racket/pkgs/slideshow-lib/slideshow/compiled/fullscreen_rkt.zo
 -rw-r--r--	root/root	usr/share/racket/pkgs/slideshow-lib/slideshow/compiled/info_rkt.dep
 -rw-r--r--	root/root	usr/share/racket/pkgs/slideshow-lib/slideshow/compiled/info_rkt.zo
 -rw-r--r--	root/root	usr/share/racket/pkgs/slideshow-lib/slideshow/compiled/main_rkt.dep
@@ -21877,10 +21934,18 @@ drwxr-xr-x	root/root	usr/share/racket/pkgs/slideshow-lib/slideshow/compiled/
 -rw-r--r--	root/root	usr/share/racket/pkgs/slideshow-lib/slideshow/compiled/text_rkt.zo
 -rw-r--r--	root/root	usr/share/racket/pkgs/slideshow-lib/slideshow/compiled/viewer_rkt.dep
 -rw-r--r--	root/root	usr/share/racket/pkgs/slideshow-lib/slideshow/compiled/viewer_rkt.zo
+-rw-r--r--	root/root	usr/share/racket/pkgs/slideshow-lib/slideshow/compiled/widescreen_rkt.dep
+-rw-r--r--	root/root	usr/share/racket/pkgs/slideshow-lib/slideshow/compiled/widescreen_rkt.zo
 -rw-r--r--	root/root	usr/share/racket/pkgs/slideshow-lib/slideshow/core.rkt
 -rw-r--r--	root/root	usr/share/racket/pkgs/slideshow-lib/slideshow/doc.txt
 -rw-r--r--	root/root	usr/share/racket/pkgs/slideshow-lib/slideshow/face.rkt
 -rw-r--r--	root/root	usr/share/racket/pkgs/slideshow-lib/slideshow/flash.rkt
+-rw-r--r--	root/root	usr/share/racket/pkgs/slideshow-lib/slideshow/fullscreen.rkt
+drwxr-xr-x	root/root	usr/share/racket/pkgs/slideshow-lib/slideshow/fullscreen/
+-rw-r--r--	root/root	usr/share/racket/pkgs/slideshow-lib/slideshow/fullscreen/base.rkt
+drwxr-xr-x	root/root	usr/share/racket/pkgs/slideshow-lib/slideshow/fullscreen/compiled/
+-rw-r--r--	root/root	usr/share/racket/pkgs/slideshow-lib/slideshow/fullscreen/compiled/base_rkt.dep
+-rw-r--r--	root/root	usr/share/racket/pkgs/slideshow-lib/slideshow/fullscreen/compiled/base_rkt.zo
 -rw-r--r--	root/root	usr/share/racket/pkgs/slideshow-lib/slideshow/info.rkt
 drwxr-xr-x	root/root	usr/share/racket/pkgs/slideshow-lib/slideshow/lang/
 drwxr-xr-x	root/root	usr/share/racket/pkgs/slideshow-lib/slideshow/lang/compiled/
@@ -21895,7 +21960,10 @@ drwxr-xr-x	root/root	usr/share/racket/pkgs/slideshow-lib/slideshow/lang/compiled
 -rw-r--r--	root/root	usr/share/racket/pkgs/slideshow-lib/slideshow/pict.rkt
 -rw-r--r--	root/root	usr/share/racket/pkgs/slideshow-lib/slideshow/play.rkt
 drwxr-xr-x	root/root	usr/share/racket/pkgs/slideshow-lib/slideshow/private/
+-rw-r--r--	root/root	usr/share/racket/pkgs/slideshow-lib/slideshow/private/aspect.rkt
 drwxr-xr-x	root/root	usr/share/racket/pkgs/slideshow-lib/slideshow/private/compiled/
+-rw-r--r--	root/root	usr/share/racket/pkgs/slideshow-lib/slideshow/private/compiled/aspect_rkt.dep
+-rw-r--r--	root/root	usr/share/racket/pkgs/slideshow-lib/slideshow/private/compiled/aspect_rkt.zo
 -rw-r--r--	root/root	usr/share/racket/pkgs/slideshow-lib/slideshow/private/compiled/image-snipr_rkt.dep
 -rw-r--r--	root/root	usr/share/racket/pkgs/slideshow-lib/slideshow/private/compiled/image-snipr_rkt.zo
 -rw-r--r--	root/root	usr/share/racket/pkgs/slideshow-lib/slideshow/private/compiled/pict-box-lib_rkt.dep
@@ -21916,6 +21984,12 @@ drwxr-xr-x	root/root	usr/share/racket/pkgs/slideshow-lib/slideshow/private/compi
 -rw-r--r--	root/root	usr/share/racket/pkgs/slideshow-lib/slideshow/step.rkt
 -rw-r--r--	root/root	usr/share/racket/pkgs/slideshow-lib/slideshow/text.rkt
 -rw-r--r--	root/root	usr/share/racket/pkgs/slideshow-lib/slideshow/viewer.rkt
+-rw-r--r--	root/root	usr/share/racket/pkgs/slideshow-lib/slideshow/widescreen.rkt
+drwxr-xr-x	root/root	usr/share/racket/pkgs/slideshow-lib/slideshow/widescreen/
+-rw-r--r--	root/root	usr/share/racket/pkgs/slideshow-lib/slideshow/widescreen/base.rkt
+drwxr-xr-x	root/root	usr/share/racket/pkgs/slideshow-lib/slideshow/widescreen/compiled/
+-rw-r--r--	root/root	usr/share/racket/pkgs/slideshow-lib/slideshow/widescreen/compiled/base_rkt.dep
+-rw-r--r--	root/root	usr/share/racket/pkgs/slideshow-lib/slideshow/widescreen/compiled/base_rkt.zo
 drwxr-xr-x	root/root	usr/share/racket/pkgs/slideshow-lib/texpict/
 drwxr-xr-x	root/root	usr/share/racket/pkgs/slideshow-lib/texpict/compiled/
 -rw-r--r--	root/root	usr/share/racket/pkgs/slideshow-lib/texpict/compiled/slideshow-run_rkt.dep
@@ -24049,6 +24123,8 @@ drwxr-xr-x	root/root	usr/share/racket/pkgs/typed-racket-lib/typed-racket/utils/c
 -rw-r--r--	root/root	usr/share/racket/pkgs/typed-racket-lib/typed-racket/utils/compiled/unit-utils_rkt.zo
 -rw-r--r--	root/root	usr/share/racket/pkgs/typed-racket-lib/typed-racket/utils/compiled/utils_rkt.dep
 -rw-r--r--	root/root	usr/share/racket/pkgs/typed-racket-lib/typed-racket/utils/compiled/utils_rkt.zo
+-rw-r--r--	root/root	usr/share/racket/pkgs/typed-racket-lib/typed-racket/utils/compiled/vector-contract_rkt.dep
+-rw-r--r--	root/root	usr/share/racket/pkgs/typed-racket-lib/typed-racket/utils/compiled/vector-contract_rkt.zo
 -rw-r--r--	root/root	usr/share/racket/pkgs/typed-racket-lib/typed-racket/utils/disappeared-use.rkt
 -rw-r--r--	root/root	usr/share/racket/pkgs/typed-racket-lib/typed-racket/utils/disarm.rkt
 -rw-r--r--	root/root	usr/share/racket/pkgs/typed-racket-lib/typed-racket/utils/early-return.rkt
@@ -24077,6 +24153,7 @@ drwxr-xr-x	root/root	usr/share/racket/pkgs/typed-racket-lib/typed-racket/utils/c
 -rw-r--r--	root/root	usr/share/racket/pkgs/typed-racket-lib/typed-racket/utils/typed-method-property.rkt
 -rw-r--r--	root/root	usr/share/racket/pkgs/typed-racket-lib/typed-racket/utils/unit-utils.rkt
 -rw-r--r--	root/root	usr/share/racket/pkgs/typed-racket-lib/typed-racket/utils/utils.rkt
+-rw-r--r--	root/root	usr/share/racket/pkgs/typed-racket-lib/typed-racket/utils/vector-contract.rkt
 drwxr-xr-x	root/root	usr/share/racket/pkgs/typed-racket-lib/typed/
 drwxr-xr-x	root/root	usr/share/racket/pkgs/typed-racket-lib/typed/compiled/
 -rw-r--r--	root/root	usr/share/racket/pkgs/typed-racket-lib/typed/compiled/racket_rkt.dep

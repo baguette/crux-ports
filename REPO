@@ -248,9 +248,9 @@ f:953c56169793920eaf7f896ae473c93c:xorg-font-iosevka/.md5sum
 f:174c2134afbc2cb389bfa23399939e15:plan9port/Pkgfile
 f:6881b4a7044077feb640316ff40a05b2:plan9port/.footprint
 f:e448cdb19a315b9c05e9cc151fc06908:plan9port/.md5sum
-f:707e3a008dc6be303443011f483c0e6c:racket/Pkgfile
-f:c0d2ec0e55f8fc94a1e00e7962b79b94:racket/.footprint
-f:14df6e2483c1b9493df8648c0067fcd7:racket/.md5sum
+f:d219971e770b88e51b063edc2952e306:racket/Pkgfile
+f:6066280d402ced6e5b5f667b29c9dff8:racket/.footprint
+f:0ea95fd1532ec907dc5920fcda6ccafc:racket/.md5sum
 f:fd31771ef6e5e5247bb002476a19408f:deb2pkg/Pkgfile
 f:a554b7f7482da985b1939d6e4ef570c9:deb2pkg/.footprint
 f:e933066deded9ff451d594efd52d83ef:deb2pkg/deb2pkg
