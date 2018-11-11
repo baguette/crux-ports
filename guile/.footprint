@@ -398,6 +398,7 @@ drwxr-xr-x	root/root	usr/lib/guile/2.2/ccache/srfi/srfi-4/
 -rw-r--r--	root/root	usr/lib/guile/2.2/ccache/srfi/srfi-64.go
 -rw-r--r--	root/root	usr/lib/guile/2.2/ccache/srfi/srfi-67.go
 -rw-r--r--	root/root	usr/lib/guile/2.2/ccache/srfi/srfi-69.go
+-rw-r--r--	root/root	usr/lib/guile/2.2/ccache/srfi/srfi-71.go
 -rw-r--r--	root/root	usr/lib/guile/2.2/ccache/srfi/srfi-8.go
 -rw-r--r--	root/root	usr/lib/guile/2.2/ccache/srfi/srfi-88.go
 -rw-r--r--	root/root	usr/lib/guile/2.2/ccache/srfi/srfi-9.go
@@ -480,9 +481,9 @@ lrwxrwxrwx	root/root	usr/lib/guile/2.2/extensions/guile-readline.so.0 -> guile-r
 -rwxr-xr-x	root/root	usr/lib/guile/2.2/extensions/guile-readline.so.0.0.0
 -rw-r--r--	root/root	usr/lib/libguile-2.2.a
 -rwxr-xr-x	root/root	usr/lib/libguile-2.2.la
-lrwxrwxrwx	root/root	usr/lib/libguile-2.2.so -> libguile-2.2.so.1.3.0
-lrwxrwxrwx	root/root	usr/lib/libguile-2.2.so.1 -> libguile-2.2.so.1.3.0
--rwxr-xr-x	root/root	usr/lib/libguile-2.2.so.1.3.0
+lrwxrwxrwx	root/root	usr/lib/libguile-2.2.so -> libguile-2.2.so.1.3.1
+lrwxrwxrwx	root/root	usr/lib/libguile-2.2.so.1 -> libguile-2.2.so.1.3.1
+-rwxr-xr-x	root/root	usr/lib/libguile-2.2.so.1.3.1
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/guile-2.2.pc
 drwxr-xr-x	root/root	usr/share/
@@ -492,7 +493,7 @@ drwxr-xr-x	root/root	usr/share/gdb/
 drwxr-xr-x	root/root	usr/share/gdb/auto-load/
 drwxr-xr-x	root/root	usr/share/gdb/auto-load/usr/
 drwxr-xr-x	root/root	usr/share/gdb/auto-load/usr/lib/
--rw-r--r--	root/root	usr/share/gdb/auto-load/usr/lib/libguile-2.2.so.1.3.0-gdb.scm
+-rw-r--r--	root/root	usr/share/gdb/auto-load/usr/lib/libguile-2.2.so.1.3.1-gdb.scm
 drwxr-xr-x	root/root	usr/share/guile/
 drwxr-xr-x	root/root	usr/share/guile/2.2/
 -rw-r--r--	root/root	usr/share/guile/2.2/guile-procedures.txt
@@ -766,6 +767,7 @@ drwxr-xr-x	root/root	usr/share/guile/2.2/srfi/srfi-64/
 drwxr-xr-x	root/root	usr/share/guile/2.2/srfi/srfi-67/
 -rw-r--r--	root/root	usr/share/guile/2.2/srfi/srfi-67/compare.scm
 -rw-r--r--	root/root	usr/share/guile/2.2/srfi/srfi-69.scm
+-rw-r--r--	root/root	usr/share/guile/2.2/srfi/srfi-71.scm
 -rw-r--r--	root/root	usr/share/guile/2.2/srfi/srfi-8.scm
 -rw-r--r--	root/root	usr/share/guile/2.2/srfi/srfi-88.scm
 -rw-r--r--	root/root	usr/share/guile/2.2/srfi/srfi-9.scm

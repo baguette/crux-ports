@@ -116,9 +116,9 @@ f:2b50b0fa7f5f72ecbe2fa08d4b86a8f8:xorg-xcb-util-xrm/.md5sum
 f:f7dafd24b14155b88a33a0a70ad25beb:scheme48/Pkgfile
 f:b4ee63321158af81714ff54832ce5b41:scheme48/.footprint
 f:f820e75bf435bf63c9c5ea94a8de21ac:scheme48/.md5sum
-f:1f5e54441c9b747b26b901810ee38ba7:guile/Pkgfile
-f:ce556c123542bfcbc5ddefeae349ea18:guile/.footprint
-f:f1ab8cc16dcaf5e50a8ff2b5d1cb7382:guile/.md5sum
+f:d8d8dfa7480c68bbbf1c7976f5da2eb2:guile/Pkgfile
+f:d99d6a7eac897a22bb313b0afdfcd3f9:guile/.footprint
+f:4d82f5505db4a38cffa79f2f8a12a2d3:guile/.md5sum
 f:a68b1c7433734d6dc9dad88b4cc0f124:gconf/Pkgfile
 f:2552c28250eaa5a38d981bdb629c3475:gconf/.footprint
 f:adcc77975210efbf35ad29af82a12bc2:gconf/.md5sum
