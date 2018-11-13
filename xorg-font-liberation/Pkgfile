@@ -1,15 +1,28 @@
 # Description: Open source fonts with metric compatibility with Microsoft fonts
-# URL: https://fedorahosted.org/liberation-fonts/
+# URL: https://pagure.io/liberation-fonts/
 # Maintainer:  Cory Burgett, cmburget at gmail dot com
 # Depends on:
 
 name=xorg-font-liberation
 version=2.00.1
-release=1
-source=(https://releases.pagure.org/liberation/fonts/liberation-fonts-ttf-$version.tar.gz)
+release=2
+source=(https://releases.pagure.org/liberation/fonts/liberation-fonts-ttf-$version.tar.gz 57-liberation-mono.conf 57-liberation-sans.conf 57-liberation-serif.conf)
 
 build() {
-	cd liberation-fonts-ttf-$version
-	mkdir -p $PKG/usr/share/fonts/X11/TTF
-	cp -t $PKG/usr/share/fonts/X11/TTF/ *.ttf
+	(
+		cd liberation-fonts-ttf-$version
+		mkdir -p $PKG/usr/share/fonts/X11/TTF
+		cp -t $PKG/usr/share/fonts/X11/TTF/ *.ttf
+	)
+
+	mkdir -p $PKG/etc/fonts/conf.avail
+	cp -t $PKG/etc/fonts/conf.avail/ 57-liberation-*.conf
+
+	mkdir -p $PKG/etc/fonts/conf.d
+	(
+		cd $PKG/etc/fonts/conf.d
+		ln -s ../conf.avail/57-liberation-mono.conf
+		ln -s ../conf.avail/57-liberation-sans.conf
+		ln -s ../conf.avail/57-liberation-serif.conf
+	)
 }

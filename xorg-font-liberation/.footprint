@@ -1,3 +1,13 @@
+drwxr-xr-x	root/root	etc/
+drwxr-xr-x	root/root	etc/fonts/
+drwxr-xr-x	root/root	etc/fonts/conf.avail/
+-rw-r--r--	root/root	etc/fonts/conf.avail/57-liberation-mono.conf
+-rw-r--r--	root/root	etc/fonts/conf.avail/57-liberation-sans.conf
+-rw-r--r--	root/root	etc/fonts/conf.avail/57-liberation-serif.conf
+drwxr-xr-x	root/root	etc/fonts/conf.d/
+lrwxrwxrwx	root/root	etc/fonts/conf.d/57-liberation-mono.conf -> ../conf.avail/57-liberation-mono.conf
+lrwxrwxrwx	root/root	etc/fonts/conf.d/57-liberation-sans.conf -> ../conf.avail/57-liberation-sans.conf
+lrwxrwxrwx	root/root	etc/fonts/conf.d/57-liberation-serif.conf -> ../conf.avail/57-liberation-serif.conf
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/fonts/

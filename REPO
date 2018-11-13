@@ -155,9 +155,12 @@ f:d1634add4afbc1182258b9b15a9cb0ad:polyml/Pkgfile
 f:2100fdd2e93b1eac4c3a8f9429dcd86c:polyml/.footprint
 f:00ab1b9838002a3d9a9f50c4ac52c929:polyml/.md5sum
 f:3418b238cb4b15f12657274790c01a92:xorg-font-liberation/post-install
-f:e9cb2e87d77144bed5c03cb72d75866a:xorg-font-liberation/Pkgfile
-f:b295b072c00865e536479b401c34140b:xorg-font-liberation/.footprint
-f:a05165995e6b76ab09324c158c43105b:xorg-font-liberation/.md5sum
+f:1d2fe99207f20e67197d3660938cf898:xorg-font-liberation/Pkgfile
+f:67fdf9aaace5c0c9eeb553d2c7eabe6d:xorg-font-liberation/.footprint
+f:14c11b0db381ea87d983d7c967fd2bb3:xorg-font-liberation/57-liberation-mono.conf
+f:7fda0cb9017ebae6567a11239ebc71f9:xorg-font-liberation/57-liberation-serif.conf
+f:2dae9ba5086b7e6c03b47a39bebf72ea:xorg-font-liberation/57-liberation-sans.conf
+f:2cff1bb1f2a8d5c61c1113e7e66ebd11:xorg-font-liberation/.md5sum
 f:89b9df752592d9600a00ccfa59d64c6a:haskell-ed25519/post-install
 f:5d25ff61d351a94e61727a0263844755:haskell-ed25519/Pkgfile
 f:d9288ccfe2879d9999f8f1bf89447df6:haskell-ed25519/.footprint
