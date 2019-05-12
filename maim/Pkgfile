@@ -1,0 +1,22 @@
+# Description: X11 desktop screenshot utility
+# URL: https://github.com/naelstrof/maim
+# Maintainer:  Cory Burgett, cmburget at gmail dot com
+# Depends on: cmake xorg-libxrender xorg-libxfixes xorg-libxcomposite xorg-libxrandr glm icu libpng libjpeg-turbo slop
+
+name=maim
+version=5.5.3
+release=1
+source=(https://github.com/naelstrof/maim/archive/v$version.tar.gz)
+
+build() {
+	cd $name-$version
+
+	mkdir build && cd build
+
+	cmake .. \
+		-DCMAKE_BUILD_TYPE=RELEASE \
+		-DCMAKE_INSTALL_PREFIX=/usr
+
+	make
+	make DESTDIR=$PKG install
+}

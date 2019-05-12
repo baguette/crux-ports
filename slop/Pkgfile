@@ -1,0 +1,22 @@
+# Description: Select Operation - query rectangular selections and print regions to stdout
+# URL: https://github.com/naelstrof/slop
+# Maintainer:  Cory Burgett, cmburget at gmail dot com
+# Depends on: cmake xorg-libxext glew glu glm icu
+
+name=slop
+version=7.4
+release=1
+source=(https://github.com/naelstrof/slop/archive/v$version.tar.gz)
+
+build() {
+	cd $name-$version
+
+	mkdir build && cd build
+
+	cmake .. \
+		-DCMAKE_BUILD_TYPE=RELEASE \
+		-DCMAKE_INSTALL_PREFIX=/usr
+
+	make
+	make DESTDIR=$PKG install
+}

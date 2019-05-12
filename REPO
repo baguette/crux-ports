@@ -22,6 +22,7 @@ d:haskell-base16-bytestring
 d:haskell-stm
 d:haskell-random
 d:haskell-zlib
+d:slop
 d:xorg-libxaw-32
 d:haskell-parsec
 d:polyml
@@ -42,7 +43,9 @@ d:lua-lgi
 d:rpm2pkg
 d:jimtcl
 d:haskell-echo
+d:maim
 d:haskell-base64-bytestring
+d:glm
 d:zpaq
 d:xarchiver
 d:haskell-network-uri
@@ -143,6 +146,9 @@ f:89b9df752592d9600a00ccfa59d64c6a:haskell-zlib/post-install
 f:d9c2ecbc85e4c7970a6fee29cb3a7812:haskell-zlib/Pkgfile
 f:312dc4fb63ffd5e758d34bb91335b745:haskell-zlib/.footprint
 f:05accd9c028e4dddb7a519939477919e:haskell-zlib/.md5sum
+f:a6a18b3b336907db3951bcf6637bbf7f:slop/Pkgfile
+f:f955e56b8f1a8f65aac3538bee403e92:slop/.footprint
+f:5129222dea40ea75bdedb333af92a03c:slop/.md5sum
 f:d41d8cd98f00b204e9800998ecf8427e:xorg-libxaw-32/.32bit
 f:6a48d38a31fb3964040ca59d97d5681d:xorg-libxaw-32/Pkgfile
 f:86d2c9d629c1627501fb65d4eff7de9d:xorg-libxaw-32/.footprint
@@ -217,11 +223,17 @@ f:89b9df752592d9600a00ccfa59d64c6a:haskell-echo/post-install
 f:f1823d89785025254a0034be526d4015:haskell-echo/Pkgfile
 f:4472f88e0b6f0b67ac406f7a2d5f59da:haskell-echo/.footprint
 f:87fdba05b14a89279390007f509eada5:haskell-echo/.md5sum
+f:99b5ffc34d854008506cc80ebdbcf879:maim/Pkgfile
+f:5c0114f94e8de44ca67aae8c6e97c8f4:maim/.footprint
+f:ac1f4335ff66ce70268591da5057390b:maim/.md5sum
 f:89b9df752592d9600a00ccfa59d64c6a:haskell-base64-bytestring/post-install
 f:41bce75bd241bf4554817931a2194e42:haskell-base64-bytestring/Pkgfile
 f:366efa1d316b42f6bb2520acfd85b258:haskell-base64-bytestring/.footprint
 f:ab51885ccebf669d67d3c50b085b24a1:haskell-base64-bytestring/.md5sum
 f:536cba55b59a337b6850ede818fd50fc:Makefile
+f:94e1711ca53fb6cc5eff18c7cba7b722:glm/Pkgfile
+f:c4c05040aa297047392da05e45a83141:glm/.footprint
+f:049b0fa975e91051bbab1d14f5f3a718:glm/.md5sum
 f:b237ee53ac25ef98643819a74f570c83:zpaq/Pkgfile
 f:0a6b0c14987442da3505c4d2cd17e738:zpaq/.footprint
 f:3b20fe0c4df86141caef67887b69b755:zpaq/.md5sum

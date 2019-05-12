@@ -1,0 +1,23 @@
+# Description: OpenGL Mathematics library for C++
+# URL: https://github.com/g-truc/glm
+# Maintainer:  Cory Burgett, cmburget at gmail dot com
+# Depends on: 
+
+name=glm
+version=0.9.9.5
+release=1
+source=(https://github.com/g-truc/glm/releases/download/$version/$name-$version.zip)
+
+build() {
+	cd $name
+
+	mkdir build && cd build
+
+	cmake .. \
+		-DCMAKE_BUILD_TYPE=RELEASE \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DSYSCONFDIR=/etc
+
+	make
+	make DESTDIR=$PKG install
+}
