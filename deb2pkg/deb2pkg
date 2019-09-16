@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# Copyright (c) 2015 Cory Burgett, cmburget at gmail dot com
+# Copyright (c) 2015, 2019 Cory Burgett, cmburget at gmail dot com
 #
 # Based on rpm2targz Copyright (c) 1997, 1998 Patrick Volkerding
 #
@@ -33,33 +33,92 @@ if [ "$(whoami)" != "root" ]; then
 	exit 1
 fi
 
-${TMPDIR:=$TMP}
+# see pkgmk.conf(5).
+#
+# the table of supported extensions has been copied straight out of
+# the bsdtar(1) source code.
+# (from the libarchive 3.3.3 distfile, it's in `tar/creation_set.c`).
+# note that CRUX doesn't ship with support for all of these by default...
+#
+# default is gz, as with pkgmk(8).
+#
+: "${PKGMK_CONF:=/etc/pkgmk.conf}"
+if [ -n "$PKGMK_CONF" ] && [ -r "$PKGMK_CONF" ]; then
+	. "$PKGMK_CONF" || exit 2
+fi
+: "${PKGMK_COMPRESSION_MODE:=gz}"
 
-for file_deb in $*; do
-	if [ ! -f $file_deb ]; then
-		echo "$file_deb: file not found"
+case "$PKGMK_COMPRESSION_MODE" in
+	Z)    PZIP=compress;;
+	gz)   PZIP=gzip;;
+	bz2)  PZIP=bzip2;;
+	grz)  PZIP=grzip;;
+	lrz)  PZIP=lrzip;;
+	lz4)  PZIP=lz4;;
+	lzo)  PZIP=lzop;;
+	lzma) PZIP=lzma;;
+	xz)   PZIP=xz;;
+	lz)   PZIP=lzip;;
+	zst)  PZIP=zstd;;
+	*)   printf '%s: unrecognized PKGMK_COMPRESSION_MODE\n' \
+	            "$PKGMK_COMPRESSION_MODE" >&2
+	     exit 1
+	     ;;
+esac
+
+# default extension for CRUX packages
+pkgext=".pkg.tar.$PKGMK_COMPRESSION_MODE"
+
+
+ # If $TMPDIR is not set, then use $TMP.
+ # If $TMP is not set either, then mktemp(1) will use /tmp.
+: "${TMPDIR:=$TMP}"
+
+
+for file_deb in "$@"; do
+	if [ ! -r "$file_deb" ]; then
+		printf '%s: unable to read file\n' "${file_deb}" >&2
 		continue
 	fi
 
 	dir_deb=$(mktemp -d) || exit 1
 
-	bsdtar -p -C $dir_deb -xf $file_deb
-	mkdir $dir_deb/control
-	mkdir $dir_deb/pkg
-	bsdtar -p -C $dir_deb/control -xf $dir_deb/control.tar.gz
-	bsdtar -p -C $dir_deb/pkg -xf $dir_deb/data.tar.*
+	# keep track of errors -- exit is delayed on error until
+	# AFTER we've had a chance to clean up the tmp directory
+	rc=0
 
-	pkgname=$(sed 's/Package: \(.*\)/\1/p;d' $dir_deb/control/control)
-	pkgver=$(sed 's/Version: \(.*\)/\1/p;d' $dir_deb/control/control)
-	file_pkg=$pkgname#$pkgver.pkg.tar.gz
+	# extract the deb into the tmp dir
+	bsdtar -p -C "$dir_deb" -xf "$file_deb" || rc=1
 
-	echo "$file_deb => $file_pkg"
+	# deb packages keep two internal archives, one with metadata
+	# and the other with the payload to install;  we'll extract
+	# both here, and read a bit of metadata before building our
+	# own package out of the payload.
+	mkdir "$dir_deb"/meta || rc=1
+	mkdir "$dir_deb"/pkg || rc=1
+	bsdtar -p -C "$dir_deb"/meta -xf "$dir_deb"/control.tar.* || rc=1
+	bsdtar -p -C "$dir_deb"/pkg -xf "$dir_deb"/data.tar.* || rc=1
 
-	(cd $dir_deb/pkg
-	 find . -type d -perm 700 -exec chmod 755 {} \;
-	 bsdtar -cf - *
-	) | gzip > $file_pkg
+	pkgname="$(sed -e 's/Package: \(.*\)/\1/p;d' "$dir_deb"/meta/control)"
+	pkgver="$(sed -e 's/Version: \(.*\)/\1/p;d' "$dir_deb"/meta/control)"
+	file_pkg="${pkgname}#${pkgver}${pkgext}"
 
-	rm -rf $dir_deb
+	printf '%s => %s\n' "$file_deb" "$file_pkg"
+
+	# create the pkg
+	dir_pkg="${dir_deb}/pkg"
+	find "$dir_pkg" -type d -perm 700 -exec chmod 755 {} \; || rc=1
+	bsdtar -c --$PZIP -f "$file_pkg" -C "$dir_pkg" --strip-components 1 . \
+	|| rc=1
+
+	# clean up after ourselves
+	rm -rf "$dir_deb"
+
+	# report any errors, if they maybe happened
+	[ "$rc" = "0" ] || {
+		printf '%s: an error occurred while converting the package.\n' \
+		       "$file_deb" >&2
+	}
 done
 
+exit 0
