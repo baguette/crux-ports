@@ -1,9 +1,9 @@
-# Description: A tool to convert RPM files to TAR.GZ.PKG files
+# Description: A tool to convert RPM files to PKG.TAR.?Z files
 # URL:         https://github.com/baguette/crux-ports/
 # Maintainer:  Cory Burgett, cmburget at gmail dot com
 
 name=rpm2pkg
-version=2.0.1
+version=3.0
 release=1
 source=(rpm2pkg)
 

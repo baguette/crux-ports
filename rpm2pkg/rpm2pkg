@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# Modified by Cory Burgett <cmburget@gmail.com>, 2015
+# Modified by Cory Burgett <cmburget@gmail.com>, 2015, 2019.
 #
 # Modified by Per Liden <per@fukt.bth.se>, 2000, 2004.
 #             Han Boetes <han@mijncomputer.nl>, 2004.
@@ -36,39 +36,85 @@ if [ "$(whoami)" != "root" ]; then
 	exit 1
 fi
 
+
+# see pkgmk.conf(5).  at time of writing, valid values are:  gz, bz2, xz, lz.
+# however, I just copied the table of supported extensions straight out of
+# the `bsdtar(1)` source code (from the libarchive 3.3.3 distfile, it's in
+# `tar/creation_set.c`.  note that CRUX doesn't ship with support for all of
+# these by default...
+#
+# default is gz, as with `pkgmk(8)`.
+#
+: "${PKGMK_CONF:=/etc/pkgmk.conf}"
+if [ -n "$PKGMK_CONF" ] && [ -r "$PKGMK_CONF" ]; then
+#	PKGMK_COMPRESSION_MODE="$(sed -ne 's/^PKGMK_COMPRESSION_MODE=\(.*\)$/\1/p' \
+#	                              "$PKGMK_CONF" |sed -ne '$p' |tr -d \'\")"
+	. "$PKGMK_CONF" || exit 2
+fi
+: "${PKGMK_COMPRESSION_MODE:=gz}"
+
+case "$PKGMK_COMPRESSION_MODE" in
+	Z)    PZIP=compress;;
+	gz)   PZIP=gzip;;
+	bz2)  PZIP=bzip2;;
+	grz)  PZIP=grzip;;
+	lrz)  PZIP=lrzip;;
+	lz4)  PZIP=lz4;;
+	lzo)  PZIP=lzop;;
+	lzma) PZIP=lzma;;
+	xz)   PZIP=xz;;
+	lz)   PZIP=lzip;;
+	zst)  PZIP=zstd;;
+	*)   printf '%s: unrecognized PKGMK_COMPRESSION_MODE\n' \
+	            "$PKGMK_COMPRESSION_MODE" >&2
+	     exit 1
+	     ;;
+esac
+
+pkg_ext=".pkg.tar.$PKGMK_COMPRESSION_MODE"
+
+
 # If $TMPDIR is not set, then use $TMP.
 # If $TMP is not set either, then mktemp(1) will use /tmp.
-${TMPDIR:=$TMP}
+: "${TMPDIR:=$TMP}"
 
-for file_rpm in $*; do
-	if [ ! -f $file_rpm ]; then
-		echo "$file_rpm: file not found"
+
+for file_rpm in "$@"; do
+	if [ ! -r "$file_rpm" ]; then
+		printf '%s: unable to read file\n' "${file_rpm}" >&2
 		continue
 	fi
 
 	# figure out where our working directory/file are
-	dir_tar_gz=`mktemp -d` || exit 1
+	dir_pkg=`mktemp -d` || exit 1
 
-	# Get the `name` field from the rpm file and convert it to
-	# a pkg name.
-	rpm_name=$(dd ibs=1 skip=10 count=66 if=$file_rpm 2>/dev/null)
-	pkg_name=$(echo $rpm_name |sed 's/-\([0-9]\)/\#\1/')
-	file_tar_gz=${pkg_name}.pkg.tar.gz
+	rc=0
 
-	echo "$file_rpm => $file_tar_gz"
+	# get the `name` field from the rpm and convert it to a pkg name.
+	# use `dd` for this since it's a binary header, unlike `deb` files
+	# that store the metadata as plain text inside the archive.
+	rpm_name="$(dd ibs=1 skip=10 count=66 if="$file_rpm" 2>/dev/null)"
+	pkg_name="$(printf '%s\n' "$rpm_name" |sed -e 's/-\([0-9]\)/\#\1/')"
+	file_pkg="${pkg_name}${pkg_ext}"
+
+	printf '%s => %s\n' "$file_rpm" "$file_pkg"
 
 	# extract the rpm
-	bsdtar -p -C $dir_tar_gz -xf $file_rpm 
+	bsdtar -p -C "$dir_pkg" -xf "$file_rpm" || rc=1
 
 	# create the tarball
-	( cd $dir_tar_gz
-	  find . -type d -perm 700 -exec chmod 755 {} \;
-	  bsdtar -cf - *
-	) | gzip > $file_tar_gz
-
+	find "$dir_pkg" -type d -perm 700 -exec chmod 755 {} \; || rc=1
+	bsdtar -c --$PZIP -f "$file_pkg" -C "$dir_pkg" --strip-components 1 . \
+	|| rc=1
 
 	# clean up after ourselves
-	rm -rf $dir_tar_gz
+	rm -rf "$dir_pkg"
+
+	[ "$rc" = "0" ] || {
+		printf '%s: an error occurred while converting the package.\n' \
+		       "$file_rpm" >&2
+	}
 done
 
+exit 0
 # End of file.
