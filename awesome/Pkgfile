@@ -2,11 +2,12 @@
 # URL: http://awesome.naquadah.org/
 # Maintainer:  Cory Burgett, cmburget at gmail dot com
 # Depends on: lua51, git, pango, imagemagick, imlib2, xmlto, cmake, asciidoc, cairo, libev, xorg-xcb-util, xorg-xcb-util-keysyms, xorg-xcb-util-wm, xorg-xcb-util-cursor, xorg-xcb-util-renderutil, xorg-xcb-util-image, xorg-xcb-proto, xorg-libxcb, dbus, xmessage, startup-notification, docbook-xsl, docbook-xml, libxdg-basedir, lua-lgi
+# Optional: luajit
 
 name=awesome
-version=4.2
-release=2
-source=(https://github.com/awesomeWM/awesome/releases/download/v$version/$name-$version.tar.xz)
+version=4.3
+release=1
+source=(https://github.com/awesomeWM/awesome-releases/raw/master/$name-$version.tar.xz)
 
 
 # verify that the detected values for the lua configuration are
@@ -139,8 +140,6 @@ endif()
 		sed -re 's@^(\s*COMMAND\s*) lua @\1 '"$LUACMD"' @' -i $i
 		sed -re 's@^(\s*)lua @\1'"$LUACMD"' @' -i $i
 	done
-	sed -e 's/^lua /'"$LUACMD"' /' -i build-utils/lgi-check.sh
-
 
 	# okay, now we can finally try to build this fucker.  fingers crossed.
 	#
@@ -167,15 +166,18 @@ endif()
 	rm -rf $PKG/usr/share/doc
 	rm $PKG/usr/share/awesome/themes/default/README
 
-	# get rid of non-English manpages
+	# get rid of any non-English manpages
 	#
-	for i in $PKG/usr/share/man/*; do
-		local j=${i##*/}
-		if [ ${#j} -lt 3 ]; then
-			rm -rf $i
-		fi
-		if [ $(expr index $j "_") -gt 0 ]; then
-			rm -rf $i
-		fi
-	done
+	if [ -d $PKG/usr/share/man ]; then
+	(
+		cd $PKG/usr/share/man
+		for i in *; do
+			if [ ${#i} -lt 3 ] \
+			|| [ $(expr index $i "_") -gt 0 ]
+			then
+				rm -rf $i
+			fi
+		done
+	)
+	fi
 }

@@ -31,6 +31,7 @@ drwxr-xr-x	root/root	usr/share/awesome/lib/awful/hotkeys_popup/keys/
 -rw-r--r--	root/root	usr/share/awesome/lib/awful/hotkeys_popup/keys/firefox.lua
 -rw-r--r--	root/root	usr/share/awesome/lib/awful/hotkeys_popup/keys/init.lua
 -rw-r--r--	root/root	usr/share/awesome/lib/awful/hotkeys_popup/keys/qutebrowser.lua
+-rw-r--r--	root/root	usr/share/awesome/lib/awful/hotkeys_popup/keys/termite.lua
 -rw-r--r--	root/root	usr/share/awesome/lib/awful/hotkeys_popup/keys/tmux.lua
 -rw-r--r--	root/root	usr/share/awesome/lib/awful/hotkeys_popup/keys/vim.lua
 -rw-r--r--	root/root	usr/share/awesome/lib/awful/hotkeys_popup/widget.lua
@@ -55,6 +56,7 @@ drwxr-xr-x	root/root	usr/share/awesome/lib/awful/mouse/
 -rw-r--r--	root/root	usr/share/awesome/lib/awful/mouse/resize.lua
 -rw-r--r--	root/root	usr/share/awesome/lib/awful/mouse/snap.lua
 -rw-r--r--	root/root	usr/share/awesome/lib/awful/placement.lua
+-rw-r--r--	root/root	usr/share/awesome/lib/awful/popup.lua
 -rw-r--r--	root/root	usr/share/awesome/lib/awful/prompt.lua
 -rw-r--r--	root/root	usr/share/awesome/lib/awful/remote.lua
 -rw-r--r--	root/root	usr/share/awesome/lib/awful/rules.lua
@@ -77,6 +79,7 @@ drwxr-xr-x	root/root	usr/share/awesome/lib/awful/widget/
 -rw-r--r--	root/root	usr/share/awesome/lib/awful/widget/keyboardlayout.lua
 -rw-r--r--	root/root	usr/share/awesome/lib/awful/widget/launcher.lua
 -rw-r--r--	root/root	usr/share/awesome/lib/awful/widget/layoutbox.lua
+-rw-r--r--	root/root	usr/share/awesome/lib/awful/widget/layoutlist.lua
 -rw-r--r--	root/root	usr/share/awesome/lib/awful/widget/only_on_screen.lua
 -rw-r--r--	root/root	usr/share/awesome/lib/awful/widget/progressbar.lua
 -rw-r--r--	root/root	usr/share/awesome/lib/awful/widget/prompt.lua
@@ -86,6 +89,7 @@ drwxr-xr-x	root/root	usr/share/awesome/lib/awful/widget/
 -rw-r--r--	root/root	usr/share/awesome/lib/awful/widget/watch.lua
 -rw-r--r--	root/root	usr/share/awesome/lib/beautiful.lua
 drwxr-xr-x	root/root	usr/share/awesome/lib/beautiful/
+-rw-r--r--	root/root	usr/share/awesome/lib/beautiful/gtk.lua
 -rw-r--r--	root/root	usr/share/awesome/lib/beautiful/init.lua
 -rw-r--r--	root/root	usr/share/awesome/lib/beautiful/theme_assets.lua
 -rw-r--r--	root/root	usr/share/awesome/lib/beautiful/xresources.lua
@@ -103,6 +107,9 @@ drwxr-xr-x	root/root	usr/share/awesome/lib/gears/object/
 -rw-r--r--	root/root	usr/share/awesome/lib/gears/object/properties.lua
 -rw-r--r--	root/root	usr/share/awesome/lib/gears/protected_call.lua
 -rw-r--r--	root/root	usr/share/awesome/lib/gears/shape.lua
+drwxr-xr-x	root/root	usr/share/awesome/lib/gears/sort/
+-rw-r--r--	root/root	usr/share/awesome/lib/gears/sort/init.lua
+-rw-r--r--	root/root	usr/share/awesome/lib/gears/sort/topological.lua
 -rw-r--r--	root/root	usr/share/awesome/lib/gears/string.lua
 -rw-r--r--	root/root	usr/share/awesome/lib/gears/surface.lua
 -rw-r--r--	root/root	usr/share/awesome/lib/gears/table.lua
@@ -158,6 +165,7 @@ drwxr-xr-x	root/root	usr/share/awesome/lib/wibox/widget/
 -rw-r--r--	root/root	usr/share/awesome/lib/wibox/widget/init.lua
 -rw-r--r--	root/root	usr/share/awesome/lib/wibox/widget/piechart.lua
 -rw-r--r--	root/root	usr/share/awesome/lib/wibox/widget/progressbar.lua
+-rw-r--r--	root/root	usr/share/awesome/lib/wibox/widget/separator.lua
 -rw-r--r--	root/root	usr/share/awesome/lib/wibox/widget/slider.lua
 -rw-r--r--	root/root	usr/share/awesome/lib/wibox/widget/systray.lua
 -rw-r--r--	root/root	usr/share/awesome/lib/wibox/widget/textbox.lua
@@ -225,6 +233,8 @@ drwxr-xr-x	root/root	usr/share/awesome/themes/default/titlebar/
 -rw-r--r--	root/root	usr/share/awesome/themes/default/titlebar/sticky_focus_inactive.png
 -rw-r--r--	root/root	usr/share/awesome/themes/default/titlebar/sticky_normal_active.png
 -rw-r--r--	root/root	usr/share/awesome/themes/default/titlebar/sticky_normal_inactive.png
+drwxr-xr-x	root/root	usr/share/awesome/themes/gtk/
+-rw-r--r--	root/root	usr/share/awesome/themes/gtk/theme.lua
 drwxr-xr-x	root/root	usr/share/awesome/themes/sky/
 -rw-r--r--	root/root	usr/share/awesome/themes/sky/awesome-icon.png
 drwxr-xr-x	root/root	usr/share/awesome/themes/sky/layouts/
@@ -292,11 +302,5 @@ drwxr-xr-x	root/root	usr/share/awesome/themes/zenburn/titlebar/
 -rw-r--r--	root/root	usr/share/awesome/themes/zenburn/titlebar/sticky_normal_active.png
 -rw-r--r--	root/root	usr/share/awesome/themes/zenburn/titlebar/sticky_normal_inactive.png
 -rw-r--r--	root/root	usr/share/awesome/themes/zenburn/zenburn-background.png
-drwxr-xr-x	root/root	usr/share/man/
-drwxr-xr-x	root/root	usr/share/man/man1/
--rw-r--r--	root/root	usr/share/man/man1/awesome-client.1.gz
--rw-r--r--	root/root	usr/share/man/man1/awesome.1.gz
-drwxr-xr-x	root/root	usr/share/man/man5/
--rw-r--r--	root/root	usr/share/man/man5/awesomerc.5.gz
 drwxr-xr-x	root/root	usr/share/xsessions/
 -rw-r--r--	root/root	usr/share/xsessions/awesome.desktop
