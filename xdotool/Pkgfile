@@ -1,0 +1,16 @@
+# Description: fake keyboard/mouse input, window management, and more
+# URL: https://www.semicomplete.com/projects/xdotool/
+# Maintainer:  Cory Burgett, cmburget at gmail dot com
+# Depends on: xorg-libxtst xorg-xorgproto
+
+name=xdotool
+version=3.20160805.1
+release=1
+source=(https://github.com/jordansissel/$name/releases/download/v$version/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+
+	make all
+	make DESTDIR=$PKG install
+}
