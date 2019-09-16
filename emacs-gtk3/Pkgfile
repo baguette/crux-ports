@@ -5,7 +5,7 @@
 # Conflicts with: ctags
 
 name=emacs-gtk3
-version=26.1
+version=26.3
 release=1
 source=(http://ftpmirror.gnu.org/emacs/emacs-$version.tar.xz)
 
