@@ -9,3 +9,8 @@ REPO: $(PORTFILES)
 check: REPO
 	./check.sh
 
+.PHONY: links
+links: links.html
+links.html:
+	./mkweb.sh > $@
+
