@@ -1,16 +1,16 @@
 
-all: REPO check
+all: REPO check links
 
-PORTFILES != ~/bin/list-httpup-repfiles.sh
+PORTFILES != ./Util/list-httpup-repfiles.sh
 REPO: $(PORTFILES)
 	httpup-repgen .
 
 .PHONY: check
 check: REPO
-	./check.sh
+	./Util/check.sh
 
 .PHONY: links
 links: links.html
 links.html:
-	./mkweb.sh > $@
+	./Util/mkweb.sh > $@
 

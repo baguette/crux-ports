@@ -13,10 +13,7 @@
 .*~$
 .*\.swp$
 ^bmake
-^finddeps\.sh$
 ^TODO$
 ^Makefile$
-^check\.sh$
-^mkweb\.sh$
+^Util/
 ^links\.html$
-^pkgmk-depsort\.sh$
