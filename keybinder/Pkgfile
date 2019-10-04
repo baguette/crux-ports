@@ -1,15 +1,15 @@
 # Description: A library for registering global keybindings
-# URL: https://github.com/engla/keybinder
+# URL: https://github.com/kupferlauncher/keybinder
 # Maintainer:  Cory Burgett, cmburget at gmail dot com
 # Depends on: gtk3, gobject-introspection
 
 name=keybinder
-version=0.3.1
+version=0.3.2
 release=1
-source=(https://github.com/engla/$name/releases/download/v$version/$name-$version.tar.gz)
+source=(https://github.com/kupferlauncher/$name/releases/download/keybinder-3.0-v$version/$name-3.0-$version.tar.gz)
 
 build() {
-	cd $name-$version
+	cd $name-3.0-$version
 
 	./configure --prefix=/usr --libexecdir=/usr/lib/$name --sysconfdir=/etc
 	make

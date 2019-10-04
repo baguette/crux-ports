@@ -11,11 +11,12 @@
 \.txz$
 .*~$
 .*~$
-.*.swp$
+.*\.swp$
 ^bmake
-^finddeps.sh$
+^finddeps\.sh$
 ^TODO$
 ^Makefile$
 ^check\.sh$
 ^mkweb\.sh$
 ^links\.html$
+^pkgmk-depsort\.sh$

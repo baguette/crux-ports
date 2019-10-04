@@ -1,32 +1,40 @@
 # Description: mandoc - a document processor for mdoc and man
 # URL: http://mdocml.bsd.lv/
 # Maintainer:  Cory Burgett, cmburget at gmail dot com
-# Depends on: glibc sqlite3
+# Depends on: 
 
 name=mandoc
-version=1.13.3
+version=1.14.5
 release=1
-source=(http://mdocml.bsd.lv/snapshots/mdocml-$version.tar.gz)
+source=(http://mandoc.bsd.lv/snapshots/$name-$version.tar.gz)
 
 build() {
-	cd mdocml-$version
+	cd $name-$version
 
-	echo 'HAVE_WCHAR=1' >> configure.local
-	echo 'OSNAME=CRUX' >> configure.local
-	echo 'PREFIX=/usr' >> configure.local
-	echo 'MANDIR=/usr/share/local' >> configure.local
-	echo 'HAVE_MANPATH=1' >> configure.local
+	cat >configure.local <<-'EOF'
+		OSNAME=CRUX
+		PREFIX=/usr
+		MANDIR=/usr/share/man
 
-	echo 'MANM_MAN="mandoc_man"' >> configure.local
-	echo 'MANM_MDOC="mandoc_mdoc"' >> configure.local
-	echo 'MANM_ROFF="mandoc_roff"' >> configure.local
-	echo 'MANM_EQN="mandoc_eqn"' >> configure.local
-	echo 'MANM_TBL="mandoc_tbl"' >> configure.local
+		MANPATH_DEFAULT="/usr/local/share/man:/usr/local/man:/usr/share/man:/usr/man"
+		MANPATH_BASE="/usr/share/man:/usr/man"
+
+		MANM_MANCONF="mandoc.conf"
+		
+		MANM_MAN="mandoc_man"
+		MANM_MDOC="mandoc_mdoc"
+		MANM_ROFF="mandoc_roff"
+		MANM_EQN="mandoc_eqn"
+		MANM_TBL="mandoc_tbl"
 	
-	echo 'BINM_MAN=mman' >> configure.local
-	echo 'BINM_APROPOS=mapropos' >> configure.local
-	echo 'BINM_WHATIS=mwhatis' >> configure.local
-	echo 'BINM_MAKEWHATIS=mandocdb' >> configure.local
+		BINM_MAN=mman
+		BINM_APROPOS=mapropos
+		BINM_WHATIS=mwhatis
+		BINM_MAKEWHATIS=mandocdb
+		BINM_SOELIM=msoelim
+	
+		LN="ln -sf"
+	EOF
 
 	./configure
 	make

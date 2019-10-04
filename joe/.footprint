@@ -18,15 +18,30 @@ lrwxrwxrwx	root/root	usr/bin/jpico -> joe
 lrwxrwxrwx	root/root	usr/bin/jstar -> joe
 lrwxrwxrwx	root/root	usr/bin/rjoe -> joe
 drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/applications/
+-rw-r--r--	root/root	usr/share/applications/jmacs.desktop
+-rw-r--r--	root/root	usr/share/applications/joe.desktop
+-rw-r--r--	root/root	usr/share/applications/jpico.desktop
+-rw-r--r--	root/root	usr/share/applications/jstar.desktop
 drwxr-xr-x	root/root	usr/share/joe/
 drwxr-xr-x	root/root	usr/share/joe/charmaps/
 -rw-r--r--	root/root	usr/share/joe/charmaps/klingon
+drwxr-xr-x	root/root	usr/share/joe/colors/
+-rw-r--r--	root/root	usr/share/joe/colors/default.jcf
+-rw-r--r--	root/root	usr/share/joe/colors/gruvbox.jcf
+-rw-r--r--	root/root	usr/share/joe/colors/ir_black.jcf
+-rw-r--r--	root/root	usr/share/joe/colors/molokai.jcf
+-rw-r--r--	root/root	usr/share/joe/colors/solarized.jcf
+-rw-r--r--	root/root	usr/share/joe/colors/wombat.jcf
+-rw-r--r--	root/root	usr/share/joe/colors/xoria.jcf
+-rw-r--r--	root/root	usr/share/joe/colors/zenburn-hc.jcf
+-rw-r--r--	root/root	usr/share/joe/colors/zenburn.jcf
 drwxr-xr-x	root/root	usr/share/joe/lang/
 -rw-r--r--	root/root	usr/share/joe/lang/de.po
 -rw-r--r--	root/root	usr/share/joe/lang/fr.po
 -rw-r--r--	root/root	usr/share/joe/lang/ru.po
 -rw-r--r--	root/root	usr/share/joe/lang/uk.po
--rw-r--r--	root/root	usr/share/joe/lang/zh.po
+-rw-r--r--	root/root	usr/share/joe/lang/zh_TW.po
 drwxr-xr-x	root/root	usr/share/joe/syntax/
 -rw-r--r--	root/root	usr/share/joe/syntax/4gl.jsf
 -rw-r--r--	root/root	usr/share/joe/syntax/ada.jsf
@@ -41,12 +56,14 @@ drwxr-xr-x	root/root	usr/share/joe/syntax/
 -rw-r--r--	root/root	usr/share/joe/syntax/coffee.jsf
 -rw-r--r--	root/root	usr/share/joe/syntax/comment_todo.jsf
 -rw-r--r--	root/root	usr/share/joe/syntax/conf.jsf
+-rw-r--r--	root/root	usr/share/joe/syntax/context.jsf
 -rw-r--r--	root/root	usr/share/joe/syntax/csh.jsf
 -rw-r--r--	root/root	usr/share/joe/syntax/csharp.jsf
 -rw-r--r--	root/root	usr/share/joe/syntax/css.jsf
 -rw-r--r--	root/root	usr/share/joe/syntax/d.jsf
 -rw-r--r--	root/root	usr/share/joe/syntax/debian.jsf
 -rw-r--r--	root/root	usr/share/joe/syntax/diff.jsf
+-rw-r--r--	root/root	usr/share/joe/syntax/dockerfile.jsf
 -rw-r--r--	root/root	usr/share/joe/syntax/elixir.jsf
 -rw-r--r--	root/root	usr/share/joe/syntax/erb.jsf
 -rw-r--r--	root/root	usr/share/joe/syntax/erlang.jsf
@@ -62,6 +79,7 @@ drwxr-xr-x	root/root	usr/share/joe/syntax/
 -rw-r--r--	root/root	usr/share/joe/syntax/ini.jsf
 -rw-r--r--	root/root	usr/share/joe/syntax/iptables.jsf
 -rw-r--r--	root/root	usr/share/joe/syntax/java.jsf
+-rw-r--r--	root/root	usr/share/joe/syntax/jcf.jsf
 -rw-r--r--	root/root	usr/share/joe/syntax/joerc.jsf
 -rw-r--r--	root/root	usr/share/joe/syntax/js.jsf
 -rw-r--r--	root/root	usr/share/joe/syntax/jsf.jsf

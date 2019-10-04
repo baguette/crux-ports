@@ -2,6 +2,7 @@ drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/weechat
 lrwxrwxrwx	root/root	usr/bin/weechat-curses -> weechat
+-rwxr-xr-x	root/root	usr/bin/weechat-headless
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/weechat/
 -rw-r--r--	root/root	usr/include/weechat/weechat-plugin.h
@@ -11,10 +12,11 @@ drwxr-xr-x	root/root	usr/lib/pkgconfig/
 drwxr-xr-x	root/root	usr/lib/weechat/
 drwxr-xr-x	root/root	usr/lib/weechat/plugins/
 -rwxr-xr-x	root/root	usr/lib/weechat/plugins/alias.so
--rwxr-xr-x	root/root	usr/lib/weechat/plugins/aspell.so
+-rwxr-xr-x	root/root	usr/lib/weechat/plugins/buflist.so
 -rwxr-xr-x	root/root	usr/lib/weechat/plugins/charset.so
 -rwxr-xr-x	root/root	usr/lib/weechat/plugins/exec.so
 -rwxr-xr-x	root/root	usr/lib/weechat/plugins/fifo.so
+-rwxr-xr-x	root/root	usr/lib/weechat/plugins/fset.so
 -rwxr-xr-x	root/root	usr/lib/weechat/plugins/irc.so
 -rwxr-xr-x	root/root	usr/lib/weechat/plugins/logger.so
 -rwxr-xr-x	root/root	usr/lib/weechat/plugins/lua.so
@@ -23,6 +25,7 @@ drwxr-xr-x	root/root	usr/lib/weechat/plugins/
 -rwxr-xr-x	root/root	usr/lib/weechat/plugins/relay.so
 -rwxr-xr-x	root/root	usr/lib/weechat/plugins/ruby.so
 -rwxr-xr-x	root/root	usr/lib/weechat/plugins/script.so
+-rwxr-xr-x	root/root	usr/lib/weechat/plugins/spell.so
 -rwxr-xr-x	root/root	usr/lib/weechat/plugins/tcl.so
 -rwxr-xr-x	root/root	usr/lib/weechat/plugins/trigger.so
 -rwxr-xr-x	root/root	usr/lib/weechat/plugins/xfer.so
@@ -32,6 +35,3 @@ drwxr-xr-x	root/root	usr/share/icons/hicolor/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/32x32/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/32x32/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/32x32/apps/weechat.png
-drwxr-xr-x	root/root	usr/share/man/
-drwxr-xr-x	root/root	usr/share/man/man1/
--rw-r--r--	root/root	usr/share/man/man1/weechat.1.gz

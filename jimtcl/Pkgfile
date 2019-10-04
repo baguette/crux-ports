@@ -4,12 +4,12 @@
 # Depends on:
 
 name=jimtcl
-version=0.76
+version=0.78
 release=1
-source=(http://repo.or.cz/jimtcl.git/snapshot/51f65c6d38fbf86e1f0b036ad336761fd2ab7fa0.tar.gz)
+source=(https://repo.or.cz/$name.git/snapshot/refs/tags/$version.tar.gz)
 
 build() {
-	cd $name-51f65c6
+	cd $name-$version
 
 	./configure --prefix=/usr --full --shared --disable-docs --with-ext="sqlite3 readline"
 	make

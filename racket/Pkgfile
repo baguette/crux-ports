@@ -4,9 +4,9 @@
 # Depends on: libffi
 
 name=racket
-version=7.1
+version=7.4
 release=1
-source=(http://mirror.racket-lang.org/installers/$version/$name-$version-src-builtpkgs.tgz)
+source=(https://mirror.racket-lang.org/installers/$version/$name-$version-src-builtpkgs.tgz)
 
 build() {
 	cd $name-$version/src

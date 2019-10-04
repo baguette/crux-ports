@@ -1,5 +1,5 @@
 # Description: GNU emacs - an extensible text editor
-# URL: http://gnu.org/software/emacs/
+# URL: https://gnu.org/software/emacs/
 # Maintainer:  Cory Burgett, cmburget at gmail dot com
 # Depends on: alsa-lib atk cairo dbus fontconfig freetype fribidi gdk-pixbuf giflib glib gnutls gtk3 lcms2 libjpeg-turbo libpng librsvg libsoup libtiff libxml2 pango webkitgtk
 # Conflicts with: ctags

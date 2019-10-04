@@ -1,12 +1,12 @@
 # Description: An implementation of the JBIG1 compression standard
-# URL: http://www.cl.cam.ac.uk/~mgk25/jbigkit/
+# URL: https://www.cl.cam.ac.uk/~mgk25/jbigkit/
 # Maintainer:  Cory Burgett, cmburget at gmail dot com
 # Depends on:
 
 name=jbigkit
 version=2.1
 release=3
-source=(http://www.cl.cam.ac.uk/~mgk25/$name/download/$name-$version.tar.gz)
+source=(https://www.cl.cam.ac.uk/~mgk25/$name/download/$name-$version.tar.gz)
 
 build() {
 	cd $name-$version

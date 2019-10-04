@@ -1,12 +1,12 @@
 # Description: Joe's Own Editor
-# URL: http://joe-editor.sourceforge.net/
+# URL: https://joe-editor.sourceforge.io/
 # Maintainer:  Cory Burgett, cmburget at gmail dot com
 # Depends on: ncurses
 
 name=joe
-version=4.1
+version=4.6
 release=1
-source=(http://downloads.sourceforge.net/project/joe-editor/JOE%20sources/$name-$version/$name-$version.tar.gz)
+source=(https://downloads.sourceforge.net/project/joe-editor/JOE%20sources/$name-$version/$name-$version.tar.gz)
 
 build() {
 	cd $name-$version

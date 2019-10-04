@@ -4,9 +4,9 @@
 # Depends on: xorg-libxext-32 xorg-libxt-32 xorg-libxpm
 
 name=xorg-libxpm-32
-version=3.5.11
+version=3.5.12
 release=1
-source=(http://xorg.freedesktop.org/releases/individual/lib/libXpm-$version.tar.bz2)
+source=(https://www.x.org/releases/individual/lib/libXpm-$version.tar.bz2)
 
 build() {
 	cd libXpm-$version

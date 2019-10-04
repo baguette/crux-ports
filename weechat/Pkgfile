@@ -5,9 +5,9 @@
 # Nice to have: aspell python perl ruby lua52 tcl
 
 name=weechat
-version=1.4
+version=2.6
 release=1
-source=(http://weechat.org/files/src/$name-$version.tar.bz2)
+source=(https://weechat.org/files/src/$name-$version.tar.xz)
 
 build () {
 	cd $name-$version
