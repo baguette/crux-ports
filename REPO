@@ -12,7 +12,6 @@ d:chibi-scheme
 d:haskell-hashable
 d:haskell-text
 d:jbigkit
-d:asciidoctor
 d:haskell-mtl
 d:xdotool
 d:scheme48
@@ -109,9 +108,6 @@ f:bd674521792c91ad09e22c1013a3f0be:haskell-text/.md5sum
 f:97d32c675647fdf9602d5d96aa951571:jbigkit/Pkgfile
 f:9f5dd449fb4f9b3df839a18b600224ca:jbigkit/.footprint
 f:434dabf1be1a71c9c4992f6951f74e33:jbigkit/.md5sum
-f:9d2f38084f7bc910f8fc48a4f21dcfa9:asciidoctor/Pkgfile
-f:88b17ea32e0fba774f306b04adb0d896:asciidoctor/.footprint
-f:2d0c1b7ba679e82bd784f1f4080ab145:asciidoctor/.md5sum
 f:89b9df752592d9600a00ccfa59d64c6a:haskell-mtl/post-install
 f:64c47fde94b8bcc4215add37f1dca7ce:haskell-mtl/Pkgfile
 f:a962e9a107a956834861da1cf600e9e0:haskell-mtl/.footprint
