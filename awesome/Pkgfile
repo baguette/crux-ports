@@ -1,12 +1,12 @@
 # Description: awesome window manager
 # URL: https://awesomewm.org/
 # Maintainer:  Cory Burgett, cmburget at gmail dot com
-# Depends on: lua51, git, pango, imagemagick, imlib2, xmlto, cmake, asciidoc, cairo, libev, xorg-xcb-util, xorg-xcb-util-keysyms, xorg-xcb-util-wm, xorg-xcb-util-cursor, xorg-xcb-util-renderutil, xorg-xcb-util-image, xorg-xcb-proto, xorg-libxcb, dbus, xmessage, startup-notification, docbook-xsl, docbook-xml, libxdg-basedir, lua-lgi
+# Depends on: cmake lua51 lua-lgi imlib2 cairo pango imagemagick libev xorg-libx11 xorg-xorgproto libxkbcommon xorg-libxcb xorg-xcb-proto xorg-xcb-util xorg-xcb-util-cursor xorg-xcb-util-keysyms xorg-xcb-util-wm xorg-xcb-util-renderutil xorg-xcb-util-image xorg-xcb-util-xrm libxdg-basedir dbus xmessage startup-notification docbook-xsl docbook-xml xmlto asciidoctor
 # Optional: luajit
 
 name=awesome
 version=4.3
-release=1
+release=2
 source=(https://github.com/awesomeWM/awesome-releases/raw/master/$name-$version.tar.xz)
 
 
@@ -103,6 +103,12 @@ build() {
 	                  '@')" \
 	    -i CMakeLists.txt
 
+	# don't bother building i15d manpages; used to `rm` them later,
+	# but it's better this way... maybe...
+	#
+	sed -re 's/^(\s*set\(AWE_MAN_LANGS\s+)[^)]+\)$/\1default)/' \
+	    -i CMakeLists.txt
+
 
 	# we depend on lua51 because it's official lua, but awesome also supports
 	# building with lua52 (last I checked), and luajit functions as a drop-in
@@ -165,19 +171,4 @@ endif()
 	#
 	rm -rf $PKG/usr/share/doc
 	rm $PKG/usr/share/awesome/themes/default/README
-
-	# get rid of any non-English manpages
-	#
-	if [ -d $PKG/usr/share/man ]; then
-	(
-		cd $PKG/usr/share/man
-		for i in *; do
-			if [ ${#i} -lt 3 ] \
-			|| [ $(expr index $i "_") -gt 0 ]
-			then
-				rm -rf $i
-			fi
-		done
-	)
-	fi
 }
