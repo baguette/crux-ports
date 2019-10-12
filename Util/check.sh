@@ -37,6 +37,7 @@ gitrepo() {
 	| (
 		n=0
 		while IFS= read -r i; do
+			[ "${i^}" != "${i}" ] || continue	# skip capitalized dirs
 			if [ -d "$i" ]; then
 				for j in "${FILES[@]}"; do
 					[ -f "${i}/${j}" ] || {

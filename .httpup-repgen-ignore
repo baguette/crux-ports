@@ -12,8 +12,7 @@
 .*~$
 .*~$
 .*\.swp$
-^bmake
 ^TODO$
 ^Makefile$
-^Util/
+^Util
 ^links\.html$
