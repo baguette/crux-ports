@@ -1,4 +1,3 @@
-d:libunistring
 d:rlwrap
 d:joe
 d:splix
@@ -45,7 +44,6 @@ d:jimtcl
 d:haskell-echo
 d:maim
 d:haskell-base64-bytestring
-d:glm
 d:zpaq
 d:xarchiver
 d:haskell-network-uri
@@ -60,12 +58,8 @@ d:haskell-async
 d:xorg-libxpm-32
 d:libtinfo-compat
 d:haskell-cabal-install
-d:libxdg-basedir
 d:keybinder
 d:mlton-bin
-f:b283f7fbc51c45767faefae4819f9f97:libunistring/Pkgfile
-f:f08b3702c4c36133da80a4c1bb02c1f5:libunistring/.footprint
-f:739262a3cecbbcb1b4036865f2cbe89b:libunistring/.md5sum
 f:f2b3b3aecbdcc8134f7a811240285fb7:rlwrap/Pkgfile
 f:a20b4c95fb659b6f0f1aea2ad8a8dc51:rlwrap/.footprint
 f:6788cee4226bdb485ce80e4ac3f852df:rlwrap/.md5sum
@@ -136,7 +130,7 @@ f:89b9df752592d9600a00ccfa59d64c6a:haskell-stm/post-install
 f:0a92ac3de5c0173e666ac293a820e6e5:haskell-stm/Pkgfile
 f:3a93c391805487f07cd051e8e772fdc9:haskell-stm/.footprint
 f:0d57df808f0e75d58f2de12742f106c8:haskell-stm/.md5sum
-f:bbfb0d4eaea9c1f2463c81a4d6def3e2:README.md
+f:e06762b4f9a705f43d7c5bae87a04f9a:README.md
 f:89b9df752592d9600a00ccfa59d64c6a:haskell-random/post-install
 f:609b0c29c829d2f202f00d3e64bbed83:haskell-random/Pkgfile
 f:72b3eb051769e8c98b31189c1d809506:haskell-random/.footprint
@@ -229,9 +223,6 @@ f:89b9df752592d9600a00ccfa59d64c6a:haskell-base64-bytestring/post-install
 f:41bce75bd241bf4554817931a2194e42:haskell-base64-bytestring/Pkgfile
 f:366efa1d316b42f6bb2520acfd85b258:haskell-base64-bytestring/.footprint
 f:ab51885ccebf669d67d3c50b085b24a1:haskell-base64-bytestring/.md5sum
-f:94e1711ca53fb6cc5eff18c7cba7b722:glm/Pkgfile
-f:c4c05040aa297047392da05e45a83141:glm/.footprint
-f:049b0fa975e91051bbab1d14f5f3a718:glm/.md5sum
 f:b237ee53ac25ef98643819a74f570c83:zpaq/Pkgfile
 f:0a6b0c14987442da3505c4d2cd17e738:zpaq/.footprint
 f:3b20fe0c4df86141caef67887b69b755:zpaq/.md5sum
@@ -283,9 +274,6 @@ f:89b9df752592d9600a00ccfa59d64c6a:haskell-cabal-install/post-install
 f:128be908198f53f6637e9c6ee8f5cf9d:haskell-cabal-install/Pkgfile
 f:ee0ca10a254dbd7e104b062e0e3aa3c7:haskell-cabal-install/.footprint
 f:3ab3635381dfe3b568938ec84d4a8f5d:haskell-cabal-install/.md5sum
-f:58ec4a1b5250c371431f83dc2e010ab2:libxdg-basedir/Pkgfile
-f:2e74b7a5e14fd2111c681f9df9bc9a07:libxdg-basedir/.footprint
-f:56b0b38248c1460420ec432f5d325fb2:libxdg-basedir/.md5sum
 f:acbc4f53bc0e7bb51a3a2769e34992ec:keybinder/Pkgfile
 f:8ba1073aad7ffaa934f841c4a4373d39:keybinder/.footprint
 f:f0cbb3883191505666e08b37c1416213:keybinder/.md5sum
