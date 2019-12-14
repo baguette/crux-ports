@@ -20,6 +20,7 @@ d:mtpaint
 d:haskell-base16-bytestring
 d:haskell-stm
 d:haskell-random
+d:xorg-editres
 d:haskell-zlib
 d:slop
 d:xorg-libxaw-32
@@ -135,6 +136,9 @@ f:89b9df752592d9600a00ccfa59d64c6a:haskell-random/post-install
 f:609b0c29c829d2f202f00d3e64bbed83:haskell-random/Pkgfile
 f:72b3eb051769e8c98b31189c1d809506:haskell-random/.footprint
 f:ccd6ac9c5b7b0af4030dade02de2cd20:haskell-random/.md5sum
+f:c0e26dc4e84b9fc79aa8d5600de6f124:xorg-editres/Pkgfile
+f:db5b173ea18043b78c561e4d9fc6f4fc:xorg-editres/.footprint
+f:1cafc39cdcad88a22b602a2904ba2ca8:xorg-editres/.md5sum
 f:89b9df752592d9600a00ccfa59d64c6a:haskell-zlib/post-install
 f:d9c2ecbc85e4c7970a6fee29cb3a7812:haskell-zlib/Pkgfile
 f:312dc4fb63ffd5e758d34bb91335b745:haskell-zlib/.footprint
@@ -143,7 +147,7 @@ f:a6a18b3b336907db3951bcf6637bbf7f:slop/Pkgfile
 f:f955e56b8f1a8f65aac3538bee403e92:slop/.footprint
 f:5129222dea40ea75bdedb333af92a03c:slop/.md5sum
 f:d41d8cd98f00b204e9800998ecf8427e:xorg-libxaw-32/.32bit
-f:1abce0da59bf3ad2893d7c10a0c243cf:xorg-libxaw-32/Pkgfile
+f:1eeed8e3526538032b031ffe0c49ed3e:xorg-libxaw-32/Pkgfile
 f:86d2c9d629c1627501fb65d4eff7de9d:xorg-libxaw-32/.footprint
 f:a1e14ec7345890b0600d04a4f702ef00:xorg-libxaw-32/.md5sum
 f:89b9df752592d9600a00ccfa59d64c6a:haskell-parsec/post-install

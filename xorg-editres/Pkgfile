@@ -1,0 +1,17 @@
+# Description: X Resource Hierarchy Inspector
+# URL: http://xorg.freedesktop.org
+# Maintainer: Cory Burgett, cmburget at gmail dot com
+# Depends on: xorg-libxt xorg-libxaw
+
+name=xorg-editres
+version=1.0.7
+release=1
+source=(https://www.x.org/releases/individual/app/${name#xorg-}-$version.tar.bz2)
+
+build() {
+	cd ${name#xorg-}-$version
+
+	./configure --prefix=/usr --mandir=/usr/man
+	make
+	make DESTDIR=$PKG install
+}
