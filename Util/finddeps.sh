@@ -71,9 +71,8 @@ sofiles() {
 pkgs() {
 	sofiles "$1" \
 	| while IFS= read -r i; do
-	    pkginfo -o "$i" 2>/dev/null
+	   pkginfo -o "$i" 2>/dev/null |sed 1d
 	  done \
-	| grep -Eve '^Package\b' \
 	| awk '{print $1}' \
 	| sort -u
 }
