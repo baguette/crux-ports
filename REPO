@@ -23,6 +23,7 @@ d:haskell-random
 d:xorg-editres
 d:haskell-zlib
 d:slop
+d:djvulibre
 d:xorg-libxaw-32
 d:haskell-parsec
 d:polyml
@@ -39,6 +40,7 @@ d:haskell-tar
 d:qastools
 d:haskell-cryptohash-sha256
 d:lua-lgi
+d:expect
 d:rpm2pkg
 d:jimtcl
 d:haskell-echo
@@ -145,6 +147,9 @@ f:05accd9c028e4dddb7a519939477919e:haskell-zlib/.md5sum
 f:a6a18b3b336907db3951bcf6637bbf7f:slop/Pkgfile
 f:f955e56b8f1a8f65aac3538bee403e92:slop/.footprint
 f:5129222dea40ea75bdedb333af92a03c:slop/.md5sum
+f:953ae87f835858e28058a55910b2fef8:djvulibre/Pkgfile
+f:9f64f5eaccb62c595511ef87e1fca450:djvulibre/.footprint
+f:280b87892c378707691a589981c9067d:djvulibre/.md5sum
 f:d41d8cd98f00b204e9800998ecf8427e:xorg-libxaw-32/.32bit
 f:1eeed8e3526538032b031ffe0c49ed3e:xorg-libxaw-32/Pkgfile
 f:86d2c9d629c1627501fb65d4eff7de9d:xorg-libxaw-32/.footprint
@@ -205,6 +210,9 @@ f:088b4a595f91bafc01b1039762618d53:haskell-cryptohash-sha256/.md5sum
 f:0b1b0a745b7489254bf5a322d91ae07c:lua-lgi/Pkgfile
 f:fac1e0cd89e105c61bdee4726b088e7e:lua-lgi/.footprint
 f:8491912017d9b4af5669ea144f6b3051:lua-lgi/.md5sum
+f:caeb61ad05e4766784eeea878d0af88b:expect/Pkgfile
+f:62f593d56703145cc33585767db641b1:expect/.footprint
+f:2b4aa26e64d4c7202a2b40b8f387d9e7:expect/.md5sum
 f:110c0fc8222db38cb65d14c566d8a3fa:rpm2pkg/Pkgfile
 f:e900c8152223596f378484896c8f5ccf:rpm2pkg/rpm2pkg
 f:933c102a9bf8b307ecc6d3b9ab9b2aa9:rpm2pkg/.footprint

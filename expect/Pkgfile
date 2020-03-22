@@ -1,0 +1,29 @@
+# Description: CLI automation framework for Tcl
+# URL: https://core.tcl-lang.org/expect/index
+# Maintainer:  Cory Burgett, cmburget at gmail dot com
+# Depends on: tcl
+# Optional: tk
+name=expect
+version=5.45.4
+release=1
+source=(https://downloads.sourceforge.net/project/expect/Expect/$version/expect$version.tar.gz)
+
+build() {
+	local tkflags=''
+
+	prt-get isinst tk && tkflags='
+		--with-tk=/usr/lib
+		--with-tkinclude=/usr/include
+	'
+
+	cd $name$version
+
+	./configure --prefix=/usr \
+	            --enable-shared \
+	            --mandir=/usr/share/man \
+	            --with-tcl=/usr/lib \
+	            --with-tclinclude=/usr/include \
+	            $tkflags
+	make
+	make DESTDIR=$PKG install
+}
