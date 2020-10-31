@@ -50,7 +50,8 @@ cmake_sux() {
 	LUABIN="/$(pkginfo -l $prt |grep -m1 -e 'bin/lua')"
 	LUACMD="${LUABIN##*/}"
 
-	LUALIB="/$(pkginfo -l $prt |grep -m1 -e '\.so$')"
+	LUALIB="/$(pkginfo -l $prt |grep -m1 -e '/liblua.*\.so')"
+	LUALIB="$(eval printf '%s\\n' "${LUALIB%.so*}.so*" |sed '1p;d')"
 
 	LUAINC="/$(pkginfo -l $prt |grep -e '/lua\.h$')"
 	LUAINC="${LUAINC%/*}"
