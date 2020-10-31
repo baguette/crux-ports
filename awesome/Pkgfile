@@ -152,6 +152,8 @@ endif()
 	#
 	mkdir build && cd build
 
+	# GCC 10 changed the default to -fno-common -- this breaks the build:
+	CFLAGS="$CFLAGS -fcommon" \
 	cmake .. \
 		-DCMAKE_BUILD_TYPE=RELEASE \
 		-DCMAKE_INSTALL_PREFIX=/usr \
