@@ -4,7 +4,7 @@
 # Depends on: 
 
 name=chibi-scheme
-version=0.8.0
+version=0.9.1
 release=1
 source=(http://synthcode.com/scheme/chibi/$name-$version.tgz)
 

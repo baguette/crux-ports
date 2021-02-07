@@ -85,9 +85,9 @@ f:802e30394f4c5769139f4c949d7db02a:mosml/.md5sum
 f:92c8e9d6bda66d3b75627198b62777d5:orbit/Pkgfile
 f:70f615ff6e9c3dc275c0b20ff2d8cce9:orbit/.footprint
 f:a107a4ec8547da63aa642f3e00c8c4b7:orbit/.md5sum
-f:67dff324f15016bb123b9c5f3f061ed0:chibi-scheme/Pkgfile
-f:bb395554a78f93b618dbef17c12fa729:chibi-scheme/.footprint
-f:a5f8d37df8cc8affe52fff04a40143ed:chibi-scheme/.md5sum
+f:8c97443cef032a08188bb0125859da27:chibi-scheme/Pkgfile
+f:2334cde0ff4384e3c5d718e6ae9a4b85:chibi-scheme/.footprint
+f:04bd259816b2cf1c7649d3244967d428:chibi-scheme/.md5sum
 f:89b9df752592d9600a00ccfa59d64c6a:haskell-hashable/post-install
 f:f3fd38c6b7930278a93d862c0ef843e2:haskell-hashable/Pkgfile
 f:c49e9fa694b3d3aa61107ee6b3626679:haskell-hashable/.footprint
