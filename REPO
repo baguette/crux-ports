@@ -168,9 +168,9 @@ f:89b9df752592d9600a00ccfa59d64c6a:haskell-process/post-install
 f:33a44df7876d71a2b8602f8d488e80cc:haskell-process/Pkgfile
 f:68f526d750eab8eccd71613e6e83136d:haskell-process/.footprint
 f:00323db2862fcd785b3fa2ed3c6d98d1:haskell-process/.md5sum
-f:2ffebf644f7eb0367f6d87c8ad294eec:mg/Pkgfile
+f:e4563fe63d535c015bd76f2faa923527:mg/Pkgfile
 f:a9c03cd4972c576071848cd91acf6fd3:mg/.footprint
-f:784f633ad52fa41b3ae58aefe5cea750:mg/.md5sum
+f:9a3482cd66722811a679f1c9b1196dd4:mg/.md5sum
 f:d68c6b16ca0ecf4c1bbb5d25d97584fc:tinyscheme/Pkgfile
 f:77685ee867bea2c4827613044f1b6e76:tinyscheme/.footprint
 f:00b09202f12dc5cf63483051233507e2:tinyscheme/.md5sum

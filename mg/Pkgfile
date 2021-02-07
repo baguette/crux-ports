@@ -1,16 +1,17 @@
 # Description: mg - a miniature emacs clone
-# URL: http://homepage.boetes.org/software/mg/
+# URL: https://github.com/hboetes/mg
 # Maintainer:  Cory Burgett, cmburget at gmail dot com
 # Depends on: libbsd
 
 name=mg
-version=20160118
+version=20180927
 release=1
-source=(http://homepage.boetes.org/software/$name/$name-$version.tar.gz)
+source=(https://github.com/hboetes/$name/archive/$version/$name-$version.tar.gz)
 
 build() {
 	cd $name-$version
 
+	export CFLAGS="$CFLAGS -fcommon"
 	make prefix=/usr mandir=/usr/share/man
 	make prefix=/usr mandir=/usr/share/man DESTDIR=$PKG install
 }
