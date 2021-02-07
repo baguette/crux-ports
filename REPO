@@ -136,9 +136,9 @@ f:89b9df752592d9600a00ccfa59d64c6a:haskell-zlib/post-install
 f:d9c2ecbc85e4c7970a6fee29cb3a7812:haskell-zlib/Pkgfile
 f:312dc4fb63ffd5e758d34bb91335b745:haskell-zlib/.footprint
 f:05accd9c028e4dddb7a519939477919e:haskell-zlib/.md5sum
-f:a6a18b3b336907db3951bcf6637bbf7f:slop/Pkgfile
-f:f955e56b8f1a8f65aac3538bee403e92:slop/.footprint
-f:5129222dea40ea75bdedb333af92a03c:slop/.md5sum
+f:6656e566642bedf7bc6991208b62810f:slop/Pkgfile
+f:cfbd75e99c2226e47aa877591a9677cf:slop/.footprint
+f:299c32828f7a0bf088e40ecab4e9ba45:slop/.md5sum
 f:da0db11f5a5decee15c99a2d4ab41f1a:djvulibre/Pkgfile
 f:1455c44ba0f10439a2439ff8c6505000:djvulibre/.footprint
 f:584ccadea9e3c5d6c46555a3748ad512:djvulibre/.md5sum
@@ -216,9 +216,9 @@ f:89b9df752592d9600a00ccfa59d64c6a:haskell-echo/post-install
 f:f1823d89785025254a0034be526d4015:haskell-echo/Pkgfile
 f:4472f88e0b6f0b67ac406f7a2d5f59da:haskell-echo/.footprint
 f:87fdba05b14a89279390007f509eada5:haskell-echo/.md5sum
-f:99b5ffc34d854008506cc80ebdbcf879:maim/Pkgfile
+f:8e092a512d8a7dacbef570bafb6307b4:maim/Pkgfile
 f:5c0114f94e8de44ca67aae8c6e97c8f4:maim/.footprint
-f:ac1f4335ff66ce70268591da5057390b:maim/.md5sum
+f:96cd8c40e09879f7946933b156ed5c63:maim/.md5sum
 f:89b9df752592d9600a00ccfa59d64c6a:haskell-base64-bytestring/post-install
 f:41bce75bd241bf4554817931a2194e42:haskell-base64-bytestring/Pkgfile
 f:366efa1d316b42f6bb2520acfd85b258:haskell-base64-bytestring/.footprint
