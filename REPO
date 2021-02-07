@@ -149,9 +149,9 @@ f:89b9df752592d9600a00ccfa59d64c6a:haskell-parsec/post-install
 f:7817f7bcdcf793b726156518fdfcc856:haskell-parsec/Pkgfile
 f:7ecc5ee1361fc0e9cd7e310818dde949:haskell-parsec/.footprint
 f:318590cf375804f3d9a47dc06deb177d:haskell-parsec/.md5sum
-f:e35e6675949c5f1100c461082e9eb0e5:polyml/Pkgfile
-f:d2146bb6bf5217b5b45cdcda5464c65c:polyml/.footprint
-f:b806d77e81556f9e109f4985fc8a5807:polyml/.md5sum
+f:14a9b34cce9719d4aa61e6783d3bb904:polyml/Pkgfile
+f:d57799a58ccf0dfce990b8ba479ef722:polyml/.footprint
+f:50cd7b1b9a9628edc5935c58398d9d62:polyml/.md5sum
 f:3418b238cb4b15f12657274790c01a92:xorg-font-liberation/post-install
 f:1d2fe99207f20e67197d3660938cf898:xorg-font-liberation/Pkgfile
 f:67fdf9aaace5c0c9eeb553d2c7eabe6d:xorg-font-liberation/.footprint

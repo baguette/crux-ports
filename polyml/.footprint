@@ -8,9 +8,9 @@ drwxr-xr-x	root/root	usr/lib/
 -rwxr-xr-x	root/root	usr/lib/libpolymain.la
 -rw-r--r--	root/root	usr/lib/libpolyml.a
 -rwxr-xr-x	root/root	usr/lib/libpolyml.la
-lrwxrwxrwx	root/root	usr/lib/libpolyml.so -> libpolyml.so.10.0.0
-lrwxrwxrwx	root/root	usr/lib/libpolyml.so.10 -> libpolyml.so.10.0.0
--rwxr-xr-x	root/root	usr/lib/libpolyml.so.10.0.0
+lrwxrwxrwx	root/root	usr/lib/libpolyml.so -> libpolyml.so.11.0.0
+lrwxrwxrwx	root/root	usr/lib/libpolyml.so.11 -> libpolyml.so.11.0.0
+-rwxr-xr-x	root/root	usr/lib/libpolyml.so.11.0.0
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/polyml.pc
 drwxr-xr-x	root/root	usr/lib/polyml/

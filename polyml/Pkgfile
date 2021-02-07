@@ -4,7 +4,7 @@
 # Depends on:
 
 name=polyml
-version=5.8
+version=5.8.1
 release=1
 source=(https://github.com/$name/$name/archive/v$version.tar.gz)
 
