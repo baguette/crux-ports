@@ -112,10 +112,9 @@ f:f820e75bf435bf63c9c5ea94a8de21ac:scheme48/.md5sum
 f:28d2580a62de01d4c96e077f50707d57:guile/Pkgfile
 f:8f8b89c36c2c4e7d5d3a6d6948aafe17:guile/.footprint
 f:208d4111f2bfc41d39f171b0eaef3497:guile/.md5sum
-f:4d41144035f2bb2f878d804810e70ed7:mtpaint/Pkgfile
-f:185f271564e211fab338aca20be71d88:mtpaint/giflib.patch
+f:e3e05573de28fb8270b40cafeab8e205:mtpaint/Pkgfile
 f:f3bc71cd175f17d32ee4b3811c5cd0a7:mtpaint/.footprint
-f:fe37d7afd2b3e00874754efaa062d16d:mtpaint/.md5sum
+f:ae3893a9a7a61a927b138a954f769160:mtpaint/.md5sum
 f:89b9df752592d9600a00ccfa59d64c6a:haskell-base16-bytestring/post-install
 f:2c8ef10097b1cb07b1b4f5a8cb7f6391:haskell-base16-bytestring/Pkgfile
 f:0c94c2cabdd5c257d3487cc06786df12:haskell-base16-bytestring/.footprint
