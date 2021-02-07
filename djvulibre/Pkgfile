@@ -4,7 +4,7 @@
 # Depends on: libjpeg-turbo libtiff
 
 name=djvulibre
-version=3.5.27
+version=3.5.28
 release=1
 source=(http://downloads.sourceforge.net/djvu/$name-$version.tar.gz)
 
