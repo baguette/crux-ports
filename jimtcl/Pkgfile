@@ -4,9 +4,9 @@
 # Depends on:
 
 name=jimtcl
-version=0.78
+version=0.80
 release=1
-source=(https://repo.or.cz/$name.git/snapshot/refs/tags/$version.tar.gz)
+source=(https://github.com/msteveb/$name/archive/$version/$name-$version.tar.gz)
 
 build() {
 	cd $name-$version
