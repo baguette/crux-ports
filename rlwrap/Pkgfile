@@ -4,9 +4,9 @@
 # Depends on: readline
 
 name=rlwrap
-version=0.43
+version=0.44
 release=1
-source=(https://github.com/hanslub42/rlwrap/releases/download/v$version/$name-$version.tar.gz)
+source=(https://github.com/hanslub42/rlwrap/releases/download/$version/$name-$version.tar.gz)
 
 build() {
 	cd $name-$version
