@@ -263,9 +263,9 @@ f:7682fd513d4bc533abfbd611f2f8630c:haskell-async/Pkgfile
 f:7ca451996dceea74022e41e507fbb7e3:haskell-async/.footprint
 f:a1980e68688ebc4aaa3f5f93b36d5f2c:haskell-async/.md5sum
 f:d41d8cd98f00b204e9800998ecf8427e:xorg-libxpm-32/.32bit
-f:306d8c2f0fc5965996968a422738140e:xorg-libxpm-32/Pkgfile
+f:ab0bcb22bbb0e35f9d6ba9108d1cceb6:xorg-libxpm-32/Pkgfile
 f:a84d1ea3db2c25a3a0f046e095404efb:xorg-libxpm-32/.footprint
-f:95cb61fee9b0323859da6569d411f15b:xorg-libxpm-32/.md5sum
+f:5bccc4e3a280390af11ba00a4cc8ad3a:xorg-libxpm-32/.md5sum
 f:fa723af11d853be4372e205223b086e3:libtinfo-compat/Pkgfile
 f:d0ddbd383c2aa8322477565996628e5b:libtinfo-compat/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:libtinfo-compat/.md5sum
