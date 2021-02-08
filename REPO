@@ -38,6 +38,7 @@ d:haskell-tar
 d:qastools
 d:haskell-cryptohash-sha256
 d:lua-lgi
+d:lzip
 d:expect
 d:rpm2pkg
 d:jimtcl
@@ -201,6 +202,9 @@ f:088b4a595f91bafc01b1039762618d53:haskell-cryptohash-sha256/.md5sum
 f:0b1b0a745b7489254bf5a322d91ae07c:lua-lgi/Pkgfile
 f:fac1e0cd89e105c61bdee4726b088e7e:lua-lgi/.footprint
 f:8491912017d9b4af5669ea144f6b3051:lua-lgi/.md5sum
+f:f6c7ddbba48aea1ca156c53f879d0eda:lzip/Pkgfile
+f:021884352f89aebfbc8b505cc446e367:lzip/.footprint
+f:13c5d9e632e228b61ea0a40b9fbe1a5f:lzip/.md5sum
 f:caeb61ad05e4766784eeea878d0af88b:expect/Pkgfile
 f:62f593d56703145cc33585767db641b1:expect/.footprint
 f:2b4aa26e64d4c7202a2b40b8f387d9e7:expect/.md5sum
