@@ -255,9 +255,9 @@ f:54b13d97bf18594987ece18360aa8278:deb2pkg/Pkgfile
 f:a554b7f7482da985b1939d6e4ef570c9:deb2pkg/.footprint
 f:dcc292d3f5b80cc4460e2173e1500c35:deb2pkg/deb2pkg
 f:9e021995c83f4606dc2f0e68b89ccc59:deb2pkg/.md5sum
-f:578b9bdc63c31f07b92e1c13f8758ac9:emacs-gtk3/Pkgfile
-f:b8c45063bc018c6408fd5fb4ddeee0f7:emacs-gtk3/.footprint
-f:204634b2db773217cb35a6b4ad58c0c8:emacs-gtk3/.md5sum
+f:9719ccaf35a67a263e26cf859da5904e:emacs-gtk3/Pkgfile
+f:937bad32243873b951a2f50bc1014bd4:emacs-gtk3/.footprint
+f:21ebb6858c917c9ae35ebb58477e25ba:emacs-gtk3/.md5sum
 f:89b9df752592d9600a00ccfa59d64c6a:haskell-async/post-install
 f:7682fd513d4bc533abfbd611f2f8630c:haskell-async/Pkgfile
 f:7ca451996dceea74022e41e507fbb7e3:haskell-async/.footprint
