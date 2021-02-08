@@ -109,9 +109,9 @@ f:b8c852b15f7a3e857537ed174e6aea69:xdotool/.md5sum
 f:f7dafd24b14155b88a33a0a70ad25beb:scheme48/Pkgfile
 f:b4ee63321158af81714ff54832ce5b41:scheme48/.footprint
 f:f820e75bf435bf63c9c5ea94a8de21ac:scheme48/.md5sum
-f:28d2580a62de01d4c96e077f50707d57:guile/Pkgfile
-f:8f8b89c36c2c4e7d5d3a6d6948aafe17:guile/.footprint
-f:208d4111f2bfc41d39f171b0eaef3497:guile/.md5sum
+f:7ed73a788c97a096d39070e01d9541f4:guile/Pkgfile
+f:1ab5876c4bbdf2a66c2c027de68f8705:guile/.footprint
+f:73cd8edf4588a9a485971238c2a73db5:guile/.md5sum
 f:e3e05573de28fb8270b40cafeab8e205:mtpaint/Pkgfile
 f:f3bc71cd175f17d32ee4b3811c5cd0a7:mtpaint/.footprint
 f:ae3893a9a7a61a927b138a954f769160:mtpaint/.md5sum
