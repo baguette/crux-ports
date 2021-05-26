@@ -3,7 +3,7 @@
 # Maintainer:  Cory Burgett, cmburget at gmail dot com
 
 name=rpm2pkg
-version=3.0
+version=3.1
 release=1
 source=(rpm2pkg)
 
