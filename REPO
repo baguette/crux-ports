@@ -208,10 +208,10 @@ f:13c5d9e632e228b61ea0a40b9fbe1a5f:lzip/.md5sum
 f:caeb61ad05e4766784eeea878d0af88b:expect/Pkgfile
 f:62f593d56703145cc33585767db641b1:expect/.footprint
 f:2b4aa26e64d4c7202a2b40b8f387d9e7:expect/.md5sum
-f:110c0fc8222db38cb65d14c566d8a3fa:rpm2pkg/Pkgfile
-f:e900c8152223596f378484896c8f5ccf:rpm2pkg/rpm2pkg
+f:b60cc5147cb4f37956afe84a78a4a459:rpm2pkg/Pkgfile
+f:6ba200242d759977ed98f9c33de9a5a8:rpm2pkg/rpm2pkg
 f:933c102a9bf8b307ecc6d3b9ab9b2aa9:rpm2pkg/.footprint
-f:cd0b02690725ce4f32696b2b90209207:rpm2pkg/.md5sum
+f:447d77e4d83f88d42adfca19c2ca0f79:rpm2pkg/.md5sum
 f:fd55c550836bf44d0fb57f65d987133b:jimtcl/Pkgfile
 f:d73f62d25696bee5ab20ebbdc2769ff9:jimtcl/.footprint
 f:551f28e6d81b431d540e719b52d1b7dd:jimtcl/.md5sum
@@ -259,9 +259,9 @@ f:54b13d97bf18594987ece18360aa8278:deb2pkg/Pkgfile
 f:a554b7f7482da985b1939d6e4ef570c9:deb2pkg/.footprint
 f:dcc292d3f5b80cc4460e2173e1500c35:deb2pkg/deb2pkg
 f:9e021995c83f4606dc2f0e68b89ccc59:deb2pkg/.md5sum
-f:9719ccaf35a67a263e26cf859da5904e:emacs-gtk3/Pkgfile
-f:937bad32243873b951a2f50bc1014bd4:emacs-gtk3/.footprint
-f:21ebb6858c917c9ae35ebb58477e25ba:emacs-gtk3/.md5sum
+f:14bdf96e10a3cae80bc07657e6ef2510:emacs-gtk3/Pkgfile
+f:31346da7578fe78ed03172fa56d50f5f:emacs-gtk3/.footprint
+f:60c447788c725a3649090397065f0009:emacs-gtk3/.md5sum
 f:89b9df752592d9600a00ccfa59d64c6a:haskell-async/post-install
 f:7682fd513d4bc533abfbd611f2f8630c:haskell-async/Pkgfile
 f:7ca451996dceea74022e41e507fbb7e3:haskell-async/.footprint
