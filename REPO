@@ -3,7 +3,6 @@ d:joe
 d:splix
 d:haskell-hackage-security
 d:duperemove
-d:weechat
 d:mosml
 d:orbit
 d:chibi-scheme
@@ -77,9 +76,6 @@ f:2834b0b3339060f78fccb1266f6eb3d7:haskell-hackage-security/.md5sum
 f:0615adb29edf0bbd15530bd8b09115e4:duperemove/Pkgfile
 f:fa1788869ebafe37df3768faa7f75dec:duperemove/.footprint
 f:1438cb6ecb97776394a01531c1ac19b6:duperemove/.md5sum
-f:5c4d970aaaef5235a28a664f3e897eb0:weechat/Pkgfile
-f:333e04504a9f8418678614ffa2eb8298:weechat/.footprint
-f:d75baf0c820ad7ff8d11623b7bd4aced:weechat/.md5sum
 f:65ea802b3fc8192606cf684cf98c3710:mosml/Pkgfile
 f:d509cedae03708782d315ab4532c78e5:mosml/.footprint
 f:802e30394f4c5769139f4c949d7db02a:mosml/.md5sum
