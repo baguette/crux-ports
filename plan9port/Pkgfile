@@ -4,9 +4,9 @@
 # Depends on: bzip2 zlib expat glib libpng fontconfig freetype harfbuzz xorg-libx11 xorg-libxau xorg-libxdmcp xorg-libxcb
 
 name=plan9port
-version=20180205
+version=20211012
 release=1
-git_commit=4798a8a5560552480efde5fe8b1f7963a25a96d3
+git_commit=e683bdfa76a5c2c54422a6bd2934b133d77ba610
 source=( "https://github.com/9fans/$name/archive/$git_commit.tar.gz" )
 
 garbage=(
@@ -46,15 +46,10 @@ build() {
 		MANPATH="${MANPATH}:${PLAN9}/man"
 		export PATH MANPATH
 	EOF
-	
 
 	### clean up the gajillion garbage files...
-	for i in "${garbage[@]}"; do
-		rm -f "$i"
-	done
-	for i in "${dir_garbage[@]}"; do
-		rm -rf "$i"
-	done
+	rm -f "${garbage[@]}"
+	rm -rf "${dir_garbage[@]}"
 	for i in "${garbage_everywhere[@]}"; do
 		dir="${i%/*}"
 		pat="${i##*/}"

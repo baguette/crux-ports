@@ -1,0 +1,7 @@
+
+Add these to your environment:
+
+    PLAN9=/usr/lib/plan9
+    PATH=$PATH:$PLAN9/bin
+    export PLAN9 PATH
+
