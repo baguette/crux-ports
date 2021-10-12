@@ -59,9 +59,9 @@ drwxr-xr-x	root/root	usr/lib/chibi/srfi/95/
 -rwxr-xr-x	root/root	usr/lib/chibi/srfi/95/qsort.so
 drwxr-xr-x	root/root	usr/lib/chibi/srfi/98/
 -rwxr-xr-x	root/root	usr/lib/chibi/srfi/98/env.so
-lrwxrwxrwx	root/root	usr/lib/libchibi-scheme.so -> libchibi-scheme.so.0.9.1
-lrwxrwxrwx	root/root	usr/lib/libchibi-scheme.so.0 -> libchibi-scheme.so.0.9.1
--rwxr-xr-x	root/root	usr/lib/libchibi-scheme.so.0.9.1
+lrwxrwxrwx	root/root	usr/lib/libchibi-scheme.so -> libchibi-scheme.so.0.10.0
+lrwxrwxrwx	root/root	usr/lib/libchibi-scheme.so.0 -> libchibi-scheme.so.0.10.0
+-rwxr-xr-x	root/root	usr/lib/libchibi-scheme.so.0.10.0
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/chibi-scheme.pc
 drwxr-xr-x	root/root	usr/share/
@@ -76,6 +76,8 @@ drwxr-xr-x	root/root	usr/share/chibi/chibi/
 -rw-r--r--	root/root	usr/share/chibi/chibi/app.sld
 -rw-r--r--	root/root	usr/share/chibi/chibi/apropos.scm
 -rw-r--r--	root/root	usr/share/chibi/chibi/apropos.sld
+-rw-r--r--	root/root	usr/share/chibi/chibi/assert-test.sld
+-rw-r--r--	root/root	usr/share/chibi/chibi/assert.sld
 -rw-r--r--	root/root	usr/share/chibi/chibi/ast.scm
 -rw-r--r--	root/root	usr/share/chibi/chibi/ast.sld
 -rw-r--r--	root/root	usr/share/chibi/chibi/base64-test.sld
@@ -505,12 +507,20 @@ drwxr-xr-x	root/root	usr/share/chibi/srfi/166/
 -rw-r--r--	root/root	usr/share/chibi/srfi/166/unicode.sld
 -rw-r--r--	root/root	usr/share/chibi/srfi/166/width.scm
 -rw-r--r--	root/root	usr/share/chibi/srfi/166/write.scm
+-rw-r--r--	root/root	usr/share/chibi/srfi/179.sld
+drwxr-xr-x	root/root	usr/share/chibi/srfi/179/
+-rw-r--r--	root/root	usr/share/chibi/srfi/179/base.scm
+-rw-r--r--	root/root	usr/share/chibi/srfi/179/base.sld
+-rw-r--r--	root/root	usr/share/chibi/srfi/179/test.sld
+-rw-r--r--	root/root	usr/share/chibi/srfi/179/transforms.scm
 -rw-r--r--	root/root	usr/share/chibi/srfi/18.sld
 drwxr-xr-x	root/root	usr/share/chibi/srfi/18/
 -rw-r--r--	root/root	usr/share/chibi/srfi/18/interface.scm
 -rw-r--r--	root/root	usr/share/chibi/srfi/18/types.scm
 -rw-r--r--	root/root	usr/share/chibi/srfi/188.sld
+-rw-r--r--	root/root	usr/share/chibi/srfi/193.sld
 -rw-r--r--	root/root	usr/share/chibi/srfi/2.sld
+-rw-r--r--	root/root	usr/share/chibi/srfi/219.sld
 -rw-r--r--	root/root	usr/share/chibi/srfi/23.sld
 -rw-r--r--	root/root	usr/share/chibi/srfi/26.sld
 -rw-r--r--	root/root	usr/share/chibi/srfi/27.sld

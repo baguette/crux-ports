@@ -4,7 +4,7 @@
 # Depends on: 
 
 name=chibi-scheme
-version=0.9.1
+version=0.10.0
 release=1
 source=(http://synthcode.com/scheme/chibi/$name-$version.tgz)
 
@@ -13,14 +13,6 @@ build() {
 
 	make PREFIX=/usr all
 	make PREFIX=/usr DESTDIR=$PKG install-base
-
-	# the new Makefile doesn't set this properly when generating the
-	# image files; it will either fail from an old set of modules if
-	# a previous version is installed, or it will fail from not finding
-	# any modules if there is no chibi already installed;  alright,
-	# we'll just set it ourselves
-	#
-	CHIBI_MODULE_PATH=$PKG/usr/lib/chibi:$PKG/usr/share/chibi \
 	make PREFIX=/usr DESTDIR=$PKG install
 
 	rm -rf $PKG/usr/share/doc
