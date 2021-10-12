@@ -4,7 +4,7 @@
 # Depends on: libffi
 
 name=racket
-version=7.9
+version=8.2
 release=1
 source=(https://mirror.racket-lang.org/installers/$version/$name-$version-src-builtpkgs.tgz)
 
@@ -21,7 +21,9 @@ build() {
 	make DESTDIR=$PKG
 	make DESTDIR=$PKG install
 
-	find $PKG -name COPYING* -exec rm -f {} \;
-	find $PKG -name TODO*    -exec rm -f {} \;
-	find $PKG -name README*  -exec rm -f {} \;
+	find $PKG \( \
+		-name COPYING* -o \
+		-name TODO*    -o \
+		-name README*  \) \
+	-exec rm -f {} \;
 }

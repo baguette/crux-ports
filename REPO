@@ -147,9 +147,9 @@ f:d661e0ecbb81ad58e5ffcc6fa66abf49:plan9port/Pkgfile
 f:cea65107f1e1f2bb265f30076b2882f2:plan9port/.footprint
 f:094294b5789bc3405089c3628d77b37f:plan9port/.md5sum
 f:946cde12ffe65b98402629469604d276:plan9port/README
-f:6d87a18fbbb54788dc3bdf5b844de4d8:racket/Pkgfile
-f:e6be07c8cbe4befd8a427c37c8f895a5:racket/.footprint
-f:eecb20c72ce6c4477e1cbe32c2761d72:racket/.md5sum
+f:e2be12e5ede45d0c6248661a8573a0bc:racket/Pkgfile
+f:be10688edcb1d829a646b8aeff8be384:racket/.footprint
+f:a5b3d550a438b2a102aadc51be48b75d:racket/.md5sum
 f:54b13d97bf18594987ece18360aa8278:deb2pkg/Pkgfile
 f:a554b7f7482da985b1939d6e4ef570c9:deb2pkg/.footprint
 f:dcc292d3f5b80cc4460e2173e1500c35:deb2pkg/deb2pkg
