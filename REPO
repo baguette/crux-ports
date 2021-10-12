@@ -88,9 +88,9 @@ f:d41d8cd98f00b204e9800998ecf8427e:xorg-libxaw-32/.32bit
 f:1eeed8e3526538032b031ffe0c49ed3e:xorg-libxaw-32/Pkgfile
 f:86d2c9d629c1627501fb65d4eff7de9d:xorg-libxaw-32/.footprint
 f:a1e14ec7345890b0600d04a4f702ef00:xorg-libxaw-32/.md5sum
-f:14a9b34cce9719d4aa61e6783d3bb904:polyml/Pkgfile
-f:d57799a58ccf0dfce990b8ba479ef722:polyml/.footprint
-f:50cd7b1b9a9628edc5935c58398d9d62:polyml/.md5sum
+f:053d217b75bf2c0f4ddefa9d08fc4f14:polyml/Pkgfile
+f:e99409bcfea077a956b44634ef538755:polyml/.footprint
+f:1fbd675e408803e83bcc28f278e388d7:polyml/.md5sum
 f:3418b238cb4b15f12657274790c01a92:xorg-font-liberation/post-install
 f:1d2fe99207f20e67197d3660938cf898:xorg-font-liberation/Pkgfile
 f:67fdf9aaace5c0c9eeb553d2c7eabe6d:xorg-font-liberation/.footprint
