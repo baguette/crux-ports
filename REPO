@@ -166,6 +166,6 @@ f:d41d8cd98f00b204e9800998ecf8427e:libtinfo-compat/.md5sum
 f:acbc4f53bc0e7bb51a3a2769e34992ec:keybinder/Pkgfile
 f:8ba1073aad7ffaa934f841c4a4373d39:keybinder/.footprint
 f:f0cbb3883191505666e08b37c1416213:keybinder/.md5sum
-f:555f460f1419ccbc685a8ba5a4a9fdaf:mlton-bin/Pkgfile
-f:7cd7d49ed0276f321e320de55f228f37:mlton-bin/.footprint
-f:585ca2f631cffe950b387d57ab71bc7d:mlton-bin/.md5sum
+f:b71f2849efe3369e1042c75fcf385031:mlton-bin/Pkgfile
+f:c0171f6b97e4237647d74522cf91679a:mlton-bin/.footprint
+f:02c605ec676209bd975a72870730cf0f:mlton-bin/.md5sum
