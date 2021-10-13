@@ -4,7 +4,7 @@
 # Depends on: xorg-libxtst xorg-xorgproto
 
 name=xdotool
-version=3.20160805.1
+version=3.20210903.1
 release=1
 source=(https://github.com/jordansissel/$name/releases/download/v$version/$name-$version.tar.gz)
 
