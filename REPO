@@ -92,12 +92,12 @@ f:053d217b75bf2c0f4ddefa9d08fc4f14:polyml/Pkgfile
 f:e99409bcfea077a956b44634ef538755:polyml/.footprint
 f:1fbd675e408803e83bcc28f278e388d7:polyml/.md5sum
 f:3418b238cb4b15f12657274790c01a92:xorg-font-liberation/post-install
-f:1d2fe99207f20e67197d3660938cf898:xorg-font-liberation/Pkgfile
+f:10ff1c0c36b31f020204e6c693458900:xorg-font-liberation/Pkgfile
 f:67fdf9aaace5c0c9eeb553d2c7eabe6d:xorg-font-liberation/.footprint
 f:14c11b0db381ea87d983d7c967fd2bb3:xorg-font-liberation/57-liberation-mono.conf
 f:7fda0cb9017ebae6567a11239ebc71f9:xorg-font-liberation/57-liberation-serif.conf
 f:2dae9ba5086b7e6c03b47a39bebf72ea:xorg-font-liberation/57-liberation-sans.conf
-f:2cff1bb1f2a8d5c61c1113e7e66ebd11:xorg-font-liberation/.md5sum
+f:04925283fb061e92c070292967167b05:xorg-font-liberation/.md5sum
 f:1ae407c36d22e031dbe9a96ddb298236:mg/Pkgfile
 f:a9c03cd4972c576071848cd91acf6fd3:mg/.footprint
 f:329934f74750487ea49f3192aad6b77c:mg/.md5sum

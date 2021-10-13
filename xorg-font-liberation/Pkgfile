@@ -1,12 +1,13 @@
 # Description: Open source fonts with metric compatibility with Microsoft fonts
-# URL: https://pagure.io/liberation-fonts/
+# URL: https://github.com/liberationfonts
 # Maintainer:  Cory Burgett, cmburget at gmail dot com
 # Depends on:
 
 name=xorg-font-liberation
-version=2.00.1
-release=2
-source=(https://releases.pagure.org/liberation/fonts/liberation-fonts-ttf-$version.tar.gz 57-liberation-mono.conf 57-liberation-sans.conf 57-liberation-serif.conf)
+version=2.1.5
+release=1
+source=(https://github.com/liberationfonts/liberation-fonts/files/7261482/liberation-fonts-ttf-$version.tar.gz
+        57-liberation-mono.conf 57-liberation-sans.conf 57-liberation-serif.conf)
 
 build() {
 	(
