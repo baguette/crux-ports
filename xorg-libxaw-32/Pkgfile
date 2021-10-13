@@ -4,7 +4,7 @@
 # Depends on: xorg-xproto-32 xorg-libx11-32 xorg-xextproto-32 xorg-libxext-32 xorg-libxt-32 xorg-libxmu-32 xorg-libxau-32 xorg-libxpm-32 xorg-libxaw
 
 name=xorg-libxaw-32
-version=1.0.13
+version=1.0.14
 release=1
 source=(https://www.x.org/releases/individual/lib/libXaw-$version.tar.bz2)
 
