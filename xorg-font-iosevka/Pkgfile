@@ -1,10 +1,10 @@
 # Description: Open source monospaced font family with many variants
-# URL: https://be5invis.github.io/Iosevka/
+# URL: https://typeof.net/Iosevka/
 # Maintainer:  Cory Burgett, cmburget at gmail dot com
 # Depends on: xorg-mkfontscale fontconfig
 
 name=xorg-font-iosevka
-version=2.3.0
+version=10.3.2
 release=1
 source=(
 	https://github.com/be5invis/Iosevka/releases/download/v$version/ttc-iosevka-$version.zip
