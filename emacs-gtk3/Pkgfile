@@ -1,17 +1,21 @@
 # Description: GNU emacs - an extensible text editor
 # URL: https://gnu.org/software/emacs/
 # Maintainer:  Cory Burgett, cmburget at gmail dot com
-# Depends on: alsa-lib atk cairo dbus fontconfig freetype fribidi gdk-pixbuf giflib glib gnutls gtk3 lcms2 libjpeg-turbo libpng librsvg libsoup libtiff libxml2 pango webkitgtk
+# Depends on: alsa-lib atk cairo dbus fontconfig freetype fribidi gdk-pixbuf giflib glib gnutls gtk3 lcms2 libjpeg-turbo libpng librsvg libsoup libtiff libxml2 pango
 # Conflicts with: ctags
 
 name=emacs-gtk3
 version=27.2
-release=1
+release=2
 source=(http://ftpmirror.gnu.org/emacs/emacs-$version.tar.xz)
 
 build() {
 	cd emacs-$version
 
+# disable building with "external widgets": afaict the only actual such
+# widget is webkitgtk, which is finicky and broken half the time (at least).
+#               --with-xwidgets \
+#
 	./configure --prefix=/usr \
 	            --libexecdir=/usr/lib/emacs \
 	            --disable-libsystemd \
@@ -22,7 +26,6 @@ build() {
 	            --without-m17n-flt \
 	            --with-x \
 	            --with-x-toolkit=gtk3 \
-	            --with-xwidgets \
 	            --with-sound=alsa \
 	            --with-modules \
 	            --infodir=/usr/share/emacs/$version/info
