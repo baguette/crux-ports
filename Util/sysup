@@ -1,0 +1,418 @@
+#!/usr/bin/env bash
+
+### replacement for `prt-get sysup` (see `prt-get(8)`).
+#
+# used to just do this:
+#
+# > exec prt-get sysup -ph --margs=-in "$@"
+#
+# as it turns out, those options I wanted a shortcut for have corresponding
+# options in `/etc/prt-get.conf` (-ph) and `/etc/pkgmk.conf` (-in) already,
+# so that's a better way to do it if that's all that's wanted.
+#
+# however, there are a few things I wanted in `sysup` that `prt-get` doesn't
+# provide:
+#   1) I want it to try downloading all distfiles *before* it tries building
+#      anything or installing any packages.
+#   2) I want it to fail *immediately* in the event of an error updating a
+#      package during the update, rather than waiting until the very end.
+#      Oftentimes the reason a package failed to build would be lost among
+#      many thousands of other messages, to the point that it'd be more
+#      convenient to just re-attempt the build and let it fail again to
+#      figure out what went wrong.  But this costs a lot of time.
+#   3) As a convenience, I'd like a warning if any of my local overrides
+#      have newer versions available anywhere in the ports tree, so that I
+#      know when my overrides are outdated yet shadowing newer versions.
+#      (This functionality properly belongs in a wrapper for `ports(8)`,
+#       and is duplicated in `~/bin/ports`, but I'd originally put it here,
+#       and decided to leave it here also, so as to ensure I don't miss any
+#       such warnings).
+##
+
+
+### TODO v
+##
+## * auto-clean `/var/log/ports` to prevent runaway growth.
+##
+## * if `prt-get` finishes with an error, check if the package has been
+##   built (in `/var/cache/ports/pkg`) -- if so, it's either a footprint
+##   mismatch, or a noclobber situation:  allow specification of error
+##   handling in such situations (possibly via interactive prompt), e.g.,
+##   force install pkg, abort sysup operation, continue without pkg, ….
+##
+## * log all update/install actions (possibly along with some extra info,
+##   like whether it was installed as a dependency or not, łsĩ.) somewhere
+##   in `/var/log` (& maybe keep a database somewhere in `/var/db` ??).
+##
+## * some command line options, e.g.:
+##     - ignore errors and continue updating as much as possible
+##     - ….
+##
+## * add more support for extra pkg tools, e.g., pip, gem, stack, cabal, &c.
+##   (nix? guix? pkgsrc? portage?);  (maybe via a "driver" mechanism à la
+##   that already used by `ports` [cf. `/etc/ports/drivers/`] ?).
+##
+## * add hooks into `sysup` procedure, perhaps even something akin to
+##   emacs's "advice" mechanism (if possible), but otherwise just some
+##   useful hooks at well-defined events during the procedure (e.g.,
+##   ({before,after,around}-{download,install,update,actualize} łsĩ.);
+##   (the point above wrt. extra pkg tools/drivers can probably be
+##   implemented via hooks, too [e.g., 'before-all'/'after-all']).
+##
+## * a more lightweight mechanism (alongside hooks) for specifying special
+##   behavior/overrides known to be necessary for certain ports (e.g.,
+##   qtwebconfig and nodejs need to be built with empty C{,XX}FLAGS or
+##   else the build fails, and I've been building samba with built-in
+##   cmocka or else the footprint is mismatched, &c.);  this same
+##   mechanism could perhaps be used to specify particular handlers
+##   to resolve various common error modes according to the particular
+##   package being installed.
+##
+## * similarly, a lightweight mechanism to specify that some packages
+##   need to be rebuilt whenever certain of their dependencies is updated
+##   (e.g., ffmpeg, vlc, mpv, mplayer, &c. need to be rebuilt whenever,
+##    e.g., libdvdread, x264, x265, ffmpeg, &c. are updated, lest there
+##    be linker/loader errors later on when those programs try to run).
+##
+### XXX ^
+
+
+usage() {
+	echo "usage: ${0##*/} [mode]"
+	echo
+	echo "mode is one of:"
+	echo "  sysup     - update all out-of-date packages on the system,"
+	echo "              installing any new dependencies if necessary"
+	echo "              (default mode if none specified)."
+	echo "  quicklist - output a short list of new dependencies (if any)"
+	echo "              followed by a short list of out-of-date packages"
+	echo "              (if any) separated by a newline."
+	echo "  preview   - output a short list of all affected packages (if"
+	echo "              any) in operation order all on a single line."
+	echo "  download  - only download the distfiles required to perform"
+	echo "              the sysup operation, but don't actually build or"
+	echo "              install any packages."
+} >&2
+
+MODE=sysup
+case "$1" in
+	quicklist|qlist|ql) MODE=quicklist;;
+	preview|pv|prv|pvi|pview) MODE=preview;;
+	sysup|sup|su)       MODE=sysup;;
+	download|down|dl|do|dload|dnload|dld|dnld) MODE=download;;
+	?*) usage; exit 1;;
+esac
+shift
+
+
+: ${LIBTOOL_BIN:=/root/tmp/libtool-is-for-fools}
+
+#
+## SYSUP procedure
+#
+
+# update youtube-dl first
+#
+pippy() {
+	[ -x /usr/bin/pip3 ] || return 1
+	/usr/bin/pip3 --disable-pip-version-check "$@"
+	return $?
+}
+pipver() {
+	pippy show "$1" |sed -nre '/^Version:/s/^[^:]+: +(.+)$/\1/p'
+}
+
+if [ "$MODE" = "sysup" ]; then
+	pippy show youtube-dl >/dev/null 2>&1 && {
+		echo 'updating `youtube-dl` from PyPI ...' >&2
+		OLD_YTDL="$(pipver youtube-dl)"
+	
+		pippy install --upgrade youtube-dl
+	
+		NEW_YTDL="$(pipver youtube-dl)"
+		echo >&2
+	
+		if ! [ "$OLD_YTDL" = "$NEW_YTDL" ]; then
+			echo '`youtube-dl` was updated: '"'${OLD_YTDL}' => '${NEW_YTDL}'" >&2
+			echo >&2
+		fi
+	}
+fi
+
+
+# check for aliases of a package and provide a list of other ports that
+# can satisfy the given package requirement in substitution
+#
+others() {
+	sed -re '/^\s*#/d; s/\s+//' /etc/prt-get.aliases \
+	| awk -F: -v k="$1" '
+		{ a[$2]=a[$2] $1 "\n" }
+		END {
+			if (k in a)
+				print a[k]
+			else
+				exit 1
+		}
+	'
+	return $?
+}
+
+# check if a package is installed
+#
+isinst() {
+	# !!! `prt-cache(8)` strongly discourages using `prt-cache isinst` !!!
+	prt-get isinst "$@" &>/dev/null
+	return $?
+}
+
+# check if a package requirement is satisfied by an alias
+#
+isaliast() {
+	local i
+	for i in `others "$1"`; do
+		isinst "$i" && return 0
+	done
+	return 1
+}
+
+# get the list of packages to update
+#
+upkgs="$(prt-cache quickdiff)"
+
+if [ -z "$upkgs" ]; then
+	[ "$MODE" = "sysup" ] && echo "system is up to date" >&2
+	exit 0
+fi
+
+# list all diffs and any new dependencies, ordered by dependency
+#
+ck="$(printf '%s\n' $(prt-cache quickdep $upkgs) \
+     |grep -Fxf <(prt-cache printf '%n\t%i\n' |grep -Eve '\byes$' |cut -f1) \
+     |grep -Fxvf <(prt-cache listlocked)
+     )"
+
+
+# re-order pkgs according to dependencies
+## this is now done below, as a side-effect of checking whether a package
+## is installed, now that the code above effectively trims the list in `$ck`
+## down to only diffs & new deps (previously, `$ck` listed *all* deps, incl'
+## ones that were already installed, and so doing it in the same loop as now
+## produced a list with a lot of deps that were both already installed and
+## did not need to be updated).
+#upkgs="$(printf '%s\n' $ck |grep -Fxf <(printf '%s\n' $upkgs) |tr \\n ' ')"
+
+# check for new dependencies that aren't installed
+# and add them to the list of packages to install
+# (don't add aliases to either list, since the packages they alias
+#  ought to be updated on their own time...)
+# the pkgs list will contain the sequence of packages to actually install,
+# while npkgs and upkgs contain subsequences of new/update packages suitable
+# for information display (but not really for the install operation, since
+# the new packages might depend on some updates, but some other updates
+# depend on the new ones).
+#
+npkgs=''
+upkgs=''
+pkgs=''
+for i in $ck ; do
+	if ! isinst $i ; then
+		npkgs+="$i "
+		pkgs+="$i "
+	elif ! isaliast $i ; then
+		upkgs+="$i "
+		pkgs+="$i "
+	fi
+done
+
+
+
+if [ "$MODE" = "quicklist" ]; then
+	printf '%s\n' "${npkgs%% }"
+	printf '%s\n' "${upkgs%% }"
+	exit 0
+elif [ "$MODE" = "preview" ]; then
+	printf '%s\n' "${pkgs%% }"
+	exit 0
+fi
+
+
+tabulate() {
+	printf '%s\n' "$@" |column -x
+}
+
+{
+	echo 'these packages are out of date:'
+	tabulate $upkgs
+	echo
+	[ -z "$npkgs" ] || {
+		echo 'new dependencies are introduced by the update:'
+		tabulate $npkgs
+		echo
+	}
+} >&2
+
+## filter the big list and keep only the new deps and the diffs
+## nb. $pkgs is now maintained as a separate list from the get-go,
+##     rather than iterate the master list a second time (idr, but
+##     this may not have been possible before the upkgs change described
+##     above... or i'm just a hack?)
+#filt="grep -Fx$(printf " -e %q" $npkgs $upkgs)"
+#pkgs="$(printf '%s\n' $ck |eval "$filt")"
+
+
+# download all the distfiles *first*, and fail immediately if any
+# distfiles fail to download
+#
+for i in $pkgs; do
+	(
+		cd "$(prt-cache path "$i")" || {
+			echo "error: cd '$i' ($?)" >&2
+			exit 1
+		}
+		pkgmk -do || {
+			echo "error: pkgmk -do '$i' ($?)" >&2
+			exit 1
+		}
+	) || exit 1
+done
+
+if [ "$MODE" = "download" ]; then
+{
+	echo
+	echo "distfiles downloaded for ports:"
+	tabulate $pkgs
+	echo
+	exit 0
+} >&2
+fi
+
+
+libtool_bin() {
+	[ "${LIBTOOL_BIN}" = "/dev/null" ] || {
+		cp -f --preserve=all --no-dereference --parents -t "${LIBTOOL_BIN}" "$1"
+	}
+	rm -f "$1"
+}
+
+clean_libtool_rubbish() {
+	pkginfo -l "$1" \
+	| grep -Ee '\.la$' \
+	| while IFS= read -r i; do
+		[ -e /"$i" ] && grep -Eqe '^dlopen=' /"$i" && libtool_bin /"$i"
+	  done
+}
+
+# keep track of what's been done
+udpkgs=''
+ndpkgs=''
+
+# display a summary
+#
+inform() {
+	echo
+	echo "packages updated:"
+	tabulate $udpkgs
+	echo
+	[ -z "$ndpkgs" ] || {
+		echo "new packages installed as dependencies:"
+		tabulate $ndpkgs
+		echo
+	}
+}
+
+# update one by one, in order, and fail *immediately* if any package
+# fails to build or install
+#
+for i in $pkgs; do
+	prtpath="$(prt-cache path "$i")"
+	pkgwork="$(cd "$prtpath" && . /etc/pkgmk.conf && echo "$PKGMK_WORK_DIR")" || {
+		rc=$?
+		echo >&2
+		echo "error: failed to load /etc/pkgmk.conf for '$i' ($rc)" >&2
+		exit 1
+	}
+
+	if isinst "$i"; then
+		prt-cache update -kw "$@" "$i" || {
+			rc=$?
+			echo >&2
+			echo "update of $i failed" >&2
+			inform >&2
+			echo "error: prt-cache update '$i' ($rc)" >&2
+			exit 1
+		}
+		udpkgs+="$i "
+	else
+		prt-cache install -kw "$@" "$i" || {
+			rc=$?
+			echo >&2
+			echo "install of $i failed" >&2
+			inform >&2
+			echo "error: prt-cache install '$i' ($rc)" >&2
+			exit 1
+		}
+		ndpkgs+="$i "
+	fi
+	echo >&2
+
+	[ -n "$pkgwork" ] && [ -d "$pkgwork" ] && {
+		echo "removing work directory: $pkgwork ..." >&2
+		rm -rf --preserve-root --one-file-system -- "$pkgwork"
+	}
+
+	echo "cleaning libtool rubbish..." >&2
+	clean_libtool_rubbish "$i" || true
+	echo >&2
+done
+
+# just in case we missed anything...
+echo >&2
+echo "cleaning up..." >&2
+libtool-garbage-day.sh || true
+
+# final summary on success
+#
+echo >&2
+echo "system is up to date" >&2
+inform >&2
+
+# check for shadowed packages and issue a report if necessary
+## (moved to `~/bin/ports` wrapper)
+#
+#bwarn >&2
+
+exit 0
+
+
+
+###############################################################################
+### OLD -- prt-get handles all this stuff, but it might be needed in the
+###        future if they get rid of `prt-get dup -v` like the manpage warns...
+###############################################################################
+#
+#FRAGMENT="$(
+#	grep '^prtdir ' /etc/prt-get.conf \
+#	|cut -d\  -f2- \
+#	|nl \
+#	|awk '
+#		BEGIN { print "declare -A PRTDIRS; PRTDIRS=(" }
+#		      { printf "\t[\"%s\"]=%d\n", $2, $1 }
+#		 END  { print ")" }
+#	')"
+#
+#[ -n "$FRAGMENT" -a "$(wc -l <<<"$FRAGMENT")" -gt 2 ] || {
+#	echo "error reading '/etc/prt-get.conf'" >&2
+#	exit 1
+#}
+#
+#eval "$FRAGMENT" || { echo "error parsing '/etc/prt-get.conf'" >&2; exit 1; }
+#
+#(	set -e
+#	declare -p PRTDIRS
+#	declare -p PRTDIRS |cut -d' ' -f2 |grep -qF A
+#	[ "${#PRTDIRS[@]}" -gt 0 ]
+#) || {
+#	echo "error loading '/etc/prt-get.conf'" >&2
+#	exit 1
+#}
+###############################################################################
