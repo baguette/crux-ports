@@ -105,39 +105,11 @@ esac
 shift
 
 
-: ${LIBTOOL_BIN:=/root/tmp/libtool-is-for-fools}
+: ${LIBTOOL_DUMP:=/dev/null}
 
 #
 ## SYSUP procedure
 #
-
-# update youtube-dl first
-#
-pippy() {
-	[ -x /usr/bin/pip3 ] || return 1
-	/usr/bin/pip3 --disable-pip-version-check "$@"
-	return $?
-}
-pipver() {
-	pippy show "$1" |sed -nre '/^Version:/s/^[^:]+: +(.+)$/\1/p'
-}
-
-if [ "$MODE" = "sysup" ]; then
-	pippy show youtube-dl >/dev/null 2>&1 && {
-		echo 'updating `youtube-dl` from PyPI ...' >&2
-		OLD_YTDL="$(pipver youtube-dl)"
-	
-		pippy install --upgrade youtube-dl
-	
-		NEW_YTDL="$(pipver youtube-dl)"
-		echo >&2
-	
-		if ! [ "$OLD_YTDL" = "$NEW_YTDL" ]; then
-			echo '`youtube-dl` was updated: '"'${OLD_YTDL}' => '${NEW_YTDL}'" >&2
-			echo >&2
-		fi
-	}
-fi
 
 
 # check for aliases of a package and provide a list of other ports that
@@ -288,8 +260,8 @@ fi
 
 
 libtool_bin() {
-	[ "${LIBTOOL_BIN}" = "/dev/null" ] || {
-		cp -f --preserve=all --no-dereference --parents -t "${LIBTOOL_BIN}" "$1"
+	[ "${LIBTOOL_DUMP}" = "/dev/null" ] || {
+		cp -f --preserve=all --no-dereference --parents -t "${LIBTOOL_DUMP}" "$1"
 	}
 	rm -f "$1"
 }

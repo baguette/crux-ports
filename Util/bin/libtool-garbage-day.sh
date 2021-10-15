@@ -30,7 +30,7 @@
 # remember that?
 #
 
-LIBTOOL_DUMP=/root/tmp/libtool-is-for-fools
+: ${LIBTOOL_DUMP:=/dev/null}
 
 declare -a LIBTOOL_CURBS
 #
@@ -43,6 +43,12 @@ LIBTOOL_CURBS=(
 	/usr/share     /usr/local/share
 )
 
+COPY_CMD=()
+if [ "${LIBTOOL_DUMP}" != "/dev/null" ]; then
+	COPY_CMD+=( -exec cp -f --preserve=all --no-dereference
+	              --parents -t "${LIBTOOL_DUMP}" {} \;
+	)
+fi
 
 # would `-L` be a good idea here?
 #
@@ -50,9 +56,7 @@ find "${LIBTOOL_CURBS[@]}" \
 	\( -type f -o -type l \) \
 	-a -name '*.la' \
 	-a \( \
-		-exec cp -f --preserve=all --no-dereference \
-		         --parents -t "${LIBTOOL_DUMP}" {} \
-		     \; \
+		${COPY_CMD[@]} \
 		-exec rm -f {} \; \
 		-o -fprintf /dev/stderr 'error cleaning libtool garbage: %p\n' \
 	\)
