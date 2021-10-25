@@ -1,0 +1,17 @@
+# Description:	txr data-munging language
+# URL:		https://www.nongnu.org/txr/
+# Maintainer:	Cory Burgett, cmburget at gmail.com
+# Depends on:
+
+name=txr
+version=271
+release=1
+source=(http://www.kylheku.com/cgit/txr/snapshot/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr
+
+	make
+	make DESTDIR=$PKG install
+}
