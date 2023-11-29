@@ -147,9 +147,9 @@ f:3418b238cb4b15f12657274790c01a92:xorg-font-iosevka/post-install
 f:40695d70165ed1ee82b5d4d95d1178b6:xorg-font-iosevka/Pkgfile
 f:5760a1e429ede36018d8e58cb4097ee8:xorg-font-iosevka/.footprint
 f:ef1db5508f6fad9f2e4dec0fc92ae659:xorg-font-iosevka/.md5sum
-f:d661e0ecbb81ad58e5ffcc6fa66abf49:plan9port/Pkgfile
-f:cea65107f1e1f2bb265f30076b2882f2:plan9port/.footprint
-f:094294b5789bc3405089c3628d77b37f:plan9port/.md5sum
+f:2c56f199fcac267a4d7cd0937966a708:plan9port/Pkgfile
+f:a78a78670eb347144edc1060db8d883c:plan9port/.footprint
+f:f4431caa1faf1a0ba68605386b0b1a37:plan9port/.md5sum
 f:946cde12ffe65b98402629469604d276:plan9port/README
 f:e2be12e5ede45d0c6248661a8573a0bc:racket/Pkgfile
 f:be10688edcb1d829a646b8aeff8be384:racket/.footprint

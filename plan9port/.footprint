@@ -4994,6 +4994,7 @@ drwxrwxr-x	root/root	usr/lib/plan9/postscript/troff/
 -rw-rw-r--	root/root	usr/lib/plan9/postscript/troff/HB
 -rw-rw-r--	root/root	usr/lib/plan9/postscript/troff/HI
 -rw-rw-r--	root/root	usr/lib/plan9/postscript/troff/HL
+-rw-rw-r--	root/root	usr/lib/plan9/postscript/troff/HX
 -rw-rw-r--	root/root	usr/lib/plan9/postscript/troff/Helvetica-Narrow-BoldOblique
 -rw-rw-r--	root/root	usr/lib/plan9/postscript/troff/I
 -rw-rw-r--	root/root	usr/lib/plan9/postscript/troff/Jp

@@ -4,9 +4,9 @@
 # Depends on: bzip2 zlib expat glib libpng fontconfig freetype harfbuzz xorg-libx11 xorg-libxau xorg-libxdmcp xorg-libxcb
 
 name=plan9port
-version=20211012
+version=20230913
 release=1
-git_commit=e683bdfa76a5c2c54422a6bd2934b133d77ba610
+git_commit=984c2824e3569479bace65bdaf9e78a2eb36dd58
 source=( "https://github.com/9fans/$name/archive/$git_commit.tar.gz" )
 
 garbage=(
