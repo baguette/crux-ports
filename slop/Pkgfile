@@ -5,11 +5,17 @@
 
 name=slop
 version=7.6
-release=1
+release=2
 source=(https://github.com/naelstrof/slop/archive/v$version.tar.gz)
 
 build() {
 	cd $name-$version
+
+	# an icu update now requires c++17, which means everything that uses
+	# it now requires c++17;  however, slop's build was hardcoded for c++11;
+	# an alternative is to tell cmake -DSLOP_UNICODE=false
+	# but i don't want to break anything in a release bump.
+	sed -re 's/^(.+ CXX_STANDARD) 11(.*)/\1 17\2/' -i CMakeLists.txt
 
 	mkdir build && cd build
 

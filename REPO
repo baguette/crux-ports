@@ -79,7 +79,7 @@ f:e06762b4f9a705f43d7c5bae87a04f9a:README.md
 f:c0e26dc4e84b9fc79aa8d5600de6f124:xorg-editres/Pkgfile
 f:db5b173ea18043b78c561e4d9fc6f4fc:xorg-editres/.footprint
 f:1cafc39cdcad88a22b602a2904ba2ca8:xorg-editres/.md5sum
-f:943dc7b55020662e1069550aa3dce23a:slop/Pkgfile
+f:4597b51a3e98631ecc617424b0f00501:slop/Pkgfile
 f:24c9021cc393d601f0e42bf468619a83:slop/.footprint
 f:e03006796ef460a99ad3a84ec50c3f1c:slop/.md5sum
 f:da0db11f5a5decee15c99a2d4ab41f1a:djvulibre/Pkgfile
@@ -133,9 +133,9 @@ f:447d77e4d83f88d42adfca19c2ca0f79:rpm2pkg/.md5sum
 f:fd55c550836bf44d0fb57f65d987133b:jimtcl/Pkgfile
 f:d73f62d25696bee5ab20ebbdc2769ff9:jimtcl/.footprint
 f:551f28e6d81b431d540e719b52d1b7dd:jimtcl/.md5sum
-f:a223173665b4159c4734e9972e0472f1:maim/Pkgfile
+f:b6a16935526355a8a6c2769b4f5336d1:maim/Pkgfile
 f:5c0114f94e8de44ca67aae8c6e97c8f4:maim/.footprint
-f:9bf091ad0248b5d9d5230048655b9816:maim/.md5sum
+f:d1cb3e5f60d1a5a2c2fa475ad7d9cdbd:maim/.md5sum
 f:b237ee53ac25ef98643819a74f570c83:zpaq/Pkgfile
 f:0a6b0c14987442da3505c4d2cd17e738:zpaq/.footprint
 f:3b20fe0c4df86141caef67887b69b755:zpaq/.md5sum

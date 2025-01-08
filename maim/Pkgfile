@@ -4,12 +4,17 @@
 # Depends on: cmake xorg-libxrender xorg-libxfixes xorg-libxcomposite xorg-libxrandr glm icu libpng libjpeg-turbo slop
 
 name=maim
-version=5.7.4
+version=5.8.0
 release=1
 source=(https://github.com/naelstrof/maim/archive/v$version.tar.gz)
 
 build() {
 	cd $name-$version
+
+	# an icu update now requires c++17, which means everything that uses
+	# it now requires c++17;  however, maim's build was hardcoded for c++11;
+	# an alternative is to tell cmake -DSLOP_UNICODE=false
+	sed -re 's/^(.+ CXX_STANDARD) 11(.*)/\1 17\2/' -i CMakeLists.txt
 
 	mkdir build && cd build
 
