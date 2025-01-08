@@ -1,0 +1,59 @@
+# Description: A screen saver and locker daemon for xorg.
+# URL: https://www.jwz.org/xscreensaver/
+# Maintainer: C Burgett, cmburget at gmail dot com
+# Depends on: bc fortune gdk-pixbuf-xlib giflib glu intltool libglade linux-pam xorg-libxmu xorg-libxi
+
+name=xscreensaver
+version=6.09
+release=1
+source=(https://www.jwz.org/$name/$name-$version.tar.gz
+	$name.pam)
+
+unpack_source() {
+	for file in ${source[@]}; do
+		case ${file##*/} in
+			$name-$version.tar.gz)
+				tar xfvz $(get_filename $file) -C $SRC ;;
+			*)
+				cp $(get_filename $file) $SRC ;;
+		esac
+	done
+}
+
+build() {
+	cd $name-$version
+
+	./configure \
+		--prefix=/usr \
+		--libexecdir=/usr/lib \
+		--with-app-defaults='/usr/share/X11/app-defaults' \
+		--enable-locking \
+		--enable-root-passwd \
+		--disable-nls \
+		--with-dpms-ext \
+		--with-xinerama-ext \
+		--with-xshm-ext \
+		--with-pam \
+		--with-gl \
+		--with-glx \
+		--with-pixbuf \
+		--with-xft \
+		--with-jpeg \
+		--without-motif \
+		--without-gle \
+		--without-setuid-hacks
+
+	make
+	make install_prefix=$PKG install
+	chmod 755 $PKG/usr/bin/xscreensaver
+	install -d $PKG/usr/share/wallpapers
+
+	echo "NotShowIn=KDE;GNOME;" >> $PKG/usr/share/applications/xscreensaver-properties.desktop
+
+	# PAM service file
+	install -D -m 0644 $SRC/$name.pam $PKG/etc/pam.d/$name
+
+	rm -r \
+		$PKG/usr/share/xscreensaver/xscreensaver.service \
+		$PKG/usr/share/xscreensaver/config/README
+}

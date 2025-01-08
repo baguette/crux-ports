@@ -17,6 +17,7 @@ d:txr
 d:xorg-libxaw-32
 d:polyml
 d:xorg-font-liberation
+d:xscreensaver
 d:mg
 d:tinyscheme
 d:awesome
@@ -102,6 +103,10 @@ f:14c11b0db381ea87d983d7c967fd2bb3:xorg-font-liberation/57-liberation-mono.conf
 f:7fda0cb9017ebae6567a11239ebc71f9:xorg-font-liberation/57-liberation-serif.conf
 f:2dae9ba5086b7e6c03b47a39bebf72ea:xorg-font-liberation/57-liberation-sans.conf
 f:04925283fb061e92c070292967167b05:xorg-font-liberation/.md5sum
+f:9da54c3bbf7a884c197bbb33b2b3ade3:xscreensaver/xscreensaver.pam
+f:434b5227ae33c4e87c7755bad8212824:xscreensaver/Pkgfile
+f:8d1e4bbf4ab4f05297571c26e3d26e6c:xscreensaver/.footprint
+f:306c4d70f18be6864516874c1ae06b44:xscreensaver/.md5sum
 f:1ae407c36d22e031dbe9a96ddb298236:mg/Pkgfile
 f:a9c03cd4972c576071848cd91acf6fd3:mg/.footprint
 f:329934f74750487ea49f3192aad6b77c:mg/.md5sum
